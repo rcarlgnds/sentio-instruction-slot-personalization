@@ -1,0 +1,45 @@
+{
+  "dibuat": "2026-08-22T05:59:07.707851+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "How much book-membership signal the chunk text actually carries, measured with a simple classifier.",
+  "pasangan_buku": {
+    "kelas_positif": "stat-introduction-to-statistics-lane-publicdomain",
+    "kelas_negatif": "stat-introductory-statistics-2e-ccby-2023"
+  },
+  "n_chunk": 5859,
+  "distribusi": {
+    "stat-introduction-to-statistics-lane-publicdomain": 3255,
+    "stat-introductory-statistics-2e-ccby-2023": 2604
+  },
+  "baseline_kelas_mayoritas": 0.5556,
+  "model": "logistic regression on word 1-2 gram TF-IDF, CPU, seed 42",
+  "cv_chunk_level": {
+    "akurasi_per_fold": [
+      0.9701,
+      0.9735,
+      0.9744,
+      0.9727,
+      0.9684
+    ],
+    "akurasi_mean": 0.9718,
+    "n_fold": 5
+  },
+  "cv_grouped_by_section": {
+    "akurasi_per_fold": [
+      0.9618,
+      0.9556,
+      0.9075,
+      0.9527,
+      0.9622
+    ],
+    "akurasi_mean": 0.9479,
+    "n_fold": 5
+  },
+  "angka_yang_dikutip": "cv_grouped_by_section (conservative)",
+  "dua_cabang_interpretasi": {
+    "bila_akurasi_mendekati_baseline": "the program-membership signal is not recoverable from the chunk text; the premise is then a measured result, and the failure of the text rerankers follows from the channel, not from a weakness of the models",
+    "bila_akurasi_jauh_di_atas_baseline": "the signal is in the text and a trivial classifier recovers it, so the failure of the instruction-following rerankers is sharper: they fail to use information that is there"
+  },
+  "batasan": "the classifier sees the whole chunk as a standalone document, while a reranker judges query-document relevance; this is an upper bound on the available signal, not a simulation of the reranker's task",
+  "label_source": "deterministic (CPU classifier, fixed seed)"
+}

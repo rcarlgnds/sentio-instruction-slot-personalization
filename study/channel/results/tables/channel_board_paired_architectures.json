@@ -1,0 +1,1188 @@
+{
+  "dibuat": "2026-10-03T05:00:40.421589+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "label_source": "deterministic (re-aggregation of the frozen score files)",
+  "_apa_ini": "Channel board of the paired track for bge-gemma, ctxl-6B, and FollowIR-7B (Gemma, Mistral, and an instruction-tuned Mistral), with the pre-registered cells and contrasts, next to the frozen board of the three Qwen3-based models.",
+  "gerbang": {
+    "replikasi_metrik_q2_metrik": {
+      "qwen_scores_0.6b_paired_default.jsonl": {
+        "pairwise": 0.5,
+        "acuan": 0.5,
+        "n_komparabel": 96
+      },
+      "qwen_scores_0.6b_paired_profile.jsonl": {
+        "pairwise": 0.5104,
+        "acuan": 0.5104,
+        "n_komparabel": 96
+      },
+      "qwen_scores_4b_paired_default.jsonl": {
+        "pairwise": 0.5,
+        "acuan": 0.5,
+        "n_komparabel": 96
+      },
+      "qwen_scores_4b_paired_profile.jsonl": {
+        "pairwise": 0.5208,
+        "acuan": 0.5208,
+        "n_komparabel": 96
+      }
+    },
+    "segel_test_holdout": "passed, no test_holdout query_id in any source",
+    "integritas_sha256": "every source jsonl matches its own manifest",
+    "konsistensi_silang": "per-item win counts identical to the production pairwise rate"
+  },
+  "track": "original (paired), 104 rows, 96 comparable",
+  "n_populasi": 96,
+  "kunci_buta_struktural": {
+    "nilai": 48,
+    "kenapa": "identical rankings for the two rows of a pair; do not test against 0.5"
+  },
+  "ringkas": {
+    "bge-reranker-v2-gemma": {
+      "keturunan": "Gemma (Google)",
+      "none": "48/96",
+      "slot": "43/96",
+      "text": "48/96",
+      "both": "49/96",
+      "wrong": "49/96",
+      "slot_lawan_none_p_exact": "0.18",
+      "slot_lawan_none_p_holm": 0.539062,
+      "batas_efek_slot_poin_persen": 11.24,
+      "core17_p_MRR": 0.012519
+    },
+    "ctxl-rerank-v2-instruct-multilingual-6b": {
+      "keturunan": "Mistral",
+      "none": "48/96",
+      "slot": "52/96",
+      "text": "48/96",
+      "both": "96/96",
+      "wrong": "94/96",
+      "slot_lawan_none_p_exact": "0.523",
+      "slot_lawan_none_p_holm": 1.0,
+      "batas_efek_slot_poin_persen": 13.71,
+      "core17_p_MRR": 0.132736
+    },
+    "FollowIR-7B": {
+      "keturunan": "Mistral, tuned to follow retrieval instructions",
+      "none": "48/96",
+      "slot": "47/96",
+      "text": "48/96",
+      "both": "91/96",
+      "wrong": "86/96",
+      "slot_lawan_none_p_exact": "1",
+      "slot_lawan_none_p_holm": 1.0,
+      "batas_efek_slot_poin_persen": 7.81,
+      "core17_p_MRR": 0.13993
+    }
+  },
+  "papan": {
+    "bge-reranker-v2-gemma": {
+      "none": {
+        "menang": 48,
+        "n_komparabel": 96,
+        "eksak": "48/96",
+        "pairwise": 0.5,
+        "top1_gold": 0.2212,
+        "ndcg5": 0.4779,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_none.jsonl",
+        "integritas": {
+          "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_none.manifest.json",
+          "sha256": "76df6ab662a594386eb554a1bec7b83cee7b5529c5d0d96f9dafcb51374a1125",
+          "cocok": true,
+          "run_id": "scores_gemma_bge-reranker-v2-gemma_paired_none_20260917T135517Z",
+          "anomali_field_n": null
+        }
+      },
+      "slot": {
+        "menang": 43,
+        "n_komparabel": 96,
+        "eksak": "43/96",
+        "pairwise": 0.4479,
+        "top1_gold": 0.2308,
+        "ndcg5": 0.472,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_slot.jsonl",
+        "integritas": {
+          "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_slot.manifest.json",
+          "sha256": "dc30a7849d50a173a35e724fd6d4f5af3e5da0c938619df6f72448a4e74aa98d",
+          "cocok": true,
+          "run_id": "scores_gemma_bge-reranker-v2-gemma_paired_slot_20260917T135802Z",
+          "anomali_field_n": null
+        }
+      },
+      "text": {
+        "menang": 48,
+        "n_komparabel": 96,
+        "eksak": "48/96",
+        "pairwise": 0.5,
+        "top1_gold": 0.25,
+        "ndcg5": 0.4961,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_text.jsonl",
+        "integritas": {
+          "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_text.manifest.json",
+          "sha256": "febaf0c32a58ec2dace0f491c6999ae8820fdfa5509b1e47a804e215c1828bc5",
+          "cocok": true,
+          "run_id": "scores_gemma_bge-reranker-v2-gemma_paired_text_20261002T063346Z",
+          "anomali_field_n": null
+        }
+      },
+      "both": {
+        "menang": 49,
+        "n_komparabel": 96,
+        "eksak": "49/96",
+        "pairwise": 0.5104,
+        "top1_gold": 0.3077,
+        "ndcg5": 0.5112,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_both.jsonl",
+        "integritas": {
+          "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_both.manifest.json",
+          "sha256": "cac99cdd5ff59bcf65dd8e19b2bb060b84e98cd428db7a6ce3005420913c290f",
+          "cocok": true,
+          "run_id": "scores_gemma_bge-reranker-v2-gemma_paired_both_20261002T070032Z",
+          "anomali_field_n": null
+        }
+      },
+      "wrong": {
+        "menang": 49,
+        "n_komparabel": 96,
+        "eksak": "49/96",
+        "pairwise": 0.5104,
+        "top1_gold": 0.2212,
+        "ndcg5": 0.4784,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_wrong.jsonl",
+        "integritas": {
+          "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_wrong.manifest.json",
+          "sha256": "3131bdb053caa67fbe1bd7f434cfd1c94673eebc39c0f3c9016f2f92e9e13b06",
+          "cocok": true,
+          "run_id": "scores_gemma_bge-reranker-v2-gemma_paired_wrong_20261002T070313Z",
+          "anomali_field_n": null
+        }
+      },
+      "both_program": {
+        "menang": 49,
+        "n_komparabel": 96,
+        "eksak": "49/96",
+        "pairwise": 0.5104,
+        "top1_gold": 0.2885,
+        "ndcg5": 0.5039,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_both_program.jsonl",
+        "integritas": {
+          "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_both_program.manifest.json",
+          "sha256": "e3609b8b71ff2922bdaa4f59d72c0e29b6d831c87d19ddd6971184cf70fae0d2",
+          "cocok": true,
+          "run_id": "scores_gemma_bge-reranker-v2-gemma_paired_both_program_20261002T070552Z",
+          "anomali_field_n": null
+        }
+      },
+      "both_semester": {
+        "menang": 51,
+        "n_komparabel": 96,
+        "eksak": "51/96",
+        "pairwise": 0.5312,
+        "top1_gold": 0.2788,
+        "ndcg5": 0.4864,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_both_semester.jsonl",
+        "integritas": {
+          "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_both_semester.manifest.json",
+          "sha256": "e61ad8cfb79a9d7278d629b4e00e6a37fcc2ad22609dfcdd8f837fd42fab34b6",
+          "cocok": true,
+          "run_id": "scores_gemma_bge-reranker-v2-gemma_paired_both_semester_20261002T063627Z",
+          "anomali_field_n": null
+        }
+      }
+    },
+    "ctxl-rerank-v2-instruct-multilingual-6b": {
+      "none": {
+        "menang": 48,
+        "n_komparabel": 96,
+        "eksak": "48/96",
+        "pairwise": 0.5,
+        "top1_gold": 0.2596,
+        "ndcg5": 0.5074,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none.jsonl",
+        "integritas": {
+          "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none.manifest.json",
+          "sha256": "f381ddfc13e8ecd73a1ab90c3954d96e03c12ef7e58b64d69ba0022968412f43",
+          "cocok": true,
+          "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none_20260917T124925Z",
+          "anomali_field_n": null
+        }
+      },
+      "slot": {
+        "menang": 52,
+        "n_komparabel": 96,
+        "eksak": "52/96",
+        "pairwise": 0.5417,
+        "top1_gold": 0.1827,
+        "ndcg5": 0.427,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot.jsonl",
+        "integritas": {
+          "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot.manifest.json",
+          "sha256": "5794f6989ca44b7039bf727851bb124befee6a735102b15c0a51cd376eee8d31",
+          "cocok": true,
+          "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot_20260917T130130Z",
+          "anomali_field_n": null
+        }
+      },
+      "text": {
+        "menang": 48,
+        "n_komparabel": 96,
+        "eksak": "48/96",
+        "pairwise": 0.5,
+        "top1_gold": 0.2692,
+        "ndcg5": 0.5043,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_text.jsonl",
+        "integritas": {
+          "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_text.manifest.json",
+          "sha256": "b271f6377754fc427170307f9153c5492c25dafa22c39976a7a0d1670d9caa67",
+          "cocok": true,
+          "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_text_20261002T183204Z",
+          "anomali_field_n": null
+        }
+      },
+      "both": {
+        "menang": 96,
+        "n_komparabel": 96,
+        "eksak": "96/96",
+        "pairwise": 1.0,
+        "top1_gold": 0.5577,
+        "ndcg5": 0.7663,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both.jsonl",
+        "integritas": {
+          "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both.manifest.json",
+          "sha256": "e5cb074b39262f731e2e9040739f5fed875874b086c0ee495983fd5b948b8b20",
+          "cocok": true,
+          "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_20261002T194420Z",
+          "anomali_field_n": null
+        }
+      },
+      "wrong": {
+        "menang": 94,
+        "n_komparabel": 96,
+        "eksak": "94/96",
+        "pairwise": 0.9792,
+        "top1_gold": 0.3269,
+        "ndcg5": 0.6173,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_wrong.jsonl",
+        "integritas": {
+          "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_wrong.manifest.json",
+          "sha256": "2cb84c709bb1da1c7c74c272d01313bc4ddd73736ea0d73ccf05144ab21fedb6",
+          "cocok": true,
+          "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_wrong_20261002T193157Z",
+          "anomali_field_n": null
+        }
+      },
+      "both_program": {
+        "menang": 89,
+        "n_komparabel": 96,
+        "eksak": "89/96",
+        "pairwise": 0.9271,
+        "top1_gold": 0.4904,
+        "ndcg5": 0.7074,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_program.jsonl",
+        "integritas": {
+          "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_program.manifest.json",
+          "sha256": "3f2dd7fde2b177a3dd89a466c100bb61035d4452ae8aaea3c4e8652907efe308",
+          "cocok": true,
+          "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_program_20261002T190728Z",
+          "anomali_field_n": null
+        }
+      },
+      "both_semester": {
+        "menang": 96,
+        "n_komparabel": 96,
+        "eksak": "96/96",
+        "pairwise": 1.0,
+        "top1_gold": 0.4135,
+        "ndcg5": 0.6779,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_semester.jsonl",
+        "integritas": {
+          "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_semester.manifest.json",
+          "sha256": "c34875e504d61512ec4b88fff12ed9f7f3b4b63fd4a72e2ccd6c4afa4e637687",
+          "cocok": true,
+          "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_semester_20261002T191332Z",
+          "anomali_field_n": null
+        }
+      }
+    },
+    "FollowIR-7B": {
+      "none": {
+        "menang": 48,
+        "n_komparabel": 96,
+        "eksak": "48/96",
+        "pairwise": 0.5,
+        "top1_gold": 0.1154,
+        "ndcg5": 0.3148,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_none.jsonl",
+        "integritas": {
+          "manifest": "scores_followir_FollowIR-7B_paired_none.manifest.json",
+          "sha256": "45c95f94def8d96e97ab3a8b8d3206b4aa77a472193ca86ee0dca39715de640b",
+          "cocok": true,
+          "run_id": "scores_followir_FollowIR-7B_paired_none_20260917T122852Z",
+          "anomali_field_n": null
+        }
+      },
+      "slot": {
+        "menang": 47,
+        "n_komparabel": 96,
+        "eksak": "47/96",
+        "pairwise": 0.4896,
+        "top1_gold": 0.1731,
+        "ndcg5": 0.342,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_slot.jsonl",
+        "integritas": {
+          "manifest": "scores_followir_FollowIR-7B_paired_slot.manifest.json",
+          "sha256": "a41f2a0f4fb511eecbed0c779ce9d6f31b758109dc1ecdc32d666cc5fee3ed94",
+          "cocok": true,
+          "run_id": "scores_followir_FollowIR-7B_paired_slot_20260917T115054Z",
+          "anomali_field_n": null
+        }
+      },
+      "text": {
+        "menang": 48,
+        "n_komparabel": 96,
+        "eksak": "48/96",
+        "pairwise": 0.5,
+        "top1_gold": 0.0769,
+        "ndcg5": 0.2729,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_text.jsonl",
+        "integritas": {
+          "manifest": "scores_followir_FollowIR-7B_paired_text.manifest.json",
+          "sha256": "dc1716b9945cfc5d104813633af885f31273c72306c377011fe573e24413f9ca",
+          "cocok": true,
+          "run_id": "scores_followir_FollowIR-7B_paired_text_20261002T195315Z",
+          "anomali_field_n": null
+        }
+      },
+      "both": {
+        "menang": 91,
+        "n_komparabel": 96,
+        "eksak": "91/96",
+        "pairwise": 0.9479,
+        "top1_gold": 0.2404,
+        "ndcg5": 0.5007,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_both.jsonl",
+        "integritas": {
+          "manifest": "scores_followir_FollowIR-7B_paired_both.manifest.json",
+          "sha256": "54e3923c38142d2cb9575bdaab508739bf641862358efd1e707e841626244e0a",
+          "cocok": true,
+          "run_id": "scores_followir_FollowIR-7B_paired_both_20261002T213006Z",
+          "anomali_field_n": null
+        }
+      },
+      "wrong": {
+        "menang": 86,
+        "n_komparabel": 96,
+        "eksak": "86/96",
+        "pairwise": 0.8958,
+        "top1_gold": 0.2212,
+        "ndcg5": 0.4703,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_wrong.jsonl",
+        "integritas": {
+          "manifest": "scores_followir_FollowIR-7B_paired_wrong.manifest.json",
+          "sha256": "d2980fd70de6d780eb9f015e0a494501ff3c02a77b31d17023e5a95cc5512d66",
+          "cocok": true,
+          "run_id": "scores_followir_FollowIR-7B_paired_wrong_20261002T212006Z",
+          "anomali_field_n": null
+        }
+      },
+      "both_program": {
+        "menang": 51,
+        "n_komparabel": 96,
+        "eksak": "51/96",
+        "pairwise": 0.5312,
+        "top1_gold": 0.1154,
+        "ndcg5": 0.3031,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_both_program.jsonl",
+        "integritas": {
+          "manifest": "scores_followir_FollowIR-7B_paired_both_program.manifest.json",
+          "sha256": "3865694f38c1adf9543230d898466516fa50703d6238cb047589b2bbb2788bce",
+          "cocok": true,
+          "run_id": "scores_followir_FollowIR-7B_paired_both_program_20261002T200246Z",
+          "anomali_field_n": null
+        }
+      },
+      "both_semester": {
+        "menang": 91,
+        "n_komparabel": 96,
+        "eksak": "91/96",
+        "pairwise": 0.9479,
+        "top1_gold": 0.2981,
+        "ndcg5": 0.534,
+        "n_baris": 104,
+        "berkas": "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_both_semester.jsonl",
+        "integritas": {
+          "manifest": "scores_followir_FollowIR-7B_paired_both_semester.manifest.json",
+          "sha256": "06603c3aaa3f96ad8b47637d55467ad53cb50e64ba96d2f27c15b3bb8bb71201",
+          "cocok": true,
+          "run_id": "scores_followir_FollowIR-7B_paired_both_semester_20261002T201221Z",
+          "anomali_field_n": null
+        }
+      }
+    }
+  },
+  "sel_sekunder": {
+    "ctxl_none_generic": {
+      "menang": 48,
+      "n_komparabel": 96,
+      "eksak": "48/96",
+      "pairwise": 0.5,
+      "top1_gold": 0.2308,
+      "ndcg5": 0.5093,
+      "n_baris": 104,
+      "berkas": "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none_generic.jsonl",
+      "integritas": {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none_generic.manifest.json",
+        "sha256": "736c71029ed867908e023a2749122ee3ac65da41438d3c7250f95e1644d69a25",
+        "cocok": true,
+        "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none_generic_20260917T125517Z",
+        "anomali_field_n": null
+      }
+    },
+    "zerank2_bare": {
+      "menang": 48,
+      "n_komparabel": 96,
+      "eksak": "48/96",
+      "pairwise": 0.5,
+      "top1_gold": 0.2788,
+      "ndcg5": 0.5632,
+      "n_baris": 104,
+      "berkas": "result/paper_q2/results/raw/scores_zerank2_zerank-2_paired_bare.jsonl",
+      "integritas": {
+        "manifest": "scores_zerank2_zerank-2_paired_bare.manifest.json",
+        "sha256": "82d35828e26b2ec2233069790e84a6de4d76e7589b5e5226b368f3e8553843df",
+        "cocok": true,
+        "run_id": "scores_zerank2_zerank-2_paired_bare_20260917T113737Z",
+        "anomali_field_n": null
+      }
+    }
+  },
+  "mcnemar_keluarga_E_none_lawan_slot": {
+    "m": 3,
+    "aturan_baca": "a p_holm_keluarga of 0.0 means below 1e-6 after rounding to six decimals, not a true zero; the full exact value is in p_mcnemar_exact_penuh",
+    "kontras": {
+      "bge-reranker-v2-gemma none vs slot": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 2,
+        "diskordan_a_menang_b_kalah": 7,
+        "selisih_bersih": -5,
+        "p_mcnemar_exact": 0.1796875,
+        "p_mcnemar_exact_penuh": 0.1796875,
+        "p_terbaca": "0.18",
+        "p_holm_keluarga": 0.539062,
+        "signifikan_0.05": false
+      },
+      "ctxl-rerank-v2-instruct-multilingual-6b none vs slot": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 13,
+        "diskordan_a_menang_b_kalah": 9,
+        "selisih_bersih": 4,
+        "p_mcnemar_exact": 0.52346706,
+        "p_mcnemar_exact_penuh": 0.5234670639038086,
+        "p_terbaca": "0.523",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      },
+      "FollowIR-7B none vs slot": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 5,
+        "diskordan_a_menang_b_kalah": 6,
+        "selisih_bersih": -1,
+        "p_mcnemar_exact": 1.0,
+        "p_mcnemar_exact_penuh": 1.0,
+        "p_terbaca": "1",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      }
+    }
+  },
+  "mcnemar_kontras_lain_p_exact": {
+    "bge-reranker-v2-gemma slot vs both": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 13,
+      "diskordan_a_menang_b_kalah": 7,
+      "selisih_bersih": 6,
+      "p_mcnemar_exact": 0.26317596,
+      "p_mcnemar_exact_penuh": 0.26317596435546875,
+      "p_terbaca": "0.263"
+    },
+    "bge-reranker-v2-gemma text vs both": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 6,
+      "diskordan_a_menang_b_kalah": 5,
+      "selisih_bersih": 1,
+      "p_mcnemar_exact": 1.0,
+      "p_mcnemar_exact_penuh": 1.0,
+      "p_terbaca": "1"
+    },
+    "bge-reranker-v2-gemma wrong vs both": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 4,
+      "diskordan_a_menang_b_kalah": 4,
+      "selisih_bersih": 0,
+      "p_mcnemar_exact": 1.0,
+      "p_mcnemar_exact_penuh": 1.0,
+      "p_terbaca": "1"
+    },
+    "ctxl-rerank-v2-instruct-multilingual-6b slot vs both": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 44,
+      "diskordan_a_menang_b_kalah": 0,
+      "selisih_bersih": 44,
+      "p_mcnemar_exact": 0.0,
+      "p_mcnemar_exact_penuh": 1.1368683772161603e-13,
+      "p_terbaca": "1.14e-13"
+    },
+    "ctxl-rerank-v2-instruct-multilingual-6b text vs both": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 48,
+      "diskordan_a_menang_b_kalah": 0,
+      "selisih_bersih": 48,
+      "p_mcnemar_exact": 0.0,
+      "p_mcnemar_exact_penuh": 7.105427357601002e-15,
+      "p_terbaca": "7.11e-15"
+    },
+    "ctxl-rerank-v2-instruct-multilingual-6b wrong vs both": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 2,
+      "diskordan_a_menang_b_kalah": 0,
+      "selisih_bersih": 2,
+      "p_mcnemar_exact": 0.5,
+      "p_mcnemar_exact_penuh": 0.5,
+      "p_terbaca": "0.5"
+    },
+    "FollowIR-7B slot vs both": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 45,
+      "diskordan_a_menang_b_kalah": 1,
+      "selisih_bersih": 44,
+      "p_mcnemar_exact": 0.0,
+      "p_mcnemar_exact_penuh": 1.3358203432289883e-12,
+      "p_terbaca": "1.34e-12"
+    },
+    "FollowIR-7B text vs both": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 44,
+      "diskordan_a_menang_b_kalah": 1,
+      "selisih_bersih": 43,
+      "p_mcnemar_exact": 0.0,
+      "p_mcnemar_exact_penuh": 2.6147972675971687e-12,
+      "p_terbaca": "2.61e-12"
+    },
+    "FollowIR-7B wrong vs both": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 5,
+      "diskordan_a_menang_b_kalah": 0,
+      "selisih_bersih": 5,
+      "p_mcnemar_exact": 0.0625,
+      "p_mcnemar_exact_penuh": 0.0625,
+      "p_terbaca": "0.0625"
+    },
+    "ctxl none vs none_generic": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 6,
+      "diskordan_a_menang_b_kalah": 6,
+      "selisih_bersih": 0,
+      "p_mcnemar_exact": 1.0,
+      "p_mcnemar_exact_penuh": 1.0,
+      "p_terbaca": "1"
+    },
+    "zerank-2 default(frozen) vs bare": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 3,
+      "diskordan_a_menang_b_kalah": 3,
+      "selisih_bersih": 0,
+      "p_mcnemar_exact": 1.0,
+      "p_mcnemar_exact_penuh": 1.0,
+      "p_terbaca": "1"
+    }
+  },
+  "mcnemar_keluarga_G_label_satu_field": {
+    "m": 9,
+    "aturan_baca": "a p_holm_keluarga of 0.0 means below 1e-6 after rounding to six decimals, not a true zero; the full exact value is in p_mcnemar_exact_penuh",
+    "kontras": {
+      "bge-reranker-v2-gemma program-only vs both": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 3,
+        "diskordan_a_menang_b_kalah": 3,
+        "selisih_bersih": 0,
+        "p_mcnemar_exact": 1.0,
+        "p_mcnemar_exact_penuh": 1.0,
+        "p_terbaca": "1",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      },
+      "bge-reranker-v2-gemma semester-only vs both": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 3,
+        "diskordan_a_menang_b_kalah": 5,
+        "selisih_bersih": -2,
+        "p_mcnemar_exact": 0.7265625,
+        "p_mcnemar_exact_penuh": 0.7265625,
+        "p_terbaca": "0.727",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      },
+      "bge-reranker-v2-gemma program-only vs semester-only": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 5,
+        "diskordan_a_menang_b_kalah": 3,
+        "selisih_bersih": 2,
+        "p_mcnemar_exact": 0.7265625,
+        "p_mcnemar_exact_penuh": 0.7265625,
+        "p_terbaca": "0.727",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      },
+      "ctxl-rerank-v2-instruct-multilingual-6b program-only vs both": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 7,
+        "diskordan_a_menang_b_kalah": 0,
+        "selisih_bersih": 7,
+        "p_mcnemar_exact": 0.015625,
+        "p_mcnemar_exact_penuh": 0.015625,
+        "p_terbaca": "0.0156",
+        "p_holm_keluarga": 0.109375,
+        "signifikan_0.05": false
+      },
+      "ctxl-rerank-v2-instruct-multilingual-6b semester-only vs both": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 0,
+        "diskordan_a_menang_b_kalah": 0,
+        "selisih_bersih": 0,
+        "p_mcnemar_exact": 1.0,
+        "p_mcnemar_exact_penuh": 1.0,
+        "p_terbaca": "1",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      },
+      "ctxl-rerank-v2-instruct-multilingual-6b program-only vs semester-only": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 7,
+        "diskordan_a_menang_b_kalah": 0,
+        "selisih_bersih": 7,
+        "p_mcnemar_exact": 0.015625,
+        "p_mcnemar_exact_penuh": 0.015625,
+        "p_terbaca": "0.0156",
+        "p_holm_keluarga": 0.109375,
+        "signifikan_0.05": false
+      },
+      "FollowIR-7B program-only vs both": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 40,
+        "diskordan_a_menang_b_kalah": 0,
+        "selisih_bersih": 40,
+        "p_mcnemar_exact": 0.0,
+        "p_mcnemar_exact_penuh": 1.8189894035458565e-12,
+        "p_terbaca": "1.82e-12",
+        "p_holm_keluarga": 0.0,
+        "signifikan_0.05": true
+      },
+      "FollowIR-7B semester-only vs both": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 4,
+        "diskordan_a_menang_b_kalah": 4,
+        "selisih_bersih": 0,
+        "p_mcnemar_exact": 1.0,
+        "p_mcnemar_exact_penuh": 1.0,
+        "p_terbaca": "1",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      },
+      "FollowIR-7B program-only vs semester-only": {
+        "n_berpasangan": 96,
+        "diskordan_a_kalah_b_menang": 40,
+        "diskordan_a_menang_b_kalah": 0,
+        "selisih_bersih": 40,
+        "p_mcnemar_exact": 0.0,
+        "p_mcnemar_exact_penuh": 1.8189894035458565e-12,
+        "p_terbaca": "1.82e-12",
+        "p_holm_keluarga": 0.0,
+        "signifikan_0.05": true
+      }
+    }
+  },
+  "batas_ekuivalensi_slot": {
+    "bge-reranker-v2-gemma": {
+      "model": "bge-reranker-v2-gemma",
+      "n_berpasangan": 96,
+      "diskordan_slot_menang": 2,
+      "diskordan_buta_menang": 7,
+      "selisih_bersih": -5,
+      "selisih_proporsi": -0.052083,
+      "wald95": [
+        -0.11244,
+        0.008273
+      ],
+      "eksak_bersyarat95": [
+        -0.088473,
+        0.018768
+      ],
+      "dilaporkan95": [
+        -0.11244,
+        0.018768
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.11244,
+      "batas_atas_poin_persen": 11.24
+    },
+    "ctxl-rerank-v2-instruct-multilingual-6b": {
+      "model": "ctxl-rerank-v2-instruct-multilingual-6b",
+      "n_berpasangan": 96,
+      "diskordan_slot_menang": 13,
+      "diskordan_buta_menang": 9,
+      "selisih_bersih": 4,
+      "selisih_proporsi": 0.041667,
+      "wald95": [
+        -0.053731,
+        0.137064
+      ],
+      "eksak_bersyarat95": [
+        -0.062541,
+        0.134249
+      ],
+      "dilaporkan95": [
+        -0.062541,
+        0.137064
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.137064,
+      "batas_atas_poin_persen": 13.71
+    },
+    "FollowIR-7B": {
+      "model": "FollowIR-7B",
+      "n_berpasangan": 96,
+      "diskordan_slot_menang": 5,
+      "diskordan_buta_menang": 6,
+      "selisih_bersih": -1,
+      "selisih_proporsi": -0.010417,
+      "wald95": [
+        -0.078098,
+        0.057264
+      ],
+      "eksak_bersyarat95": [
+        -0.076201,
+        0.061006
+      ],
+      "dilaporkan95": [
+        -0.078098,
+        0.061006
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.078098,
+      "batas_atas_poin_persen": 7.81
+    }
+  },
+  "core17_kontrol_positif": {
+    "bge-reranker-v2-gemma": {
+      "p_MRR": 0.012519,
+      "ndcg5_og": 0.455426,
+      "ndcg5_changed": 0.175329,
+      "status": "new, cross-architecture"
+    },
+    "ctxl-rerank-v2-instruct-multilingual-6b": {
+      "p_MRR": 0.132736,
+      "ndcg5_og": 0.515832,
+      "ndcg5_changed": 0.382801,
+      "status": "new, cross-architecture"
+    },
+    "FollowIR-7B": {
+      "p_MRR": 0.13993,
+      "ndcg5_og": 0.501515,
+      "ndcg5_changed": 0.298227,
+      "status": "new, cross-architecture"
+    },
+    "Qwen3-Reranker-0.6B": {
+      "p_MRR": 0.038789,
+      "ndcg5_og": 0.57073,
+      "ndcg5_changed": 0.265183,
+      "status": "frozen, Qwen3 lineage"
+    },
+    "Qwen3-Reranker-4B": {
+      "p_MRR": 0.103373,
+      "ndcg5_og": 0.584312,
+      "ndcg5_changed": 0.361764,
+      "status": "frozen, Qwen3 lineage"
+    },
+    "zerank-2": {
+      "p_MRR": 0.108963,
+      "ndcg5_og": 0.692388,
+      "ndcg5_changed": 0.422199,
+      "status": "frozen, Qwen3 lineage"
+    }
+  },
+  "papan_beku_keturunan_qwen3": {
+    "Qwen3-Reranker-0.6B": {
+      "tanpa_profil": "48/96",
+      "slot": "49/96",
+      "teks_saja": "48/96",
+      "slot_plus_teks": "88/96",
+      "label_salah": "76/96"
+    },
+    "Qwen3-Reranker-4B": {
+      "tanpa_profil": "48/96",
+      "slot": "50/96",
+      "teks_saja": "48/96",
+      "slot_plus_teks": "83/96",
+      "label_salah": "72/96"
+    },
+    "zerank-2": {
+      "tanpa_profil": "48/96",
+      "slot": "47/96",
+      "teks_saja": "48/96",
+      "slot_plus_teks": "96/96",
+      "label_salah": "91/96",
+      "vendor_memory": "47/96"
+    }
+  },
+  "waktu_gpu": {
+    "_apa_ini": "GPU seconds of the cross-architecture package, summed from the durasi_s field of each manifest; smoke runs and the frozen manifests are not counted",
+    "n_manifest": 59,
+    "total_s": 27576.7,
+    "per_keluarga": {
+      "lain": {
+        "n": 4,
+        "durasi_s": 817.0999999999999,
+        "vram_peak_mib": 8819.8
+      },
+      "ctxl": {
+        "n": 19,
+        "durasi_s": 9512.3,
+        "vram_peak_mib": 14119.3
+      },
+      "followir": {
+        "n": 18,
+        "durasi_s": 13450.300000000001,
+        "vram_peak_mib": 14406.1
+      },
+      "gemma": {
+        "n": 18,
+        "durasi_s": 3797.0,
+        "vram_peak_mib": 5915.7
+      }
+    },
+    "langkah": [
+      {
+        "manifest": "profile_shuffle.manifest.json",
+        "durasi_s": 0.0,
+        "vram_peak_mib": 0.0
+      },
+      {
+        "manifest": "followir_Core17_ctxl_ctxl-rerank-v2-instruct-multilingual-6b.manifest.json",
+        "durasi_s": 3236.9,
+        "vram_peak_mib": 13860.2
+      },
+      {
+        "manifest": "followir_Core17_followir_FollowIR-7B.manifest.json",
+        "durasi_s": 3773.9,
+        "vram_peak_mib": 14406.1
+      },
+      {
+        "manifest": "followir_Core17_gemma_bge-reranker-v2-gemma.manifest.json",
+        "durasi_s": 1336.3,
+        "vram_peak_mib": 5915.7
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both.manifest.json",
+        "durasi_s": 358.7,
+        "vram_peak_mib": 14117.7
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_program.manifest.json",
+        "durasi_s": 354.5,
+        "vram_peak_mib": 14111.2
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_semester.manifest.json",
+        "durasi_s": 356.8,
+        "vram_peak_mib": 14116.0
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_alami.manifest.json",
+        "durasi_s": 351.6,
+        "vram_peak_mib": 14106.4
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_en.manifest.json",
+        "durasi_s": 339.7,
+        "vram_peak_mib": 13540.1
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_id_en.manifest.json",
+        "durasi_s": 340.8,
+        "vram_peak_mib": 13540.9
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_kode_en.manifest.json",
+        "durasi_s": 339.6,
+        "vram_peak_mib": 13540.1
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_nama.manifest.json",
+        "durasi_s": 355.7,
+        "vram_peak_mib": 14112.8
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_opak.manifest.json",
+        "durasi_s": 358.1,
+        "vram_peak_mib": 14117.7
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none.manifest.json",
+        "durasi_s": 332.5,
+        "vram_peak_mib": 14043.8
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none_generic.manifest.json",
+        "durasi_s": 347.0,
+        "vram_peak_mib": 14064.7
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_sem_kata.manifest.json",
+        "durasi_s": 341.2,
+        "vram_peak_mib": 13541.7
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_sem_opak.manifest.json",
+        "durasi_s": 342.0,
+        "vram_peak_mib": 13542.5
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot.manifest.json",
+        "durasi_s": 367.6,
+        "vram_peak_mib": 14098.4
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot_id.manifest.json",
+        "durasi_s": 363.1,
+        "vram_peak_mib": 14116.0
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot_vendor.manifest.json",
+        "durasi_s": 340.8,
+        "vram_peak_mib": 14080.7
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_text.manifest.json",
+        "durasi_s": 326.8,
+        "vram_peak_mib": 14063.1
+      },
+      {
+        "manifest": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_wrong.manifest.json",
+        "durasi_s": 358.9,
+        "vram_peak_mib": 14119.3
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_both.manifest.json",
+        "durasi_s": 586.6,
+        "vram_peak_mib": 14221.9
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_both_program.manifest.json",
+        "durasi_s": 562.5,
+        "vram_peak_mib": 14219.5
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_both_semester.manifest.json",
+        "durasi_s": 566.1,
+        "vram_peak_mib": 14220.5
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_label_alami.manifest.json",
+        "durasi_s": 558.8,
+        "vram_peak_mib": 14218.5
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_label_en.manifest.json",
+        "durasi_s": 561.0,
+        "vram_peak_mib": 14218.5
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_label_id_en.manifest.json",
+        "durasi_s": 563.4,
+        "vram_peak_mib": 14220.0
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_label_kode_en.manifest.json",
+        "durasi_s": 562.0,
+        "vram_peak_mib": 14219.0
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_label_nama.manifest.json",
+        "durasi_s": 580.8,
+        "vram_peak_mib": 14220.5
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_label_opak.manifest.json",
+        "durasi_s": 581.2,
+        "vram_peak_mib": 14220.5
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_none.manifest.json",
+        "durasi_s": 540.0,
+        "vram_peak_mib": 14194.5
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_sem_kata.manifest.json",
+        "durasi_s": 580.8,
+        "vram_peak_mib": 14019.8
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_sem_opak.manifest.json",
+        "durasi_s": 584.7,
+        "vram_peak_mib": 14220.9
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_slot.manifest.json",
+        "durasi_s": 571.9,
+        "vram_peak_mib": 14213.3
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_slot_id.manifest.json",
+        "durasi_s": 599.6,
+        "vram_peak_mib": 14228.1
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_slot_vendor.manifest.json",
+        "durasi_s": 566.0,
+        "vram_peak_mib": 14213.3
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_text.manifest.json",
+        "durasi_s": 523.0,
+        "vram_peak_mib": 14203.2
+      },
+      {
+        "manifest": "scores_followir_FollowIR-7B_paired_wrong.manifest.json",
+        "durasi_s": 588.0,
+        "vram_peak_mib": 14222.4
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_both.manifest.json",
+        "durasi_s": 147.1,
+        "vram_peak_mib": 5511.7
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_both_program.manifest.json",
+        "durasi_s": 145.9,
+        "vram_peak_mib": 5503.5
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_both_semester.manifest.json",
+        "durasi_s": 146.3,
+        "vram_peak_mib": 5511.7
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_label_alami.manifest.json",
+        "durasi_s": 144.2,
+        "vram_peak_mib": 5503.5
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_label_en.manifest.json",
+        "durasi_s": 145.6,
+        "vram_peak_mib": 5503.5
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_label_id_en.manifest.json",
+        "durasi_s": 146.0,
+        "vram_peak_mib": 5503.5
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_label_kode_en.manifest.json",
+        "durasi_s": 145.7,
+        "vram_peak_mib": 5503.5
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_label_nama.manifest.json",
+        "durasi_s": 145.5,
+        "vram_peak_mib": 5503.5
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_label_opak.manifest.json",
+        "durasi_s": 146.9,
+        "vram_peak_mib": 5511.7
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_none.manifest.json",
+        "durasi_s": 135.9,
+        "vram_peak_mib": 5462.4
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_sem_kata.manifest.json",
+        "durasi_s": 146.4,
+        "vram_peak_mib": 5511.7
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_sem_opak.manifest.json",
+        "durasi_s": 146.7,
+        "vram_peak_mib": 5511.7
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_slot.manifest.json",
+        "durasi_s": 150.1,
+        "vram_peak_mib": 5495.3
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_slot_id.manifest.json",
+        "durasi_s": 144.6,
+        "vram_peak_mib": 5495.3
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_slot_vendor.manifest.json",
+        "durasi_s": 141.9,
+        "vram_peak_mib": 5487.1
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_text.manifest.json",
+        "durasi_s": 134.6,
+        "vram_peak_mib": 5478.9
+      },
+      {
+        "manifest": "scores_gemma_bge-reranker-v2-gemma_paired_wrong.manifest.json",
+        "durasi_s": 147.3,
+        "vram_peak_mib": 5511.7
+      },
+      {
+        "manifest": "scores_zerank2_zerank-2_paired_bare.manifest.json",
+        "durasi_s": 265.3,
+        "vram_peak_mib": 8819.8
+      },
+      {
+        "manifest": "zerank2_equivalence.manifest.json",
+        "durasi_s": 8.5,
+        "vram_peak_mib": 0.0
+      },
+      {
+        "manifest": "zerank2_equivalence_full.manifest.json",
+        "durasi_s": 543.3,
+        "vram_peak_mib": 0.0
+      }
+    ]
+  },
+  "sel_hilang": null,
+  "syarat_kutip": [
+    "the none cells use the vendor default input of each family: ctxl none has no instruction, gemma none uses the default prompt, followir none is the plain query; ctxl none_generic is reported alongside",
+    "the wrong column is a control of the label's content (wrong program, right semester), not of its presence",
+    "p_holm of family E covers only the three none-against-slot contrasts of the new models; the published family is unchanged",
+    "the slot-effect bound is an interval, not a test against a margin chosen by the authors"
+  ]
+}

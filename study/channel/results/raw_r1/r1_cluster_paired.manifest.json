@@ -1,0 +1,36 @@
+{
+ "run_id": "r1_klaster_paired_20261013T192423Z",
+ "script": "result/paper_q2/scripts/q2_r1_analisis.py",
+ "command": "q2_r1_analisis.py --bagian klaster_paired",
+ "output": {
+  "path": "results/tables/r1_klaster_paired.json",
+  "sha256": "28439f9321f016640a4a6d90e025867330ed760ac2a01f425ae603a788321211"
+ },
+ "inputs": {
+  "result/novelty_1_dits/results/raw/qwen_scores_0.6b_paired_default.jsonl": "ccba5735293225bf4978c9b454b93ce21c0166fce9872e0cd1abf966d8b7a3cc",
+  "result/novelty_1_dits/results/raw/qwen_scores_0.6b_paired_profile.jsonl": "ce388c8d6a3f4005d19f63335f6efed9754d868f649ee49831a2e14bd433ccf7",
+  "result/novelty_1_dits/results/raw/qwen_scores_4b_paired_default.jsonl": "78d14377f8f778c55c3cd7f2562b474badebbefef4664af2f279caae8a4eeaf3",
+  "result/novelty_1_dits/results/raw/qwen_scores_4b_paired_profile.jsonl": "3d82073844cfbf443db616158ab08241bd394fb4850cd8e8c4d4d964f51c26cf",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_paired_default.jsonl": "13973e29d24ea261a5913dc4d713d4bee5933a12f8e1eda04cc6fbca0086389d",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_paired_profile.jsonl": "e3d2bdf6be396611460b02e9e3ecdaf6d4f3137fd721e7cdb92cc128a1e71972",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_none.jsonl": "45c95f94def8d96e97ab3a8b8d3206b4aa77a472193ca86ee0dca39715de640b",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_slot.jsonl": "a41f2a0f4fb511eecbed0c779ce9d6f31b758109dc1ecdc32d666cc5fee3ed94",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none.jsonl": "f381ddfc13e8ecd73a1ab90c3954d96e03c12ef7e58b64d69ba0022968412f43",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot.jsonl": "5794f6989ca44b7039bf727851bb124befee6a735102b15c0a51cd376eee8d31",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_none.jsonl": "76df6ab662a594386eb554a1bec7b83cee7b5529c5d0d96f9dafcb51374a1125",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_slot.jsonl": "dc30a7849d50a173a35e724fd6d4f5af3e5da0c938619df6f72448a4e74aa98d",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta.jsonl": "a8fd592f5cdcf67076211961902cbcbb6cf4c665bb56c476f1d89af8279b19a9",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta.jsonl": "c3b856093179c06b89643fa22e40be7b8158df7129aa7c15a120b0d32cc3b065",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_paired_profile_docmeta.jsonl": "f41cca9bc09f1bbf09eacbe7f6936322eae88eba3803c06b9013a8add3a28692",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_both.jsonl": "54e3923c38142d2cb9575bdaab508739bf641862358efd1e707e841626244e0a",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both.jsonl": "e5cb074b39262f731e2e9040739f5fed875874b086c0ee495983fd5b948b8b20",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_both.jsonl": "cac99cdd5ff59bcf65dd8e19b2bb060b84e98cd428db7a6ce3005420913c290f",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmetasalah.jsonl": "aa674e84e21120de536bde5e96a62c26c5d373c3233ac087e41b7b12fee7ad81",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmetasalah.jsonl": "1b47823b46de5a0fb48ea15c67b587cf34047d719f02e3c225e7137c3f8b4723",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_paired_profile_docmetasalah.jsonl": "ed9fbb5d1acb56f54fd0c3a657b768238f3a1f20fed5cd3de7272e6167d5b9ba",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_wrong.jsonl": "d2980fd70de6d780eb9f015e0a494501ff3c02a77b31d17023e5a95cc5512d66",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_wrong.jsonl": "2cb84c709bb1da1c7c74c272d01313bc4ddd73736ea0d73ccf05144ab21fedb6",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_wrong.jsonl": "3131bdb053caa67fbe1bd7f434cfd1c94673eebc39c0f3c9016f2f92e9e13b06"
+ },
+ "seed": 20261012
+}

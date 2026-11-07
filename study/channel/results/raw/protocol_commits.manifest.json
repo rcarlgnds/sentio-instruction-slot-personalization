@@ -1,0 +1,9 @@
+{
+ "run_id": "commit_protokol_20260924T142834Z",
+ "script": "result/paper_q2/scripts/q2_commit_protokol.py",
+ "output": {
+  "path": "results/tables/commit_protokol.json",
+  "sha256": "7c02f709158e07fb901f23afdd389f1e5ee9234f5c5badb72925593f1e4ebe6e"
+ },
+ "label_source": "deterministic"
+}

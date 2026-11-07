@@ -1,0 +1,113 @@
+{
+ "dibuat": "2026-10-04T01:09:09+00:00",
+ "_apa_ini": "Deciding contrast of the surface ladder: p1 (English program-name label) against p2 (Indonesian program-name label), both with an English instruction that names the program. Exact paired McNemar, Holm within the family of six models. Computed from the per-item scores, without GPU.",
+ "aturan_menang": "a row is resolved when the best position of the asker's gold in the stored ranking is above the best position of the rival gold; rows with a gold missing from the ranking are dropped",
+ "sumber": {
+  "tabel_beku": "study/channel/results/tables/surface_ladder.json",
+  "skor_per_item": "study/channel/results/raw",
+  "cek": "every score file's sha256 and every p1 and p2 count equal the frozen table, six models"
+ },
+ "per_model": {
+  "0.6B": {
+   "n": 96,
+   "p1_menang": 73,
+   "p2_menang": 60,
+   "p1_saja": 13,
+   "p2_saja": 0,
+   "p_mcnemar_eksak": 0.000244,
+   "berkas_p1": "scores_qwen3rr_Qwen3-Reranker-0.6B_tanggaP1_profile_nama_en_docmeta.jsonl",
+   "sha256_p1": "d683e5d3553294a9d2c172f648a12f237aface0edef0d6ed4b1300a1744cc227",
+   "berkas_p2": "scores_qwen3rr_Qwen3-Reranker-0.6B_tanggaP2_profile_nama_en_docmeta.jsonl",
+   "sha256_p2": "90717f7a54d0a9c6bbf473ee2eabe3a0019cb3857816fc33bbabb0ae01792366",
+   "p_holm_keluarga_enam": 0.001464,
+   "signifikan_0.05": true
+  },
+  "4B": {
+   "n": 96,
+   "p1_menang": 68,
+   "p2_menang": 59,
+   "p1_saja": 14,
+   "p2_saja": 5,
+   "p_mcnemar_eksak": 0.063568,
+   "berkas_p1": "scores_qwen3rr_Qwen3-Reranker-4B_tanggaP1_profile_nama_en_docmeta.jsonl",
+   "sha256_p1": "7b9b3072b9647327b7438a93cb124bd7f43510e1ca86642b83cf453188524bb7",
+   "berkas_p2": "scores_qwen3rr_Qwen3-Reranker-4B_tanggaP2_profile_nama_en_docmeta.jsonl",
+   "sha256_p2": "02786188c523982ed06945d0202bb544fef05174f951a6caf47271e7860e6d92",
+   "p_holm_keluarga_enam": 0.190704,
+   "signifikan_0.05": false
+  },
+  "zerank-2": {
+   "n": 96,
+   "p1_menang": 78,
+   "p2_menang": 67,
+   "p1_saja": 11,
+   "p2_saja": 0,
+   "p_mcnemar_eksak": 0.000977,
+   "berkas_p1": "scores_zerank2official_zerank-2_tanggaP1_profile_nama_en_docmeta.jsonl",
+   "sha256_p1": "16719b10253ecaacd758af2a7f5d66a6b457b6f0bc74fffe20dcd52f77170020",
+   "berkas_p2": "scores_zerank2official_zerank-2_tanggaP2_profile_nama_en_docmeta.jsonl",
+   "sha256_p2": "1d492b431177d10a9bbeabbd01f42892dcf9d237d29ad319a4af168aab3d84a7",
+   "p_holm_keluarga_enam": 0.003908,
+   "signifikan_0.05": true
+  },
+  "FollowIR-7B": {
+   "n": 96,
+   "p1_menang": 57,
+   "p2_menang": 51,
+   "p1_saja": 7,
+   "p2_saja": 1,
+   "p_mcnemar_eksak": 0.070312,
+   "berkas_p1": "scores_followir_FollowIR-7B_paired_label_en.jsonl",
+   "sha256_p1": "9c1f4331951ec70bfc0dc811b8ee001084e8024e269e49888c2ce4dbc23b05f9",
+   "berkas_p2": "scores_followir_FollowIR-7B_paired_label_id_en.jsonl",
+   "sha256_p2": "3d7f960a06481a2321d5b0ee40d3bf24f1abdda1229f508a44184f385ed858bc",
+   "p_holm_keluarga_enam": 0.190704,
+   "signifikan_0.05": false
+  },
+  "ctxl-6B": {
+   "n": 96,
+   "p1_menang": 87,
+   "p2_menang": 74,
+   "p1_saja": 13,
+   "p2_saja": 0,
+   "p_mcnemar_eksak": 0.000244,
+   "berkas_p1": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_en.jsonl",
+   "sha256_p1": "cfdd19b6a63363d14915b6de15064dd13fa095937ef0a5d3259c26b1e41fb38d",
+   "berkas_p2": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_id_en.jsonl",
+   "sha256_p2": "32fdf0f8fb63e6eb09b3c76cb676dd29d1bc3be8e28ce526ed04f0541ef759ab",
+   "p_holm_keluarga_enam": 0.001464,
+   "signifikan_0.05": true
+  },
+  "gemma": {
+   "n": 96,
+   "p1_menang": 45,
+   "p2_menang": 44,
+   "p1_saja": 4,
+   "p2_saja": 3,
+   "p_mcnemar_eksak": 1.0,
+   "berkas_p1": "scores_gemma_bge-reranker-v2-gemma_paired_label_en.jsonl",
+   "sha256_p1": "211811f226b9cc33aca122cad30b4ce0f35112ed5dd67f42221f81c4b7efb9e8",
+   "berkas_p2": "scores_gemma_bge-reranker-v2-gemma_paired_label_id_en.jsonl",
+   "sha256_p2": "f794f1c3eedc55b2a9f679be17ae02875c3cb0f44c2061de03a81ba2ed7479d5",
+   "p_holm_keluarga_enam": 1.0,
+   "signifikan_0.05": false
+  }
+ },
+ "ringkas_lima_model": {
+  "model": [
+   "0.6B",
+   "4B",
+   "zerank-2",
+   "FollowIR-7B",
+   "ctxl-6B"
+  ],
+  "p2_lebih_rendah_dari_p1": 5,
+  "signifikan_holm": 3,
+  "model_signifikan": [
+   "0.6B",
+   "zerank-2",
+   "ctxl-6B"
+  ],
+  "holm_maks_di_antara_yang_signifikan": 0.003908
+ }
+}

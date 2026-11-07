@@ -1,0 +1,109 @@
+{
+ "run_id": "scores_followir_FollowIR-7B_xr1_both_20261013T162541Z",
+ "script": "result/paper_q2/scripts/q2_arch_score.py",
+ "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+ "perintah_persis": "python q2_arch_score.py --family followir --model jhu-clsp/FollowIR-7B --batch 2 --pools <workstation>/result/paper_q2/results/raw_r1/pools_xpair_r1.jsonl --tag xr1 --cell both --peta-label id --gap-mib 300 --out-dir <workstation>/result/paper_q2/results/raw_r1",
+ "config_version": "0a7b2e4de856",
+ "status_arm": "POST-HOC, uji lintas arsitektur, di luar keluarga pra-registrasi delapan",
+ "model": "jhu-clsp/FollowIR-7B",
+ "keluarga": "followir",
+ "sel": "both",
+ "definisi_sel": {
+  "inst": "profile",
+  "docmeta": true,
+  "salah": false
+ },
+ "dtype": "bfloat16",
+ "max_len": 1536,
+ "pemotongan": "dokumen dipotong 4.000 karakter, lalu token dokumen dipotong agar kerangka template tidak terpotong",
+ "n_dokumen_terpotong": 0,
+ "batch_dipakai": 2,
+ "batas_sisa_vram_mib": 300,
+ "cap_gpu": {
+  "mib": null,
+  "keputusan": "auto: bebas 15405 - cadangan 400 - bobot 13813 >= gap 300, dimuat penuh di GPU",
+  "offload": null
+ },
+ "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+ "instruksi_profil_kerangka": "Given a query from a <DEPT> student in semester <N>, retrieve passages from that student's own study program that answer the query at a level appropriate for semester <N>",
+ "instruksi_profil_id_kerangka": null,
+ "instruksi_vendor_kerangka": null,
+ "instruksi_vendor_penempatan": null,
+ "format_label_program_gaya": null,
+ "format_label_sumber": "[Source: <DEPT> degree program textbook, semester <N>]",
+ "kontrol_label_salah": null,
+ "r1_ijies": {
+  "profil_tetap": null,
+  "instruksi_kerangka": null,
+  "aturan_label": null,
+  "kolam_semester": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "kolam_prodi": [
+   "ACCT",
+   "BANA",
+   "CSCI",
+   "DTSC",
+   "ISYS",
+   "MGMT",
+   "MKTG",
+   "STAT"
+  ],
+  "n_label": {
+   "semsalah": 0,
+   "duasalah": 0,
+   "acak": 0,
+   "seragam": 0
+  }
+ },
+ "n_kandidat_tak_terpetakan": 0,
+ "peta_label_sumber": {
+  "peta_label": "id",
+  "versi": "id-v1",
+  "sumber": {
+   "korpus": "src/ai/data/benchmark_release/corpus/corpus.jsonl",
+   "korpus_sha256": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+   "alias_uuid": "src/ai/data/benchmark_release/uuid_to_canonical.json",
+   "alias_sha256": "7b594b5d3322be88d11aa2ff481553c05001565d603bf14190a7bd1a6ceb7284"
+  },
+  "aturan": "prodi dan semester diambil dari identitas kandidat; pencocokan teks tidak dipakai"
+ },
+ "kontrak_inferensi": {
+  "sumber": "README jhu-clsp/FollowIR-7B, template dan skor disalin verbatim",
+  "format": "<s> [INST] You are an expert Google searcher, whose job is to determine if the following document is relevant to the query (true/false). Answer using only one word, one of those two choices.\n\nQuery: {query}\nDocument: {text}\nRelevant (only output one word, either \"true\" or \"false\"): [/INST] ",
+  "skor": "softmax(logit false, logit true)[true] pada posisi akhir",
+  "true_token_id": 3307,
+  "false_token_id": 3952,
+  "slot_instruksi": "ditempel ke teks query ('Query: {query} {instruksi}'), konvensi FollowIR",
+  "bos": "ganda (template memuat <s> dan tokenizer menambah bos), persis README"
+ },
+ "versi_pustaka": {
+  "transformers": "4.55.0",
+  "torch": "2.11.0+cu128"
+ },
+ "n": 1617,
+ "durasi_s": 7241.8,
+ "durasi_muat_s": 2.3,
+ "latensi_mean_s": 4.4649,
+ "latensi_p95_s": 5.262,
+ "vram_peak_mib": 14263.7,
+ "vram_bebas_sebelum_muat_mib": 15405,
+ "smoke": false,
+ "sumber": {
+  "pools": "20097410f4cf373d359a84c7f0425785c1c37caed8675975f0db94e70d1dd848"
+ },
+ "output": {
+  "path": "results/raw_r1/scores_followir_FollowIR-7B_xr1_both.jsonl",
+  "sha256": "d4e63dda5d2a674dc189396b083014ed4d6c616278ce41bb51d3e02575cd4d8c"
+ },
+ "label_source": "deterministic (skor model, suhu tidak berlaku)",
+ "praregistrasi_r1": {
+  "path": "result/paper_q2/PRAREGISTRASI_R1_IJIES.md",
+  "sha256": "3bfe129e05b9ddebee6d9597834205253d6adceba65227f6440bf98b88e55119",
+  "commit": "6171b973519a978db5f70020e0c93ee06b29f7a7"
+ }
+}

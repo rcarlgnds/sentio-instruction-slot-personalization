@@ -1,0 +1,16 @@
+{
+  "diuji_pada": "2026-08-09T02:56:17.219041+00:00",
+  "berkas_uji": "<workstation>/data/books/CSCI/CSCI_xv6_OS_Book_MIT_license.pdf",
+  "metode": "two separate processes, parse + strip_boilerplate + chunk, no embedding",
+  "runs": [
+    {
+      "n_chunks": 582,
+      "sha256": "48dba8f651d03817ead0e1c0301cf5c133025c1f307373aac73249ba0b1af93f"
+    },
+    {
+      "n_chunks": 582,
+      "sha256": "48dba8f651d03817ead0e1c0301cf5c133025c1f307373aac73249ba0b1af93f"
+    }
+  ],
+  "bit_identical": true
+}

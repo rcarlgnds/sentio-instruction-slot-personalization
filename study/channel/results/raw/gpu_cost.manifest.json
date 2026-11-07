@@ -1,0 +1,9 @@
+{
+ "run_id": "biaya_gpu_20261003T050043Z",
+ "script": "result/paper_q2/scripts/q2_biaya_gpu.py",
+ "output": {
+  "path": "results/tables/biaya_gpu.json",
+  "sha256": "a7025673030ac933008b8ea9e1810716a6e0d5719b17755362ada674424d85f9"
+ },
+ "label_source": "deterministic"
+}

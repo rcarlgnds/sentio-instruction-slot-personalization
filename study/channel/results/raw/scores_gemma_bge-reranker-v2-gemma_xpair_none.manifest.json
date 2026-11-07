@@ -1,0 +1,63 @@
+{
+  "run_id": "scores_gemma_bge-reranker-v2-gemma_xpair_none_20260918T011225Z",
+  "script": "result/paper_q2/scripts/q2_arch_score.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "python q2_arch_score.py --family gemma --model BAAI/bge-reranker-v2-gemma --cell none --pools <workstation>/result/paper_q2/results/raw/pools_paired_expanded.jsonl --tag xpair --gap-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, uji lintas arsitektur, di luar keluarga pra-registrasi delapan",
+  "model": "BAAI/bge-reranker-v2-gemma",
+  "keluarga": "gemma",
+  "sel": "none",
+  "definisi_sel": {
+    "inst": "none",
+    "docmeta": false,
+    "salah": false
+  },
+  "dtype": "bfloat16",
+  "max_len": 1536,
+  "pemotongan": "dokumen dipotong 4.000 karakter, lalu token dokumen dipotong agar kerangka template tidak terpotong",
+  "n_dokumen_terpotong": 0,
+  "batch_dipakai": 8,
+  "batas_sisa_vram_mib": 300,
+  "cap_gpu": {
+    "mib": null,
+    "keputusan": "auto: bebas 14959 - cadangan 400 - bobot 4780 >= gap 300, dimuat penuh di GPU",
+    "offload": null
+  },
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "instruksi_profil_kerangka": "Given a query from a <DEPT> student in semester <N>, retrieve passages from that student's own study program that answer the query at a level appropriate for semester <N>",
+  "instruksi_vendor_kerangka": null,
+  "instruksi_vendor_penempatan": null,
+  "format_label_sumber": null,
+  "kontrol_label_salah": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "kontrak_inferensi": {
+    "sumber": "README BAAI/bge-reranker-v2-gemma, fungsi get_inputs disalin verbatim",
+    "format": "<bos>A: {query}\\nB: {passage}\\n{prompt}",
+    "skor": "logit mentah token 'Yes' pada posisi akhir, tanpa softmax",
+    "slot_instruksi": "argumen prompt; profil ditempel setelah prompt bawaan vendor",
+    "prompt_bawaan_verbatim": "Given a query A and a passage B, determine whether the passage contains an answer to the query by providing a prediction of either 'Yes' or 'No'.",
+    "padding_side": "left (dipaksa; README tidak menetapkannya)",
+    "yes_token_id": 3553
+  },
+  "versi_pustaka": {
+    "transformers": "4.55.0",
+    "torch": "2.11.0+cu128"
+  },
+  "n": 1621,
+  "durasi_s": 1646.2,
+  "durasi_muat_s": 2.3,
+  "latensi_mean_s": 1.0016,
+  "latensi_p95_s": 1.2431,
+  "vram_peak_mib": 5618.7,
+  "vram_bebas_sebelum_muat_mib": 14959,
+  "smoke": false,
+  "sumber": {
+    "pools": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+  },
+  "output": {
+    "path": "results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_none.jsonl",
+    "sha256": "4c3dcc63206d6108a361c4f5b3872a60a508d92387a4d849c74415169ee9c14e"
+  },
+  "label_source": "deterministic (skor model, suhu tidak berlaku)"
+}

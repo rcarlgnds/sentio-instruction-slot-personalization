@@ -1,0 +1,21 @@
+{
+  "run_id": "q2_kolinearitas_profil_20260824T042715Z",
+  "script": "result/paper_q2/scripts/q2_kolinearitas_profil.py",
+  "config_version": "0a7b2e4de856",
+  "sumber": {
+    "pools_paired.jsonl": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483",
+    "pools_paired_expanded.jsonl": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+  },
+  "n": 1725,
+  "label_source": "deterministic (pembacaan metadata profil di kolam beku)",
+  "output": {
+    "path": "results/tables/kolinearitas_prodi_semester.json",
+    "sha256": "27d6e1a18ef10bfb4ee8b5300c5f2ffe92370d8d7656c06d10737ea1b3d05672",
+    "tingkat_reproduksi": "1_bit_identical",
+    "sha256_muatan_angka_tanpa_field_dibuat": "cf09c39180d458ec7212de2f0d9f938095996ee130409c74dbfffeba85230eda",
+    "verifikasi_determinisme": {
+      "dijalankan": true,
+      "cara": "jalankan ulang dgn --verify-determinism"
+    }
+  }
+}

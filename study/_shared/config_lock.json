@@ -1,0 +1,81 @@
+{
+  "dibekukan_pada": "2026-08-12T03:41:37.614439+00:00",
+  "config_version": "0a7b2e4de856",
+  "catatan": "Every number must be computed under this config_version. If the version differs, the number is not valid and the run is repeated.",
+  "static_fingerprint": {
+    "weights": [
+      0.5,
+      0.3,
+      0.2,
+      0.5
+    ],
+    "gates": [
+      0.55,
+      0.35
+    ],
+    "routing": [
+      0.55,
+      0.01
+    ],
+    "routing_centroids": "f6f79504d266",
+    "embedding": "BAAI/bge-m3",
+    "llm": "vllm:Qwen/Qwen3-14B-AWQ",
+    "flags": {
+      "gate_ignores_mode": true,
+      "gate_ignores_semester": true,
+      "clarify_on_refusal": true,
+      "slang_normalize_main": true,
+      "citation_strip_untraceable": true,
+      "lexical_evidence_gate": true,
+      "socratic_verifier_risk_gate": true,
+      "verifier_refuse_max_sim": 0.25,
+      "route_definitional_strict": true,
+      "definitional_uses_socratic_verifier": true,
+      "junk_chunk_filter": false,
+      "crosslingual_rescue": false,
+      "verifier_flag_mode": false,
+      "socratic_top_k": 6,
+      "qdrant_exact_search": true,
+      "qdrant_rrf_k": 60,
+      "vllm_enable_thinking": false,
+      "vllm_temperature_override": null,
+      "vllm_top_p": null,
+      "vllm_top_k": null,
+      "vllm_presence_penalty": null,
+      "vllm_max_tokens_floor": null,
+      "ood_query_expansion": true,
+      "cps_require_semantic_match": true,
+      "lexical_evidence_min_ratio": 0.7,
+      "lexical_evidence_min_terms": 2,
+      "retrieval_pool_size": 80
+    },
+    "prompts": "de59384aa79e"
+  },
+  "bounds": {
+    "absolute_min": 0.546,
+    "absolute_max": 0.7506,
+    "provisional": false,
+    "calibration_set_version": "calib-v2",
+    "n_queries": 155,
+    "n_ood_queries": 64
+  },
+  "dept_relations_fingerprint": "27cb2471f0ee",
+  "catatan_v2": {
+    "tanggal": "2026-08-12",
+    "keputusan": "first author",
+    "isi": "The v2 hash also covers five flags of the refusal gate (ood_query_expansion, cps_require_semantic_match, lexical_evidence_min_ratio, lexical_evidence_min_terms, retrieval_pool_size). Their values are the same under v1 (29985f321e32), so results under v1 and v2 are comparable.",
+    "v1": "29985f321e32"
+  },
+  "catatan_v3": {
+    "ditulis": "2026-09-06",
+    "apa_ini": "Five settings that affect the ranking but sit outside the BEHAVIOR_FLAGS hash. They are listed here so their values can be checked.",
+    "nilai_beku": {
+      "cps_prox_semester_mode": "asymmetric",
+      "cps_prox_asym_cross_dept": true,
+      "cps_zero_sim_not_candidate": true,
+      "strict_min_sim": 0.45,
+      "socratic_min_sim": 0.25
+    },
+    "konsekuensi": "A change to a hashed field moves the fingerprint, and a change to one of these five settings does not."
+  }
+}

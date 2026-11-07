@@ -1,0 +1,853 @@
+{
+ "dibuat": "2026-10-03T05:00:51.100608+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "praregistrasi": "result/paper_q2/PRAREGISTRASI_TANGGA_ADENDUM5_PERMUKAAN.md",
+ "_apa_ini": "Surface-form ladder. It separates the wording of the program label from whether the label and the instruction share a language, and adds a ladder on the semester field.",
+ "kontras_penentu": "p1 against p2. Both use an English instruction that names the program; they differ only in the language of the label.",
+ "kunci_buta_struktural": 48,
+ "uji": "Exact paired McNemar against the text-labeled cell without a profile, which sits at the key by construction, and against the anchor of each ladder. Holm within the family of six models. No test against 0.5.",
+ "label_source": "deterministic (gold matching, no rater)",
+ "sel_belum_ada": [],
+ "papan": {
+  "0.6B": {
+   "buta_berlabel": {
+    "menang": 48,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_default_docmeta.jsonl"
+   },
+   "a_kode_instruksi_kode": {
+    "menang": 71,
+    "n": 96,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta_fieldprogram.jsonl",
+    "sha256": "a074b205391d9735ba6673b874bf0fc7954035e475ef5b80e83c33fe312de19a",
+    "beku": true
+   },
+   "s1_semester_saja": {
+    "menang": 78,
+    "n": 96,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta_fieldsemester.jsonl",
+    "sha256": "3a54638b2942191c68805cfd80e62e597e5a111041c0d9818c77980fb6ba830d",
+    "beku": true
+   },
+   "p1_nama_en": {
+    "judul": "p1. English program-name label",
+    "menang": 73,
+    "n": 96,
+    "jarak_ke_kunci_buta": 25,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-0.6B_tanggaP1_profile_nama_en_docmeta.jsonl",
+    "sha256": "d683e5d3553294a9d2c172f648a12f237aface0edef0d6ed4b1300a1744cc227",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 27,
+     "diskordan_turun": 2,
+     "p_mcnemar_eksak": 2e-06,
+     "p_holm_keluarga_enam": 8e-06,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 3,
+     "diskordan_turun": 1,
+     "p_mcnemar_eksak": 0.625,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "p2_nama_id": {
+    "judul": "p2. Indonesian program-name label",
+    "menang": 60,
+    "n": 96,
+    "jarak_ke_kunci_buta": 12,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-0.6B_tanggaP2_profile_nama_en_docmeta.jsonl",
+    "sha256": "90717f7a54d0a9c6bbf473ee2eabe3a0019cb3857816fc33bbabb0ae01792366",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 17,
+     "diskordan_turun": 5,
+     "p_mcnemar_eksak": 0.016901,
+     "p_holm_keluarga_enam": 0.050703,
+     "signifikan_0.05": false
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 1,
+     "diskordan_turun": 12,
+     "p_mcnemar_eksak": 0.003418,
+     "p_holm_keluarga_enam": 0.010308,
+     "signifikan_0.05": true
+    }
+   },
+   "p3_kode": {
+    "judul": "p3. program code label",
+    "menang": 67,
+    "n": 96,
+    "jarak_ke_kunci_buta": 19,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-0.6B_tanggaP3_profile_nama_en_docmeta.jsonl",
+    "sha256": "0b7025a9ae1d8aae86bbbce5649501119031139a4749e665919dcebba15d88cd",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 21,
+     "diskordan_turun": 2,
+     "p_mcnemar_eksak": 6.6e-05,
+     "p_holm_keluarga_enam": 0.000264,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 1,
+     "diskordan_turun": 5,
+     "p_mcnemar_eksak": 0.21875,
+     "p_holm_keluarga_enam": 0.65625,
+     "signifikan_0.05": false
+    }
+   },
+   "s2_semester_kata": {
+    "judul": "s2. semester as a word",
+    "menang": 77,
+    "n": 96,
+    "jarak_ke_kunci_buta": 29,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-0.6B_tanggaS2_profile_docmeta.jsonl",
+    "sha256": "e3a79ffafe5ffc7bcec39e95cd41501bdfd48c05455be0bc2d7e6c2ce1060cc0",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 29,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 2,
+     "diskordan_turun": 3,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "s3_semester_opak": {
+    "judul": "s3. opaque term code",
+    "menang": 48,
+    "n": 96,
+    "jarak_ke_kunci_buta": 0,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-0.6B_tanggaS3_profile_docmeta.jsonl",
+    "sha256": "13ec091b5a3a3cdf8107f54828f5b1eda9de3e70637676ae40c60a76cb1208a5",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 8,
+     "diskordan_turun": 8,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 30,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    }
+   }
+  },
+  "4B": {
+   "buta_berlabel": {
+    "menang": 48,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-4B_paired_default_docmeta.jsonl"
+   },
+   "a_kode_instruksi_kode": {
+    "menang": 73,
+    "n": 96,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta_fieldprogram.jsonl",
+    "sha256": "38d9011643b6f969560d3888816bf568108083f91fc4c42a8c9ca253be1bc54f",
+    "beku": true
+   },
+   "s1_semester_saja": {
+    "menang": 84,
+    "n": 96,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta_fieldsemester.jsonl",
+    "sha256": "2f81ac9b3533c5c4d0770a022f8a0dee99c5ad5570238f99466bb16da7f9be8f",
+    "beku": true
+   },
+   "p1_nama_en": {
+    "judul": "p1. English program-name label",
+    "menang": 68,
+    "n": 96,
+    "jarak_ke_kunci_buta": 20,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-4B_tanggaP1_profile_nama_en_docmeta.jsonl",
+    "sha256": "7b9b3072b9647327b7438a93cb124bd7f43510e1ca86642b83cf453188524bb7",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 26,
+     "diskordan_turun": 6,
+     "p_mcnemar_eksak": 0.000535,
+     "p_holm_keluarga_enam": 0.001605,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 2,
+     "diskordan_turun": 7,
+     "p_mcnemar_eksak": 0.179688,
+     "p_holm_keluarga_enam": 0.718752,
+     "signifikan_0.05": false
+    }
+   },
+   "p2_nama_id": {
+    "judul": "p2. Indonesian program-name label",
+    "menang": 59,
+    "n": 96,
+    "jarak_ke_kunci_buta": 11,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-4B_tanggaP2_profile_nama_en_docmeta.jsonl",
+    "sha256": "02786188c523982ed06945d0202bb544fef05174f951a6caf47271e7860e6d92",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 13,
+     "diskordan_turun": 2,
+     "p_mcnemar_eksak": 0.007385,
+     "p_holm_keluarga_enam": 0.02954,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 3,
+     "diskordan_turun": 17,
+     "p_mcnemar_eksak": 0.002577,
+     "p_holm_keluarga_enam": 0.010308,
+     "signifikan_0.05": true
+    }
+   },
+   "p3_kode": {
+    "judul": "p3. program code label",
+    "menang": 57,
+    "n": 96,
+    "jarak_ke_kunci_buta": 9,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-4B_tanggaP3_profile_nama_en_docmeta.jsonl",
+    "sha256": "5b321b0e349f2d350a705324a3991287713dfe5cc140dd8f847867ce3d713e1b",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 11,
+     "diskordan_turun": 2,
+     "p_mcnemar_eksak": 0.022461,
+     "p_holm_keluarga_enam": 0.067383,
+     "signifikan_0.05": false
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 3,
+     "diskordan_turun": 19,
+     "p_mcnemar_eksak": 0.000855,
+     "p_holm_keluarga_enam": 0.00342,
+     "signifikan_0.05": true
+    }
+   },
+   "s2_semester_kata": {
+    "judul": "s2. semester as a word",
+    "menang": 84,
+    "n": 96,
+    "jarak_ke_kunci_buta": 36,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-4B_tanggaS2_profile_docmeta.jsonl",
+    "sha256": "75328c3666d2665dc2aa48b4f3a21334b9c82dc3196e094825048a45c3cb71d5",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 36,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 1,
+     "diskordan_turun": 1,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "s3_semester_opak": {
+    "judul": "s3. opaque term code",
+    "menang": 47,
+    "n": 96,
+    "jarak_ke_kunci_buta": -1,
+    "berkas": "scores_qwen3rr_Qwen3-Reranker-4B_tanggaS3_profile_docmeta.jsonl",
+    "sha256": "11d8bff532b44b30b59c4e6a5263b0871321a43584d0f953aa23be592cf7f0c8",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 10,
+     "diskordan_turun": 11,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 37,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    }
+   }
+  },
+  "zerank-2": {
+   "buta_berlabel": {
+    "menang": 48,
+    "berkas": "scores_zerank2official_zerank-2_paired_default_docmeta.jsonl"
+   },
+   "a_kode_instruksi_kode": {
+    "menang": 85,
+    "n": 96,
+    "berkas": "scores_zerank2official_zerank-2_paired_profile_docmeta_fieldprogram.jsonl",
+    "sha256": "e34a28fa979f116baf3ccfec8a2b654dd24ff7ce43c5c6e378aa37e6ee683628",
+    "beku": true
+   },
+   "s1_semester_saja": {
+    "menang": 93,
+    "n": 96,
+    "berkas": "scores_zerank2official_zerank-2_paired_profile_docmeta_fieldsemester.jsonl",
+    "sha256": "e6bbfb043563a4df70cee70c4f35b55b3837c2c1b219685c9ac4fc569ffe840e",
+    "beku": true
+   },
+   "p1_nama_en": {
+    "judul": "p1. English program-name label",
+    "menang": 78,
+    "n": 96,
+    "jarak_ke_kunci_buta": 30,
+    "berkas": "scores_zerank2official_zerank-2_tanggaP1_profile_nama_en_docmeta.jsonl",
+    "sha256": "16719b10253ecaacd758af2a7f5d66a6b457b6f0bc74fffe20dcd52f77170020",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 30,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 7,
+     "p_mcnemar_eksak": 0.015625,
+     "p_holm_keluarga_enam": 0.09375,
+     "signifikan_0.05": false
+    }
+   },
+   "p2_nama_id": {
+    "judul": "p2. Indonesian program-name label",
+    "menang": 67,
+    "n": 96,
+    "jarak_ke_kunci_buta": 19,
+    "berkas": "scores_zerank2official_zerank-2_tanggaP2_profile_nama_en_docmeta.jsonl",
+    "sha256": "1d492b431177d10a9bbeabbd01f42892dcf9d237d29ad319a4af168aab3d84a7",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 19,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 4e-06,
+     "p_holm_keluarga_enam": 2e-05,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 18,
+     "p_mcnemar_eksak": 8e-06,
+     "p_holm_keluarga_enam": 4.8e-05,
+     "signifikan_0.05": true
+    }
+   },
+   "p3_kode": {
+    "judul": "p3. program code label",
+    "menang": 66,
+    "n": 96,
+    "jarak_ke_kunci_buta": 18,
+    "berkas": "scores_zerank2official_zerank-2_tanggaP3_profile_nama_en_docmeta.jsonl",
+    "sha256": "801b787bfd657cf4720c32771855c6a102e19154d783901d41493d12720409e8",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 18,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 8e-06,
+     "p_holm_keluarga_enam": 4e-05,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 19,
+     "p_mcnemar_eksak": 4e-06,
+     "p_holm_keluarga_enam": 2.4e-05,
+     "signifikan_0.05": true
+    }
+   },
+   "s2_semester_kata": {
+    "judul": "s2. semester as a word",
+    "menang": 94,
+    "n": 96,
+    "jarak_ke_kunci_buta": 46,
+    "berkas": "scores_zerank2official_zerank-2_tanggaS2_profile_docmeta.jsonl",
+    "sha256": "e134c245193d2c8500d6ca6380536ecd153a947706caeca87be18f19827c4f74",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 46,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 1,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "s3_semester_opak": {
+    "judul": "s3. opaque term code",
+    "menang": 49,
+    "n": 96,
+    "jarak_ke_kunci_buta": 1,
+    "berkas": "scores_zerank2official_zerank-2_tanggaS3_profile_docmeta.jsonl",
+    "sha256": "8f06a60e30e234921fe78d1d1d825ecd58162987fd303b706d5f3c7ab6b0881f",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 8,
+     "diskordan_turun": 7,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 44,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    }
+   }
+  },
+  "FollowIR-7B": {
+   "buta_berlabel": {
+    "menang": 48,
+    "berkas": "scores_followir_FollowIR-7B_paired_text.jsonl"
+   },
+   "a_kode_instruksi_kode": {
+    "menang": 51,
+    "n": 96,
+    "berkas": "scores_followir_FollowIR-7B_paired_both_program.jsonl",
+    "sha256": "3865694f38c1adf9543230d898466516fa50703d6238cb047589b2bbb2788bce",
+    "beku": true
+   },
+   "s1_semester_saja": {
+    "menang": 91,
+    "n": 96,
+    "berkas": "scores_followir_FollowIR-7B_paired_both_semester.jsonl",
+    "sha256": "06603c3aaa3f96ad8b47637d55467ad53cb50e64ba96d2f27c15b3bb8bb71201",
+    "beku": true
+   },
+   "p1_nama_en": {
+    "judul": "p1. English program-name label",
+    "menang": 57,
+    "n": 96,
+    "jarak_ke_kunci_buta": 9,
+    "berkas": "scores_followir_FollowIR-7B_paired_label_en.jsonl",
+    "sha256": "9c1f4331951ec70bfc0dc811b8ee001084e8024e269e49888c2ce4dbc23b05f9",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 15,
+     "diskordan_turun": 6,
+     "p_mcnemar_eksak": 0.078354,
+     "p_holm_keluarga_enam": 0.156708,
+     "signifikan_0.05": false
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 7,
+     "diskordan_turun": 1,
+     "p_mcnemar_eksak": 0.070312,
+     "p_holm_keluarga_enam": 0.35156,
+     "signifikan_0.05": false
+    }
+   },
+   "p2_nama_id": {
+    "judul": "p2. Indonesian program-name label",
+    "menang": 51,
+    "n": 96,
+    "jarak_ke_kunci_buta": 3,
+    "berkas": "scores_followir_FollowIR-7B_paired_label_id_en.jsonl",
+    "sha256": "3d7f960a06481a2321d5b0ee40d3bf24f1abdda1229f508a44184f385ed858bc",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 10,
+     "diskordan_turun": 7,
+     "p_mcnemar_eksak": 0.629059,
+     "p_holm_keluarga_enam": 0.629059,
+     "signifikan_0.05": false
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 3,
+     "diskordan_turun": 3,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "p3_kode": {
+    "judul": "p3. program code label",
+    "menang": 50,
+    "n": 96,
+    "jarak_ke_kunci_buta": 2,
+    "berkas": "scores_followir_FollowIR-7B_paired_label_kode_en.jsonl",
+    "sha256": "59bb89c6c287a0e6c2b33fb8aece279c24e302e76a64b66be4cb47157b8700d0",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 9,
+     "diskordan_turun": 7,
+     "p_mcnemar_eksak": 0.803619,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 2,
+     "diskordan_turun": 3,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "s2_semester_kata": {
+    "judul": "s2. semester as a word",
+    "menang": 94,
+    "n": 96,
+    "jarak_ke_kunci_buta": 46,
+    "berkas": "scores_followir_FollowIR-7B_paired_sem_kata.jsonl",
+    "sha256": "c843de4bea136a896672e21019d7ae762d65ca635f304de6fac9d1e79d52ce69",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 46,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 3,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 0.25,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "s3_semester_opak": {
+    "judul": "s3. opaque term code",
+    "menang": 48,
+    "n": 96,
+    "jarak_ke_kunci_buta": 0,
+    "berkas": "scores_followir_FollowIR-7B_paired_sem_opak.jsonl",
+    "sha256": "090bbf337e0a907536e8980ebff181540e044d7b88fbc42f2d1e582cee74523a",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 8,
+     "diskordan_turun": 8,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 43,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    }
+   }
+  },
+  "ctxl-6B": {
+   "buta_berlabel": {
+    "menang": 48,
+    "berkas": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_text.jsonl"
+   },
+   "a_kode_instruksi_kode": {
+    "menang": 89,
+    "n": 96,
+    "berkas": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_program.jsonl",
+    "sha256": "3f2dd7fde2b177a3dd89a466c100bb61035d4452ae8aaea3c4e8652907efe308",
+    "beku": true
+   },
+   "s1_semester_saja": {
+    "menang": 96,
+    "n": 96,
+    "berkas": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_semester.jsonl",
+    "sha256": "c34875e504d61512ec4b88fff12ed9f7f3b4b63fd4a72e2ccd6c4afa4e637687",
+    "beku": true
+   },
+   "p1_nama_en": {
+    "judul": "p1. English program-name label",
+    "menang": 87,
+    "n": 96,
+    "jarak_ke_kunci_buta": 39,
+    "berkas": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_en.jsonl",
+    "sha256": "cfdd19b6a63363d14915b6de15064dd13fa095937ef0a5d3259c26b1e41fb38d",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 39,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 2,
+     "p_mcnemar_eksak": 0.5,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "p2_nama_id": {
+    "judul": "p2. Indonesian program-name label",
+    "menang": 74,
+    "n": 96,
+    "jarak_ke_kunci_buta": 26,
+    "berkas": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_id_en.jsonl",
+    "sha256": "32fdf0f8fb63e6eb09b3c76cb676dd29d1bc3be8e28ce526ed04f0541ef759ab",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 27,
+     "diskordan_turun": 1,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 15,
+     "p_mcnemar_eksak": 6.1e-05,
+     "p_holm_keluarga_enam": 0.000305,
+     "signifikan_0.05": true
+    }
+   },
+   "p3_kode": {
+    "judul": "p3. program code label",
+    "menang": 73,
+    "n": 96,
+    "jarak_ke_kunci_buta": 25,
+    "berkas": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_label_kode_en.jsonl",
+    "sha256": "fd890953363eeab2372e406d6f726f198b5365f63c2d8f7917b354606228351b",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 28,
+     "diskordan_turun": 3,
+     "p_mcnemar_eksak": 5e-06,
+     "p_holm_keluarga_enam": 3e-05,
+     "signifikan_0.05": true
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 16,
+     "p_mcnemar_eksak": 3.1e-05,
+     "p_holm_keluarga_enam": 0.000155,
+     "signifikan_0.05": true
+    }
+   },
+   "s2_semester_kata": {
+    "judul": "s2. semester as a word",
+    "menang": 96,
+    "n": 96,
+    "jarak_ke_kunci_buta": 48,
+    "berkas": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_sem_kata.jsonl",
+    "sha256": "fa91290af02f9e272892fb3b5987ccbec4c1e5a998945ec901ad9fb3cbc42658",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 48,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 0,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "s3_semester_opak": {
+    "judul": "s3. opaque term code",
+    "menang": 56,
+    "n": 96,
+    "jarak_ke_kunci_buta": 8,
+    "berkas": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_sem_opak.jsonl",
+    "sha256": "961701950d0bc77984400f6287469bc72d9b266b1132b5a298d9d89ee3da369d",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 15,
+     "diskordan_turun": 7,
+     "p_mcnemar_eksak": 0.133801,
+     "p_holm_keluarga_enam": 0.802806,
+     "signifikan_0.05": false
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 0,
+     "diskordan_turun": 40,
+     "p_mcnemar_eksak": 0.0,
+     "p_holm_keluarga_enam": 0.0,
+     "signifikan_0.05": true
+    }
+   }
+  },
+  "gemma": {
+   "buta_berlabel": {
+    "menang": 48,
+    "berkas": "scores_gemma_bge-reranker-v2-gemma_paired_text.jsonl"
+   },
+   "a_kode_instruksi_kode": {
+    "menang": 49,
+    "n": 96,
+    "berkas": "scores_gemma_bge-reranker-v2-gemma_paired_both_program.jsonl",
+    "sha256": "e3609b8b71ff2922bdaa4f59d72c0e29b6d831c87d19ddd6971184cf70fae0d2",
+    "beku": true
+   },
+   "s1_semester_saja": {
+    "menang": 51,
+    "n": 96,
+    "berkas": "scores_gemma_bge-reranker-v2-gemma_paired_both_semester.jsonl",
+    "sha256": "e61ad8cfb79a9d7278d629b4e00e6a37fcc2ad22609dfcdd8f837fd42fab34b6",
+    "beku": true
+   },
+   "p1_nama_en": {
+    "judul": "p1. English program-name label",
+    "menang": 45,
+    "n": 96,
+    "jarak_ke_kunci_buta": -3,
+    "berkas": "scores_gemma_bge-reranker-v2-gemma_paired_label_en.jsonl",
+    "sha256": "211811f226b9cc33aca122cad30b4ce0f35112ed5dd67f42221f81c4b7efb9e8",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 3,
+     "diskordan_turun": 6,
+     "p_mcnemar_eksak": 0.507812,
+     "p_holm_keluarga_enam": 0.507812,
+     "signifikan_0.05": false
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 2,
+     "diskordan_turun": 6,
+     "p_mcnemar_eksak": 0.289062,
+     "p_holm_keluarga_enam": 0.867186,
+     "signifikan_0.05": false
+    }
+   },
+   "p2_nama_id": {
+    "judul": "p2. Indonesian program-name label",
+    "menang": 44,
+    "n": 96,
+    "jarak_ke_kunci_buta": -4,
+    "berkas": "scores_gemma_bge-reranker-v2-gemma_paired_label_id_en.jsonl",
+    "sha256": "f794f1c3eedc55b2a9f679be17ae02875c3cb0f44c2061de03a81ba2ed7479d5",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 2,
+     "diskordan_turun": 6,
+     "p_mcnemar_eksak": 0.289062,
+     "p_holm_keluarga_enam": 0.578124,
+     "signifikan_0.05": false
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 2,
+     "diskordan_turun": 7,
+     "p_mcnemar_eksak": 0.179688,
+     "p_holm_keluarga_enam": 0.359376,
+     "signifikan_0.05": false
+    }
+   },
+   "p3_kode": {
+    "judul": "p3. program code label",
+    "menang": 47,
+    "n": 96,
+    "jarak_ke_kunci_buta": -1,
+    "berkas": "scores_gemma_bge-reranker-v2-gemma_paired_label_kode_en.jsonl",
+    "sha256": "359eaded80150b19b4e024af07cb3cd511f66f4df87275593b06717edab0da56",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 4,
+     "diskordan_turun": 5,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    },
+    "vs_a_kode_instruksi_kode": {
+     "n": 96,
+     "diskordan_naik": 3,
+     "diskordan_turun": 5,
+     "p_mcnemar_eksak": 0.726562,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "s2_semester_kata": {
+    "judul": "s2. semester as a word",
+    "menang": 47,
+    "n": 96,
+    "jarak_ke_kunci_buta": -1,
+    "berkas": "scores_gemma_bge-reranker-v2-gemma_paired_sem_kata.jsonl",
+    "sha256": "7918bfb5dd3deaeda91f7f2c17e8a8576740a2987781e918b2079f3ef42ae2a7",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 7,
+     "diskordan_turun": 8,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 3,
+     "diskordan_turun": 7,
+     "p_mcnemar_eksak": 0.34375,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    }
+   },
+   "s3_semester_opak": {
+    "judul": "s3. opaque term code",
+    "menang": 48,
+    "n": 96,
+    "jarak_ke_kunci_buta": 0,
+    "berkas": "scores_gemma_bge-reranker-v2-gemma_paired_sem_opak.jsonl",
+    "sha256": "45f6c5364974ac8792947e778941a56dc3df3f8cdea8e65f39c8287255554a7b",
+    "vs_buta": {
+     "n": 96,
+     "diskordan_naik": 5,
+     "diskordan_turun": 5,
+     "p_mcnemar_eksak": 1.0,
+     "p_holm_keluarga_enam": 1.0,
+     "signifikan_0.05": false
+    },
+    "vs_s1_semester_saja": {
+     "n": 96,
+     "diskordan_naik": 2,
+     "diskordan_turun": 5,
+     "p_mcnemar_eksak": 0.453125,
+     "p_holm_keluarga_enam": 0.453125,
+     "signifikan_0.05": false
+    }
+   }
+  }
+ }
+}

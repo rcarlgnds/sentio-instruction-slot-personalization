@@ -1,0 +1,12 @@
+{
+  "run_id": "paired_set_20260809T044721Z",
+  "script": "result/novelty_1_dits/scripts/t2_paired_hardset.py",
+  "sumber": "<workstation>/src/ai/data/paired_set/eval_paired.json",
+  "label_source": "deterministic",
+  "output": {
+    "path": "results/raw/eval_paired.json",
+    "sha256": "6243bb86c553d603cc2e929e08560b5a2d1bf1ff12e4afcbbec3c032b898d988",
+    "tingkat_reproduksi": "1_bit_identical"
+  },
+  "catatan": "52 pasang, arm A S1 S2 B C D. Dilaporkan terpisah dari benchmark utama."
+}

@@ -1,0 +1,164 @@
+{
+ "dibuat": "2026-10-03T05:00:46.808791+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "_apa_ini": "Internal scale for the FollowIR p-MRR values. The reference is FollowIR-7B, the model the authors of that benchmark trained to follow search instructions, measured through the same harness as the five other models.",
+ "yang_tidak_dilakukan": "Our numbers are not compared with the tables of the FollowIR paper. Those come from other models over another first stage, and the paper declines cross-setting comparisons elsewhere for the same reason.",
+ "acuan": "FollowIR-7B",
+ "n_sel": 18,
+ "n_sel_positif": 18,
+ "model_yang_melebihi_acuan": {
+  "Core17": [],
+  "News21": [
+   "Qwen3-Reranker-4B"
+  ],
+  "Robust04": [
+   "Qwen3-Reranker-4B"
+  ]
+ },
+ "setelan_seragam": {
+  "kandidat_per_kueri": [
+   1000
+  ],
+  "implementasi_metrik": [
+   "imported unchanged from followir.py (adapted from MTEB, see NOTICE.md)"
+  ],
+  "seragam": true
+ },
+ "setelan_per_koleksi": {
+  "Core17": {
+   "berkas": "followir_Core17_followir_FollowIR-7B.json",
+   "sha256": "0110adb81ca9cc8286c1aa4cc5d7b65827e875484f5dc90dbe481316e198e324",
+   "n_kueri": 40,
+   "kandidat_per_kueri": 1000,
+   "dataset": "mteb/Core17InstructionRetrieval",
+   "implementasi_metrik": "imported unchanged from followir.py (adapted from MTEB, see NOTICE.md)",
+   "dtype": "bfloat16"
+  },
+  "News21": {
+   "berkas": "followir_News21_followir_FollowIR-7B.json",
+   "sha256": "3ef568e3796599628b5fd753375b4cb4f1be7566c76cc9d23a0173a03ebf07eb",
+   "n_kueri": 64,
+   "kandidat_per_kueri": 1000,
+   "dataset": "mteb/News21InstructionRetrieval",
+   "implementasi_metrik": "imported unchanged from followir.py (adapted from MTEB, see NOTICE.md)",
+   "dtype": "bfloat16"
+  },
+  "Robust04": {
+   "berkas": "followir_Robust04_followir_FollowIR-7B.json",
+   "sha256": "e99a575915ce988d74e5a498b6fb748cded1f2f2c6dd7c3f60e3ded1d5555592",
+   "n_kueri": 104,
+   "kandidat_per_kueri": 1000,
+   "dataset": "mteb/Robust04InstructionRetrieval",
+   "implementasi_metrik": "imported unchanged from followir.py (adapted from MTEB, see NOTICE.md)",
+   "dtype": "bfloat16"
+  }
+ },
+ "papan": {
+  "Core17": {
+   "acuan_p_mrr": 0.13993,
+   "model": {
+    "Qwen3-Reranker-0.6B": {
+     "p_mrr": 0.038789,
+     "positif": true,
+     "pangsa_dari_acuan": 0.2772
+    },
+    "Qwen3-Reranker-4B": {
+     "p_mrr": 0.103373,
+     "positif": true,
+     "pangsa_dari_acuan": 0.7387
+    },
+    "zerank-2": {
+     "p_mrr": 0.109068,
+     "positif": true,
+     "pangsa_dari_acuan": 0.7794
+    },
+    "FollowIR-7B": {
+     "p_mrr": 0.13993,
+     "positif": true,
+     "pangsa_dari_acuan": 1.0
+    },
+    "ctxl-6B": {
+     "p_mrr": 0.132736,
+     "positif": true,
+     "pangsa_dari_acuan": 0.9486
+    },
+    "bge-reranker-v2-gemma": {
+     "p_mrr": 0.012519,
+     "positif": true,
+     "pangsa_dari_acuan": 0.0895
+    }
+   }
+  },
+  "News21": {
+   "acuan_p_mrr": 0.049032,
+   "model": {
+    "Qwen3-Reranker-0.6B": {
+     "p_mrr": 0.02358,
+     "positif": true,
+     "pangsa_dari_acuan": 0.4809
+    },
+    "Qwen3-Reranker-4B": {
+     "p_mrr": 0.060443,
+     "positif": true,
+     "pangsa_dari_acuan": 1.2327
+    },
+    "zerank-2": {
+     "p_mrr": 0.024571,
+     "positif": true,
+     "pangsa_dari_acuan": 0.5011
+    },
+    "FollowIR-7B": {
+     "p_mrr": 0.049032,
+     "positif": true,
+     "pangsa_dari_acuan": 1.0
+    },
+    "ctxl-6B": {
+     "p_mrr": 0.032419,
+     "positif": true,
+     "pangsa_dari_acuan": 0.6612
+    },
+    "bge-reranker-v2-gemma": {
+     "p_mrr": 0.020687,
+     "positif": true,
+     "pangsa_dari_acuan": 0.4219
+    }
+   }
+  },
+  "Robust04": {
+   "acuan_p_mrr": 0.135014,
+   "model": {
+    "Qwen3-Reranker-0.6B": {
+     "p_mrr": 0.062634,
+     "positif": true,
+     "pangsa_dari_acuan": 0.4639
+    },
+    "Qwen3-Reranker-4B": {
+     "p_mrr": 0.146571,
+     "positif": true,
+     "pangsa_dari_acuan": 1.0856
+    },
+    "zerank-2": {
+     "p_mrr": 0.064514,
+     "positif": true,
+     "pangsa_dari_acuan": 0.4778
+    },
+    "FollowIR-7B": {
+     "p_mrr": 0.135014,
+     "positif": true,
+     "pangsa_dari_acuan": 1.0
+    },
+    "ctxl-6B": {
+     "p_mrr": 0.125221,
+     "positif": true,
+     "pangsa_dari_acuan": 0.9275
+    },
+    "bge-reranker-v2-gemma": {
+     "p_mrr": 0.049093,
+     "positif": true,
+     "pangsa_dari_acuan": 0.3636
+    }
+   }
+  }
+ },
+ "label_source": "deterministic (p-MRR metric, no rater)"
+}

@@ -1,0 +1,17 @@
+{
+ "run_id": "benchmark_composition_20260905T050413Z",
+ "script": "result/novelty_1_dits/scripts/t2_benchmark_composition.py",
+ "config_version": "0a7b2e4de856",
+ "label_source": "deterministic",
+ "sumber": {
+  "qrels_dev": "d405b9ee82e84906507701e033d7db46a9a225fe2b5b8e443041ded78f3bdbb9",
+  "qrels_traindev": "cd64853fc5fc4d09d1df8bf5d08a80916a237d856f70f411b6dd0f0ae7d30a28",
+  "qrels_test_holdout": "091812efbf283014636a82d5c03a1ad9c3e2b149c8d1588815404b37f5139609",
+  "split_manifest": "139f297d9a528d5da206e83b214c0f9c393c639356a6aa6ec1094d4614367f57"
+ },
+ "output": {
+  "path": "results/tables/benchmark_composition.json",
+  "sha256": "49acd2f9dee2040115de6a68ac3ec2f221f4c9ebf42e7c1fb73211338b6442c3",
+  "tingkat_reproduksi": "1_bit_identical kecuali timestamp"
+ }
+}

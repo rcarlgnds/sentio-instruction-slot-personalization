@@ -1,0 +1,142 @@
+[
+ {
+  "query_id": "ctrl-0-contoh",
+  "kueri": "Explain 8.3 A Population Proportion",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-1-contoh",
+  "kueri": "Explain USING THE TI-83, 83+, 84, 84+ CALCULATOR",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-2-contoh",
+  "kueri": "Explain 11.5 Comparison of the Chi-Square Tests",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-3-contoh",
+  "kueri": "Explain Exercises",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-4-contoh",
+  "kueri": "Explain Transformation to Normality",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-5-contoh",
+  "kueri": "Explain Solution",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-6-contoh",
+  "kueri": "Explain 11.2 Goodness-of-Fit Test",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-7-contoh",
+  "kueri": "Explain 13.4 Test of Two Variances",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-8-contoh",
+  "kueri": "Explain 3.3 Two Basic Rules of Probability",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-9-contoh",
+  "kueri": "Explain Key Terms",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-10-contoh",
+  "kueri": "Explain Learning Objectives Introduction",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-11-contoh",
+  "kueri": "Explain 9.1 Null and Alternative Hypotheses",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-12-contoh",
+  "kueri": "Explain 3.1 Terminology",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-13-contoh",
+  "kueri": "Explain 4.4 Geometric Distribution",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-14-contoh",
+  "kueri": "Explain 47 . 4",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-15-contoh",
+  "kueri": "Explain 7.1 The Central Limit Theorem for Sample Means (Averages)",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-16-contoh",
+  "kueri": "Explain What do you think?",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-17-contoh",
+  "kueri": "Explain COLLABORATIVE EXERCISE",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-18-contoh",
+  "kueri": "Explain 9.4 Rare Events, the Sample, Decision and Conclusion",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ },
+ {
+  "query_id": "ctrl-19-contoh",
+  "kueri": "Explain Prerequisites",
+  "kondisi": "contoh",
+  "gold_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files",
+  "counterpart_cuplikan": "excerpt removed in the release; the chunk is identified by query_id and the score files"
+ }
+]

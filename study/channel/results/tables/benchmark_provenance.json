@@ -1,0 +1,46 @@
+{
+ "dibuat": "2026-09-24T14:44:36.983239+00:00",
+ "_apa_ini": "Origin of the 2,776 accepted benchmark queries: model, backend, template version, generation period, QC gate protocol, annotation status, and split.",
+ "n_kueri_diterima": 2776,
+ "model": {
+  "claude-fable-5": 2776
+ },
+ "backend": {
+  "fable5-ultracode-batch": 2776
+ },
+ "versi_templat": {
+  "rads-t1.2": 14,
+  "rads-t1.3": 73,
+  "rads-t1.4": 2689
+ },
+ "generasi_paling_awal_utc": "2026-07-25T02:07:42.084090+00:00",
+ "generasi_paling_akhir_utc": "2026-08-02T14:36:09+00:00",
+ "protokol_gerbang_qc": {
+  "v1-cps-gate": 1412,
+  "v2-multiarm": 1364
+ },
+ "top_cps_minimum_per_protokol": {
+  "v1-cps-gate": 0.5502,
+  "v2-multiarm": 0.15
+ },
+ "status_anotasi": {
+  "synthetic_unvalidated": 2776
+ },
+ "split": {
+  "train": 2219,
+  "test_holdout": 283,
+  "dev": 274
+ },
+ "kelas": {
+  "adversarial_routing": 750,
+  "prerequisite_chain_depth": 526,
+  "temporal_scope_drift": 750,
+  "multi_disciplinary_ambiguity": 750
+ },
+ "kode_di_paper1_code": {
+  "templat_prompt": "system/app/benchmark/rads_synthesis/templates.py",
+  "gerbang_qc": "system/app/benchmark/rads_synthesis/qc.py",
+  "pipeline": "system/app/benchmark/rads_synthesis/pipeline.py"
+ },
+ "label_source": "deterministic (generation and QC metadata stored with each query)"
+}

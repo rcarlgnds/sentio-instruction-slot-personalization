@@ -1,0 +1,11 @@
+{
+  "run_id": "followir_News21_qwen3rr_Qwen3-Reranker-0.6B_20260823T011611Z",
+  "script": "result/paper_q2/scripts/q2_followir.py",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_followir.py --dataset News21 --family qwen3rr --model Qwen/Qwen3-Reranker-0.6B --dtype float16 --batch 4 --max-len 1024",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal",
+  "output": {
+    "path": "results/tables/followir_News21_qwen3rr_Qwen3-Reranker-0.6B.json",
+    "sha256": "9ce77c4c768a2a8a6daccd95564d723203996d9484985572bf725543561b059b"
+  }
+}

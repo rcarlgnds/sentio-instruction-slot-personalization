@@ -1,0 +1,749 @@
+{
+ "created": "2026-10-13T19:24:27.568605+00:00",
+ "script": "result/paper_q2/scripts/q2_r1_analisis.py",
+ "section": "gemma_vendor",
+ "preregistration": {
+  "path": "result/paper_q2/PRAREGISTRASI_R1_IJIES.md",
+  "sha256": "3bfe129e05b9ddebee6d9597834205253d6adceba65227f6440bf98b88e55119"
+ },
+ "analysis_status": "pre-registered",
+ "seed": 20261012,
+ "inputs": {
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_none.jsonl": "76df6ab662a594386eb554a1bec7b83cee7b5529c5d0d96f9dafcb51374a1125",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_slot_vendor.jsonl": "0b7348db8d514d49a2b47b499f3f89e10e2180851651b3fdef314d31ff8fcc52",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_paired_both_vendor.jsonl": "88688600777a84b2ecd3bff218d739c771b1f81fea02928b13746e9ec548cdc1",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_paired_wrong_vendor.jsonl": "1754116d19e6dfe78e0fba06ef7a27e3443e3b5022ce79d59948871ee941feee",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_slot.jsonl": "dc30a7849d50a173a35e724fd6d4f5af3e5da0c938619df6f72448a4e74aa98d",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_both.jsonl": "cac99cdd5ff59bcf65dd8e19b2bb060b84e98cd428db7a6ce3005420913c290f",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_none.jsonl": "4c3dcc63206d6108a361c4f5b3872a60a508d92387a4d849c74415169ee9c14e",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_xpair_slot_vendor.jsonl": "4681da9b74564b9a96069fa222092b3dabb41ba751b73694e7c2eca1d0723497",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_xpair_both_vendor.jsonl": "b040a0b7a7ca6201d86eab5c93f4332c6e2c29a21160e7e82fe79161b2eb0a32",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_xpair_wrong_vendor.jsonl": "673e2d82042303b8a0cc7ce422df6c229e4122203668d3552a57e9537b7f3cfa",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_slot.jsonl": "50f94ee1733be7193a0522146516658848a40e6817aa6e00c2ab160d5aca9318",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_both.jsonl": "b7df87b687d306c7b7257558a97246a943e8226bd41f691ce4f345ad245a2e78"
+ },
+ "label_source": "deterministic (gold matching, no judge)",
+ "what": "bge-gemma with the profile inside a README-form prompt that ends with the documented Yes/No request",
+ "tracks": {
+  "paired": {
+   "documented_placement": {
+    "slot_vendor_vs_none": {
+     "n_rows": 96,
+     "n_groups": 48,
+     "groups_nonzero": 4,
+     "resolved_A": 48,
+     "resolved_B": 46,
+     "B_only": 3,
+     "A_only": 5,
+     "d": -0.020833,
+     "p_mcnemar_exact": 0.726562,
+     "p_signflip_group": 0.625,
+     "signflip_method": "enumeration",
+     "signflip_draws": 16,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.078429,
+      0.042523
+     ],
+     "row_wald": [
+      -0.078429,
+      0.036762
+     ],
+     "row_exact": [
+      -0.069128,
+      0.042523
+     ],
+     "row_tango": [
+      -0.090276,
+      0.044186
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.062745,
+      0.021078
+     ],
+     "group_interval_method": "CR1 with t(47), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.0625,
+      0.020833
+     ],
+     "group_cr1_interval": [
+      -0.061666,
+      0.019999
+     ],
+     "largest_gain_pp": 4.252,
+     "largest_loss_pp": 7.843,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 3,
+      "alpha_each": 0.016667,
+      "row_interval": [
+       -0.091183,
+       0.051632
+      ],
+      "row_wald": [
+       -0.091183,
+       0.049516
+      ],
+      "row_exact": [
+       -0.073839,
+       0.051632
+      ],
+      "row_tango": [
+       -0.11028,
+       0.063358
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.072556,
+       0.030889
+      ],
+      "group_interval_method": "CR1 with t(47), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.072917,
+       0.020833
+      ],
+      "group_cr1_interval": [
+       -0.070708,
+       0.029041
+      ],
+      "largest_gain_pp": 5.163,
+      "largest_loss_pp": 9.118
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    },
+    "both_vendor_vs_slot_vendor": {
+     "n_rows": 96,
+     "n_groups": 48,
+     "groups_nonzero": 5,
+     "resolved_A": 46,
+     "resolved_B": 49,
+     "B_only": 5,
+     "A_only": 2,
+     "d": 0.03125,
+     "p_mcnemar_exact": 0.453125,
+     "p_signflip_group": 0.375,
+     "signflip_method": "enumeration",
+     "signflip_draws": 32,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.030564,
+      0.084903
+     ],
+     "row_wald": [
+      -0.022403,
+      0.084903
+     ],
+     "row_exact": [
+      -0.030564,
+      0.067566
+     ],
+     "row_tango": [
+      -0.028592,
+      0.098901
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.015208,
+      0.077708
+     ],
+     "group_interval_method": "CR1 with t(47), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.010417,
+      0.072917
+     ],
+     "group_cr1_interval": [
+      -0.014012,
+      0.076512
+     ],
+     "largest_gain_pp": 8.49,
+     "largest_loss_pp": 3.056,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 3,
+      "alpha_each": 0.016667,
+      "row_interval": [
+       -0.039814,
+       0.096785
+      ],
+      "row_wald": [
+       -0.034285,
+       0.096785
+      ],
+      "row_exact": [
+       -0.039814,
+       0.06991
+      ],
+      "row_tango": [
+       -0.047096,
+       0.118765
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.026084,
+       0.088584
+      ],
+      "group_interval_method": "CR1 with t(47), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.020833,
+       0.083333
+      ],
+      "group_cr1_interval": [
+       -0.024035,
+       0.086535
+      ],
+      "largest_gain_pp": 9.678,
+      "largest_loss_pp": 3.981
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    },
+    "wrong_vendor_vs_both_vendor": {
+     "n_rows": 96,
+     "n_groups": 48,
+     "groups_nonzero": 2,
+     "resolved_A": 49,
+     "resolved_B": 49,
+     "B_only": 2,
+     "A_only": 2,
+     "d": 0.0,
+     "p_mcnemar_exact": 1.0,
+     "p_signflip_group": 1.0,
+     "signflip_method": "enumeration",
+     "signflip_draws": 4,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.040833,
+      0.040833
+     ],
+     "row_wald": [
+      -0.040833,
+      0.040833
+     ],
+     "row_exact": [
+      -0.036035,
+      0.036035
+     ],
+     "row_tango": [
+      -0.054971,
+      0.054971
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.029949,
+      0.029949
+     ],
+     "group_interval_method": "CR1 with t(47), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.03125,
+      0.03125
+     ],
+     "group_cr1_interval": [
+      -0.029179,
+      0.029179
+     ],
+     "largest_gain_pp": 4.083,
+     "largest_loss_pp": 4.083,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 3,
+      "alpha_each": 0.016667,
+      "row_interval": [
+       -0.049875,
+       0.049875
+      ],
+      "row_wald": [
+       -0.049875,
+       0.049875
+      ],
+      "row_exact": [
+       -0.03848,
+       0.03848
+      ],
+      "row_tango": [
+       -0.073409,
+       0.073409
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.036961,
+       0.036961
+      ],
+      "group_interval_method": "CR1 with t(47), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.041667,
+       0.03125
+      ],
+      "group_cr1_interval": [
+       -0.03564,
+       0.03564
+      ],
+      "largest_gain_pp": 4.987,
+      "largest_loss_pp": 4.987
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    }
+   },
+   "appended_prompt_reference": {
+    "slot_vs_none_appended_prompt": {
+     "n_rows": 96,
+     "n_groups": 48,
+     "groups_nonzero": 7,
+     "resolved_A": 48,
+     "resolved_B": 43,
+     "B_only": 2,
+     "A_only": 7,
+     "d": -0.052083,
+     "p_mcnemar_exact": 0.179688,
+     "p_signflip_group": 0.125,
+     "signflip_method": "enumeration",
+     "signflip_draws": 128,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.11244,
+      0.018768
+     ],
+     "row_wald": [
+      -0.11244,
+      0.008273
+     ],
+     "row_exact": [
+      -0.088473,
+      0.018768
+     ],
+     "row_tango": [
+      -0.125812,
+      0.011169
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.105989,
+      0.001822
+     ],
+     "group_interval_method": "CR1 with t(47), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.104167,
+      0.0
+     ],
+     "group_cr1_interval": [
+      -0.104601,
+      0.000435
+     ],
+     "largest_gain_pp": 1.877,
+     "largest_loss_pp": 11.244,
+     "alpha": 0.05
+    },
+    "both_vs_slot_appended_prompt": {
+     "n_rows": 96,
+     "n_groups": 48,
+     "groups_nonzero": 12,
+     "resolved_A": 43,
+     "resolved_B": 49,
+     "B_only": 13,
+     "A_only": 7,
+     "d": 0.0625,
+     "p_mcnemar_exact": 0.263176,
+     "p_signflip_group": 0.145996,
+     "signflip_method": "enumeration",
+     "signflip_draws": 4096,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.038412,
+      0.152944
+     ],
+     "row_wald": [
+      -0.027944,
+      0.152944
+     ],
+     "row_exact": [
+      -0.038412,
+      0.144204
+     ],
+     "row_tango": [
+      -0.030837,
+      0.158869
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.008531,
+      0.133531
+     ],
+     "group_interval_method": "CR1 with t(47), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.010417,
+      0.125
+     ],
+     "group_cr1_interval": [
+      -0.006703,
+      0.131703
+     ],
+     "largest_gain_pp": 15.294,
+     "largest_loss_pp": 3.841,
+     "alpha": 0.05
+    }
+   }
+  },
+  "broad_original": {
+   "documented_placement": {
+    "slot_vendor_vs_none": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 3,
+     "resolved_A": 600,
+     "resolved_B": 601,
+     "B_only": 4,
+     "A_only": 3,
+     "d": 0.000617,
+     "p_mcnemar_exact": 1.0,
+     "p_signflip_group": 1.0,
+     "signflip_method": "enumeration",
+     "signflip_draws": 8,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.002729,
+      0.003816
+     ],
+     "row_wald": [
+      -0.002582,
+      0.003816
+     ],
+     "row_exact": [
+      -0.002729,
+      0.003463
+     ],
+     "row_tango": [
+      -0.003243,
+      0.004691
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.001483,
+      0.002716
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.001243,
+      0.003051
+     ],
+     "group_cr1_interval": [
+      -0.001478,
+      0.002712
+     ],
+     "largest_gain_pp": 0.382,
+     "largest_loss_pp": 0.273,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 3,
+      "alpha_each": 0.016667,
+      "row_interval": [
+       -0.00329,
+       0.004524
+      ],
+      "row_wald": [
+       -0.00329,
+       0.004524
+      ],
+      "row_exact": [
+       -0.00315,
+       0.003746
+      ],
+      "row_tango": [
+       -0.004492,
+       0.005998
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.00195,
+       0.003183
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.001854,
+       0.003124
+      ],
+      "group_cr1_interval": [
+       -0.001942,
+       0.003176
+      ],
+      "largest_gain_pp": 0.452,
+      "largest_loss_pp": 0.329
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    },
+    "both_vendor_vs_slot_vendor": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 2,
+     "resolved_A": 601,
+     "resolved_B": 601,
+     "B_only": 3,
+     "A_only": 3,
+     "d": 0.0,
+     "p_mcnemar_exact": 1.0,
+     "p_signflip_group": 1.0,
+     "signflip_method": "enumeration",
+     "signflip_draws": 4,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.002962,
+      0.002962
+     ],
+     "row_wald": [
+      -0.002962,
+      0.002962
+     ],
+     "row_exact": [
+      -0.002827,
+      0.002827
+     ],
+     "row_tango": [
+      -0.003784,
+      0.003784
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.001715,
+      0.001715
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.001847,
+      0.001848
+     ],
+     "group_cr1_interval": [
+      -0.001711,
+      0.001711
+     ],
+     "largest_gain_pp": 0.296,
+     "largest_loss_pp": 0.296,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 3,
+      "alpha_each": 0.016667,
+      "row_interval": [
+       -0.003618,
+       0.003618
+      ],
+      "row_wald": [
+       -0.003618,
+       0.003618
+      ],
+      "row_exact": [
+       -0.003114,
+       0.003114
+      ],
+      "row_tango": [
+       -0.005041,
+       0.005041
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.002096,
+       0.002096
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.002431,
+       0.002445
+      ],
+      "group_cr1_interval": [
+       -0.00209,
+       0.00209
+      ],
+      "largest_gain_pp": 0.362,
+      "largest_loss_pp": 0.362
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    },
+    "wrong_vendor_vs_both_vendor": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 3,
+     "resolved_A": 601,
+     "resolved_B": 600,
+     "B_only": 3,
+     "A_only": 4,
+     "d": -0.000617,
+     "p_mcnemar_exact": 1.0,
+     "p_signflip_group": 1.0,
+     "signflip_method": "enumeration",
+     "signflip_draws": 8,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.003816,
+      0.002729
+     ],
+     "row_wald": [
+      -0.003816,
+      0.002582
+     ],
+     "row_exact": [
+      -0.003463,
+      0.002729
+     ],
+     "row_tango": [
+      -0.004691,
+      0.003243
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.002716,
+      0.001483
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.00306,
+      0.001243
+     ],
+     "group_cr1_interval": [
+      -0.002712,
+      0.001478
+     ],
+     "largest_gain_pp": 0.273,
+     "largest_loss_pp": 0.382,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 3,
+      "alpha_each": 0.016667,
+      "row_interval": [
+       -0.004524,
+       0.00329
+      ],
+      "row_wald": [
+       -0.004524,
+       0.00329
+      ],
+      "row_exact": [
+       -0.003746,
+       0.00315
+      ],
+      "row_tango": [
+       -0.005998,
+       0.004492
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.003183,
+       0.00195
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.003119,
+       0.001856
+      ],
+      "group_cr1_interval": [
+       -0.003176,
+       0.001942
+      ],
+      "largest_gain_pp": 0.329,
+      "largest_loss_pp": 0.452
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    }
+   },
+   "appended_prompt_reference": {
+    "slot_vs_none_appended_prompt": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 4,
+     "resolved_A": 600,
+     "resolved_B": 602,
+     "B_only": 8,
+     "A_only": 6,
+     "d": 0.001234,
+     "p_mcnemar_exact": 0.790527,
+     "p_signflip_group": 0.625,
+     "signflip_method": "enumeration",
+     "signflip_draws": 16,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.003651,
+      0.005757
+     ],
+     "row_wald": [
+      -0.00329,
+      0.005757
+     ],
+     "row_exact": [
+      -0.003651,
+      0.005586
+     ],
+     "row_tango": [
+      -0.003727,
+      0.006452
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.001189,
+      0.003657
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.001225,
+      0.00372
+     ],
+     "group_cr1_interval": [
+      -0.001184,
+      0.003652
+     ],
+     "largest_gain_pp": 0.576,
+     "largest_loss_pp": 0.365,
+     "alpha": 0.05
+    },
+    "both_vs_slot_appended_prompt": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 9,
+     "resolved_A": 602,
+     "resolved_B": 603,
+     "B_only": 8,
+     "A_only": 7,
+     "d": 0.000617,
+     "p_mcnemar_exact": 1.0,
+     "p_signflip_group": 1.0,
+     "signflip_method": "enumeration",
+     "signflip_draws": 512,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.004333,
+      0.005318
+     ],
+     "row_wald": [
+      -0.004066,
+      0.0053
+     ],
+     "row_exact": [
+      -0.004333,
+      0.005318
+     ],
+     "row_tango": [
+      -0.004557,
+      0.005912
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.00302,
+      0.004254
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.003079,
+      0.004324
+     ],
+     "group_cr1_interval": [
+      -0.003013,
+      0.004247
+     ],
+     "largest_gain_pp": 0.532,
+     "largest_loss_pp": 0.433,
+     "alpha": 0.05
+    }
+   }
+  }
+ }
+}

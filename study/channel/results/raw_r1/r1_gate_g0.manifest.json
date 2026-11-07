@@ -1,0 +1,34 @@
+{
+ "run_id": "r1_gerbang_g0_20261013T192427Z",
+ "script": "result/paper_q2/scripts/q2_r1_analisis.py",
+ "command": "q2_r1_analisis.py --bagian gerbang_g0",
+ "output": {
+  "path": "results/tables/r1_gerbang_g0.json",
+  "sha256": "b9193806116c1b8c0a77a4823b74ba2063858633c2997a5a6c93cc1779809f6b"
+ },
+ "inputs": {
+  "result/paper_q2/results/raw_r1/_g0/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta.jsonl": "e09f8d358f0cc208b97f4db09a10de5d47892108f0a35b05b34fe08bb3d9f7b4",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta.jsonl": "a8fd592f5cdcf67076211961902cbcbb6cf4c665bb56c476f1d89af8279b19a9",
+  "result/paper_q2/results/raw_r1/_g0/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta.jsonl": "c3b7bc183ae6b23dbe05b57731b3fbb781b97b784363b0888a5f6f34aba769c1",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta.jsonl": "c3b856093179c06b89643fa22e40be7b8158df7129aa7c15a120b0d32cc3b065",
+  "result/paper_q2/results/raw_r1/_g0/scores_zerank2official_zerank-2_paired_profile_docmeta.jsonl": "6feb25b0a287d2d8750f39d9f3272f462623021033193e45aa90359fdad3d253",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_paired_profile_docmeta.jsonl": "f41cca9bc09f1bbf09eacbe7f6936322eae88eba3803c06b9013a8add3a28692",
+  "result/paper_q2/results/raw_r1/_g0/scores_followir_FollowIR-7B_paired_both.jsonl": "44005e5b43c71ce75c8e22f1e1f249c8cff8d5c249c58cf0e33e13aee8317b6f",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_both.jsonl": "54e3923c38142d2cb9575bdaab508739bf641862358efd1e707e841626244e0a",
+  "result/paper_q2/results/raw_r1/_g0/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both.jsonl": "003164573174315c51509eb0c4684c5415f918fbcdec88503287948dde90b3ab",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both.jsonl": "e5cb074b39262f731e2e9040739f5fed875874b086c0ee495983fd5b948b8b20",
+  "result/paper_q2/results/raw_r1/_g0/scores_gemma_bge-reranker-v2-gemma_paired_both.jsonl": "1b17a224122101ce84dad09d62bfc9a052656978ed5e8b7247295835fdb437ed",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_both.jsonl": "cac99cdd5ff59bcf65dd8e19b2bb060b84e98cd428db7a6ce3005420913c290f",
+  "result/paper_q2/results/raw_r1/_g0/scores_gemma_bge-reranker-v2-gemma_paired_slot_vendor.jsonl": "9eb30cc9e9e98f7935e038a7639f0a058e464619563e64a5b86340a5df5e9618",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_slot_vendor.jsonl": "0b7348db8d514d49a2b47b499f3f89e10e2180851651b3fdef314d31ff8fcc52",
+  "result/paper_q2/results/raw_r1/_g0/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_default.jsonl": "963a82779700ebc070039d0f829d600794b74df9637ff4e029a2412ad63364f5",
+  "result/novelty_1_dits/results/raw/qwen_scores_0.6b_paired_default.jsonl": "ccba5735293225bf4978c9b454b93ce21c0166fce9872e0cd1abf966d8b7a3cc",
+  "result/paper_q2/results/raw_r1/_g0/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile.jsonl": "e5cd83f69d643054f1bb73c594dd92e301a72791fc03311da790a78db1e80cf5",
+  "result/novelty_1_dits/results/raw/qwen_scores_0.6b_paired_profile.jsonl": "ce388c8d6a3f4005d19f63335f6efed9754d868f649ee49831a2e14bd433ccf7",
+  "result/paper_q2/results/raw_r1/_g0/scores_qwen3rr_Qwen3-Reranker-4B_paired_default.jsonl": "e0c27c16d52f8c02b3fbba92ad2fb1a031e5259e9c8bc4f9131f89d96c40b382",
+  "result/novelty_1_dits/results/raw/qwen_scores_4b_paired_default.jsonl": "78d14377f8f778c55c3cd7f2562b474badebbefef4664af2f279caae8a4eeaf3",
+  "result/paper_q2/results/raw_r1/_g0/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile.jsonl": "78141fc25256578270cb6e590236604ecd5c11a28164aa4251b67dfacbcbe0f1",
+  "result/novelty_1_dits/results/raw/qwen_scores_4b_paired_profile.jsonl": "3d82073844cfbf443db616158ab08241bd394fb4850cd8e8c4d4d964f51c26cf"
+ },
+ "seed": 20261012
+}

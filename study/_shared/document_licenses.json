@@ -1,0 +1,544 @@
+{
+ "_what": "License record of the 40 textbooks in the corpus: license, how it was verified, whether the file identity is tied to the audit by checksum or only by title, and the conditions a redistributor must honour. The licenses were checked between 20 July and 2 August 2026, and the corpus itself is not in this package.",
+ "n_documents": 40,
+ "n_chunks": 80738,
+ "summary": {
+  "releasable": {
+   "documents": 28,
+   "chunks": 45085
+  },
+  "releasable_with_conditions": {
+   "documents": 12,
+   "chunks": 35653
+  },
+  "undetermined": {
+   "documents": 0,
+   "chunks": 0
+  }
+ },
+ "evidence_join": {
+  "by_sha256": {
+   "documents": 10,
+   "chunks": 14069
+  },
+  "by_title": {
+   "documents": 30,
+   "chunks": 66669
+  },
+  "sha_mismatch": {
+   "documents": 0,
+   "details": []
+  }
+ },
+ "documents": [
+  {
+   "file_name": "ACCT_AccountingPrinciplesVol2_Hermanson_CCBY3.pdf",
+   "book_slug": "acct-accountingprinciplesvol2-hermanson-ccby3",
+   "n_child": 1179,
+   "n_parent": 299,
+   "n_chunk": 1478,
+   "license": "CC BY 3.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "ACCT_Accounting_Principles_GlobalText_Hermanson_CCBY3.pdf",
+   "book_slug": "acct-accounting-principles-globaltext-hermanson-ccby3",
+   "n_child": 3993,
+   "n_parent": 1092,
+   "n_chunk": 5085,
+   "license": "CC BY 3.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "BANA_Business_Operations_Analytics_Christensen_CCBY4.pdf",
+   "book_slug": "bana-business-operations-analytics-christensen-ccby4",
+   "n_child": 240,
+   "n_parent": 60,
+   "n_chunk": 300,
+   "license": "CC BY 4.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "CSCI_Algorithms-JeffE.pdf",
+   "book_slug": "csci-algorithms-jeffe",
+   "n_child": 1522,
+   "n_parent": 475,
+   "n_chunk": 1997,
+   "license": "CC BY 4.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "CSCI_Calculus_Made_Easy_Thompson_PublicDomain.pdf",
+   "book_slug": "csci-calculus-made-easy-thompson-publicdomain",
+   "n_child": 364,
+   "n_parent": 107,
+   "n_chunk": 471,
+   "license": "Public Domain",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "CSCI_Computer_Networking_Principles_Protocols_and_Practice.pdf",
+   "book_slug": "csci-computer-networking-principles-protocols-and-practice",
+   "n_child": 1199,
+   "n_parent": 357,
+   "n_chunk": 1556,
+   "license": "CC BY 3.0 (Saylor edition)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "File identity unresolved: the corpus sha256 does not match the audited CPEN draft-3rd item (f0b0d967...); most likely the older Saylor edition audited on 20 July, not yet proven by checksum."
+   ]
+  },
+  {
+   "file_name": "CSCI_High_Performance_Computing_CCBY3.pdf",
+   "book_slug": "csci-high-performance-computing-ccby3",
+   "n_child": 893,
+   "n_parent": 273,
+   "n_chunk": 1166,
+   "license": "CC BY 3.0",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "CSCI_Intro_to_Python_Programming_CCBY_2024.pdf",
+   "book_slug": "csci-intro-to-python-programming-ccby-2024",
+   "n_child": 1215,
+   "n_parent": 210,
+   "n_chunk": 1425,
+   "license": "CC BY 4.0 (OpenStax printing of Mar 2024)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Older OpenStax printing under CC BY 4.0: keep the printing evidence (Wayback snapshot, sha256, copyright-page quote), name the exact edition, and imply no endorsement by OpenStax."
+   ]
+  },
+  {
+   "file_name": "CSCI_Java_Java_Java_3e_CCBY4.pdf",
+   "book_slug": "csci-java-java-java-3e-ccby4",
+   "n_child": 2845,
+   "n_parent": 875,
+   "n_chunk": 3720,
+   "license": "CC BY 4.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "CSCI_Open_Data_Structures_in_Cpp.pdf",
+   "book_slug": "csci-open-data-structures-in-cpp",
+   "n_child": 712,
+   "n_parent": 216,
+   "n_chunk": 928,
+   "license": "CC BY 2.5 CA",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "CSCI_Understanding_LinearAlgebra_Austin_CCBY4.pdf",
+   "book_slug": "csci-understanding-linearalgebra-austin-ccby4",
+   "n_child": 978,
+   "n_parent": 322,
+   "n_chunk": 1300,
+   "license": "CC BY 4.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "CSCI_xv6_OS_Book_MIT_license.pdf",
+   "book_slug": "csci-xv6-os-book-mit-license",
+   "n_child": 441,
+   "n_parent": 141,
+   "n_chunk": 582,
+   "license": "MIT",
+   "verification": "verified against the official source",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes",
+   "conditions": [
+    "The PDF carries no license page; the evidence is the LICENSE file of the mit-pdos/xv6-riscv-book repository. Include the MIT text with any redistribution."
+   ]
+  },
+  {
+   "file_name": "DTSC_DataMining_for_the_Masses_North_CCBY3.pdf",
+   "book_slug": "dtsc-datamining-for-the-masses-north-ccby3",
+   "n_child": 619,
+   "n_parent": 151,
+   "n_chunk": 770,
+   "license": "CC BY 3.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "DTSC_Intro_Modern_Statistical_Learning_Makin_CCBY4_arxiv.pdf",
+   "book_slug": "dtsc-intro-modern-statistical-learning-makin-ccby4-arxiv",
+   "n_child": 516,
+   "n_parent": 155,
+   "n_chunk": 671,
+   "license": "CC BY 4.0",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "DTSC_Intro_to_Machine_Learning_Younes_CCBY4_arxiv.pdf",
+   "book_slug": "dtsc-intro-to-machine-learning-younes-ccby4-arxiv",
+   "n_child": 1513,
+   "n_parent": 507,
+   "n_chunk": 2020,
+   "license": "CC BY 4.0",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "DTSC_Machine_Learning_The_Basics_Jung_CCBY4_arxiv.pdf",
+   "book_slug": "dtsc-machine-learning-the-basics-jung-ccby4-arxiv",
+   "n_child": 758,
+   "n_parent": 241,
+   "n_chunk": 999,
+   "license": "CC BY 4.0",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "ISYS_Business_Processes_and_IT_GlobalText_CCBY3.pdf",
+   "book_slug": "isys-business-processes-and-it-globaltext-ccby3",
+   "n_child": 1832,
+   "n_parent": 466,
+   "n_chunk": 2298,
+   "license": "CC BY 3.0",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "ISYS_Database_Design_2e_TRIMMED_no_ch11_ch13_CCBY.pdf",
+   "book_slug": "isys-database-design-2e-trimmed-no-ch11-ch13-ccby",
+   "n_child": 327,
+   "n_parent": 51,
+   "n_chunk": 378,
+   "license": "CC BY (body text; chapter 11 (SA) and chapter 13 (NC-SA) physically removed)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": [
+    "Do not reuse the cover image (CC BY-SA 2.0)."
+   ]
+  },
+  {
+   "file_name": "ISYS_Information_Systems_GlobalText_CCBY3.pdf",
+   "book_slug": "isys-information-systems-globaltext-ccby3",
+   "n_child": 1313,
+   "n_parent": 341,
+   "n_chunk": 1654,
+   "license": "CC BY 3.0",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "ISYS_Information_Systems_for_Business_and_Beyond_EDISI_2014_Bourgeois.pdf",
+   "book_slug": "isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois",
+   "n_child": 573,
+   "n_parent": 144,
+   "n_chunk": 717,
+   "license": "CC BY 3.0 (2014 edition; the 2019 edition is NC, do not upgrade)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "ISYS_NIST_SP800-100_InfoSecGovernance_PublicDomain.pdf",
+   "book_slug": "isys-nist-sp800-100-infosecgovernance-publicdomain",
+   "n_child": 914,
+   "n_parent": 214,
+   "n_chunk": 1128,
+   "license": "Public Domain (US government work)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "ISYS_NIST_SP800-12r1_InfoSec_PublicDomain.pdf",
+   "book_slug": "isys-nist-sp800-12r1-infosec-publicdomain",
+   "n_child": 422,
+   "n_parent": 118,
+   "n_chunk": 540,
+   "license": "Public Domain (US government work)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "ISYS_ProjectManagement_Watt2e_snapshot2021-04.pdf",
+   "book_slug": "isys-projectmanagement-watt2e-snapshot2021-04",
+   "n_child": 750,
+   "n_parent": 166,
+   "n_chunk": 916,
+   "license": "CC BY 4.0 body text; some embedded items CC BY-SA",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Do not redistribute the items marked SA (for example the 100 Percent Rule section); safest to exclude that section."
+   ]
+  },
+  {
+   "file_name": "MGMT_AppliedFiniteMath_Sekhon_CCBY4.pdf",
+   "book_slug": "mgmt-appliedfinitemath-sekhon-ccby4",
+   "n_child": 1458,
+   "n_parent": 266,
+   "n_chunk": 1724,
+   "license": "CC BY 4.0 text per page (LibreTexts); some figures BY-SA",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Text only; the BY-SA figures must not be redistributed (the ingestion pipeline skips figures)."
+   ]
+  },
+  {
+   "file_name": "MGMT_BusinessEthics_OpenStax_snapshot2023-02.pdf",
+   "book_slug": "mgmt-businessethics-openstax-snapshot2023-02",
+   "n_child": 1671,
+   "n_parent": 446,
+   "n_chunk": 2117,
+   "license": "CC BY 4.0 (OpenStax (c)2018, printing before the relicensing)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Older OpenStax printing under CC BY 4.0: keep the printing evidence (Wayback snapshot, sha256, copyright-page quote), name the exact edition, and imply no endorsement by OpenStax."
+   ]
+  },
+  {
+   "file_name": "MGMT_Entrepreneurship_OP2021_CCBY4.pdf",
+   "book_slug": "mgmt-entrepreneurship-op2021-ccby4",
+   "n_child": 3041,
+   "n_parent": 814,
+   "n_chunk": 3855,
+   "license": "CC BY 4.0 (OpenStax (c)2020, Wayback)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Older OpenStax printing under CC BY 4.0: keep the printing evidence (Wayback snapshot, sha256, copyright-page quote), name the exact edition, and imply no endorsement by OpenStax."
+   ]
+  },
+  {
+   "file_name": "MGMT_Financial_Strategy_Public_Managers_CCBY4.pdf",
+   "book_slug": "mgmt-financial-strategy-public-managers-ccby4",
+   "n_child": 921,
+   "n_parent": 264,
+   "n_chunk": 1185,
+   "license": "CC BY 4.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "MGMT_Intro_SupplyChain_Operations_Mgmt_KU_CCBY4.pdf",
+   "book_slug": "mgmt-intro-supplychain-operations-mgmt-ku-ccby4",
+   "n_child": 1158,
+   "n_parent": 321,
+   "n_chunk": 1479,
+   "license": "CC BY 4.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "MGMT_Introduction_to_Business.pdf",
+   "book_slug": "mgmt-introduction-to-business",
+   "n_child": 3306,
+   "n_parent": 851,
+   "n_chunk": 4157,
+   "license": "CC BY 4.0 (OpenStax printing (c)2018)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Older OpenStax printing under CC BY 4.0: keep the printing evidence (Wayback snapshot, sha256, copyright-page quote), name the exact edition, and imply no endorsement by OpenStax.",
+    "Two exhibit images (pages 155 and 263) are credited NC-SA; images are not released, and their credit lines may be dropped at chunk QC."
+   ]
+  },
+  {
+   "file_name": "MGMT_Introductory_Business_Statistics_OP2021_CCBY4.pdf",
+   "book_slug": "mgmt-introductory-business-statistics-op2021-ccby4",
+   "n_child": 2411,
+   "n_parent": 581,
+   "n_chunk": 2992,
+   "license": "CC BY 4.0 (OpenStax (c)2018, Wayback)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Older OpenStax printing under CC BY 4.0: keep the printing evidence (Wayback snapshot, sha256, copyright-page quote), name the exact edition, and imply no endorsement by OpenStax."
+   ]
+  },
+  {
+   "file_name": "MGMT_PrinciplesOfManagement_OpenStax_snapshot2023-08.pdf",
+   "book_slug": "mgmt-principlesofmanagement-openstax-snapshot2023-08",
+   "n_child": 2987,
+   "n_parent": 747,
+   "n_chunk": 3734,
+   "license": "CC BY 4.0 (OpenStax (c)2019, printing before the relicensing)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Older OpenStax printing under CC BY 4.0: keep the printing evidence (Wayback snapshot, sha256, copyright-page quote), name the exact edition, and imply no endorsement by OpenStax."
+   ]
+  },
+  {
+   "file_name": "MGMT_Principles_of_Economics_3e_CCBY_2022.pdf",
+   "book_slug": "mgmt-principles-of-economics-3e-ccby-2022",
+   "n_child": 4466,
+   "n_parent": 1246,
+   "n_chunk": 5712,
+   "license": "CC BY 4.0 (OpenStax printing of Dec 2022)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Older OpenStax printing under CC BY 4.0: keep the printing evidence (Wayback snapshot, sha256, copyright-page quote), name the exact edition, and imply no endorsement by OpenStax."
+   ]
+  },
+  {
+   "file_name": "MKTG_Introducing_Marketing_Burnett_CCBY3.pdf",
+   "book_slug": "mktg-introducing-marketing-burnett-ccby3",
+   "n_child": 1278,
+   "n_parent": 301,
+   "n_chunk": 1579,
+   "license": "CC BY 3.0",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "MKTG_Principles_of_Marketing_CCBY_2023.pdf",
+   "book_slug": "mktg-principles-of-marketing-ccby-2023",
+   "n_child": 3139,
+   "n_parent": 735,
+   "n_chunk": 3874,
+   "license": "CC BY 4.0 (OpenStax printing of Jan 2023)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Older OpenStax printing under CC BY 4.0: keep the printing evidence (Wayback snapshot, sha256, copyright-page quote), name the exact edition, and imply no endorsement by OpenStax."
+   ]
+  },
+  {
+   "file_name": "STAT_High_Dimensional_Statistics_CCBY4_arxiv.pdf",
+   "book_slug": "stat-high-dimensional-statistics-ccby4-arxiv",
+   "n_child": 316,
+   "n_parent": 114,
+   "n_chunk": 430,
+   "license": "CC BY 4.0",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "STAT_IntroBusinessStats_MahbobiTiemann_CCBY4.pdf",
+   "book_slug": "stat-introbusinessstats-mahbobitiemann-ccby4",
+   "n_child": 431,
+   "n_parent": 119,
+   "n_chunk": 550,
+   "license": "CC BY 4.0",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "sha256 of the file matches the audit record",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "STAT_Intro_Probability_Statistics_Computational_CCBY4_arxiv.pdf",
+   "book_slug": "stat-intro-probability-statistics-computational-ccby4-arxiv",
+   "n_child": 327,
+   "n_parent": 103,
+   "n_chunk": 430,
+   "license": "CC BY 4.0",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "STAT_Introduction_to_Statistics_Lane_PublicDomain.pdf",
+   "book_slug": "stat-introduction-to-statistics-lane-publicdomain",
+   "n_child": 3694,
+   "n_parent": 1071,
+   "n_chunk": 4765,
+   "license": "Public Domain",
+   "verification": "verified against the official source",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  },
+  {
+   "file_name": "STAT_Introductory_Statistics_2e_CCBY_2023.pdf",
+   "book_slug": "stat-introductory-statistics-2e-ccby-2023",
+   "n_child": 2997,
+   "n_parent": 594,
+   "n_chunk": 3591,
+   "license": "CC BY 4.0 (OpenStax printing of Dec 2023)",
+   "verification": "verified on the copyright page of the PDF",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes, with conditions",
+   "conditions": [
+    "Older OpenStax printing under CC BY 4.0: keep the printing evidence (Wayback snapshot, sha256, copyright-page quote), name the exact edition, and imply no endorsement by OpenStax."
+   ]
+  },
+  {
+   "file_name": "STAT_Probability_MathStat_Stochastic_Siegrist_CCBY2.pdf",
+   "book_slug": "stat-probability-mathstat-stochastic-siegrist-ccby2",
+   "n_child": 5389,
+   "n_parent": 1076,
+   "n_chunk": 6465,
+   "license": "CC BY 2.0 (LibreTexts, license checked per page, 211 of 211 pages)",
+   "verification": "verified page by page",
+   "evidence_join": "matched by title; file identity not machine-verified",
+   "releasable": "yes",
+   "conditions": []
+  }
+ ]
+}

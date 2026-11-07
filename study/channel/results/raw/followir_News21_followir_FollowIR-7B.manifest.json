@@ -1,0 +1,16 @@
+{
+  "run_id": "followir_News21_followir_FollowIR-7B_20260918T195155Z",
+  "script": "result/paper_q2/scripts/q2_arch_followir.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_arch_followir.py --dataset News21 --family followir --model jhu-clsp/FollowIR-7B --gap-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal, uji lintas arsitektur",
+  "durasi_s": 8648.8,
+  "vram_peak_mib": 14557.6,
+  "output": {
+    "path": "results/tables/followir_News21_followir_FollowIR-7B.json",
+    "sha256": "3ef568e3796599628b5fd753375b4cb4f1be7566c76cc9d23a0173a03ebf07eb",
+    "run": "results/raw/followir_run_News21_followir_FollowIR-7B.jsonl",
+    "run_sha256": "66e604fc53f19e39c70ec9d225d7c3c2f71a4d22b23538aba6a92d416fbb4bb2"
+  }
+}

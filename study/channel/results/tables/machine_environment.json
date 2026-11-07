@@ -1,0 +1,25 @@
+{
+ "dibuat": "2026-09-24T14:43:39.314553+00:00",
+ "_apa_ini": "Specification of the machine on which every number was measured, compared with the frozen record env_versions.json.",
+ "prosesor": "AMD Ryzen 9 9950X3D 16-Core Processor",
+ "thread_logis": 32,
+ "memori_terbaca_gib": 93.87,
+ "memori_terpasang_gb": 96,
+ "catatan_memori": "kernel MemTotal 93.87 GiB, the rest reserved by firmware and the integrated GPU; the module type cannot be read without root, and the AM5 platform of this processor supports DDR5 only",
+ "gpu": "NVIDIA GeForce RTX 5080",
+ "vram_mib": 16303,
+ "driver": "580.173.02",
+ "os": "Ubuntu 24.04.5 LTS",
+ "kernel_sekarang": "7.0.0-31-generic",
+ "catatan_beku_9agu": {
+  "gpu": "580.173.02, NVIDIA GeForce RTX 5080",
+  "platform": "Linux-7.0.0-28-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3"
+ },
+ "pembanding": {
+  "driver_sama_dengan_catatan_beku": true,
+  "kernel_catatan_beku": "7.0.0-28-generic"
+ },
+ "batas": "recorded after the measurements; it shows the same machine is still in place (GPU driver identical to the frozen record), not the exact state at each run. The kernel has received point updates since 9 Aug",
+ "label_source": "deterministic (read from /proc, /etc/os-release, nvidia-smi)"
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "scores_qwen3rr_Qwen3-Reranker-4B_tanggaP1_profile_nama_en_docmeta_20261002T084646Z",
+  "script": "result/paper_q2/scripts/q2_arm_score.py",
+  "perintah_persis": "python q2_arm_score.py --family qwen3rr --model Qwen/Qwen3-Reranker-4B --pools <workstation>/result/novelty_1_dits/results/raw/pools_paired.jsonl --instruction profile_nama_en --doc-metadata --tag tanggaP1 --dtype float16 --batch 4 --min-free-mib 300 --doc-label-en en --peta-label id --out-dir <workstation>/result/paper_q2/results/raw_petaid",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, di luar keluarga pra-registrasi delapan",
+  "model": "Qwen/Qwen3-Reranker-4B",
+  "keluarga": "qwen3rr",
+  "dtype": "float16",
+  "instruction": "profile_nama_en",
+  "vendor_memory": false,
+  "instruksi_profil_id_kerangka": null,
+  "slot_format": "plain",
+  "slot_format_sumber": null,
+  "doc_metadata_injected": true,
+  "doc_metadata_label_salah": false,
+  "doc_metadata_field": "both",
+  "doc_label_gaya": null,
+  "doc_label_en": "en",
+  "doc_label_sem": null,
+  "format_label_en": "[Source: Statistics degree program textbook]",
+  "format_label_semester": null,
+  "format_label_program_gaya": null,
+  "format_label_sumber": "[Source: <DEPT> degree program textbook, semester <N>]",
+  "kontrol_label_salah": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "peta_label_sumber": {
+    "peta_label": "id",
+    "versi": "id-v1",
+    "sumber": {
+      "korpus": "src/ai/data/benchmark_release/corpus/corpus.jsonl",
+      "korpus_sha256": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+      "alias_uuid": "src/ai/data/benchmark_release/uuid_to_canonical.json",
+      "alias_sha256": "7b594b5d3322be88d11aa2ff481553c05001565d603bf14190a7bd1a6ceb7284"
+    },
+    "aturan": "prodi dan semester diambil dari identitas kandidat; pencocokan teks tidak dipakai"
+  },
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "kontrak_inferensi": {
+    "format": "<Instruct>/<Query>/<Document>",
+    "skor": "softmax logit yes lawan no",
+    "sumber": "README resmi Qwen3-Reranker"
+  },
+  "n": 104,
+  "durasi_s": 321.0,
+  "latensi_mean_s": 3.0686,
+  "vram_peak_mib": 9704.1,
+  "sumber": {
+    "pools": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483"
+  },
+  "output": {
+    "path": "results/raw/scores_qwen3rr_Qwen3-Reranker-4B_tanggaP1_profile_nama_en_docmeta.jsonl",
+    "sha256": "7b9b3072b9647327b7438a93cb124bd7f43510e1ca86642b83cf453188524bb7"
+  },
+  "segel_holdout": null,
+  "label_source": "deterministic (skor model, suhu tidak berlaku)",
+  "latensi_p95_s": 3.3388
+}

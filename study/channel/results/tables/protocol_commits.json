@@ -1,0 +1,124 @@
+{
+ "dibuat": "2026-09-24T14:28:34.431133+00:00",
+ "_apa_ini": "First commit hash of every pre-registration document and, for the channel protocols, proof that the commit precedes the first cell it governs.",
+ "batas": [
+  "git commit times are recorded by the authors' own machine, so they order events but do not certify them to a third party",
+  "this commit was not on the remote when it was made; the last push to origin/main: 1da56735be8dc0ede62a2681bb9e9edc1f4ed211 2026-09-06T23:03:37+07:00"
+ ],
+ "protokol": [
+  {
+   "dokumen": "PRAREGISTRASI_AUTO_KURASI.md",
+   "folder": "novelty_1_dits",
+   "commit": "cd01c4fe5dc3529157777b0969d6f9b2ed0b35c3",
+   "commit_utc": "2026-09-17T13:06:01+00:00",
+   "sudah_di_remote": false
+  },
+  {
+   "dokumen": "PRAREGISTRASI_HOLDOUT_GENERASI.md",
+   "folder": "novelty_1_dits",
+   "commit": "a6ffedd214d3c0ee297d5958b6bdaf99cbc41b2c",
+   "commit_utc": "2026-09-17T13:10:36+00:00",
+   "sudah_di_remote": false
+  },
+  {
+   "dokumen": "PRAREGISTRASI_PROFILE_SHUFFLE.md",
+   "folder": "novelty_1_dits",
+   "commit": "ed9e209689922c475371b579e8caa88e66a12640",
+   "commit_utc": "2026-09-17T11:46:31+00:00",
+   "sudah_di_remote": false
+  },
+  {
+   "dokumen": "PRAREGISTRASI_ADENDUM_KESETARAAN.md",
+   "folder": "paper_q2",
+   "commit": "ed9e209689922c475371b579e8caa88e66a12640",
+   "commit_utc": "2026-09-17T11:46:31+00:00",
+   "sudah_di_remote": false,
+   "sel_pertama_utc": "2026-09-17T17:28:58+00:00",
+   "sel_pertama_manifest": "scores_zerank2official_zerank-2_control_default.manifest.json",
+   "selang_menit": 342.4,
+   "protokol_mendahului_sel": true
+  },
+  {
+   "dokumen": "PRAREGISTRASI_KAPPA_JUDGE.md",
+   "folder": "paper_q2",
+   "commit": "87259345ea08a5ba0d5d82552d8d19f166211992",
+   "commit_utc": "2026-08-24T14:01:41+00:00",
+   "sudah_di_remote": true
+  },
+  {
+   "dokumen": "PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+   "folder": "paper_q2",
+   "commit": "93c7b59b540e9bdd5841c607bf6e6c0052fcd79b",
+   "commit_utc": "2026-09-17T11:26:44+00:00",
+   "sudah_di_remote": false,
+   "sel_pertama_utc": "2026-09-17T11:50:54+00:00",
+   "sel_pertama_manifest": "scores_followir_FollowIR-7B_paired_slot.manifest.json",
+   "selang_menit": 24.2,
+   "protokol_mendahului_sel": true
+  },
+  {
+   "dokumen": "PRAREGISTRASI_LINTAS_ARSITEKTUR_ADENDUM2.md",
+   "folder": "paper_q2",
+   "commit": "b95c393e837e62a2c17a4141f588516ab7060c05",
+   "commit_utc": "2026-09-17T12:56:55+00:00",
+   "sudah_di_remote": false,
+   "sel_pertama_utc": "2026-09-18T01:12:25+00:00",
+   "sel_pertama_manifest": "scores_gemma_bge-reranker-v2-gemma_xpair_none.manifest.json",
+   "selang_menit": 735.5,
+   "protokol_mendahului_sel": true
+  },
+  {
+   "dokumen": "PRAREGISTRASI_LINTAS_ARSITEKTUR_ADENDUM3.md",
+   "folder": "paper_q2",
+   "commit": "7af1446363a64214a8dde401071235cb1edc6eeb",
+   "commit_utc": "2026-09-17T23:20:03+00:00",
+   "sudah_di_remote": false,
+   "sel_pertama_utc": "2026-09-18T00:36:42+00:00",
+   "sel_pertama_manifest": "scores_followir_FollowIR-7B_paired_slot_vendor.manifest.json",
+   "selang_menit": 76.7,
+   "protokol_mendahului_sel": true
+  },
+  {
+   "dokumen": "PRAREGISTRASI_LINTAS_ARSITEKTUR_ADENDUM4.md",
+   "folder": "paper_q2",
+   "commit": "de6eb1b735b2921967d0df07ed1f275ce6e8d725",
+   "commit_utc": "2026-09-18T01:24:13+00:00",
+   "sudah_di_remote": false,
+   "sel_pertama_utc": "2026-09-18T02:46:38+00:00",
+   "sel_pertama_manifest": "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_id.manifest.json",
+   "selang_menit": 82.4,
+   "protokol_mendahului_sel": true
+  },
+  {
+   "dokumen": "PRAREGISTRASI_STRICT_TRAIN.md",
+   "folder": "paper_q2",
+   "commit": "9bcffca7ec5c7adec4c8508dd651c265577cfbf0",
+   "commit_utc": "2026-08-24T15:31:19+00:00",
+   "sudah_di_remote": true
+  },
+  {
+   "dokumen": "PRAREGISTRASI_TANGGA_ADENDUM5_PERMUKAAN.md",
+   "folder": "paper_q2",
+   "commit": "3b2c15f0954938afb943bad23becb0d99da8036a",
+   "commit_utc": "2026-09-20T07:00:19+00:00",
+   "sudah_di_remote": false,
+   "sel_pertama_utc": "2026-09-20T12:18:31+00:00",
+   "sel_pertama_manifest": "scores_qwen3rr_Qwen3-Reranker-0.6B_tanggaP1_profile_nama_en_docmeta.manifest.json",
+   "selang_menit": 318.2,
+   "protokol_mendahului_sel": true
+  },
+  {
+   "dokumen": "PRAREGISTRASI_TANGGA_JARAK_INFERENSI.md",
+   "folder": "paper_q2",
+   "commit": "0f2554011c6051a2f6630e96663668485519a82e",
+   "commit_utc": "2026-09-20T03:59:25+00:00",
+   "sudah_di_remote": false,
+   "sel_pertama_utc": "2026-09-20T05:03:28+00:00",
+   "sel_pertama_manifest": "scores_qwen3rr_Qwen3-Reranker-0.6B_tangganama_profile_docmeta.manifest.json",
+   "selang_menit": 64.0,
+   "protokol_mendahului_sel": true
+  }
+ ],
+ "protokol_kanal_yang_gagal": [],
+ "label_source": "deterministic (git log and the run_id of each manifest)"
+}

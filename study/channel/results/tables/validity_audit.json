@@ -1,0 +1,144 @@
+{
+  "dibuat": "2026-10-03T05:00:55.551411+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Self-audit of the score files in the results/raw/ folders of the tree it runs on. It runs automatically; a check with the status GAGAL (failed) means the numbers it covers must not be cited.",
+  "n_pemeriksaan": 7,
+  "n_gagal": 0,
+  "vonis": "fit to cite",
+  "pemeriksaan": [
+    {
+      "pemeriksaan": "gerbang_replikasi_metrik",
+      "status": "LOLOS",
+      "detail": "4 published paired numbers reproduced bit-identically: {'0.6b_default': 0.5, '0.6b_profile': 0.5104, '4b_default': 0.5, '4b_profile': 0.5208}"
+    },
+    {
+      "pemeriksaan": "segel_holdout",
+      "status": "LOLOS",
+      "detail": "178 score files checked, 0 test_holdout rows without a declaration, 1132 rows declared in a manifest (4 files with segel_holdout.dibuka_kedua)"
+    },
+    {
+      "pemeriksaan": "sel_terkunci_konstruksi",
+      "status": "LOLOS",
+      "detail": "9/9 blind arms fixed at pairwise 0.5 without a single difference that changes a metric (rank permutations caused by bf16 noise are counted separately and are not a defect)"
+    },
+    {
+      "pemeriksaan": "keadilan_kandidat",
+      "status": "LOLOS",
+      "detail": "candidate lists identical to the pool for every cell; anomalies: 0"
+    },
+    {
+      "pemeriksaan": "kelengkapan_sel",
+      "status": "LOLOS",
+      "detail": "cells incomplete beyond the declared ones: 0; declared partial: 8"
+    },
+    {
+      "pemeriksaan": "konsistensi_n_komparabel",
+      "status": "LOLOS",
+      "detail": "n_komparabel uniform per pool; anomalies: none"
+    },
+    {
+      "pemeriksaan": "determinisme_baris",
+      "status": "LOLOS",
+      "detail": "duplicate rows in a different order: 0"
+    }
+  ],
+  "rincian_sel_terkunci": [
+    {
+      "berkas": "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_default_docmeta.jsonl",
+      "pasangan": 52,
+      "urutan_identik": 52,
+      "beda_urutan_tanpa_efek_metrik": 0,
+      "beda_yang_MENGUBAH_metrik": 0,
+      "pairwise": 0.5,
+      "sesuai_prediksi_terkunci": true
+    },
+    {
+      "berkas": "scores_qwen3rr_Qwen3-Reranker-4B_paired_default_docmeta.jsonl",
+      "pasangan": 52,
+      "urutan_identik": 52,
+      "beda_urutan_tanpa_efek_metrik": 0,
+      "beda_yang_MENGUBAH_metrik": 0,
+      "pairwise": 0.5,
+      "sesuai_prediksi_terkunci": true
+    },
+    {
+      "berkas": "scores_zerank2_zerank-2_paired_default.jsonl",
+      "pasangan": 52,
+      "urutan_identik": 51,
+      "beda_urutan_tanpa_efek_metrik": 1,
+      "beda_yang_MENGUBAH_metrik": 0,
+      "pairwise": 0.5,
+      "sesuai_prediksi_terkunci": true
+    },
+    {
+      "berkas": "scores_zerank2_zerank-2_paired_default_docmeta.jsonl",
+      "pasangan": 52,
+      "urutan_identik": 52,
+      "beda_urutan_tanpa_efek_metrik": 0,
+      "beda_yang_MENGUBAH_metrik": 0,
+      "pairwise": 0.5,
+      "sesuai_prediksi_terkunci": true
+    },
+    {
+      "berkas": "scores_zerank2official_zerank-2_paired_default.jsonl",
+      "pasangan": 52,
+      "urutan_identik": 52,
+      "beda_urutan_tanpa_efek_metrik": 0,
+      "beda_yang_MENGUBAH_metrik": 0,
+      "pairwise": 0.5,
+      "sesuai_prediksi_terkunci": true
+    },
+    {
+      "berkas": "scores_zerank2official_zerank-2_paired_default_docmeta.jsonl",
+      "pasangan": 52,
+      "urutan_identik": 52,
+      "beda_urutan_tanpa_efek_metrik": 0,
+      "beda_yang_MENGUBAH_metrik": 0,
+      "pairwise": 0.5,
+      "sesuai_prediksi_terkunci": true
+    },
+    {
+      "berkas": "scores_zerank2official_zerank-2_paired_default_equivfull.jsonl",
+      "pasangan": 52,
+      "urutan_identik": 52,
+      "beda_urutan_tanpa_efek_metrik": 0,
+      "beda_yang_MENGUBAH_metrik": 0,
+      "pairwise": 0.5,
+      "sesuai_prediksi_terkunci": true
+    },
+    {
+      "berkas": "qwen_scores_4b_paired_default.jsonl",
+      "pasangan": 52,
+      "urutan_identik": 52,
+      "beda_urutan_tanpa_efek_metrik": 0,
+      "beda_yang_MENGUBAH_metrik": 0,
+      "pairwise": 0.5,
+      "sesuai_prediksi_terkunci": true
+    },
+    {
+      "berkas": "qwen_scores_0.6b_paired_default.jsonl",
+      "pasangan": 52,
+      "urutan_identik": 52,
+      "beda_urutan_tanpa_efek_metrik": 0,
+      "beda_yang_MENGUBAH_metrik": 0,
+      "pairwise": 0.5,
+      "sesuai_prediksi_terkunci": true
+    }
+  ],
+  "rincian_segel_holdout": {
+    "baris_holdout_tak_terdeklarasi": 0,
+    "cakupan": "178 score files checked in this tree",
+    "baris_holdout_terdeklarasi": "1132 rows in 4 files",
+    "berkas_dengan_pembukaan_terdeklarasi": [
+      "scores_zerank2_zerank-2_holdout_default.jsonl (283 rows)",
+      "scores_zerank2_zerank-2_holdout_profile.jsonl (283 rows)",
+      "scores_zerank2official_zerank-2_holdout_default.jsonl (283 rows)",
+      "scores_zerank2official_zerank-2_holdout_profile.jsonl (283 rows)"
+    ],
+    "berkas_tanpa_manifest": [
+      "scores_zerank2official_zerank-2_paired_default_equivfull.jsonl",
+      "scores_zerank2official_zerank-2_paired_profile_equivfull.jsonl"
+    ],
+    "_aturan": "A test_holdout row is valid only when the manifest next to its score file declares segel_holdout.dibuka_kedua. This check verifies that every touch of the holdout is declared, not merely that there was none."
+  }
+}

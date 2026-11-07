@@ -1,0 +1,12 @@
+REVISIONS = {
+    "Qwen/Qwen3-Reranker-0.6B": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+    "Qwen/Qwen3-Reranker-4B": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+    "zeroentropy/zerank-2": "5eae30d5ee3c6b2df2ef6d723bde45172d761c4c",
+    "jhu-clsp/FollowIR-7B": "4d25d437e38b510c01852070c0731e8f6e1875d1",
+    "ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b": "f14ca1a2fc204dc0934c84a3d2e278f8ff646b80",
+    "BAAI/bge-reranker-v2-gemma": "1787044f8b6fb740a9de4557c3a12377f84d9e17",
+}
+
+
+def revision_for(name: str):
+    return REVISIONS.get(name)

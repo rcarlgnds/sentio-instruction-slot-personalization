@@ -1,0 +1,188 @@
+{
+ "_what": "Program relatedness values read by the proximity term of DITS, frozen from the department_relations table; fingerprint matches study/_shared/config_lock.json. Same program scores 1.0.",
+ "source": "study/channel/results/tables/program_relations.json",
+ "fingerprint": "27cb2471f0ee",
+ "same_program": 1.0,
+ "pairs": [
+  {
+   "a": "ACCT",
+   "b": "BANA",
+   "score": 0.3
+  },
+  {
+   "a": "ACCT",
+   "b": "CHIN",
+   "score": 0.3
+  },
+  {
+   "a": "ACCT",
+   "b": "DTSC",
+   "score": 0.3
+  },
+  {
+   "a": "ACCT",
+   "b": "ISYS",
+   "score": 0.3
+  },
+  {
+   "a": "ACCT",
+   "b": "MKTG",
+   "score": 0.5
+  },
+  {
+   "a": "BANA",
+   "b": "CHIN",
+   "score": 0.3
+  },
+  {
+   "a": "CHIN",
+   "b": "MKTG",
+   "score": 0.3
+  },
+  {
+   "a": "ACCT",
+   "b": "CSCI",
+   "score": 0.3
+  },
+  {
+   "a": "BANA",
+   "b": "CSCI",
+   "score": 0.3
+  },
+  {
+   "a": "CHIN",
+   "b": "CSCI",
+   "score": 0.3
+  },
+  {
+   "a": "CSCI",
+   "b": "DTSC",
+   "score": 0.5
+  },
+  {
+   "a": "CSCI",
+   "b": "ISYS",
+   "score": 0.5
+  },
+  {
+   "a": "CSCI",
+   "b": "MKTG",
+   "score": 0.3
+  },
+  {
+   "a": "BANA",
+   "b": "DTSC",
+   "score": 0.7
+  },
+  {
+   "a": "CHIN",
+   "b": "DTSC",
+   "score": 0.3
+  },
+  {
+   "a": "DTSC",
+   "b": "MKTG",
+   "score": 0.3
+  },
+  {
+   "a": "BANA",
+   "b": "ISYS",
+   "score": 0.5
+  },
+  {
+   "a": "CHIN",
+   "b": "ISYS",
+   "score": 0.3
+  },
+  {
+   "a": "DTSC",
+   "b": "ISYS",
+   "score": 0.3
+  },
+  {
+   "a": "ISYS",
+   "b": "MKTG",
+   "score": 0.3
+  },
+  {
+   "a": "ACCT",
+   "b": "MGMT",
+   "score": 0.7
+  },
+  {
+   "a": "BANA",
+   "b": "MGMT",
+   "score": 0.3
+  },
+  {
+   "a": "CHIN",
+   "b": "MGMT",
+   "score": 0.3
+  },
+  {
+   "a": "CSCI",
+   "b": "MGMT",
+   "score": 0.3
+  },
+  {
+   "a": "DTSC",
+   "b": "MGMT",
+   "score": 0.3
+  },
+  {
+   "a": "ISYS",
+   "b": "MGMT",
+   "score": 0.3
+  },
+  {
+   "a": "MGMT",
+   "b": "MKTG",
+   "score": 0.7
+  },
+  {
+   "a": "BANA",
+   "b": "MKTG",
+   "score": 0.3
+  },
+  {
+   "a": "ACCT",
+   "b": "STAT",
+   "score": 0.3
+  },
+  {
+   "a": "BANA",
+   "b": "STAT",
+   "score": 0.7
+  },
+  {
+   "a": "CHIN",
+   "b": "STAT",
+   "score": 0.3
+  },
+  {
+   "a": "CSCI",
+   "b": "STAT",
+   "score": 0.5
+  },
+  {
+   "a": "DTSC",
+   "b": "STAT",
+   "score": 0.7
+  },
+  {
+   "a": "ISYS",
+   "b": "STAT",
+   "score": 0.3
+  },
+  {
+   "a": "MGMT",
+   "b": "STAT",
+   "score": 0.3
+  },
+  {
+   "a": "MKTG",
+   "b": "STAT",
+   "score": 0.3
+  }
+ ]
+}

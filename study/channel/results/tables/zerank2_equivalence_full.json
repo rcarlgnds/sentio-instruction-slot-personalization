@@ -1,0 +1,59 @@
+{
+  "dibuat": "2026-09-17T12:00:00.110474+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "praregistrasi": "PRAREGISTRASI_LINTAS_ARSITEKTUR.md (full-equivalence addendum)",
+  "_apa_ini": "The vendor's official CrossEncoder.predict() path over the whole paired pool in two conditions, compared with the frozen zerank-2 cells at 48/96 and 47/96.",
+  "model": "zeroentropy/zerank-2",
+  "n_baris": 104,
+  "max_length": 1536,
+  "dtype": "bfloat16",
+  "versi": {
+    "sentence_transformers": "6.0.1",
+    "transformers": "4.55.0",
+    "torch": "2.11.0+cu128"
+  },
+  "per_kondisi": {
+    "default": {
+      "menang_jalur_resmi": "48/96",
+      "menang_beku": "48/96",
+      "hitungan_identik": true,
+      "n_baris_komparabel": 96,
+      "per_baris_setuju": 96,
+      "per_baris_beda": [],
+      "metrik_produksi_jalur_resmi": {
+        "n_baris": 104,
+        "n_komparabel": 96,
+        "pairwise": 0.5,
+        "top1_gold": 0.3077,
+        "ndcg5": 0.571
+      }
+    },
+    "profile": {
+      "menang_jalur_resmi": "48/96",
+      "menang_beku": "47/96",
+      "hitungan_identik": false,
+      "n_baris_komparabel": 96,
+      "per_baris_setuju": 95,
+      "per_baris_beda": [
+        "paired-91-csci"
+      ],
+      "metrik_produksi_jalur_resmi": {
+        "n_baris": 104,
+        "n_komparabel": 96,
+        "pairwise": 0.5,
+        "top1_gold": 0.3077,
+        "ndcg5": 0.5342
+      }
+    }
+  },
+  "mcnemar_default_vs_profile_jalur_resmi": {
+    "n_berpasangan": 96,
+    "diskordan_default_kalah_profile_menang": 8,
+    "diskordan_default_menang_profile_kalah": 8,
+    "p_mcnemar_exact": 1.0
+  },
+  "kriteria_lolos": "win counts identical to the frozen cells in both conditions",
+  "lolos": false,
+  "durasi_s": 543.3,
+  "label_source": "deterministic (model scores)"
+}

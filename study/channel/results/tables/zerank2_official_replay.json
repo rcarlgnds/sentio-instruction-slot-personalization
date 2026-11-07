@@ -1,0 +1,1229 @@
+{
+ "dibuat": "2026-10-03T05:00:44.852954+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "praregistrasi": "PRAREGISTRASI_LINTAS_ARSITEKTUR_ADENDUM2.md section (a); the rule for switching to the official path: PRAREGISTRASI_ADENDUM_KESETARAAN.md section 3",
+ "_apa_ini": "Frozen zerank-2 cells (the project's own bf16 scorer) against a replay through the vendor's official CrossEncoder.predict(): the same summary recomputed from both files, the per-row agreement, and the rows tied within precision (|gold score minus partner score| <= 0.25). No GPU and no rescoring. The cells counted in n_sel_menunggu were scored only on the vendor's path (the ladder cells, paired_profile_id, and control_profile), so they have no frozen file of the project's scorer to compare with (status berkas_beku_hilang).",
+ "ambang_seri": 0.25,
+ "n_sel_selesai": 20,
+ "n_sel_menunggu": 10,
+ "sel": {
+  "control_default": {
+   "status": "selesai",
+   "n_baris_beku": 116,
+   "n_baris_resmi": 116,
+   "n_baris_sama": 116,
+   "ranking_identik": 0,
+   "top1_identik": 116,
+   "sha256_beku": "16243dc806ae019474dce5729c6ea64a3754dc54f5fd294ddb3bf9b6a341cf1e",
+   "sha256_resmi": "748ba8e6f1d1c8421c38c1675ff627a7b8c2b4d2c94c90a7f534a8f699f74df0",
+   "n_komparabel": 116,
+   "menang_beku": 58,
+   "menang_resmi": 58,
+   "diskordan_beku_saja": 0,
+   "diskordan_resmi_saja": 0,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 10,
+   "seri_dalam_presisi_resmi": 8,
+   "diskordan_yang_seri_di_beku": 0,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 116,
+     "n_komparabel": 116,
+     "pairwise": 0.5,
+     "top1_gold": 0.1207,
+     "ndcg5": 0.2592
+    },
+    "resmi": {
+     "n_baris": 116,
+     "n_komparabel": 116,
+     "pairwise": 0.5,
+     "top1_gold": 0.1207,
+     "ndcg5": 0.259
+    }
+   },
+   "uji_tanda_pasangan": {
+    "beku": {
+     "n_pasangan": 58,
+     "menang_total": 58,
+     "pasangan_naik": 0,
+     "pasangan_turun": 0,
+     "p_dua_sisi_exact": 1.0
+    },
+    "resmi": {
+     "n_pasangan": 58,
+     "menang_total": 58,
+     "pasangan_naik": 0,
+     "pasangan_turun": 0,
+     "p_dua_sisi_exact": 1.0
+    }
+   }
+  },
+  "control_kondisi": {
+   "status": "selesai",
+   "n_baris_beku": 116,
+   "n_baris_resmi": 116,
+   "n_baris_sama": 116,
+   "ranking_identik": 0,
+   "top1_identik": 115,
+   "sha256_beku": "d2a376eb1528a23cd953f126d5378dde4997e810453042e2d6ae8c18bb23261c",
+   "sha256_resmi": "a5ab520c29a6884d7e699a5647e616bc605dce66dacb91692e71fa22ae90630b",
+   "n_komparabel": 116,
+   "menang_beku": 93,
+   "menang_resmi": 93,
+   "diskordan_beku_saja": 1,
+   "diskordan_resmi_saja": 1,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 3,
+   "seri_dalam_presisi_resmi": 4,
+   "diskordan_yang_seri_di_beku": 2,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 116,
+     "n_komparabel": 116,
+     "pairwise": 0.8017,
+     "top1_gold": 0.2414,
+     "ndcg5": 0.3967
+    },
+    "resmi": {
+     "n_baris": 116,
+     "n_komparabel": 116,
+     "pairwise": 0.8017,
+     "top1_gold": 0.2414,
+     "ndcg5": 0.4
+    }
+   },
+   "uji_tanda_pasangan": {
+    "beku": {
+     "n_pasangan": 58,
+     "menang_total": 93,
+     "pasangan_naik": 36,
+     "pasangan_turun": 1,
+     "p_dua_sisi_exact": 5.53e-10
+    },
+    "resmi": {
+     "n_pasangan": 58,
+     "menang_total": 93,
+     "pasangan_naik": 36,
+     "pasangan_turun": 1,
+     "p_dua_sisi_exact": 5.53e-10
+    }
+   }
+  },
+  "control_profile": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_control_profile.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_control_profile.jsonl",
+   "manifest_beku_ada": true,
+   "sha256_resmi": "4bd32b56a6bf582618b021a2c29634531944a09d0133cbb283a76ca12bb8e917"
+  },
+  "holdout_default": {
+   "status": "selesai",
+   "n_baris_beku": 283,
+   "n_baris_resmi": 283,
+   "n_baris_sama": 283,
+   "ranking_identik": 95,
+   "top1_identik": 280,
+   "sha256_beku": "d4c270b795c6490e0cd1b5e8c2729368898da5e5b9c3cf2a2656afe32c894b52",
+   "sha256_resmi": "428b33570fd68efe40cf4be23bd66a5da895bee3b8ad15e3e51d0ccc59a392ee",
+   "metrik_holdout_ir_measures": {
+    "beku": {
+     "n": 283,
+     "nDCG@5": 0.8162,
+     "MRR": 0.8347,
+     "R@1": 0.6943
+    },
+    "resmi": {
+     "n": 283,
+     "nDCG@5": 0.8144,
+     "MRR": 0.8305,
+     "R@1": 0.689
+    }
+   }
+  },
+  "holdout_profile": {
+   "status": "selesai",
+   "n_baris_beku": 283,
+   "n_baris_resmi": 283,
+   "n_baris_sama": 283,
+   "ranking_identik": 81,
+   "top1_identik": 277,
+   "sha256_beku": "738a594827836e62484e661e77ca931b3abc25a62dcf322d5c24e87d915ba1c5",
+   "sha256_resmi": "a6d9d173b643fc1271d64774e788d058094a97e47c63ded165a57ef05878c4f6",
+   "metrik_holdout_ir_measures": {
+    "beku": {
+     "n": 283,
+     "nDCG@5": 0.8042,
+     "MRR": 0.8216,
+     "R@1": 0.6696
+    },
+    "resmi": {
+     "n": 283,
+     "nDCG@5": 0.808,
+     "MRR": 0.8271,
+     "R@1": 0.6767
+    }
+   }
+  },
+  "paired_default": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 98,
+   "sha256_beku": "c62b00ef1981db96036f3b5fb2b38344b7f1bc6d1305dd3cf28b8a254fbf528e",
+   "sha256_resmi": "13973e29d24ea261a5913dc4d713d4bee5933a12f8e1eda04cc6fbca0086389d",
+   "n_komparabel": 96,
+   "menang_beku": 48,
+   "menang_resmi": 48,
+   "diskordan_beku_saja": 0,
+   "diskordan_resmi_saja": 0,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 6,
+   "seri_dalam_presisi_resmi": 8,
+   "diskordan_yang_seri_di_beku": 0,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.5,
+     "top1_gold": 0.3077,
+     "ndcg5": 0.5769
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.5,
+     "top1_gold": 0.3077,
+     "ndcg5": 0.571
+    }
+   }
+  },
+  "paired_default_docmeta": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 92,
+   "sha256_beku": "cc3093336a029a9efbad309e7f18586fea9317525873817d1d3d1994be1e9d30",
+   "sha256_resmi": "b9146503b72b001e5efec613f5cc7faeaf78bcaa7c1c2cd8f9ec863d83c78745",
+   "n_komparabel": 96,
+   "menang_beku": 48,
+   "menang_resmi": 48,
+   "diskordan_beku_saja": 3,
+   "diskordan_resmi_saja": 3,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 14,
+   "seri_dalam_presisi_resmi": 8,
+   "diskordan_yang_seri_di_beku": 6,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.5,
+     "top1_gold": 0.3077,
+     "ndcg5": 0.5589
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.5,
+     "top1_gold": 0.3077,
+     "ndcg5": 0.5595
+    }
+   }
+  },
+  "paired_profile": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 99,
+   "sha256_beku": "c6146c3a9898f2bb00a0bef9004357258f8168eeb50d8dbb80e65a792fd12274",
+   "sha256_resmi": "e3d2bdf6be396611460b02e9e3ecdaf6d4f3137fd721e7cdb92cc128a1e71972",
+   "n_komparabel": 96,
+   "menang_beku": 47,
+   "menang_resmi": 48,
+   "diskordan_beku_saja": 0,
+   "diskordan_resmi_saja": 1,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 8,
+   "seri_dalam_presisi_resmi": 8,
+   "diskordan_yang_seri_di_beku": 1,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.4896,
+     "top1_gold": 0.3077,
+     "ndcg5": 0.5313
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.5,
+     "top1_gold": 0.3077,
+     "ndcg5": 0.5342
+    }
+   }
+  },
+  "paired_profile_docmeta": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 102,
+   "sha256_beku": "0a7872543b64ff7363790e8ce3dcdccdd11de98e85194193729073ddc686c595",
+   "sha256_resmi": "f41cca9bc09f1bbf09eacbe7f6936322eae88eba3803c06b9013a8add3a28692",
+   "n_komparabel": 96,
+   "menang_beku": 96,
+   "menang_resmi": 96,
+   "diskordan_beku_saja": 0,
+   "diskordan_resmi_saja": 0,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 2,
+   "seri_dalam_presisi_resmi": 1,
+   "diskordan_yang_seri_di_beku": 0,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 1.0,
+     "top1_gold": 0.7212,
+     "ndcg5": 0.8387
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 1.0,
+     "top1_gold": 0.7212,
+     "ndcg5": 0.835
+    }
+   }
+  },
+  "paired_profile_docmeta_fieldprogram": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 103,
+   "sha256_beku": "430b02062e51a1e6d3945d06ba249481c289bd465b2e875fd8219046d94f7ffa",
+   "sha256_resmi": "e34a28fa979f116baf3ccfec8a2b654dd24ff7ce43c5c6e378aa37e6ee683628",
+   "n_komparabel": 96,
+   "menang_beku": 85,
+   "menang_resmi": 85,
+   "diskordan_beku_saja": 0,
+   "diskordan_resmi_saja": 0,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 4,
+   "seri_dalam_presisi_resmi": 4,
+   "diskordan_yang_seri_di_beku": 0,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.8854,
+     "top1_gold": 0.6731,
+     "ndcg5": 0.8071
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.8854,
+     "top1_gold": 0.6635,
+     "ndcg5": 0.8032
+    }
+   }
+  },
+  "paired_profile_docmeta_fieldsemester": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 98,
+   "sha256_beku": "3af2ba766aa646b5540a49c6b54a67b81993014140ab357e40cb689a4570523a",
+   "sha256_resmi": "e6bbfb043563a4df70cee70c4f35b55b3837c2c1b219685c9ac4fc569ffe840e",
+   "n_komparabel": 96,
+   "menang_beku": 93,
+   "menang_resmi": 93,
+   "diskordan_beku_saja": 0,
+   "diskordan_resmi_saja": 0,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 1,
+   "seri_dalam_presisi_resmi": 1,
+   "diskordan_yang_seri_di_beku": 0,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.9688,
+     "top1_gold": 0.5865,
+     "ndcg5": 0.7595
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.9688,
+     "top1_gold": 0.5962,
+     "ndcg5": 0.7654
+    }
+   }
+  },
+  "paired_profile_docmetasalah": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 96,
+   "sha256_beku": "c5d66c979aaccc33c5efb6c7fd646695e05b7e9181e69f8b4e4d569a68fbe988",
+   "sha256_resmi": "ed9fbb5d1acb56f54fd0c3a657b768238f3a1f20fed5cd3de7272e6167d5b9ba",
+   "n_komparabel": 96,
+   "menang_beku": 91,
+   "menang_resmi": 91,
+   "diskordan_beku_saja": 0,
+   "diskordan_resmi_saja": 0,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 3,
+   "seri_dalam_presisi_resmi": 3,
+   "diskordan_yang_seri_di_beku": 0,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.9479,
+     "top1_gold": 0.5,
+     "ndcg5": 0.7108
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.9479,
+     "top1_gold": 0.5,
+     "ndcg5": 0.7197
+    }
+   }
+  },
+  "paired_profile_fmtlabeled": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 97,
+   "sha256_beku": "89ba964a76e40531d2b0d6cd73daca6e2cce1713277e4c080ed862f9b3dc5d0c",
+   "sha256_resmi": "e617947f56d0b176fa36f0281c9bafa06d89a3a64cbb95e295c25e89a7e0b709",
+   "n_komparabel": 96,
+   "menang_beku": 46,
+   "menang_resmi": 46,
+   "diskordan_beku_saja": 0,
+   "diskordan_resmi_saja": 0,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 14,
+   "seri_dalam_presisi_resmi": 15,
+   "diskordan_yang_seri_di_beku": 0,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.4792,
+     "top1_gold": 0.2212,
+     "ndcg5": 0.4959
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.4792,
+     "top1_gold": 0.2308,
+     "ndcg5": 0.5129
+    }
+   }
+  },
+  "paired_profile_fmttag": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 95,
+   "sha256_beku": "ec2fa2207d59ffc89134b15a659c633b9cfb91fffa7fde0f2859fb1266020c8d",
+   "sha256_resmi": "e9bee559cda18eaef5084ce0b32860b6a30fb4dce0a4b05f2817ee92102820e3",
+   "n_komparabel": 96,
+   "menang_beku": 48,
+   "menang_resmi": 47,
+   "diskordan_beku_saja": 1,
+   "diskordan_resmi_saja": 0,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 12,
+   "seri_dalam_presisi_resmi": 13,
+   "diskordan_yang_seri_di_beku": 1,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.5,
+     "top1_gold": 0.2596,
+     "ndcg5": 0.5441
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.4896,
+     "top1_gold": 0.2596,
+     "ndcg5": 0.5424
+    }
+   }
+  },
+  "paired_profile_id": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_paired_profile_id.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_paired_profile_id.jsonl",
+   "manifest_beku_ada": false,
+   "sha256_resmi": "6e150fb5e2d18ad8ae7519204be00ff1bdb368661f68b83dbfdf1a1a31903fe9"
+  },
+  "paired_profile_vmem": {
+   "status": "selesai",
+   "n_baris_beku": 104,
+   "n_baris_resmi": 104,
+   "n_baris_sama": 104,
+   "ranking_identik": 0,
+   "top1_identik": 100,
+   "sha256_beku": "fa561f2fae68f3182d74b33300375639af61456abad7289669786a6bd37cef55",
+   "sha256_resmi": "8748858ea0746bda0df961f45356988c2b2cb7f409837d488bf8342fdf5eab2d",
+   "n_komparabel": 96,
+   "menang_beku": 47,
+   "menang_resmi": 47,
+   "diskordan_beku_saja": 1,
+   "diskordan_resmi_saja": 1,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 13,
+   "seri_dalam_presisi_resmi": 11,
+   "diskordan_yang_seri_di_beku": 2,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.4896,
+     "top1_gold": 0.2308,
+     "ndcg5": 0.4697
+    },
+    "resmi": {
+     "n_baris": 104,
+     "n_komparabel": 96,
+     "pairwise": 0.4896,
+     "top1_gold": 0.2212,
+     "ndcg5": 0.4741
+    }
+   }
+  },
+  "tanggaP1_profile_nama_en_docmeta": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_tanggaP1_profile_nama_en_docmeta.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_tanggaP1_profile_nama_en_docmeta.jsonl",
+   "manifest_beku_ada": false,
+   "sha256_resmi": "16719b10253ecaacd758af2a7f5d66a6b457b6f0bc74fffe20dcd52f77170020"
+  },
+  "tanggaP2_profile_nama_en_docmeta": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_tanggaP2_profile_nama_en_docmeta.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_tanggaP2_profile_nama_en_docmeta.jsonl",
+   "manifest_beku_ada": false,
+   "sha256_resmi": "1d492b431177d10a9bbeabbd01f42892dcf9d237d29ad319a4af168aab3d84a7"
+  },
+  "tanggaP3_profile_nama_en_docmeta": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_tanggaP3_profile_nama_en_docmeta.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_tanggaP3_profile_nama_en_docmeta.jsonl",
+   "manifest_beku_ada": false,
+   "sha256_resmi": "801b787bfd657cf4720c32771855c6a102e19154d783901d41493d12720409e8"
+  },
+  "tanggaS2_profile_docmeta": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_tanggaS2_profile_docmeta.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_tanggaS2_profile_docmeta.jsonl",
+   "manifest_beku_ada": false,
+   "sha256_resmi": "e134c245193d2c8500d6ca6380536ecd153a947706caeca87be18f19827c4f74"
+  },
+  "tanggaS3_profile_docmeta": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_tanggaS3_profile_docmeta.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_tanggaS3_profile_docmeta.jsonl",
+   "manifest_beku_ada": false,
+   "sha256_resmi": "8f06a60e30e234921fe78d1d1d825ecd58162987fd303b706d5f3c7ab6b0881f"
+  },
+  "tanggaalami_profile_docmeta": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_tanggaalami_profile_docmeta.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_tanggaalami_profile_docmeta.jsonl",
+   "manifest_beku_ada": false,
+   "sha256_resmi": "2fadb6cce3050e65b0f1fc7ce8a2d9271fffd26c9a5d0f4a5a00da8252ca7b1d"
+  },
+  "tangganama_profile_docmeta": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_tangganama_profile_docmeta.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_tangganama_profile_docmeta.jsonl",
+   "manifest_beku_ada": false,
+   "sha256_resmi": "9cac1ddfd87dc912f73666ebf5916f812befd3d2a811c15d6b39dc0f86617243"
+  },
+  "tanggaopak_profile_docmeta": {
+   "status": "berkas_beku_hilang",
+   "berkas_resmi": "scores_zerank2official_zerank-2_tanggaopak_profile_docmeta.jsonl",
+   "berkas_beku": "scores_zerank2_zerank-2_tanggaopak_profile_docmeta.jsonl",
+   "manifest_beku_ada": false,
+   "sha256_resmi": "44240d8078d796fccda1ff7cc0db5f33a98b7e2b450052bfd166df85370745d1"
+  },
+  "traindev_default": {
+   "status": "selesai",
+   "n_baris_beku": 2493,
+   "n_baris_resmi": 2493,
+   "n_baris_sama": 2493,
+   "ranking_identik": 908,
+   "top1_identik": 2465,
+   "sha256_beku": "bb6b3fa74200b031be6f23c1af4457ab5120142e008a3494437155585f23a963",
+   "sha256_resmi": "582e670a4b8bddfdcc31fe83abc03649a626b7160cf45800b4aaef7aebff2214",
+   "metrik_traindev": {
+    "beku": {
+     "n": 2493,
+     "ndcg5": 0.8357,
+     "mrr": 0.8506,
+     "top1_hit": 0.7738
+    },
+    "resmi": {
+     "n": 2493,
+     "ndcg5": 0.8365,
+     "mrr": 0.8521,
+     "top1_hit": 0.7762
+    }
+   },
+   "metrik_traindev_ir_measures": {
+    "beku": {
+     "n": 2493,
+     "nDCG@5": 0.8357,
+     "MRR": 0.8506,
+     "R@1": 0.7056
+    },
+    "resmi": {
+     "n": 2493,
+     "nDCG@5": 0.8365,
+     "MRR": 0.8521,
+     "R@1": 0.708
+    }
+   }
+  },
+  "traindev_profile": {
+   "status": "selesai",
+   "n_baris_beku": 2493,
+   "n_baris_resmi": 2493,
+   "n_baris_sama": 2493,
+   "ranking_identik": 748,
+   "top1_identik": 2459,
+   "sha256_beku": "c4639383fd250b553f50561b76fc3b1e74854c26d8ffbb984000ee3bc239aa75",
+   "sha256_resmi": "3a2ca4d01bc275c2b6cfba18a2ed1b2539c50b6da50bf18d41d5e41a2d57fb34",
+   "metrik_traindev": {
+    "beku": {
+     "n": 2493,
+     "ndcg5": 0.8276,
+     "mrr": 0.8442,
+     "top1_hit": 0.7661
+    },
+    "resmi": {
+     "n": 2493,
+     "ndcg5": 0.8269,
+     "mrr": 0.8432,
+     "top1_hit": 0.7645
+    }
+   },
+   "metrik_traindev_ir_measures": {
+    "beku": {
+     "n": 2493,
+     "nDCG@5": 0.8276,
+     "MRR": 0.8442,
+     "R@1": 0.6976
+    },
+    "resmi": {
+     "n": 2493,
+     "nDCG@5": 0.8269,
+     "MRR": 0.8432,
+     "R@1": 0.6957
+    }
+   }
+  },
+  "xpair_default": {
+   "status": "selesai",
+   "n_baris_beku": 1621,
+   "n_baris_resmi": 1621,
+   "n_baris_sama": 1621,
+   "ranking_identik": 0,
+   "top1_identik": 1589,
+   "sha256_beku": "2e97cda8f41ad33cb0afe64d0169ca59328f90952b7aab628d677d9784e16b47",
+   "sha256_resmi": "5f748e95975e6530907579a918d098b62e47e5f88194c227ffe23bf1935c0a2b",
+   "n_komparabel": 1621,
+   "menang_beku": 600,
+   "menang_resmi": 600,
+   "diskordan_beku_saja": 3,
+   "diskordan_resmi_saja": 3,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 18,
+   "seri_dalam_presisi_resmi": 20,
+   "diskordan_yang_seri_di_beku": 6,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 1621,
+     "n_komparabel": 1621,
+     "pairwise": 0.3701,
+     "top1_gold": 0.2653,
+     "ndcg5": 0.3478
+    },
+    "resmi": {
+     "n_baris": 1621,
+     "n_komparabel": 1621,
+     "pairwise": 0.3701,
+     "top1_gold": 0.2665,
+     "ndcg5": 0.3485
+    }
+   }
+  },
+  "xpair_profile": {
+   "status": "selesai",
+   "n_baris_beku": 1621,
+   "n_baris_resmi": 1621,
+   "n_baris_sama": 1621,
+   "ranking_identik": 0,
+   "top1_identik": 1579,
+   "sha256_beku": "1259fdeb63c8903818917e3b39b96fb6ec041bfb59432a427c87eacbd00cfe4c",
+   "sha256_resmi": "73bfcebcb107b734fb8a68a5bffe1a1027e558e3ee094f7b76e2f65b2e65bd54",
+   "n_komparabel": 1621,
+   "menang_beku": 598,
+   "menang_resmi": 597,
+   "diskordan_beku_saja": 3,
+   "diskordan_resmi_saja": 2,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 17,
+   "seri_dalam_presisi_resmi": 16,
+   "diskordan_yang_seri_di_beku": 5,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 1621,
+     "n_komparabel": 1621,
+     "pairwise": 0.3689,
+     "top1_gold": 0.2659,
+     "ndcg5": 0.347
+    },
+    "resmi": {
+     "n_baris": 1621,
+     "n_komparabel": 1621,
+     "pairwise": 0.3683,
+     "top1_gold": 0.2671,
+     "ndcg5": 0.347
+    }
+   }
+  },
+  "xpair_profile_docmeta": {
+   "status": "selesai",
+   "n_baris_beku": 1621,
+   "n_baris_resmi": 1621,
+   "n_baris_sama": 1621,
+   "ranking_identik": 0,
+   "top1_identik": 1588,
+   "sha256_beku": "8e630e9510712315a3b70da8b06e20232614904bb2aeec209f4ce780699ec627",
+   "sha256_resmi": "925953ab603cde1529bf9707a47037bbe54c4de45d11a4037a01c4940d85bf2b",
+   "n_komparabel": 1621,
+   "menang_beku": 818,
+   "menang_resmi": 819,
+   "diskordan_beku_saja": 1,
+   "diskordan_resmi_saja": 2,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 23,
+   "seri_dalam_presisi_resmi": 22,
+   "diskordan_yang_seri_di_beku": 3,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 1621,
+     "n_komparabel": 1621,
+     "pairwise": 0.5046,
+     "top1_gold": 0.356,
+     "ndcg5": 0.4819
+    },
+    "resmi": {
+     "n_baris": 1621,
+     "n_komparabel": 1621,
+     "pairwise": 0.5052,
+     "top1_gold": 0.3523,
+     "ndcg5": 0.4796
+    }
+   }
+  },
+  "xpair_profile_docmetasalah": {
+   "status": "selesai",
+   "n_baris_beku": 1621,
+   "n_baris_resmi": 1621,
+   "n_baris_sama": 1621,
+   "ranking_identik": 0,
+   "top1_identik": 1601,
+   "sha256_beku": "71c8364ae4a0fe76f3a3897dbf3907fe3b837ffdefc17f57609d7fe0c70f5f48",
+   "sha256_resmi": "d3065c6384e0b833dce613b866893b33e64555a5eb362fd8a90e8d9897547888",
+   "n_komparabel": 1621,
+   "menang_beku": 706,
+   "menang_resmi": 705,
+   "diskordan_beku_saja": 1,
+   "diskordan_resmi_saja": 0,
+   "p_mcnemar_beku_vs_resmi": 1.0,
+   "seri_dalam_presisi_beku": 14,
+   "seri_dalam_presisi_resmi": 17,
+   "diskordan_yang_seri_di_beku": 1,
+   "metrik_paired": {
+    "beku": {
+     "n_baris": 1621,
+     "n_komparabel": 1621,
+     "pairwise": 0.4355,
+     "top1_gold": 0.3054,
+     "ndcg5": 0.4114
+    },
+    "resmi": {
+     "n_baris": 1621,
+     "n_komparabel": 1621,
+     "pairwise": 0.4349,
+     "top1_gold": 0.3054,
+     "ndcg5": 0.4124
+    }
+   }
+  }
+ },
+ "kontras_naskah_per_jalur": {
+  "paired:none_vs_slot": {
+   "beku": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 48,
+    "menang_b": 47,
+    "a_kalah_b_menang": 7,
+    "a_menang_b_kalah": 8,
+    "selisih_bersih_pp": -1.04,
+    "p_mcnemar_exact": 1.0,
+    "batas_atas_poin_persen": 8.98,
+    "dilaporkan95_pp": [
+     -8.98,
+     7.32
+    ]
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 48,
+    "menang_b": 48,
+    "a_kalah_b_menang": 8,
+    "a_menang_b_kalah": 8,
+    "selisih_bersih_pp": 0.0,
+    "p_mcnemar_exact": 1.0,
+    "batas_atas_poin_persen": 8.45,
+    "dilaporkan95_pp": [
+     -8.45,
+     8.45
+    ]
+   }
+  },
+  "paired:slot_vs_both": {
+   "beku": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 47,
+    "menang_b": 96,
+    "a_kalah_b_menang": 49,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 51.04,
+    "p_mcnemar_exact": 3.553e-15
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 48,
+    "menang_b": 96,
+    "a_kalah_b_menang": 48,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 50.0,
+    "p_mcnemar_exact": 7.105e-15
+   }
+  },
+  "paired:text_vs_both": {
+   "beku": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 48,
+    "menang_b": 96,
+    "a_kalah_b_menang": 48,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 50.0,
+    "p_mcnemar_exact": 7.105e-15
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 48,
+    "menang_b": 96,
+    "a_kalah_b_menang": 48,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 50.0,
+    "p_mcnemar_exact": 7.105e-15
+   }
+  },
+  "paired:wrong_vs_both": {
+   "beku": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 91,
+    "menang_b": 96,
+    "a_kalah_b_menang": 5,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 5.21,
+    "p_mcnemar_exact": 0.0625
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 91,
+    "menang_b": 96,
+    "a_kalah_b_menang": 5,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 5.21,
+    "p_mcnemar_exact": 0.0625
+   }
+  },
+  "paired:slot_vs_fmttag": {
+   "beku": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 47,
+    "menang_b": 48,
+    "a_kalah_b_menang": 9,
+    "a_menang_b_kalah": 8,
+    "selisih_bersih_pp": 1.04,
+    "p_mcnemar_exact": 1.0
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 48,
+    "menang_b": 47,
+    "a_kalah_b_menang": 7,
+    "a_menang_b_kalah": 8,
+    "selisih_bersih_pp": -1.04,
+    "p_mcnemar_exact": 1.0
+   }
+  },
+  "paired:slot_vs_fmtlabeled": {
+   "beku": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 47,
+    "menang_b": 46,
+    "a_kalah_b_menang": 11,
+    "a_menang_b_kalah": 12,
+    "selisih_bersih_pp": -1.04,
+    "p_mcnemar_exact": 1.0
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 48,
+    "menang_b": 46,
+    "a_kalah_b_menang": 10,
+    "a_menang_b_kalah": 12,
+    "selisih_bersih_pp": -2.08,
+    "p_mcnemar_exact": 0.8318
+   }
+  },
+  "paired:slot_vs_vmem": {
+   "beku": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 47,
+    "menang_b": 47,
+    "a_kalah_b_menang": 5,
+    "a_menang_b_kalah": 5,
+    "selisih_bersih_pp": 0.0,
+    "p_mcnemar_exact": 1.0
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 48,
+    "menang_b": 47,
+    "a_kalah_b_menang": 4,
+    "a_menang_b_kalah": 5,
+    "selisih_bersih_pp": -1.04,
+    "p_mcnemar_exact": 1.0
+   }
+  },
+  "paired:program_only_vs_both": {
+   "beku": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 85,
+    "menang_b": 96,
+    "a_kalah_b_menang": 11,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 11.46,
+    "p_mcnemar_exact": 0.0009766
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 85,
+    "menang_b": 96,
+    "a_kalah_b_menang": 11,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 11.46,
+    "p_mcnemar_exact": 0.0009766
+   }
+  },
+  "paired:semester_only_vs_both": {
+   "beku": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 93,
+    "menang_b": 96,
+    "a_kalah_b_menang": 3,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 3.12,
+    "p_mcnemar_exact": 0.25
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 96,
+    "menang_a": 93,
+    "menang_b": 96,
+    "a_kalah_b_menang": 3,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 3.12,
+    "p_mcnemar_exact": 0.25
+   }
+  },
+  "xpair:none_vs_slot": {
+   "beku": {
+    "status": "selesai",
+    "n": 1621,
+    "menang_a": 600,
+    "menang_b": 598,
+    "a_kalah_b_menang": 16,
+    "a_menang_b_kalah": 18,
+    "selisih_bersih_pp": -0.12,
+    "p_mcnemar_exact": 0.8642,
+    "batas_atas_poin_persen": 0.85,
+    "dilaporkan95_pp": [
+     -0.85,
+     0.62
+    ]
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 1621,
+    "menang_a": 600,
+    "menang_b": 597,
+    "a_kalah_b_menang": 16,
+    "a_menang_b_kalah": 19,
+    "selisih_bersih_pp": -0.19,
+    "p_mcnemar_exact": 0.7359,
+    "batas_atas_poin_persen": 0.91,
+    "dilaporkan95_pp": [
+     -0.91,
+     0.58
+    ]
+   }
+  },
+  "xpair:slot_vs_both": {
+   "beku": {
+    "status": "selesai",
+    "n": 1621,
+    "menang_a": 598,
+    "menang_b": 818,
+    "a_kalah_b_menang": 220,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 13.57,
+    "p_mcnemar_exact": 1.187e-66
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 1621,
+    "menang_a": 597,
+    "menang_b": 819,
+    "a_kalah_b_menang": 222,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 13.7,
+    "p_mcnemar_exact": 2.967e-67
+   }
+  },
+  "xpair:wrong_vs_both": {
+   "beku": {
+    "status": "selesai",
+    "n": 1621,
+    "menang_a": 706,
+    "menang_b": 818,
+    "a_kalah_b_menang": 112,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 6.91,
+    "p_mcnemar_exact": 3.852e-34
+   },
+   "resmi": {
+    "status": "selesai",
+    "n": 1621,
+    "menang_a": 705,
+    "menang_b": 819,
+    "a_kalah_b_menang": 114,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih_pp": 7.03,
+    "p_mcnemar_exact": 9.63e-35
+   }
+  }
+ },
+ "kontrol_tekstual_per_jalur": {
+  "tersaring": {
+   "beku": {
+    "status": "selesai",
+    "n_pasangan": 36,
+    "kondisi_lebih_baik": 25,
+    "kondisi_lebih_buruk": 1,
+    "seri": 10,
+    "delta_pairwise_pp": 33.33,
+    "p_dua_sisi_exact": 8.047e-07
+   },
+   "resmi": {
+    "status": "selesai",
+    "n_pasangan": 36,
+    "kondisi_lebih_baik": 26,
+    "kondisi_lebih_buruk": 1,
+    "seri": 9,
+    "delta_pairwise_pp": 34.72,
+    "p_dua_sisi_exact": 4.172e-07
+   }
+  },
+  "penuh": {
+   "beku": {
+    "status": "selesai",
+    "n_pasangan": 58,
+    "kondisi_lebih_baik": 36,
+    "kondisi_lebih_buruk": 1,
+    "seri": 21,
+    "delta_pairwise_pp": 30.17,
+    "p_dua_sisi_exact": 5.53e-10
+   },
+   "resmi": {
+    "status": "selesai",
+    "n_pasangan": 58,
+    "kondisi_lebih_baik": 36,
+    "kondisi_lebih_buruk": 1,
+    "seri": 21,
+    "delta_pairwise_pp": 30.17,
+    "p_dua_sisi_exact": 5.53e-10
+   }
+  }
+ },
+ "core17": {
+  "status": "selesai",
+  "sha256_beku": "0b127718530725592b36354ff18e5763b3345d4a8f2bdf0c4b6f6b86b7e735c5",
+  "sha256_resmi": "a7e215dd5d95714a60914d0eebb22ae50d39cf704629a846d5ab2caa9a5ce360",
+  "p_MRR": {
+   "beku": 0.108963,
+   "resmi": 0.109068
+  },
+  "ndcg5_og": {
+   "beku": 0.692388,
+   "resmi": 0.692016
+  },
+  "ndcg5_changed": {
+   "beku": 0.422199,
+   "resmi": 0.424873
+  },
+  "n_kueri": {
+   "beku": 40,
+   "resmi": 40
+  }
+ },
+ "probe_injeksi": {
+  "status": "selesai",
+  "sha256_beku": "93dcb85e218c1242e994b2f04a3122a165039d36e89829e4f2ccc33f6ad82a00",
+  "sha256_resmi": "b02839b34ed8339bf666f33398cda5e32ab2ad88c4b116a0181042c7cdca3874",
+  "agregat_per_kombinasi": {
+   "beku": {
+    "K1_default": {
+     "menang": 10,
+     "n_komparabel": 20,
+     "mean_rank_gold": 2.8
+    },
+    "K2_slot_instruksi": {
+     "menang": 12,
+     "n_komparabel": 20,
+     "mean_rank_gold": 3.8
+    },
+    "K3_profil_di_kueri": {
+     "menang": 11,
+     "n_komparabel": 20,
+     "mean_rank_gold": 2.55
+    },
+    "K4_label_di_dokumen": {
+     "menang": 10,
+     "n_komparabel": 20,
+     "mean_rank_gold": 3.1
+    },
+    "K5_slot_plus_dokumen": {
+     "menang": 20,
+     "n_komparabel": 20,
+     "mean_rank_gold": 1.35
+    },
+    "K6_frasa_imperatif": {
+     "menang": 10,
+     "n_komparabel": 20,
+     "mean_rank_gold": 4.35
+    },
+    "K7_memori_vendor": {
+     "menang": 10,
+     "n_komparabel": 20,
+     "mean_rank_gold": 2.85
+    }
+   },
+   "resmi": {
+    "K1_default": {
+     "menang": 10,
+     "n_komparabel": 20,
+     "mean_rank_gold": 2.8
+    },
+    "K2_slot_instruksi": {
+     "menang": 12,
+     "n_komparabel": 20,
+     "mean_rank_gold": 3.65
+    },
+    "K3_profil_di_kueri": {
+     "menang": 11,
+     "n_komparabel": 20,
+     "mean_rank_gold": 2.6
+    },
+    "K4_label_di_dokumen": {
+     "menang": 10,
+     "n_komparabel": 20,
+     "mean_rank_gold": 3.1
+    },
+    "K5_slot_plus_dokumen": {
+     "menang": 20,
+     "n_komparabel": 20,
+     "mean_rank_gold": 1.3
+    },
+    "K6_frasa_imperatif": {
+     "menang": 12,
+     "n_komparabel": 20,
+     "mean_rank_gold": 4.1
+    },
+    "K7_memori_vendor": {
+     "menang": 10,
+     "n_komparabel": 20,
+     "mean_rank_gold": 2.75
+    }
+   }
+  },
+  "keputusan_menang_identik": "138/140"
+ },
+ "label_source": "deterministic (frozen scores of both paths)"
+}

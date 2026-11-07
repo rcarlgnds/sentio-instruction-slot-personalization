@@ -1,0 +1,11 @@
+{
+  "run_id": "followir_Robust04_qwen3rr_Qwen3-Reranker-4B_20260823T054152Z",
+  "script": "result/paper_q2/scripts/q2_followir.py",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_followir.py --dataset Robust04 --family qwen3rr --model Qwen/Qwen3-Reranker-4B --dtype float16 --batch 2 --max-len 1024",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal",
+  "output": {
+    "path": "results/tables/followir_Robust04_qwen3rr_Qwen3-Reranker-4B.json",
+    "sha256": "47eead7da905071a7d6e6b7eb5b0a368dfe9e9d7ba8b478c7cc17b6856585b41"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "dibuat": "2026-10-03T05:00:38.869294+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Flip rate when the profile is swapped on bit-identical queries and pools; it separates profile blindness from a lexical key.",
+  "protokol": {
+    "n_pasangan": 52,
+    "kueri_identik_antar_profil": true,
+    "pool_identik_antar_profil": true,
+    "yang_berbeda": "student_profile and gold only",
+    "populasi": "paired track, test_holdout not touched"
+  },
+  "per_arm": {
+    "C3_0.6b_default": {
+      "n_pasangan": 52,
+      "flip_top1": 0.0,
+      "flip_urutan_penuh": 0.0,
+      "kendall_tau_mean": 1.0,
+      "pairwise": 0.5,
+      "n_komparabel": 96,
+      "contoh_flip_top1": [],
+      "sumber_sha256": "ccba5735293225bf4978c9b454b93ce21c0166fce9872e0cd1abf966d8b7a3cc"
+    },
+    "C3_0.6b_profil": {
+      "n_pasangan": 52,
+      "flip_top1": 0.1538,
+      "flip_urutan_penuh": 1.0,
+      "kendall_tau_mean": 0.913897,
+      "pairwise": 0.5104,
+      "n_komparabel": 96,
+      "contoh_flip_top1": [
+        {
+          "pair_id": "paired-11",
+          "top1_profil_1": "2cf1af3e-a21f-45c9-9d54-fefa7f7e91f7",
+          "top1_profil_2": "9a9675d4-ee1f-4f3b-a4be-60f01320b8c3"
+        },
+        {
+          "pair_id": "paired-23",
+          "top1_profil_1": "61dca303-8fd7-4bc0-b53d-b52c03bd2cab",
+          "top1_profil_2": "2ee25e0a-2a44-40c7-b7d4-19d24cb0b7f6"
+        },
+        {
+          "pair_id": "paired-26",
+          "top1_profil_1": "7b241e40-31ac-4945-b77f-7a5ee4e3a028",
+          "top1_profil_2": "5eacda17-51fb-4be1-930f-494fb159e9d8"
+        },
+        {
+          "pair_id": "paired-53",
+          "top1_profil_1": "d4ce32bd-0cd7-40bd-9bf6-00b7cd11c2e2",
+          "top1_profil_2": "2a0323fa-bd73-4727-b515-72d5a63ee069"
+        },
+        {
+          "pair_id": "paired-61",
+          "top1_profil_1": "55875d22-aa5f-421a-9b28-9ce1c1618b3f",
+          "top1_profil_2": "9b9ba442-9b44-4f49-b9cf-25b537c8846d"
+        }
+      ],
+      "sumber_sha256": "ce388c8d6a3f4005d19f63335f6efed9754d868f649ee49831a2e14bd433ccf7"
+    },
+    "C4_4b_default": {
+      "n_pasangan": 52,
+      "flip_top1": 0.0,
+      "flip_urutan_penuh": 0.0,
+      "kendall_tau_mean": 1.0,
+      "pairwise": 0.5,
+      "n_komparabel": 96,
+      "contoh_flip_top1": [],
+      "sumber_sha256": "78d14377f8f778c55c3cd7f2562b474badebbefef4664af2f279caae8a4eeaf3"
+    },
+    "C4_4b_profil": {
+      "n_pasangan": 52,
+      "flip_top1": 0.2115,
+      "flip_urutan_penuh": 1.0,
+      "kendall_tau_mean": 0.930814,
+      "pairwise": 0.5208,
+      "n_komparabel": 96,
+      "contoh_flip_top1": [
+        {
+          "pair_id": "paired-0",
+          "top1_profil_1": "8eddab17-461c-4006-b5ca-0e0ddeb2e4de",
+          "top1_profil_2": "d1d9f0c3-e7ee-4d18-95d3-7774c69bb25e"
+        },
+        {
+          "pair_id": "paired-10",
+          "top1_profil_1": "8ea50c17-6004-41c4-8b12-9cff422bb3e5",
+          "top1_profil_2": "859d5601-1ba3-4728-bbdc-aba5b36ef8d0"
+        },
+        {
+          "pair_id": "paired-15",
+          "top1_profil_1": "c6844c9b-a085-4347-b7a7-3538265c4d3e",
+          "top1_profil_2": "57a7345f-7b15-46e4-a9b6-7ae262f0b00e"
+        },
+        {
+          "pair_id": "paired-19",
+          "top1_profil_1": "185ce328-b1eb-4ae5-9be1-7ab284f34563",
+          "top1_profil_2": "d601775d-a8f8-4684-8dd0-be2dad3622a3"
+        },
+        {
+          "pair_id": "paired-44",
+          "top1_profil_1": "4342ce01-59ef-41d6-8420-643b5b828523",
+          "top1_profil_2": "a2529c5a-7c8f-4d4b-b483-bdf24e18e1e1"
+        }
+      ],
+      "sumber_sha256": "3d82073844cfbf443db616158ab08241bd394fb4850cd8e8c4d4d964f51c26cf"
+    }
+  },
+  "arah_gerakan_instruksi": {
+    "C3_0.6b": {
+      "kalah_jadi_menang": 6,
+      "menang_jadi_kalah": 5,
+      "tidak_berubah": 85,
+      "selisih_bersih": 1
+    },
+    "C4_4b": {
+      "kalah_jadi_menang": 10,
+      "menang_jadi_kalah": 8,
+      "tidak_berubah": 78,
+      "selisih_bersih": 2
+    }
+  },
+  "gerbang_replikasi_metrik": {
+    "qwen_scores_0.6b_paired_default.jsonl": {
+      "pairwise": 0.5,
+      "acuan": 0.5,
+      "n_komparabel": 96
+    },
+    "qwen_scores_0.6b_paired_profile.jsonl": {
+      "pairwise": 0.5104,
+      "acuan": 0.5104,
+      "n_komparabel": 96
+    },
+    "qwen_scores_4b_paired_default.jsonl": {
+      "pairwise": 0.5,
+      "acuan": 0.5,
+      "n_komparabel": 96
+    },
+    "qwen_scores_4b_paired_profile.jsonl": {
+      "pairwise": 0.5208,
+      "acuan": 0.5208,
+      "n_komparabel": 96
+    }
+  },
+  "temuan": {
+    "arm_default_urutan_identik_antar_profil": true,
+    "_arti": "flip_urutan_penuh = 0 in the default variant shows that the text scorers return bit-identical rankings for the two profiles, so pairwise 0.5 is invariance to the profile, not a statistical accident and not a lexical key. In the profile-instruction variant the flips stay small, so the instruction slot moves a few rankings without recovering the program signal. The arah_gerakan_instruksi block separates this further: the profile instruction moves decisions on many rows, but losses turned wins and wins turned losses nearly balance, so the instruction is not ignored, yet its movement is random with respect to the intended signal."
+  },
+  "batasan": "the flip rate of the DITS arm is not computed here, because the per-query rankings of the production arm were not stored; by design that arm does depend on the profile (pairwise 0.9688 in the published table)",
+  "label_source": "deterministic (re-reading the frozen score files)"
+}

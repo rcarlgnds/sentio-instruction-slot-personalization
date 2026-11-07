@@ -1,0 +1,15 @@
+{
+ "run_id": "release_probe_injeksi_qwen3rr_Qwen3-Reranker-4B_20260905T051322Z",
+ "_peran": "release manifest: written at packaging time from the frozen table, because the run that wrote the table left no manifest. It binds the file as released; the table's own timestamp and provenance fields are the run's.",
+ "script": "result/paper_q2/scripts/q2_probe_injeksi.py",
+ "manifest_written_by": "script/manifest_rilis_tabel.py",
+ "config_version": null,
+ "table_created": "2026-08-23T05:51:32.547500+00:00",
+ "label_source": "see table",
+ "sumber": {},
+ "output": {
+  "path": "results/tables/probe_injeksi_qwen3rr_Qwen3-Reranker-4B.json",
+  "sha256": "50a617a98b5afc03f1529b1c9a2b7bdeee6c8ccbd7cbea126b182090fee30a22",
+  "tingkat_reproduksi": "frozen as released"
+ }
+}

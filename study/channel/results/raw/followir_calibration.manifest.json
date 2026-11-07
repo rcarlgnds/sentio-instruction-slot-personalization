@@ -1,0 +1,9 @@
+{
+ "run_id": "followir_kalibrasi_20261003T050046Z",
+ "script": "result/paper_q2/scripts/q2_followir_kalibrasi.py",
+ "output": {
+  "path": "results/tables/followir_kalibrasi.json",
+  "sha256": "9be07acf651cb6cbc9acb04297e7786f7c7a8db3f1fd2362985eb0ded8c72e96"
+ },
+ "label_source": "deterministic"
+}

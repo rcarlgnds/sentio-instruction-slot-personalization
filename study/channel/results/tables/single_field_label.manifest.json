@@ -1,0 +1,47 @@
+{
+  "run_id": "label_satu_field_20261003T050041Z",
+  "script": "result/paper_q2/scripts/q2_label_satu_field.py",
+  "sumber": {
+    "Qwen3-Reranker-0.6B/both_frozen": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta.jsonl",
+      "sha256": "a8fd592f5cdcf67076211961902cbcbb6cf4c665bb56c476f1d89af8279b19a9"
+    },
+    "Qwen3-Reranker-0.6B/program_only": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta_fieldprogram.jsonl",
+      "sha256": "a074b205391d9735ba6673b874bf0fc7954035e475ef5b80e83c33fe312de19a"
+    },
+    "Qwen3-Reranker-0.6B/semester_only": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta_fieldsemester.jsonl",
+      "sha256": "3a54638b2942191c68805cfd80e62e597e5a111041c0d9818c77980fb6ba830d"
+    },
+    "Qwen3-Reranker-4B/both_frozen": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta.jsonl",
+      "sha256": "c3b856093179c06b89643fa22e40be7b8158df7129aa7c15a120b0d32cc3b065"
+    },
+    "Qwen3-Reranker-4B/program_only": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta_fieldprogram.jsonl",
+      "sha256": "38d9011643b6f969560d3888816bf568108083f91fc4c42a8c9ca253be1bc54f"
+    },
+    "Qwen3-Reranker-4B/semester_only": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta_fieldsemester.jsonl",
+      "sha256": "2f81ac9b3533c5c4d0770a022f8a0dee99c5ad5570238f99466bb16da7f9be8f"
+    },
+    "zerank-2/both_frozen": {
+      "path": "result/paper_q2/results/raw/scores_zerank2_zerank-2_paired_profile_docmeta.jsonl",
+      "sha256": "0a7872543b64ff7363790e8ce3dcdccdd11de98e85194193729073ddc686c595"
+    },
+    "zerank-2/program_only": {
+      "path": "result/paper_q2/results/raw/scores_zerank2_zerank-2_paired_profile_docmeta_fieldprogram.jsonl",
+      "sha256": "430b02062e51a1e6d3945d06ba249481c289bd465b2e875fd8219046d94f7ffa"
+    },
+    "zerank-2/semester_only": {
+      "path": "result/paper_q2/results/raw/scores_zerank2_zerank-2_paired_profile_docmeta_fieldsemester.jsonl",
+      "sha256": "3af2ba766aa646b5540a49c6b54a67b81993014140ab357e40cb689a4570523a"
+    }
+  },
+  "output": {
+    "path": "results/tables/label_satu_field.json",
+    "sha256": "27211d00eefe44f6f711558768877a3158a612b2b19750509e61dd3b9779ea7b"
+  },
+  "label_source": "deterministic (aggregation of frozen scores)"
+}

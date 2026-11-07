@@ -1,0 +1,288 @@
+{
+  "dibuat": "2026-10-03T05:00:43.542339+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Upper bound on the effect size of the instruction-slot channel. A failure to reject is not evidence of no effect, so this gives a bound instead of another p-value.",
+  "metode": {
+    "wald": "Var(d) = [b + c - (b-c)^2/n] / n^2, normal 95 percent interval",
+    "eksak_bersyarat": "b ~ Binomial(b+c, pi), Clopper-Pearson on pi, mapped to d = (2*pi - 1)*(b+c)/n",
+    "dilaporkan": "the wider side of the two methods, so it is never more optimistic",
+    "margin_ekuivalensi": "not chosen. Choosing a margin after seeing the data is the error the pre-registration of this project is there to prevent, so the interval itself is reported."
+  },
+  "track_inti_n96": [
+    {
+      "model": "Qwen3-Reranker-0.6B",
+      "n_berpasangan": 96,
+      "diskordan_slot_menang": 6,
+      "diskordan_buta_menang": 5,
+      "selisih_bersih": 1,
+      "selisih_proporsi": 0.010417,
+      "wald95": [
+        -0.057264,
+        0.078098
+      ],
+      "eksak_bersyarat95": [
+        -0.061006,
+        0.076201
+      ],
+      "dilaporkan95": [
+        -0.061006,
+        0.078098
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.078098,
+      "batas_atas_poin_persen": 7.81
+    },
+    {
+      "model": "Qwen3-Reranker-4B",
+      "n_berpasangan": 96,
+      "diskordan_slot_menang": 10,
+      "diskordan_buta_menang": 8,
+      "selisih_bersih": 2,
+      "selisih_proporsi": 0.020833,
+      "wald95": [
+        -0.065685,
+        0.107352
+      ],
+      "eksak_bersyarat95": [
+        -0.072161,
+        0.106762
+      ],
+      "dilaporkan95": [
+        -0.072161,
+        0.107352
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.107352,
+      "batas_atas_poin_persen": 10.74
+    },
+    {
+      "model": "zerank-2",
+      "n_berpasangan": 96,
+      "diskordan_slot_menang": 7,
+      "diskordan_buta_menang": 8,
+      "selisih_bersih": -1,
+      "selisih_proporsi": -0.010417,
+      "wald95": [
+        -0.089461,
+        0.068628
+      ],
+      "eksak_bersyarat95": [
+        -0.089792,
+        0.073168
+      ],
+      "dilaporkan95": [
+        -0.089792,
+        0.073168
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.089792,
+      "batas_atas_poin_persen": 8.98
+    }
+  ],
+  "track_luas_n1621": [
+    {
+      "model": "Qwen3-Reranker-0.6B",
+      "n_berpasangan": 1621,
+      "diskordan_slot_menang": 15,
+      "diskordan_buta_menang": 18,
+      "selisih_bersih": -3,
+      "selisih_proporsi": -0.001851,
+      "wald95": [
+        -0.008796,
+        0.005095
+      ],
+      "eksak_bersyarat95": [
+        -0.008914,
+        0.005557
+      ],
+      "dilaporkan95": [
+        -0.008914,
+        0.005557
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.008914,
+      "batas_atas_poin_persen": 0.89
+    },
+    {
+      "model": "Qwen3-Reranker-4B",
+      "n_berpasangan": 1621,
+      "diskordan_slot_menang": 17,
+      "diskordan_buta_menang": 19,
+      "selisih_bersih": -2,
+      "selisih_proporsi": -0.001234,
+      "wald95": [
+        -0.008488,
+        0.006021
+      ],
+      "eksak_bersyarat95": [
+        -0.008703,
+        0.006447
+      ],
+      "dilaporkan95": [
+        -0.008703,
+        0.006447
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.008703,
+      "batas_atas_poin_persen": 0.87
+    },
+    {
+      "model": "zerank-2",
+      "n_berpasangan": 1621,
+      "diskordan_slot_menang": 16,
+      "diskordan_buta_menang": 18,
+      "selisih_bersih": -2,
+      "selisih_proporsi": -0.001234,
+      "wald95": [
+        -0.008284,
+        0.005816
+      ],
+      "eksak_bersyarat95": [
+        -0.008483,
+        0.006238
+      ],
+      "dilaporkan95": [
+        -0.008483,
+        0.006238
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.008483,
+      "batas_atas_poin_persen": 0.85
+    }
+  ],
+  "pembanding_saluran_teks_inti_n96": [
+    {
+      "model": "Qwen3-Reranker-0.6B (slot -> slot+teks)",
+      "n_berpasangan": 96,
+      "diskordan_slot_menang": 39,
+      "diskordan_buta_menang": 0,
+      "selisih_bersih": 39,
+      "selisih_proporsi": 0.40625,
+      "wald95": [
+        0.308005,
+        0.504495
+      ],
+      "eksak_bersyarat95": [
+        0.332921,
+        0.40625
+      ],
+      "dilaporkan95": [
+        0.308005,
+        0.504495
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.504495,
+      "batas_atas_poin_persen": 50.45
+    },
+    {
+      "model": "Qwen3-Reranker-4B (slot -> slot+teks)",
+      "n_berpasangan": 96,
+      "diskordan_slot_menang": 37,
+      "diskordan_buta_menang": 4,
+      "selisih_bersih": 33,
+      "selisih_proporsi": 0.34375,
+      "wald95": [
+        0.232568,
+        0.454932
+      ],
+      "eksak_bersyarat95": [
+        0.229502,
+        0.403827
+      ],
+      "dilaporkan95": [
+        0.229502,
+        0.454932
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.454932,
+      "batas_atas_poin_persen": 45.49
+    }
+  ],
+  "pembanding_saluran_teks_luas_n1621": [
+    {
+      "model": "Qwen3-Reranker-0.6B (slot -> slot+teks)",
+      "n_berpasangan": 1621,
+      "diskordan_slot_menang": 101,
+      "diskordan_buta_menang": 1,
+      "selisih_bersih": 100,
+      "selisih_proporsi": 0.06169,
+      "wald95": [
+        0.049854,
+        0.073527
+      ],
+      "eksak_bersyarat95": [
+        0.056202,
+        0.062893
+      ],
+      "dilaporkan95": [
+        0.049854,
+        0.073527
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.073527,
+      "batas_atas_poin_persen": 7.35
+    },
+    {
+      "model": "Qwen3-Reranker-4B (slot -> slot+teks)",
+      "n_berpasangan": 1621,
+      "diskordan_slot_menang": 55,
+      "diskordan_buta_menang": 12,
+      "selisih_bersih": 43,
+      "selisih_proporsi": 0.026527,
+      "wald95": [
+        0.016714,
+        0.036339
+      ],
+      "eksak_bersyarat95": [
+        0.017197,
+        0.033387
+      ],
+      "dilaporkan95": [
+        0.016714,
+        0.036339
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.036339,
+      "batas_atas_poin_persen": 3.63
+    },
+    {
+      "model": "zerank-2 (slot -> slot+teks)",
+      "n_berpasangan": 1621,
+      "diskordan_slot_menang": 220,
+      "diskordan_buta_menang": 0,
+      "selisih_bersih": 220,
+      "selisih_proporsi": 0.135719,
+      "wald95": [
+        0.119046,
+        0.152391
+      ],
+      "eksak_bersyarat95": [
+        0.131205,
+        0.135719
+      ],
+      "dilaporkan95": [
+        0.119046,
+        0.152391
+      ],
+      "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+      "batas_atas_besaran_efek": 0.152391,
+      "batas_atas_poin_persen": 15.24
+    }
+  ],
+  "ringkas": {
+    "_peringatan": "the ratio must be computed within one track. The broad-track slot bound against the core-track text effect mixes a denominator of 1621 with one of 96 and is not valid.",
+    "inti_n96_batas_slot_pp": 10.74,
+    "inti_n96_efek_teks_terkecil_pp": 34.38,
+    "luas_n1621_batas_slot_pp": 0.89,
+    "luas_n1621_efek_teks_pp": [
+      2.65,
+      13.57
+    ],
+    "rasio_dalam_track_luas": [
+      6.9,
+      3.0,
+      16.0
+    ]
+  },
+  "label_source": "deterministic (arithmetic on the frozen discordant counts)"
+}

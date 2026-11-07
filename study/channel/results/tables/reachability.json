@@ -1,0 +1,85 @@
+{
+  "dibuat": "2026-08-23T08:29:04.274027+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Reachability: what share of golds lives in the book of a program other than the asker's.",
+  "populasi": "traindev 2,493, test_holdout not touched (split gate)",
+  "n_kueri_diperiksa": 2493,
+  "n_terpetakan": 2493,
+  "n_tak_terpetakan": 0,
+  "gold_lintas_program": {
+    "n": 293,
+    "rate": 0.1175,
+    "_arti": "share of queries with at least one gold in the book of another program. This is not a lost recall ceiling: a hard filter would cut part of a multi-hop evidence chain, not make the answer unreachable."
+  },
+  "gold_tak_terjangkau_filter_keras": {
+    "n": 0,
+    "rate": 0.0,
+    "_arti": "queries with no gold at all in their own program, the ones truly lost under a hard filter. Measured at zero: a hard filter still reaches at least one gold for every query."
+  },
+  "per_kelas_kueri": {
+    "adversarial_routing": {
+      "n": 674,
+      "silang": 0,
+      "rate_silang": 0.0
+    },
+    "multi_disciplinary_ambiguity": {
+      "n": 673,
+      "silang": 0,
+      "rate_silang": 0.0
+    },
+    "prerequisite_chain_depth": {
+      "n": 472,
+      "silang": 293,
+      "rate_silang": 0.6208
+    },
+    "temporal_scope_drift": {
+      "n": 674,
+      "silang": 0,
+      "rate_silang": 0.0
+    }
+  },
+  "per_departemen_penanya": {
+    "ACCT": {
+      "n": 107,
+      "silang": 0,
+      "rate_silang": 0.0
+    },
+    "BANA": {
+      "n": 135,
+      "silang": 91,
+      "rate_silang": 0.6741
+    },
+    "CSCI": {
+      "n": 575,
+      "silang": 0,
+      "rate_silang": 0.0
+    },
+    "DTSC": {
+      "n": 314,
+      "silang": 143,
+      "rate_silang": 0.4554
+    },
+    "ISYS": {
+      "n": 259,
+      "silang": 0,
+      "rate_silang": 0.0
+    },
+    "MGMT": {
+      "n": 554,
+      "silang": 0,
+      "rate_silang": 0.0
+    },
+    "MKTG": {
+      "n": 299,
+      "silang": 59,
+      "rate_silang": 0.1973
+    },
+    "STAT": {
+      "n": 250,
+      "silang": 0,
+      "rate_silang": 0.0
+    }
+  },
+  "cara_membaca": "A hard metadata filter does not make any gold unreachable: none of the 2,493 queries loses all of its golds. What is measured here is the cut in the evidence chain: 11.75 percent of queries (62.08 percent in the prerequisite class) have at least one gold chunk in the book of another program. A hard filter would hide those chunks, so an answer loses part of its reasoning chain while the main answer can still be found. The case for soft scoring therefore rests on the completeness of the evidence chain and on the gradation of the ranking, not on unreachability.",
+  "label_source": "deterministic (join of the corpus metadata and gold_anchor)"
+}

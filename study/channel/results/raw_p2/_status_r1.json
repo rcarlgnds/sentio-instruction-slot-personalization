@@ -1,0 +1,2165 @@
+{
+ "sel": {
+  "G0|qwen06|paired|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 100.4,
+   "waktu": "2026-10-16T10:09:47+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "424460 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "104 of 104"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 104, unmapped 0"
+    },
+    {
+     "nama": "V10 r0: same queries as the canonical file",
+     "lolos": true,
+     "catatan": ""
+    },
+    {
+     "nama": "V11 r0: zero win flips",
+     "lolos": true,
+     "catatan": "0 rows flip"
+    },
+    {
+     "nama": "V12 r0: scores within tolerance",
+     "lolos": true,
+     "catatan": "max 0 vs 1.5e-06"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G0_qwen06_paired_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G0|gemma|paired|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 170.7,
+   "waktu": "2026-10-16T10:12:37+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "414545 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "104 of 104"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 104, unmapped 0"
+    },
+    {
+     "nama": "V10 r0: same queries as the canonical file",
+     "lolos": true,
+     "catatan": ""
+    },
+    {
+     "nama": "V11 r0: zero win flips",
+     "lolos": true,
+     "catatan": "0 rows flip"
+    },
+    {
+     "nama": "V12 r0: scores within tolerance",
+     "lolos": true,
+     "catatan": "max 0 vs 0.3"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G0_gemma_paired_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G0|zerank2|paired|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 321.2,
+   "waktu": "2026-10-16T10:17:59+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "418375 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "104 of 104"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 104, unmapped 0"
+    },
+    {
+     "nama": "V10 r0: same queries as the canonical file",
+     "lolos": true,
+     "catatan": ""
+    },
+    {
+     "nama": "V11 r0: zero win flips",
+     "lolos": true,
+     "catatan": "0 rows flip"
+    },
+    {
+     "nama": "V12 r0: scores within tolerance",
+     "lolos": true,
+     "catatan": "max 0 vs 0.3"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G0_zerank2_paired_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G0|qwen4|paired|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 351.2,
+   "waktu": "2026-10-16T10:23:50+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "423730 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "104 of 104"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 104, unmapped 0"
+    },
+    {
+     "nama": "V10 r0: same queries as the canonical file",
+     "lolos": true,
+     "catatan": ""
+    },
+    {
+     "nama": "V11 r0: zero win flips",
+     "lolos": true,
+     "catatan": "0 rows flip"
+    },
+    {
+     "nama": "V12 r0: scores within tolerance",
+     "lolos": true,
+     "catatan": "max 0 vs 1.5e-06"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G0_qwen4_paired_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G0|ctxl|paired|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 371.3,
+   "waktu": "2026-10-16T10:30:01+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "416463 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "104 of 104"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 104, unmapped 0"
+    },
+    {
+     "nama": "V10 r0: same queries as the canonical file",
+     "lolos": true,
+     "catatan": ""
+    },
+    {
+     "nama": "V11 r0: zero win flips",
+     "lolos": true,
+     "catatan": "0 rows flip"
+    },
+    {
+     "nama": "V12 r0: scores within tolerance",
+     "lolos": true,
+     "catatan": "max 0 vs 0.3"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G0_ctxl_paired_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G0|followir|paired|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 602.5,
+   "waktu": "2026-10-16T10:40:04+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "422890 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "104 of 104"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 104, unmapped 0"
+    },
+    {
+     "nama": "V10 r0: same queries as the canonical file",
+     "lolos": true,
+     "catatan": ""
+    },
+    {
+     "nama": "V11 r0: zero win flips",
+     "lolos": true,
+     "catatan": "0 rows flip"
+    },
+    {
+     "nama": "V12 r0: scores within tolerance",
+     "lolos": true,
+     "catatan": "max 0 vs 0.3"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G0_followir_paired_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G0|gemma|paired|slot_vendor": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 160.7,
+   "waktu": "2026-10-16T10:42:45+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "418570 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "104 of 104"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 104, unmapped 0"
+    },
+    {
+     "nama": "V10 r0: same queries as the canonical file",
+     "lolos": true,
+     "catatan": ""
+    },
+    {
+     "nama": "V11 r0: zero win flips",
+     "lolos": true,
+     "catatan": "0 rows flip"
+    },
+    {
+     "nama": "V12 r0: scores within tolerance",
+     "lolos": true,
+     "catatan": "max 0 vs 0.3"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G0_gemma_paired_slot_vendor.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|qwen06|xp2|none": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 602.1,
+   "waktu": "2026-10-16T10:52:54+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4538075 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 blind: identical scores within every group",
+     "lolos": true,
+     "catatan": "0 groups differ"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_qwen06_xp2_none.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|qwen06|xp2|slot": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 632.3,
+   "waktu": "2026-10-16T11:03:26+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4538585 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_qwen06_xp2_slot.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|qwen06|xp2|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 652.3,
+   "waktu": "2026-10-16T11:14:19+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4540144 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_qwen06_xp2_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|gemma|xp2|none": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 942.8,
+   "waktu": "2026-10-16T11:30:02+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4517462 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 blind: identical scores within every group",
+     "lolos": true,
+     "catatan": "0 groups differ"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_gemma_xp2_none.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|gemma|xp2|slot": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 1032.9,
+   "waktu": "2026-10-16T11:47:15+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4473600 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_gemma_xp2_slot.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|gemma|xp2|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 1063.1,
+   "waktu": "2026-10-16T12:04:58+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4474409 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_gemma_xp2_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|zerank2|xp2|none": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 1975.5,
+   "waktu": "2026-10-16T12:37:54+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4487350 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 blind: identical scores within every group",
+     "lolos": true,
+     "catatan": "0 groups differ"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_zerank2_xp2_none.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|zerank2|xp2|slot": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2136.1,
+   "waktu": "2026-10-16T13:13:30+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4498079 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_zerank2_xp2_slot.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|zerank2|xp2|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2226.3,
+   "waktu": "2026-10-16T13:50:37+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4490230 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_zerank2_xp2_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|qwen4|xp2|none": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2256.5,
+   "waktu": "2026-10-16T14:28:13+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4533524 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 blind: identical scores within every group",
+     "lolos": true,
+     "catatan": "0 groups differ"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_qwen4_xp2_none.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|qwen4|xp2|slot": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2417.0,
+   "waktu": "2026-10-16T15:08:31+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4535960 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_qwen4_xp2_slot.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|qwen4|xp2|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2386.8,
+   "waktu": "2026-10-16T15:48:17+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4539351 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_qwen4_xp2_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|ctxl|xp2|none": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2116.1,
+   "waktu": "2026-10-16T16:23:34+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4473658 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 blind: identical scores within every group",
+     "lolos": true,
+     "catatan": "0 groups differ"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_ctxl_xp2_none.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|ctxl|xp2|slot": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2376.8,
+   "waktu": "2026-10-16T17:03:11+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4459233 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_ctxl_xp2_slot.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|ctxl|xp2|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2477.1,
+   "waktu": "2026-10-16T17:44:28+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4473476 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_ctxl_xp2_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|followir|xp2|none": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 3921.3,
+   "waktu": "2026-10-16T18:49:49+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4494263 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 blind: identical scores within every group",
+     "lolos": true,
+     "catatan": "0 groups differ"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_followir_xp2_none.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|followir|xp2|slot": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 4202.0,
+   "waktu": "2026-10-16T19:59:52+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4518758 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_followir_xp2_slot.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|followir|xp2|both": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 4342.3,
+   "waktu": "2026-10-16T21:12:14+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4530667 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_followir_xp2_both.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|gemma|xp2|slot_vendor": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 1012.9,
+   "waktu": "2026-10-16T21:29:07+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4518766 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_gemma_xp2_slot_vendor.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|gemma|xp2|both_vendor": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 1053.0,
+   "waktu": "2026-10-16T21:46:40+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4518090 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_gemma_xp2_both_vendor.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|qwen06|xp2|wrong": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 621.7,
+   "waktu": "2026-10-16T21:57:02+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4539918 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_qwen06_xp2_wrong.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|gemma|xp2|wrong_vendor": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 1053.0,
+   "waktu": "2026-10-16T22:14:36+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4519222 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_gemma_xp2_wrong_vendor.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|zerank2|xp2|wrong": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2236.4,
+   "waktu": "2026-10-16T22:51:52+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4491545 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_zerank2_xp2_wrong.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|qwen4|xp2|wrong": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2457.1,
+   "waktu": "2026-10-16T23:32:49+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4539282 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_qwen4_xp2_wrong.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": null
+  },
+  "G4|ctxl|xp2|wrong": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 2567.5,
+   "waktu": "2026-10-17T00:15:37+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4474214 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_ctxl_xp2_wrong.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  },
+  "G4|followir|xp2|wrong": {
+   "status": "lolos",
+   "rc": 0,
+   "wall_s": 4503.1,
+   "waktu": "2026-10-17T01:30:40+00:00",
+   "percobaan": 1,
+   "validasi": [
+    {
+     "nama": "V1 output exists",
+     "lolos": true,
+     "catatan": "4528662 bytes"
+    },
+    {
+     "nama": "V2 row count",
+     "lolos": true,
+     "catatan": "960 of 960"
+    },
+    {
+     "nama": "V3 query set",
+     "lolos": true,
+     "catatan": "0 differ"
+    },
+    {
+     "nama": "V4 rankings present",
+     "lolos": true,
+     "catatan": "0 empty"
+    },
+    {
+     "nama": "V5 ranking aligned with scores",
+     "lolos": true,
+     "catatan": "0 misaligned"
+    },
+    {
+     "nama": "V6 no NaN or infinity",
+     "lolos": true,
+     "catatan": "0 bad scores"
+    },
+    {
+     "nama": "V7 candidate sets equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V8 golds equal the pool",
+     "lolos": true,
+     "catatan": "0 rows differ"
+    },
+    {
+     "nama": "V9 manifest",
+     "lolos": true,
+     "catatan": "n 960, unmapped 0"
+    },
+    {
+     "nama": "V10 profile applied: no group with identical rows",
+     "lolos": true,
+     "catatan": "0 groups identical"
+    }
+   ],
+   "log": "<workstation>/result/paper_q2/results/raw_p2/_log/G4_followir_xp2_wrong.log",
+   "sebab": null,
+   "banding_info": null,
+   "n_dokumen_terpotong": 0
+  }
+ },
+ "mulai": "2026-10-16T10:08:06+00:00",
+ "keadaan": "selesai",
+ "fase": [
+  "G4"
+ ],
+ "n_rencana": 26,
+ "heartbeat": "2026-10-17T01:30:40+00:00",
+ "progres": "round 1, 26/26",
+ "selesai": "2026-10-17T01:30:40+00:00",
+ "ringkas": {
+  "lolos": 26
+ }
+}

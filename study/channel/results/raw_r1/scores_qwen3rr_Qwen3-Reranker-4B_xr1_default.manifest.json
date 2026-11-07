@@ -1,0 +1,79 @@
+{
+ "run_id": "scores_qwen3rr_Qwen3-Reranker-4B_xr1_default_20261013T050331Z",
+ "script": "result/paper_q2/scripts/q2_arm_score.py",
+ "perintah_persis": "python q2_arm_score.py --family qwen3rr --model Qwen/Qwen3-Reranker-4B --dtype float16 --batch 4 --pools <workstation>/result/paper_q2/results/raw_r1/pools_xpair_r1.jsonl --tag xr1 --instruction default --out-dir <workstation>/result/paper_q2/results/raw_r1",
+ "config_version": "0a7b2e4de856",
+ "status_arm": "POST-HOC, di luar keluarga pra-registrasi delapan",
+ "model": "Qwen/Qwen3-Reranker-4B",
+ "keluarga": "qwen3rr",
+ "dtype": "float16",
+ "instruction": "default",
+ "vendor_memory": false,
+ "instruksi_profil_id_kerangka": null,
+ "slot_format": "plain",
+ "slot_format_sumber": null,
+ "doc_metadata_injected": false,
+ "doc_metadata_label_salah": false,
+ "doc_metadata_field": "both",
+ "doc_label_gaya": null,
+ "doc_label_en": null,
+ "doc_label_sem": null,
+ "r1_ijies": {
+  "profil_tetap": null,
+  "instruksi_kerangka": null,
+  "doc_metadata_salah_semester": false,
+  "doc_label_acak": false,
+  "doc_label_seragam": false,
+  "aturan_label": null,
+  "kolam_semester": null,
+  "kolam_prodi": null,
+  "n_label": {
+   "semsalah": 0,
+   "duasalah": 0,
+   "acak": 0,
+   "seragam": 0
+  }
+ },
+ "format_label_en": null,
+ "format_label_semester": null,
+ "format_label_program_gaya": null,
+ "format_label_sumber": null,
+ "kontrol_label_salah": null,
+ "n_kandidat_tak_terpetakan": 0,
+ "peta_label_sumber": {
+  "peta_label": "id",
+  "versi": "id-v1",
+  "sumber": {
+   "korpus": "src/ai/data/benchmark_release/corpus/corpus.jsonl",
+   "korpus_sha256": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+   "alias_uuid": "src/ai/data/benchmark_release/uuid_to_canonical.json",
+   "alias_sha256": "7b594b5d3322be88d11aa2ff481553c05001565d603bf14190a7bd1a6ceb7284"
+  },
+  "aturan": "prodi dan semester diambil dari identitas kandidat; pencocokan teks tidak dipakai"
+ },
+ "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+ "kontrak_inferensi": {
+  "format": "<Instruct>/<Query>/<Document>",
+  "skor": "softmax logit yes lawan no",
+  "sumber": "README resmi Qwen3-Reranker"
+ },
+ "n": 1617,
+ "durasi_s": 3667.0,
+ "latensi_mean_s": 2.2512,
+ "vram_peak_mib": 9970.0,
+ "sumber": {
+  "pools": "20097410f4cf373d359a84c7f0425785c1c37caed8675975f0db94e70d1dd848"
+ },
+ "output": {
+  "path": "results/raw_r1/scores_qwen3rr_Qwen3-Reranker-4B_xr1_default.jsonl",
+  "sha256": "70591e39dc4be6046460a09848d797fe260b3cdce30259ecb442ebf573ce5d07"
+ },
+ "segel_holdout": null,
+ "label_source": "deterministic (skor model, suhu tidak berlaku)",
+ "latensi_p95_s": 2.7543,
+ "praregistrasi_r1": {
+  "path": "result/paper_q2/PRAREGISTRASI_R1_IJIES.md",
+  "sha256": "3bfe129e05b9ddebee6d9597834205253d6adceba65227f6440bf98b88e55119",
+  "commit": "6171b973519a978db5f70020e0c93ee06b29f7a7"
+ }
+}

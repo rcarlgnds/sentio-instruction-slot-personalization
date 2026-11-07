@@ -1,0 +1,49 @@
+{
+  "dibuat": "2026-08-22T16:39:50.120698+00:00",
+  "_apa_ini": "DITS on the original broad sample (1,621 rows), split into three regions by how far the gold's raw similarity trails the most that the proximity term can make up in that row (from m_cp and the frozen weights).",
+  "teori_ambang": "defisit_max = beta*d_prox/alpha * span; span=0.2046",
+  "wilayah": {
+    "W1_teks_memihak_gold": {
+      "n": 600,
+      "menang": 595,
+      "rate": 0.9917
+    },
+    "W2_wilayah_keputusan_prior": {
+      "n": 200,
+      "menang": 176,
+      "rate": 0.88
+    },
+    "W3_tak_terselamatkan_by_design": {
+      "n": 821,
+      "menang": 8,
+      "rate": 0.0097
+    }
+  },
+  "plafon_desain": 0.4935,
+  "b_di_baris_winnable": {
+    "menang": 771,
+    "n": 800,
+    "rate": 0.9637
+  },
+  "b_keseluruhan": {
+    "menang": 779,
+    "n": 1621
+  },
+  "silang_peran": {
+    "sumber": {
+      "W1_teks_memihak_gold": 577,
+      "menang": 588,
+      "n": 600,
+      "W2_wilayah_keputusan_prior": 21,
+      "W3_tak_terselamatkan_by_design": 2
+    },
+    "cermin": {
+      "W2_wilayah_keputusan_prior": 179,
+      "menang": 191,
+      "n": 1021,
+      "W3_tak_terselamatkan_by_design": 819,
+      "W1_teks_memihak_gold": 23
+    }
+  },
+  "catatan": "In W3 the gold trails by more than the proximity term can make up under the frozen weights, so DITS loses these rows by design."
+}

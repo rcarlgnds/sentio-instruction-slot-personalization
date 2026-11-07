@@ -1,0 +1,43 @@
+{
+ "run_id": "p2_paired_20261017T013044Z",
+ "script": "result/paper_q2/scripts/q2_p2_analisis.py",
+ "command": "q2_p2_analisis.py",
+ "output": {
+  "path": "results/tables/p2_paired.json",
+  "sha256": "c87fd8b8e26e86c0cffbaff1611a69a4e08890cd304a369c3a840292260df435"
+ },
+ "inputs": {
+  "result/paper_q2/results/raw_p2/scores_qwen3rr_Qwen3-Reranker-0.6B_xp2_default.jsonl": "9a25c6922a99a5f43bbbf02325b6cd70a70aec1f15fd0fc82a4bf29d2fa38ff3",
+  "result/paper_q2/results/raw_p2/scores_qwen3rr_Qwen3-Reranker-0.6B_xp2_profile.jsonl": "abff5c3fea3c0847eba49910f48fdbd4172ca965aacc8535492f121444548686",
+  "result/paper_q2/results/raw_p2/scores_qwen3rr_Qwen3-Reranker-4B_xp2_default.jsonl": "36ce45db194f44d2b85e5d2960dfb68e932c999278b7b43b9f7186c66a5bb86d",
+  "result/paper_q2/results/raw_p2/scores_qwen3rr_Qwen3-Reranker-4B_xp2_profile.jsonl": "71bac15d4d7ad4f17c8ff713ab623120c22516a5217a0be1631ed3ec28926ab7",
+  "result/paper_q2/results/raw_p2/scores_zerank2official_zerank-2_xp2_default.jsonl": "3c754e2d46b9efdf242a91ddc055ca00f0543069a8a02fda2361cf714fc9976e",
+  "result/paper_q2/results/raw_p2/scores_zerank2official_zerank-2_xp2_profile.jsonl": "a624ff34c0499df8298695cc704e292804c00471b35a83b587f3354eb4186678",
+  "result/paper_q2/results/raw_p2/scores_followir_FollowIR-7B_xp2_none.jsonl": "0bf9adfec760ef155739e840a6707524594c0b50b5635a6138a0d5e1b7025eeb",
+  "result/paper_q2/results/raw_p2/scores_followir_FollowIR-7B_xp2_slot.jsonl": "0d1fb9960984e40a4990261b07aef57d3c7c48fa7ab3982708acd47c1e817795",
+  "result/paper_q2/results/raw_p2/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xp2_none.jsonl": "37ccf5541bae570116b66bf7f48dbe5d097ed4ced429ca70aaaf4bca8a7885dc",
+  "result/paper_q2/results/raw_p2/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xp2_slot.jsonl": "b4e28b1b578b80d547441c6c513a8cc51e1dd4f4f058fa9ee8641a1022e16b14",
+  "result/paper_q2/results/raw_p2/scores_gemma_bge-reranker-v2-gemma_xp2_none.jsonl": "4c621cf5525c23e7bbb989d30c27595d0be1de3be2ae082e9248c5a985465795",
+  "result/paper_q2/results/raw_p2/scores_gemma_bge-reranker-v2-gemma_xp2_slot_vendor.jsonl": "5ff5f02b4b237f3a0424ce9ae6a750067731e801ccf50b54946b86aa652d9273",
+  "result/paper_q2/results/raw_p2/scores_qwen3rr_Qwen3-Reranker-0.6B_xp2_profile_docmeta.jsonl": "bf71bd2caf457db87f8e823f6fe64e44ad842b8b5085657a0b8a92cbb31af0db",
+  "result/paper_q2/results/raw_p2/scores_qwen3rr_Qwen3-Reranker-4B_xp2_profile_docmeta.jsonl": "6794e49e91513b29c93d719e71ca26da127a87a1fe8b6372cb78a4c64f0b918a",
+  "result/paper_q2/results/raw_p2/scores_zerank2official_zerank-2_xp2_profile_docmeta.jsonl": "18c9331688f66c1a4d76b55bd3beb9d6fd9e5d62f66a2295f20461ae7f089e0b",
+  "result/paper_q2/results/raw_p2/scores_followir_FollowIR-7B_xp2_both.jsonl": "59d4cc301863d4d7f0f099e972d12ea731dd018d9307f8ca632f41bc47e9928d",
+  "result/paper_q2/results/raw_p2/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xp2_both.jsonl": "46c1d44ded49526168b4b2e571c6c273e6106caaf84b3cde8c07d3f976c97bc9",
+  "result/paper_q2/results/raw_p2/scores_gemma_bge-reranker-v2-gemma_xp2_both_vendor.jsonl": "f98686e7a3310f3a439442b6a0e287524aff45754f65220306915d178dd03985",
+  "result/paper_q2/results/raw_p2/scores_qwen3rr_Qwen3-Reranker-0.6B_xp2_profile_docmetasalah.jsonl": "14be8707bd5f388c0cf71b773bb69d7250aa5f7fe580beda38baead77cac0e77",
+  "result/paper_q2/results/raw_p2/scores_qwen3rr_Qwen3-Reranker-4B_xp2_profile_docmetasalah.jsonl": "00140d84770e6b7bdb913716a942f58baea942d754481b97f5e433ad3a800613",
+  "result/paper_q2/results/raw_p2/scores_zerank2official_zerank-2_xp2_profile_docmetasalah.jsonl": "7850bc46f2e5dafe26b1be23a5ad1bae3224436a9f563b1295076e3eaad7953d",
+  "result/paper_q2/results/raw_p2/scores_followir_FollowIR-7B_xp2_wrong.jsonl": "81bd7d3b6063894cac861025cfb9d5f3c5c238300ee6f5da47d807103d849b16",
+  "result/paper_q2/results/raw_p2/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xp2_wrong.jsonl": "9e67f847fac35d5eea37de3bbc0316fad10d094eebad9ba42e78b7b9050d5377",
+  "result/paper_q2/results/raw_p2/scores_gemma_bge-reranker-v2-gemma_xp2_wrong_vendor.jsonl": "d798389f6b3b509f86b1fc534dd820c2d857788724958a768e9b398d7b361f7b",
+  "result/paper_q2/results/raw_p2/scores_gemma_bge-reranker-v2-gemma_xp2_slot.jsonl": "4bf4a8ad1cb6db772f782239822493653e99588ce7a1b82319e679f688273c24",
+  "result/paper_q2/results/raw_p2/scores_gemma_bge-reranker-v2-gemma_xp2_both.jsonl": "3b6c682b6188da82be610d5664a6bcec065dbd1013b6775dd0ce2712073d7944",
+  "result/paper_q2/results/raw_p2/p2_dits_xp2_baris_B.jsonl": "5b6a329ad51ddb460f35847f319ff49912390f5d8a7a4cc3aec2bf696a90c913",
+  "result/paper_q2/results/raw_p2/pools_p2.jsonl": "1589bfcea6294d51b7f43b40d30afb37c0fc4c1434bca5c95731636880ba08e9",
+  "result/paper_q2/results/raw_p2/pools_p2.manifest.json": "603181bef7efc4ecb7424b2388a59a8d4729af1ed877a83e528c072bf09eb0a6",
+  "result/paper_q2/results/tables/p2_populasi.json": "d6c7cd6e2a1329f3682317b0d1df92702625debfb0f2263e5630b725d6c91c88"
+ },
+ "not_computed": [],
+ "seed": 20261012
+}

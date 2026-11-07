@@ -1,0 +1,182 @@
+{
+ "dibuat": "2026-10-03T05:00:48.029144+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "_apa_ini": "Group bootstrap of the instruction-slot effect on the broad track, so the 1,621 rows from 600 groups are not treated as 1,621 independent observations.",
+ "resample": 10000,
+ "seed": 42,
+ "metode": "resample the 600 groups with replacement, recompute the paired difference, and take the 2.5 and 97.5 percentiles. The row comparison uses the same procedure with each row as its own cluster, so only the resampling unit differs.",
+ "kenapa_icc_negatif": "A scorer that ignores the profile returns one ranking for all rows of a group, so exactly one row of that group wins. Rows within a group exclude each other rather than reinforce each other, so the intraclass correlation is negative and treating the rows as independent is conservative.",
+ "model_yang_selangnya_melebar": [],
+ "vonis": "Grouping does not loosen the bound on this track",
+ "label_source": "deterministic (gold matching, no rater)",
+ "papan": {
+  "Qwen3-Reranker-0.6B": {
+   "n_baris": 1621,
+   "n_grup": 600,
+   "baris_per_grup_rata": 2.702,
+   "selisih_berpasangan": -0.001851,
+   "selisih_poin_persen": -0.185,
+   "selang_klaster_95": [
+    -0.004899,
+    0.000618
+   ],
+   "selang_baris_95": [
+    -0.008637,
+    0.004935
+   ],
+   "batas_klaster_poin_persen": 0.49,
+   "batas_baris_poin_persen": 0.864,
+   "lebar_klaster_dibagi_lebar_baris": 0.4065,
+   "icc_satu_arah_tanpa_dibatasi": -0.548457,
+   "design_effect": 0.0667,
+   "berkas": {
+    "buta": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_default.jsonl",
+    "slot": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile.jsonl"
+   },
+   "sha256": {
+    "buta": "3b40105fe23c2e06594c161e95e2d3b425e5631cd99e49457a94504e550414c5",
+    "slot": "4d316b7ba37e2d739cdf704a6e61d13dc53ae3239ea0f18642b46fce474d138f"
+   }
+  },
+  "Qwen3-Reranker-4B": {
+   "n_baris": 1621,
+   "n_grup": 600,
+   "baris_per_grup_rata": 2.702,
+   "selisih_berpasangan": -0.001234,
+   "selisih_poin_persen": -0.123,
+   "selang_klaster_95": [
+    -0.004902,
+    0.001873
+   ],
+   "selang_baris_95": [
+    -0.008637,
+    0.006169
+   ],
+   "batas_klaster_poin_persen": 0.49,
+   "batas_baris_poin_persen": 0.864,
+   "lebar_klaster_dibagi_lebar_baris": 0.4576,
+   "icc_satu_arah_tanpa_dibatasi": -0.541759,
+   "design_effect": 0.0781,
+   "berkas": {
+    "buta": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_default.jsonl",
+    "slot": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile.jsonl"
+   },
+   "sha256": {
+    "buta": "c6037be85eb82d9d01dae5eeba89a3bdf1d7bdd84224fee9dcaa99739a3d6cf3",
+    "slot": "18e0a1dcd7447ee6a9d8c7e5a80a3bf133c68bb56567aead5a6b5b4bd9e3ce1d"
+   }
+  },
+  "zerank-2": {
+   "n_baris": 1621,
+   "n_grup": 600,
+   "baris_per_grup_rata": 2.702,
+   "selisih_berpasangan": -0.001851,
+   "selisih_poin_persen": -0.185,
+   "selang_klaster_95": [
+    -0.006716,
+    0.003067
+   ],
+   "selang_baris_95": [
+    -0.009254,
+    0.004935
+   ],
+   "batas_klaster_poin_persen": 0.672,
+   "batas_baris_poin_persen": 0.925,
+   "lebar_klaster_dibagi_lebar_baris": 0.6895,
+   "icc_satu_arah_tanpa_dibatasi": -0.528781,
+   "design_effect": 0.1002,
+   "berkas": {
+    "buta": "scores_zerank2official_zerank-2_xpair_default.jsonl",
+    "slot": "scores_zerank2official_zerank-2_xpair_profile.jsonl"
+   },
+   "sha256": {
+    "buta": "5f748e95975e6530907579a918d098b62e47e5f88194c227ffe23bf1935c0a2b",
+    "slot": "73bfcebcb107b734fb8a68a5bffe1a1027e558e3ee094f7b76e2f65b2e65bd54"
+   }
+  },
+  "FollowIR-7B": {
+   "n_baris": 1621,
+   "n_grup": 600,
+   "baris_per_grup_rata": 2.702,
+   "selisih_berpasangan": -0.004318,
+   "selisih_poin_persen": -0.432,
+   "selang_klaster_95": [
+    -0.009225,
+    0.0
+   ],
+   "selang_baris_95": [
+    -0.016656,
+    0.00802
+   ],
+   "batas_klaster_poin_persen": 0.923,
+   "batas_baris_poin_persen": 1.666,
+   "lebar_klaster_dibagi_lebar_baris": 0.3738,
+   "icc_satu_arah_tanpa_dibatasi": -0.531702,
+   "design_effect": 0.0952,
+   "berkas": {
+    "buta": "scores_followir_FollowIR-7B_xpair_none.jsonl",
+    "slot": "scores_followir_FollowIR-7B_xpair_slot.jsonl"
+   },
+   "sha256": {
+    "buta": "b220c18d06ad1b4235a64d259170c5d094dcb01059193cf26b22312180af9658",
+    "slot": "b16e516396bec5b93bf5600afdaf01ef3865f77bfd9f589d47dca70f5d03c99e"
+   }
+  },
+  "ctxl-6B": {
+   "n_baris": 1621,
+   "n_grup": 600,
+   "baris_per_grup_rata": 2.702,
+   "selisih_berpasangan": 0.001851,
+   "selisih_poin_persen": 0.185,
+   "selang_klaster_95": [
+    -0.002498,
+    0.006749
+   ],
+   "selang_baris_95": [
+    -0.004318,
+    0.00802
+   ],
+   "batas_klaster_poin_persen": 0.675,
+   "batas_baris_poin_persen": 0.802,
+   "lebar_klaster_dibagi_lebar_baris": 0.7495,
+   "icc_satu_arah_tanpa_dibatasi": -0.535077,
+   "design_effect": 0.0895,
+   "berkas": {
+    "buta": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_none.jsonl",
+    "slot": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_slot.jsonl"
+   },
+   "sha256": {
+    "buta": "896c9d68040954f1cdf41d056fc4c0bb40e8c04ac56eec863f2c3146204a6453",
+    "slot": "06ab4e51ac70faf5f5856fd247d2df05fba7e135215dbba29f1bb4c0eab183a1"
+   }
+  },
+  "bge-reranker-v2-gemma": {
+   "n_baris": 1621,
+   "n_grup": 600,
+   "baris_per_grup_rata": 2.702,
+   "selisih_berpasangan": 0.001234,
+   "selisih_poin_persen": 0.123,
+   "selang_klaster_95": [
+    -0.001229,
+    0.003711
+   ],
+   "selang_baris_95": [
+    -0.003085,
+    0.005552
+   ],
+   "batas_klaster_poin_persen": 0.371,
+   "batas_baris_poin_persen": 0.555,
+   "lebar_klaster_dibagi_lebar_baris": 0.5719,
+   "icc_satu_arah_tanpa_dibatasi": -0.550126,
+   "design_effect": 0.0639,
+   "berkas": {
+    "buta": "scores_gemma_bge-reranker-v2-gemma_xpair_none.jsonl",
+    "slot": "scores_gemma_bge-reranker-v2-gemma_xpair_slot.jsonl"
+   },
+   "sha256": {
+    "buta": "4c3dcc63206d6108a361c4f5b3872a60a508d92387a4d849c74415169ee9c14e",
+    "slot": "50f94ee1733be7193a0522146516658848a40e6817aa6e00c2ab160d5aca9318"
+   }
+  }
+ }
+}

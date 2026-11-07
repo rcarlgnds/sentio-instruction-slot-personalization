@@ -1,0 +1,31 @@
+{
+  "run_id": "control_textual_agg_20261003T050046Z",
+  "script": "result/paper_q2/scripts/q2_agg_control.py",
+  "perintah_persis": "python q2_agg_control.py",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, di luar keluarga pra-registrasi delapan",
+  "sumber": {
+    "pools": "fab003b2e20183c8a61c16163786220f5c3f3510521252b658395034493a2dcd",
+    "scores_qwen3rr_Qwen3-Reranker-0.6B_control_default": "1327bc3b415d5a1bc0e521a3d3ea7c68ea83ac254ecfa2563588e392bc71adaf",
+    "scores_qwen3rr_Qwen3-Reranker-0.6B_control_kondisi": "1f83c1824b987bfe8244c31e6160b7bd3158273eed68ad1739ba155fa0aa6c65",
+    "scores_qwen3rr_Qwen3-Reranker-4B_control_default": "33d9e0ef29f48a6a93c46080f091f2a1376dc5391793cdcc6bbb1bf533968a4d",
+    "scores_qwen3rr_Qwen3-Reranker-4B_control_kondisi": "69df0c0f7beee81279d4ac9ff3e2e460a2ca87f3c574d3cf237b52aabaca7f25",
+    "scores_zerank2_zerank-2_control_default": "16243dc806ae019474dce5729c6ea64a3754dc54f5fd294ddb3bf9b6a341cf1e",
+    "scores_zerank2_zerank-2_control_kondisi": "d2a376eb1528a23cd953f126d5378dde4997e810453042e2d6ae8c18bb23261c"
+  },
+  "n": {
+    "pasangan_penuh": 58,
+    "baris_penuh": 116,
+    "pasangan_tersaring": 36,
+    "baris_tersaring": 72
+  },
+  "label_source": "deterministic (skor model); gold/counterpart tekstual dibangun deterministik dari struktur buku, TANPA LLM dan TANPA anotator manusia",
+  "aturan_saring_verbatim": "Sebuah pasangan topik DIPERTAHANKAN hanya bila judul seksi asalnya lolos keempat syarat berikut. Seluruh syarat dihitung MURNI dari teks judul, tanpa menyentuh skor, ranking, gold, maupun counterpart, dan ditetapkan sebelum satu pun skor dibaca. T1 tanpa artefak ekstraksi PDF: judul tidak memuat 'GLYPH<', 'font=/', maupun '<c='. T2 kepala judul terbentuk baik: judul diawali huruf, atau diawali pola nomor seksi ^\\d+\\.\\d+\\s. T3 bukan aparatus buku: judul (huruf kecil, nomor seksi dilepas, spasi dirapatkan) tidak ada di daftar-henti tertutup S dan tidak diawali salah satu awalan di P. T4 spesifik secara topikal: setelah nomor seksi dilepas, tersisa minimal dua token alfabet sepanjang >= 3 huruf yang bukan kata fungsi F. S, P, dan F tertulis lengkap di field daftar_henti, awalan_henti, dan kata_fungsi tabel ini.",
+  "aturan_saring_ditetapkan": "sebelum satu pun skor dibaca; dihitung murni dari judul seksi; tidak ada ambang yang dipilih setelah melihat hasil",
+  "gerbang_segel": "lolos, nol query_id test_holdout",
+  "output": {
+    "path": "results/tables/control_textual.json",
+    "sha256": "2076e372cc0b3129790db39acefd2322a317c3bb80f3875171e85ca8da2607dd",
+    "tingkat_reproduksi": "penuh dari artefak beku, CPU, deterministik"
+  }
+}

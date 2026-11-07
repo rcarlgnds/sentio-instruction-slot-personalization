@@ -1,0 +1,309 @@
+{
+ "dibuat": "2026-10-03T05:00:46.792359+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR_ADENDUM4.md",
+ "_apa_ini": "Indonesian profile instruction in the slot, six models, paired track of 96 rows, against the frozen none cells (Holm m=6) and the frozen English slot cells of the same model; effect bound from the same analysis().",
+ "sel": {
+  "Qwen3-Reranker-0.6B": {
+   "status": "selesai",
+   "menang_id": 49,
+   "n_komparabel": 96,
+   "menang_none_beku": 48,
+   "menang_slot_inggris_beku": 49,
+   "id_vs_none": {
+    "n": 96,
+    "a_kalah_b_menang": 7,
+    "a_menang_b_kalah": 6,
+    "p_mcnemar_exact": 1.0,
+    "p_holm_keluarga_ID": 1.0,
+    "signifikan_0.05": false
+   },
+   "id_vs_slot_inggris": {
+    "n": 96,
+    "a_kalah_b_menang": 5,
+    "a_menang_b_kalah": 5,
+    "p_mcnemar_exact": 1.0
+   },
+   "batas_efek_slot_id": {
+    "model": "Qwen3-Reranker-0.6B",
+    "n_berpasangan": 96,
+    "diskordan_slot_menang": 7,
+    "diskordan_buta_menang": 6,
+    "selisih_bersih": 1,
+    "selisih_proporsi": 0.010417,
+    "wald95": [
+     -0.063166,
+     0.083999
+    ],
+    "eksak_bersyarat95": [
+     -0.067344,
+     0.083354
+    ],
+    "dilaporkan95": [
+     -0.067344,
+     0.083999
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.083999,
+    "batas_atas_poin_persen": 8.4
+   },
+   "instruksi_kerangka": "Diberikan pertanyaan dari mahasiswa program studi <DEPT> semester <N>, ambil bagian teks dari program studi mahasiswa itu sendiri yang menjawab pertanyaan tersebut pada tingkat yang sesuai untuk semester <N>",
+   "berkas": {
+    "id": "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_id.jsonl",
+    "none": "qwen_scores_0.6b_paired_default.jsonl",
+    "slot": "qwen_scores_0.6b_paired_profile.jsonl"
+   }
+  },
+  "Qwen3-Reranker-4B": {
+   "status": "selesai",
+   "menang_id": 48,
+   "n_komparabel": 96,
+   "menang_none_beku": 48,
+   "menang_slot_inggris_beku": 50,
+   "id_vs_none": {
+    "n": 96,
+    "a_kalah_b_menang": 9,
+    "a_menang_b_kalah": 9,
+    "p_mcnemar_exact": 1.0,
+    "p_holm_keluarga_ID": 1.0,
+    "signifikan_0.05": false
+   },
+   "id_vs_slot_inggris": {
+    "n": 96,
+    "a_kalah_b_menang": 3,
+    "a_menang_b_kalah": 5,
+    "p_mcnemar_exact": 0.7266
+   },
+   "batas_efek_slot_id": {
+    "model": "Qwen3-Reranker-4B",
+    "n_berpasangan": 96,
+    "diskordan_slot_menang": 9,
+    "diskordan_buta_menang": 9,
+    "selisih_bersih": 0,
+    "selisih_proporsi": 0.0,
+    "wald95": [
+     -0.086619,
+     0.086619
+    ],
+    "eksak_bersyarat95": [
+     -0.089929,
+     0.089929
+    ],
+    "dilaporkan95": [
+     -0.089929,
+     0.089929
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.089929,
+    "batas_atas_poin_persen": 8.99
+   },
+   "instruksi_kerangka": "Diberikan pertanyaan dari mahasiswa program studi <DEPT> semester <N>, ambil bagian teks dari program studi mahasiswa itu sendiri yang menjawab pertanyaan tersebut pada tingkat yang sesuai untuk semester <N>",
+   "berkas": {
+    "id": "scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_id.jsonl",
+    "none": "qwen_scores_4b_paired_default.jsonl",
+    "slot": "qwen_scores_4b_paired_profile.jsonl"
+   }
+  },
+  "zerank-2": {
+   "status": "selesai",
+   "menang_id": 46,
+   "n_komparabel": 96,
+   "menang_none_beku": 48,
+   "menang_slot_inggris_beku": 48,
+   "id_vs_none": {
+    "n": 96,
+    "a_kalah_b_menang": 5,
+    "a_menang_b_kalah": 7,
+    "p_mcnemar_exact": 0.7744,
+    "p_holm_keluarga_ID": 1.0,
+    "signifikan_0.05": false
+   },
+   "id_vs_slot_inggris": {
+    "n": 96,
+    "a_kalah_b_menang": 5,
+    "a_menang_b_kalah": 7,
+    "p_mcnemar_exact": 0.7744
+   },
+   "batas_efek_slot_id": {
+    "model": "zerank-2",
+    "n_berpasangan": 96,
+    "diskordan_slot_menang": 5,
+    "diskordan_buta_menang": 7,
+    "selisih_bersih": -2,
+    "selisih_proporsi": -0.020833,
+    "wald95": [
+     -0.091435,
+     0.049768
+    ],
+    "eksak_bersyarat95": [
+     -0.087087,
+     0.055833
+    ],
+    "dilaporkan95": [
+     -0.091435,
+     0.055833
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.091435,
+    "batas_atas_poin_persen": 9.14
+   },
+   "instruksi_kerangka": "Diberikan pertanyaan dari mahasiswa program studi <DEPT> semester <N>, ambil bagian teks dari program studi mahasiswa itu sendiri yang menjawab pertanyaan tersebut pada tingkat yang sesuai untuk semester <N>",
+   "berkas": {
+    "id": "scores_zerank2official_zerank-2_paired_profile_id.jsonl",
+    "none": "scores_zerank2official_zerank-2_paired_default.jsonl",
+    "slot": "scores_zerank2official_zerank-2_paired_profile.jsonl"
+   }
+  },
+  "FollowIR-7B": {
+   "status": "selesai",
+   "menang_id": 46,
+   "n_komparabel": 96,
+   "menang_none_beku": 48,
+   "menang_slot_inggris_beku": 47,
+   "id_vs_none": {
+    "n": 96,
+    "a_kalah_b_menang": 6,
+    "a_menang_b_kalah": 8,
+    "p_mcnemar_exact": 0.7905,
+    "p_holm_keluarga_ID": 1.0,
+    "signifikan_0.05": false
+   },
+   "id_vs_slot_inggris": {
+    "n": 96,
+    "a_kalah_b_menang": 4,
+    "a_menang_b_kalah": 5,
+    "p_mcnemar_exact": 1.0
+   },
+   "batas_efek_slot_id": {
+    "model": "FollowIR-7B",
+    "n_berpasangan": 96,
+    "diskordan_slot_menang": 6,
+    "diskordan_buta_menang": 8,
+    "selisih_bersih": -2,
+    "selisih_proporsi": -0.020833,
+    "wald95": [
+     -0.09711,
+     0.055444
+    ],
+    "eksak_bersyarat95": [
+     -0.094322,
+     0.061656
+    ],
+    "dilaporkan95": [
+     -0.09711,
+     0.061656
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.09711,
+    "batas_atas_poin_persen": 9.71
+   },
+   "instruksi_kerangka": "Diberikan pertanyaan dari mahasiswa program studi <DEPT> semester <N>, ambil bagian teks dari program studi mahasiswa itu sendiri yang menjawab pertanyaan tersebut pada tingkat yang sesuai untuk semester <N>",
+   "berkas": {
+    "id": "scores_followir_FollowIR-7B_paired_slot_id.jsonl",
+    "none": "scores_followir_FollowIR-7B_paired_none.jsonl",
+    "slot": "scores_followir_FollowIR-7B_paired_slot.jsonl"
+   }
+  },
+  "ctxl-rerank-v2-instruct-multilingual-6b": {
+   "status": "selesai",
+   "menang_id": 48,
+   "n_komparabel": 96,
+   "menang_none_beku": 48,
+   "menang_slot_inggris_beku": 52,
+   "id_vs_none": {
+    "n": 96,
+    "a_kalah_b_menang": 6,
+    "a_menang_b_kalah": 6,
+    "p_mcnemar_exact": 1.0,
+    "p_holm_keluarga_ID": 1.0,
+    "signifikan_0.05": false
+   },
+   "id_vs_slot_inggris": {
+    "n": 96,
+    "a_kalah_b_menang": 7,
+    "a_menang_b_kalah": 11,
+    "p_mcnemar_exact": 0.4807
+   },
+   "batas_efek_slot_id": {
+    "model": "ctxl-rerank-v2-instruct-multilingual-6b",
+    "n_berpasangan": 96,
+    "diskordan_slot_menang": 6,
+    "diskordan_buta_menang": 6,
+    "selisih_bersih": 0,
+    "selisih_proporsi": 0.0,
+    "wald95": [
+     -0.070724,
+     0.070724
+    ],
+    "eksak_bersyarat95": [
+     -0.072264,
+     0.072264
+    ],
+    "dilaporkan95": [
+     -0.072264,
+     0.072264
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.072264,
+    "batas_atas_poin_persen": 7.23
+   },
+   "instruksi_kerangka": "Diberikan pertanyaan dari mahasiswa program studi <DEPT> semester <N>, ambil bagian teks dari program studi mahasiswa itu sendiri yang menjawab pertanyaan tersebut pada tingkat yang sesuai untuk semester <N>",
+   "berkas": {
+    "id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot_id.jsonl",
+    "none": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none.jsonl",
+    "slot": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot.jsonl"
+   }
+  },
+  "bge-reranker-v2-gemma": {
+   "status": "selesai",
+   "menang_id": 48,
+   "n_komparabel": 96,
+   "menang_none_beku": 48,
+   "menang_slot_inggris_beku": 43,
+   "id_vs_none": {
+    "n": 96,
+    "a_kalah_b_menang": 8,
+    "a_menang_b_kalah": 8,
+    "p_mcnemar_exact": 1.0,
+    "p_holm_keluarga_ID": 1.0,
+    "signifikan_0.05": false
+   },
+   "id_vs_slot_inggris": {
+    "n": 96,
+    "a_kalah_b_menang": 10,
+    "a_menang_b_kalah": 5,
+    "p_mcnemar_exact": 0.3018
+   },
+   "batas_efek_slot_id": {
+    "model": "bge-reranker-v2-gemma",
+    "n_berpasangan": 96,
+    "diskordan_slot_menang": 8,
+    "diskordan_buta_menang": 8,
+    "selisih_bersih": 0,
+    "selisih_proporsi": 0.0,
+    "wald95": [
+     -0.081665,
+     0.081665
+    ],
+    "eksak_bersyarat95": [
+     -0.084497,
+     0.084497
+    ],
+    "dilaporkan95": [
+     -0.084497,
+     0.084497
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.084497,
+    "batas_atas_poin_persen": 8.45
+   },
+   "instruksi_kerangka": "Diberikan pertanyaan dari mahasiswa program studi <DEPT> semester <N>, ambil bagian teks dari program studi mahasiswa itu sendiri yang menjawab pertanyaan tersebut pada tingkat yang sesuai untuk semester <N>",
+   "berkas": {
+    "id": "scores_gemma_bge-reranker-v2-gemma_paired_slot_id.jsonl",
+    "none": "scores_gemma_bge-reranker-v2-gemma_paired_none.jsonl",
+    "slot": "scores_gemma_bge-reranker-v2-gemma_paired_slot.jsonl"
+   }
+  }
+ },
+ "label_source": "deterministic (model scores)"
+}

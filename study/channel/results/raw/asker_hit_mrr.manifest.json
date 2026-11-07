@@ -1,0 +1,9 @@
+{
+ "run_id": "hit_mrr_penanya_20261003T050043Z",
+ "script": "result/paper_q2/scripts/q2_hit_mrr_penanya.py",
+ "output": {
+  "path": "results/tables/hit_mrr_penanya.json",
+  "sha256": "ec9c92e59ce535e3e7aaaae25d5ec59629bd2ce17d36607f43b56769cd4ff1db"
+ },
+ "label_source": "deterministic"
+}

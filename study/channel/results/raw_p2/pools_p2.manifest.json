@@ -1,0 +1,184 @@
+{
+ "run_id": "pools_p2_20261016T082023+0000",
+ "script": "result/paper_q2/scripts/q2_p2_rakit.py",
+ "command": "q2_p2_rakit.py --tahap rakit",
+ "rules": {
+  "group": "written, passed the screen, judged clear, no 'tidak' or unreadable verdict for either passage under either wording, both passages of one class in wording A (pre-registration)",
+  "strict_subset": "both passages 'penuh' under both wordings (pre-registration)",
+  "rows_per_group": 2,
+  "pool_size": 71,
+  "pool": "both passages and the 69 chunks with the highest cosine to either passage, ties by chunk id",
+  "text_cut": 4000
+ },
+ "stopping": {
+  "updated": "2026-10-16T08:19:55+00:00",
+  "target_groups": 400,
+  "rounds": [
+   {
+    "ronde": 1,
+    "list": "fokus",
+    "tp_from": 1,
+    "tp_to": 500,
+    "sent": 500,
+    "written": 350,
+    "declined": 150,
+    "passed_screen": 174,
+    "judged": 174,
+    "clear": 174,
+    "groups": 131,
+    "strict_groups": 13,
+    "unreadable_replies": 0
+   },
+   {
+    "ronde": 2,
+    "list": "fokus",
+    "tp_from": 501,
+    "tp_to": 1000,
+    "sent": 500,
+    "written": 239,
+    "declined": 261,
+    "passed_screen": 114,
+    "judged": 114,
+    "clear": 114,
+    "groups": 90,
+    "strict_groups": 5,
+    "unreadable_replies": 0
+   },
+   {
+    "ronde": 3,
+    "list": "fokus",
+    "tp_from": 1001,
+    "tp_to": 1500,
+    "sent": 500,
+    "written": 196,
+    "declined": 304,
+    "passed_screen": 83,
+    "judged": 83,
+    "clear": 83,
+    "groups": 73,
+    "strict_groups": 2,
+    "unreadable_replies": 0
+   },
+   {
+    "ronde": 4,
+    "list": "fokus",
+    "tp_from": 1501,
+    "tp_to": 2000,
+    "sent": 500,
+    "written": 181,
+    "declined": 319,
+    "passed_screen": 67,
+    "judged": 67,
+    "clear": 67,
+    "groups": 61,
+    "strict_groups": 1,
+    "unreadable_replies": 0
+   },
+   {
+    "ronde": 5,
+    "list": "fokus",
+    "tp_from": 2001,
+    "tp_to": 2087,
+    "sent": 87,
+    "written": 23,
+    "declined": 64,
+    "passed_screen": 10,
+    "judged": 10,
+    "clear": 10,
+    "groups": 9,
+    "strict_groups": 0,
+    "unreadable_replies": 0
+   },
+   {
+    "ronde": 6,
+    "list": "acct",
+    "tp_from": 2088,
+    "tp_to": 2587,
+    "sent": 500,
+    "written": 291,
+    "declined": 209,
+    "passed_screen": 168,
+    "judged": 168,
+    "clear": 168,
+    "groups": 116,
+    "strict_groups": 22,
+    "unreadable_replies": 0
+   }
+  ],
+  "sent_total": 2587,
+  "groups_total": 480,
+  "next": {
+   "stop": "target reached: 480 groups"
+  }
+ },
+ "attrition_by_program_pair": {
+  "ACCT-CSCI": {
+   "declined_by_writer": 43,
+   "failed_screen": 2
+  },
+  "ACCT-ISYS": {
+   "group": 27,
+   "failed_screen": 58,
+   "declined_by_writer": 132,
+   "passages_not_one_class": 10
+  },
+  "ACCT-MGMT": {
+   "failed_screen": 63,
+   "passages_not_one_class": 41,
+   "declined_by_writer": 34,
+   "group": 89,
+   "passage_not_an_answer": 1
+  },
+  "CSCI-ISYS": {
+   "group": 44,
+   "failed_screen": 62,
+   "declined_by_writer": 253,
+   "passages_not_one_class": 15
+  },
+  "CSCI-MGMT": {
+   "group": 69,
+   "passages_not_one_class": 33,
+   "declined_by_writer": 331,
+   "failed_screen": 157
+  },
+  "ISYS-MGMT": {
+   "group": 251,
+   "failed_screen": 322,
+   "passages_not_one_class": 36,
+   "declined_by_writer": 514
+  }
+ },
+ "groups_by_program_pair": {
+  "ACCT-ISYS": 27,
+  "ACCT-MGMT": 89,
+  "CSCI-ISYS": 44,
+  "CSCI-MGMT": 69,
+  "ISYS-MGMT": 251
+ },
+ "groups_by_class": {
+  "sebagian": 436,
+  "penuh": 44
+ },
+ "strict_subset": 43,
+ "sample": {
+  "n_groups": 480,
+  "n_rows": 960
+ },
+ "inputs": {
+  "order": "e43a4cc123221d7f060523df2ab7b0a1dd42ff6490eac64b4c6b11399aa12c4d",
+  "writer": "ce54148da55d552178fdbb24db8d96ca535c61a146eb528ff6ccd6c4a28549e4",
+  "screen": "9d176918a4d9694988449ca850b1e9bdb7f0b822f96ad3cfff8e298deff2923d",
+  "judge": "5f9ad9e4bd5a4a360ec5ac05bc8fe6ace95991007dc4cfee42ac29e04f64eb40",
+  "corpus": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+  "embedding_cache": "6e186f0bebe0cdfef9af452162edf5e5eda95ef4a8eb8a6308a198c18db97ed8"
+ },
+ "output": {
+  "path": "results/raw_p2/pools_p2.jsonl",
+  "sha256": "1589bfcea6294d51b7f43b40d30afb37c0fc4c1434bca5c95731636880ba08e9",
+  "population_table": {
+   "path": "results/tables/p2_populasi.json",
+   "sha256": "d6c7cd6e2a1329f3682317b0d1df92702625debfb0f2263e5630b725d6c91c88"
+  }
+ },
+ "label_source": "LLM writer and screen agents (Claude), judge Qwen3-14B-AWQ (two wordings); the raters' ratings of the p2 kit, not the agents or the judge, are the reference for validity"
+}

@@ -1,0 +1,35 @@
+{
+  "run_id": "scores_zerank2_zerank-2_xpair_default_20260822T144831Z",
+  "script": "result/paper_q2/scripts/q2_arm_score.py",
+  "perintah_persis": "python q2_arm_score.py --family zerank2 --model zeroentropy/zerank-2 --pools <workstation>/result/paper_q2/results/raw/pools_paired_expanded.jsonl --instruction default --tag xpair --dtype bfloat16 --batch 2 --max-len 1536",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, di luar keluarga pra-registrasi delapan",
+  "model": "zeroentropy/zerank-2",
+  "keluarga": "zerank2",
+  "dtype": "bfloat16",
+  "instruction": "default",
+  "vendor_memory": false,
+  "doc_metadata_injected": false,
+  "format_label_sumber": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "kontrak_inferensi": {
+    "peran": "query -> system, document -> user, lalu generation prompt",
+    "true_token_id": 9454,
+    "false_token_id": null,
+    "sumber": "chat_template.jinja + 1_LogitScore/config.json repo resmi"
+  },
+  "n": 1621,
+  "durasi_s": 3585.2,
+  "latensi_mean_s": 2.1974,
+  "vram_peak_mib": 8383.3,
+  "sumber": {
+    "pools": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+  },
+  "output": {
+    "path": "results/raw/scores_zerank2_zerank-2_xpair_default.jsonl",
+    "sha256": "2e97cda8f41ad33cb0afe64d0169ca59328f90952b7aab628d677d9784e16b47"
+  },
+  "label_source": "deterministic (skor model, suhu tidak berlaku)",
+  "latensi_p95_s": 2.7416
+}

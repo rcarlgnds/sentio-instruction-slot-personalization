@@ -1,0 +1,11 @@
+{
+  "run_id": "followir_News21_zerank2official_zerank-2_20260919T060300Z",
+  "script": "result/paper_q2/scripts/q2_followir.py",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_followir.py --dataset News21 --family zerank2official --model zeroentropy/zerank-2 --dtype bfloat16 --batch 2 --max-len 1536 --min-free-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal",
+  "output": {
+    "path": "results/tables/followir_News21_zerank2official_zerank-2.json",
+    "sha256": "8e120f9dc3d3069a25ea8194896d977d396b6d277c3ec3833e1bb3f4afb73d7a"
+  }
+}

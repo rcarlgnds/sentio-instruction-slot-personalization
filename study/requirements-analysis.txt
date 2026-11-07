@@ -1,0 +1,6 @@
+# Packages for the scripts that load reranker weights, on top of system/requirements.txt, which already
+# has numpy, scipy, pandas, ir-measures, and datasets. architecture_scorers.py uses them for the device
+# map, the weight sizes in the safetensors headers, and the snapshot downloads.
+accelerate==1.13.0
+safetensors==0.7.0
+huggingface_hub==0.36.2

@@ -1,0 +1,76 @@
+{
+ "dibuat": "2026-10-03T05:00:49.103231+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "_apa_ini": "Channel results of the broad track split by the version of the QC gate that accepted their source query, plus a check of the hard-filter rows in the same pool.",
+ "gerbang_qc": {
+  "v1-cps-gate": "a query is accepted only when its top candidate reaches CPS 0.55 under the frozen DITS weights, so its acceptance depends on the reported scorer",
+  "v2-multiarm": "the CPS condition is dropped",
+  "benchmark_penuh": "1,412 queries through v1, 1,364 through v2, 2,776 in total"
+ },
+ "strata": {
+  "v1-cps-gate": {
+   "grup": 600,
+   "baris": 1621,
+   "kunci_struktural": 600,
+   "sel": {
+    "none": {
+     "Qwen3-Reranker-0.6B": 600,
+     "Qwen3-Reranker-4B": 600,
+     "zerank-2": 600,
+     "FollowIR-7B": 600,
+     "ctxl-6B": 600,
+     "gemma": 600
+    },
+    "slot": {
+     "Qwen3-Reranker-0.6B": 597,
+     "Qwen3-Reranker-4B": 598,
+     "zerank-2": 597,
+     "FollowIR-7B": 593,
+     "ctxl-6B": 603,
+     "gemma": 602
+    },
+    "both": {
+     "Qwen3-Reranker-0.6B": 697,
+     "Qwen3-Reranker-4B": 641,
+     "zerank-2": 819,
+     "FollowIR-7B": 841,
+     "ctxl-6B": 921,
+     "gemma": 603
+    },
+    "wrong": {
+     "Qwen3-Reranker-0.6B": 645,
+     "Qwen3-Reranker-4B": 653,
+     "zerank-2": 705,
+     "FollowIR-7B": 812,
+     "ctxl-6B": 705,
+     "gemma": 599
+    }
+   }
+  }
+ },
+ "baris_tanpa_asal_terlacak": 0,
+ "urutan_berkas_kueri": {
+  "posisi_baris_per_protokol_min_maks": {
+   "v1-cps-gate": [
+    0,
+    1411
+   ],
+   "v2-multiarm": [
+    1412,
+    2775
+   ]
+  },
+  "posisi_kueri_asal_terakhir_yang_dipakai": 1139,
+  "kueri_asal_unik": 600,
+  "cara_baca": "the miner reads queries.jsonl from the top and stops at the limit of 600 pairs; if the position of the last source query is below the first v2 position, the whole broad track inherits the v1 gate because of the file order, not by choice"
+ },
+ "hard_filter_track_luas": {
+  "menang": 1621,
+  "n": 1621,
+  "aturan": "drop the candidates whose payload department is not the asker's, then check whether the asker's gold is the only gold of the group left",
+  "catatan": "this result follows from the mining rule and is not a finding: the gold is always in the book of the asker's program and the rival gold always in the book of another program"
+ },
+ "gerbang": "the count per stratum matches the paper's count for every cell",
+ "zerank2": "official vendor path",
+ "label_source": "deterministic (join of the row provenance to the qc.protocol of the benchmark query)"
+}

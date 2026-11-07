@@ -1,0 +1,36 @@
+{
+  "run_id": "scores_qwen3rr_Qwen3-Reranker-4B_control_default_20260822T165209Z",
+  "script": "result/paper_q2/scripts/q2_arm_score.py",
+  "perintah_persis": "python q2_arm_score.py --family qwen3rr --model Qwen/Qwen3-Reranker-4B --pools <workstation>/result/paper_q2/results/raw/pools_control_textual.jsonl --instruction default --tag control --dtype float16 --batch 4",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, di luar keluarga pra-registrasi delapan",
+  "model": "Qwen/Qwen3-Reranker-4B",
+  "keluarga": "qwen3rr",
+  "dtype": "float16",
+  "instruction": "default",
+  "vendor_memory": false,
+  "doc_metadata_injected": false,
+  "doc_metadata_label_salah": false,
+  "format_label_sumber": null,
+  "kontrol_label_salah": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "kontrak_inferensi": {
+    "format": "<Instruct>/<Query>/<Document>",
+    "skor": "softmax logit yes lawan no",
+    "sumber": "README resmi Qwen3-Reranker"
+  },
+  "n": 116,
+  "durasi_s": 360.3,
+  "latensi_mean_s": 3.0879,
+  "vram_peak_mib": 9548.4,
+  "sumber": {
+    "pools": "fab003b2e20183c8a61c16163786220f5c3f3510521252b658395034493a2dcd"
+  },
+  "output": {
+    "path": "results/raw/scores_qwen3rr_Qwen3-Reranker-4B_control_default.jsonl",
+    "sha256": "33d9e0ef29f48a6a93c46080f091f2a1376dc5391793cdcc6bbb1bf533968a4d"
+  },
+  "label_source": "deterministic (skor model, suhu tidak berlaku)",
+  "latensi_p95_s": 4.3861
+}

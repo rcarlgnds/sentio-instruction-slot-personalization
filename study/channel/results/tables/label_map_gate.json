@@ -1,0 +1,106 @@
+{
+  "dibuat": "2026-10-02T05:35:34.123361+00:00",
+  "peta": {
+    "peta_label": "id",
+    "versi": "id-v1",
+    "sumber": {
+      "korpus": "src/ai/data/benchmark_release/corpus/corpus.jsonl",
+      "korpus_sha256": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+      "alias_uuid": "src/ai/data/benchmark_release/uuid_to_canonical.json",
+      "alias_sha256": "7b594b5d3322be88d11aa2ff481553c05001565d603bf14190a7bd1a6ceb7284"
+    },
+    "aturan": "program and semester come from the candidate's identity; text matching is not used"
+  },
+  "sidik_peta_id": "1840f4512603d96b",
+  "n_kunci_peta_id": 128216,
+  "n_kunci_peta_teks": 62968,
+  "n_chunk_korpus": 64108,
+  "n_prefiks_unik": 62077,
+  "per_kolam": {
+    "paired": {
+      "n_kandidat": 8138,
+      "n_tak_terpetakan_id": 0,
+      "n_tak_terpetakan_teks": 0,
+      "n_label_berubah": 378,
+      "n_gold_berubah": 21,
+      "n_konflik_prefiks_unik": 0,
+      "n_baris": 104
+    },
+    "broad": {
+      "n_kandidat": 110762,
+      "n_tak_terpetakan_id": 0,
+      "n_tak_terpetakan_teks": 0,
+      "n_label_berubah": 1314,
+      "n_gold_berubah": 30,
+      "n_konflik_prefiks_unik": 0,
+      "n_baris": 1621
+    }
+  },
+  "segel_bocor": [],
+  "overlay": {
+    "transformers": "4.55.0",
+    "transformers_path": "<workstation>/src/ai/.scorer-libs/transformers/__init__.py",
+    "sentence_transformers": "6.0.1",
+    "sentence_transformers_path": "<workstation>/src/ai/.st-libs/sentence_transformers/__init__.py",
+    "lolos": true
+  },
+  "sha256_masukan": {
+    "corpus.jsonl": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+    "pools_paired.jsonl": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483",
+    "pools_paired_expanded.jsonl": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+  },
+  "vram": {
+    "total_mib": 16303,
+    "terpakai_mib": 129,
+    "bebas_mib": 15689
+  },
+  "pemeriksaan": [
+    {
+      "nama": "G1 id coverage paired",
+      "lolos": true,
+      "catatan": "8138/8138 mapped"
+    },
+    {
+      "nama": "G2 unique-prefix conflicts paired",
+      "lolos": true,
+      "catatan": "0 conflicts"
+    },
+    {
+      "nama": "G3 reproduction of the gold defect paired",
+      "lolos": true,
+      "catatan": "21 golds changed, expected 21"
+    },
+    {
+      "nama": "G1 id coverage broad",
+      "lolos": true,
+      "catatan": "110762/110762 mapped"
+    },
+    {
+      "nama": "G2 unique-prefix conflicts broad",
+      "lolos": true,
+      "catatan": "0 conflicts"
+    },
+    {
+      "nama": "G3 reproduction of the gold defect broad",
+      "lolos": true,
+      "catatan": "30 golds changed, expected 30"
+    },
+    {
+      "nama": "G4 holdout seal",
+      "lolos": true,
+      "catatan": "no holdout query_id"
+    },
+    {
+      "nama": "G6 library overlay",
+      "lolos": true,
+      "catatan": "transformers 4.55.0 st 6.0.1"
+    },
+    {
+      "nama": "G7 map determinism",
+      "lolos": true,
+      "catatan": "1840f4512603d96b vs 1840f4512603d96b"
+    }
+  ],
+  "vonis": "LOLOS",
+  "gagal": []
+}

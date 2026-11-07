@@ -1,0 +1,451 @@
+{
+  "dibuat": "2026-10-03T05:00:40.238197+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "label_source": "deterministic (re-aggregation of the frozen score files)",
+  "gerbang": {
+    "replikasi_metrik_q2_metrik": {
+      "qwen_scores_0.6b_paired_default.jsonl": {
+        "pairwise": 0.5,
+        "acuan": 0.5,
+        "n_komparabel": 96
+      },
+      "qwen_scores_0.6b_paired_profile.jsonl": {
+        "pairwise": 0.5104,
+        "acuan": 0.5104,
+        "n_komparabel": 96
+      },
+      "qwen_scores_4b_paired_default.jsonl": {
+        "pairwise": 0.5,
+        "acuan": 0.5,
+        "n_komparabel": 96
+      },
+      "qwen_scores_4b_paired_profile.jsonl": {
+        "pairwise": 0.5208,
+        "acuan": 0.5208,
+        "n_komparabel": 96
+      }
+    },
+    "segel_test_holdout": "passed, no test_holdout query_id in any source",
+    "integritas_sha256": "every source jsonl matches its own manifest",
+    "konsistensi_silang": "per-item win counts identical to the pairwise rate of the production metric in every cell"
+  },
+  "anomali_manifest": [
+    "paired/zerank-2/tanpa_profil: manifest field n 69 differs from the 104 rows of the file, because the run was resumed and n counts only the rows of its last part. A resumed run can only append to the file of the same condition, and the sha256 matches the manifest, so the scores are valid. Only durasi_s and vram_peak_mib describe the last part alone."
+  ],
+  "_apa_ini": "Channel board of the mined broad track. The counts come from the per-row score files.",
+  "track": "mined (xpair), 600 pairs mined automatically, 8 programs",
+  "n_populasi": 1621,
+  "satuan": "rows resolved out of 1,621",
+  "kunci_buta_struktural": {
+    "nilai": 600,
+    "rate": 0.3701,
+    "kenapa": "a scorer that does not read the profile returns identical rankings for the source row and the mirror row, so the win count is fixed algebraically; do not test against the 0.5 null",
+    "sumber": "result/paper_q2/results/tables/dits_xpair.json arm S1"
+  },
+  "papan": {
+    "Qwen3-Reranker-0.6B": {
+      "tanpa_profil": {
+        "menang": 600,
+        "n_komparabel": 1621,
+        "eksak": "600/1621",
+        "pairwise": 0.3701,
+        "top1_gold": 0.248,
+        "ndcg5": 0.3389,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_default.jsonl",
+        "integritas": {
+          "manifest": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_default.manifest.json",
+          "sha256": "3b40105fe23c2e06594c161e95e2d3b425e5631cd99e49457a94504e550414c5",
+          "cocok": true,
+          "run_id": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_default_20260822T173642Z",
+          "anomali_field_n": null
+        }
+      },
+      "slot": {
+        "menang": 597,
+        "n_komparabel": 1621,
+        "eksak": "597/1621",
+        "pairwise": 0.3683,
+        "top1_gold": 0.2523,
+        "ndcg5": 0.3424,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile.jsonl",
+        "integritas": {
+          "manifest": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile.manifest.json",
+          "sha256": "4d316b7ba37e2d739cdf704a6e61d13dc53ae3239ea0f18642b46fce474d138f",
+          "cocok": true,
+          "run_id": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_20260822T190207Z",
+          "anomali_field_n": null
+        }
+      },
+      "slot_plus_teks": {
+        "menang": 697,
+        "n_komparabel": 1621,
+        "eksak": "697/1621",
+        "pairwise": 0.43,
+        "top1_gold": 0.3023,
+        "ndcg5": 0.4244,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmeta.jsonl",
+        "integritas": {
+          "manifest": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmeta.manifest.json",
+          "sha256": "baae659693331a720127eb79c7a0dc1b235b267403334b063297f946c377ea78",
+          "cocok": true,
+          "run_id": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmeta_20261002T101119Z",
+          "anomali_field_n": null
+        }
+      },
+      "label_salah": {
+        "menang": 645,
+        "n_komparabel": 1621,
+        "eksak": "645/1621",
+        "pairwise": 0.3979,
+        "top1_gold": 0.277,
+        "ndcg5": 0.382,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmetasalah.jsonl",
+        "integritas": {
+          "manifest": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmetasalah.manifest.json",
+          "sha256": "bfb13c6e4eaf6f79e3418243e1b67411e37f8f526ab6af900d989963026d61bc",
+          "cocok": true,
+          "run_id": "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmetasalah_20261002T102903Z",
+          "anomali_field_n": null
+        }
+      }
+    },
+    "Qwen3-Reranker-4B": {
+      "tanpa_profil": {
+        "menang": 600,
+        "n_komparabel": 1621,
+        "eksak": "600/1621",
+        "pairwise": 0.3701,
+        "top1_gold": 0.2782,
+        "ndcg5": 0.361,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_default.jsonl",
+        "integritas": {
+          "manifest": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_default.manifest.json",
+          "sha256": "c6037be85eb82d9d01dae5eeba89a3bdf1d7bdd84224fee9dcaa99739a3d6cf3",
+          "cocok": true,
+          "run_id": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_default_20260822T213006Z",
+          "anomali_field_n": null
+        }
+      },
+      "slot": {
+        "menang": 598,
+        "n_komparabel": 1621,
+        "eksak": "598/1621",
+        "pairwise": 0.3689,
+        "top1_gold": 0.2795,
+        "ndcg5": 0.362,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile.jsonl",
+        "integritas": {
+          "manifest": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile.manifest.json",
+          "sha256": "18e0a1dcd7447ee6a9d8c7e5a80a3bf133c68bb56567aead5a6b5b4bd9e3ce1d",
+          "cocok": true,
+          "run_id": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_20260822T223707Z",
+          "anomali_field_n": null
+        }
+      },
+      "slot_plus_teks": {
+        "menang": 641,
+        "n_komparabel": 1621,
+        "eksak": "641/1621",
+        "pairwise": 0.3954,
+        "top1_gold": 0.2832,
+        "ndcg5": 0.3705,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmeta.jsonl",
+        "integritas": {
+          "manifest": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmeta.manifest.json",
+          "sha256": "4a78249f9485139aeb0703e296688cbe983264c89013d82aca4c791a4dd5086f",
+          "cocok": true,
+          "run_id": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmeta_20261002T181043Z",
+          "anomali_field_n": null
+        }
+      },
+      "label_salah": {
+        "menang": 653,
+        "n_komparabel": 1621,
+        "eksak": "653/1621",
+        "pairwise": 0.4028,
+        "top1_gold": 0.2844,
+        "ndcg5": 0.3823,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmetasalah.jsonl",
+        "integritas": {
+          "manifest": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmetasalah.manifest.json",
+          "sha256": "4395c4ad49682ec58d5d09525b84d3d733ae67395b7f196a537502072d823f22",
+          "cocok": true,
+          "run_id": "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmetasalah_20261002T170249Z",
+          "anomali_field_n": null
+        }
+      }
+    },
+    "zerank-2": {
+      "tanpa_profil": {
+        "menang": 600,
+        "n_komparabel": 1621,
+        "eksak": "600/1621",
+        "pairwise": 0.3701,
+        "top1_gold": 0.2653,
+        "ndcg5": 0.3478,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_zerank2_zerank-2_xpair_default.jsonl",
+        "integritas": {
+          "manifest": "scores_zerank2_zerank-2_xpair_default.manifest.json",
+          "sha256": "2e97cda8f41ad33cb0afe64d0169ca59328f90952b7aab628d677d9784e16b47",
+          "cocok": true,
+          "run_id": "scores_zerank2_zerank-2_xpair_default_20260822T144831Z",
+          "anomali_field_n": null
+        }
+      },
+      "slot": {
+        "menang": 598,
+        "n_komparabel": 1621,
+        "eksak": "598/1621",
+        "pairwise": 0.3689,
+        "top1_gold": 0.2659,
+        "ndcg5": 0.347,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_zerank2_zerank-2_xpair_profile.jsonl",
+        "integritas": {
+          "manifest": "scores_zerank2_zerank-2_xpair_profile.manifest.json",
+          "sha256": "1259fdeb63c8903818917e3b39b96fb6ec041bfb59432a427c87eacbd00cfe4c",
+          "cocok": true,
+          "run_id": "scores_zerank2_zerank-2_xpair_profile_20260822T155615Z",
+          "anomali_field_n": null
+        }
+      },
+      "slot_plus_teks": {
+        "menang": 818,
+        "n_komparabel": 1621,
+        "eksak": "818/1621",
+        "pairwise": 0.5046,
+        "top1_gold": 0.356,
+        "ndcg5": 0.4819,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_zerank2_zerank-2_xpair_profile_docmeta.jsonl",
+        "integritas": {
+          "manifest": "scores_zerank2_zerank-2_xpair_profile_docmeta.manifest.json",
+          "sha256": "8e630e9510712315a3b70da8b06e20232614904bb2aeec209f4ce780699ec627",
+          "cocok": true,
+          "run_id": "scores_zerank2_zerank-2_xpair_profile_docmeta_20261002T144421Z",
+          "anomali_field_n": null
+        }
+      },
+      "label_salah": {
+        "menang": 706,
+        "n_komparabel": 1621,
+        "eksak": "706/1621",
+        "pairwise": 0.4355,
+        "top1_gold": 0.3054,
+        "ndcg5": 0.4114,
+        "n_baris": 1621,
+        "berkas": "result/paper_q2/results/raw/scores_zerank2_zerank-2_xpair_profile_docmetasalah.jsonl",
+        "integritas": {
+          "manifest": "scores_zerank2_zerank-2_xpair_profile_docmetasalah.manifest.json",
+          "sha256": "71c8364ae4a0fe76f3a3897dbf3907fe3b837ffdefc17f57609d7fe0c70f5f48",
+          "cocok": true,
+          "run_id": "scores_zerank2_zerank-2_xpair_profile_docmetasalah_20261002T155517Z",
+          "anomali_field_n": null
+        }
+      }
+    }
+  },
+  "arm_dits": {
+    "S1_buta": {
+      "eksak": "600/1621",
+      "pairwise": 0.3701418877236274
+    },
+    "S2_prox": {
+      "eksak": "779/1621",
+      "pairwise": 0.4805675508945096
+    },
+    "B_DITS": {
+      "eksak": "779/1621",
+      "pairwise": 0.4805675508945096
+    },
+    "catatan": "DITS reads the metadata directly, so it has no slot-against-text column; its single cell (779) spans three columns in the paper",
+    "stratifikasi": {
+      "dalam_mandat_baris_1_2": {
+        "menang": 771,
+        "n": 800,
+        "rate": 0.9637
+      },
+      "w3_konsesi_desain": {
+        "n": 821,
+        "menang": 8,
+        "rate": 0.0097
+      }
+    }
+  },
+  "kontras_mcnemar_suplemen": {
+    "m": 6,
+    "aturan_baca": "a p_holm_keluarga of 0.0 means below 1e-6 after rounding to six decimals, not a true zero; the full exact value is in p_mcnemar_exact_penuh",
+    "kontras": {
+      "Qwen3-Reranker-0.6B tanpa_profil vs Qwen3-Reranker-0.6B slot": {
+        "n_berpasangan": 1621,
+        "diskordan_a_kalah_b_menang": 15,
+        "diskordan_a_menang_b_kalah": 18,
+        "selisih_bersih": -3,
+        "p_mcnemar_exact": 0.72833248,
+        "p_mcnemar_exact_penuh": 0.7283324808813632,
+        "p_terbaca": "0.728",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      },
+      "Qwen3-Reranker-4B tanpa_profil vs Qwen3-Reranker-4B slot": {
+        "n_berpasangan": 1621,
+        "diskordan_a_kalah_b_menang": 17,
+        "diskordan_a_menang_b_kalah": 19,
+        "selisih_bersih": -2,
+        "p_mcnemar_exact": 0.8679394,
+        "p_mcnemar_exact_penuh": 0.8679394004284404,
+        "p_terbaca": "0.868",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      },
+      "zerank-2 tanpa_profil vs zerank-2 slot": {
+        "n_berpasangan": 1621,
+        "diskordan_a_kalah_b_menang": 16,
+        "diskordan_a_menang_b_kalah": 18,
+        "selisih_bersih": -2,
+        "p_mcnemar_exact": 0.86416624,
+        "p_mcnemar_exact_penuh": 0.8641662404406816,
+        "p_terbaca": "0.864",
+        "p_holm_keluarga": 1.0,
+        "signifikan_0.05": false
+      },
+      "Qwen3-Reranker-0.6B slot vs Qwen3-Reranker-0.6B slot_plus_teks": {
+        "n_berpasangan": 1621,
+        "diskordan_a_kalah_b_menang": 101,
+        "diskordan_a_menang_b_kalah": 1,
+        "selisih_bersih": 100,
+        "p_mcnemar_exact": 0.0,
+        "p_mcnemar_exact_penuh": 4.062633661888211e-29,
+        "p_terbaca": "4.06e-29",
+        "p_holm_keluarga": 0.0,
+        "signifikan_0.05": true
+      },
+      "Qwen3-Reranker-4B slot vs Qwen3-Reranker-4B slot_plus_teks": {
+        "n_berpasangan": 1621,
+        "diskordan_a_kalah_b_menang": 55,
+        "diskordan_a_menang_b_kalah": 12,
+        "selisih_bersih": 43,
+        "p_mcnemar_exact": 1e-07,
+        "p_mcnemar_exact_penuh": 1.0273195443541005e-07,
+        "p_terbaca": "1.03e-07",
+        "p_holm_keluarga": 0.0,
+        "signifikan_0.05": true
+      },
+      "zerank-2 slot vs zerank-2 slot_plus_teks": {
+        "n_berpasangan": 1621,
+        "diskordan_a_kalah_b_menang": 220,
+        "diskordan_a_menang_b_kalah": 0,
+        "selisih_bersih": 220,
+        "p_mcnemar_exact": 0.0,
+        "p_mcnemar_exact_penuh": 1.1869459682199748e-66,
+        "p_terbaca": "1.19e-66",
+        "p_holm_keluarga": 0.0,
+        "signifikan_0.05": true
+      }
+    }
+  },
+  "verifikasi_naskah": {
+    "per_sel": {
+      "Qwen3-Reranker-0.6B": {
+        "tanpa_profil": {
+          "naskah": 600,
+          "hitung": 600,
+          "selisih": 0,
+          "vonis": "COCOK"
+        },
+        "slot": {
+          "naskah": 597,
+          "hitung": 597,
+          "selisih": 0,
+          "vonis": "COCOK"
+        },
+        "slot_plus_teks": {
+          "naskah": 697,
+          "hitung": 697,
+          "selisih": 0,
+          "vonis": "COCOK"
+        },
+        "label_salah": {
+          "naskah": 645,
+          "hitung": 645,
+          "selisih": 0,
+          "vonis": "COCOK"
+        }
+      },
+      "Qwen3-Reranker-4B": {
+        "tanpa_profil": {
+          "naskah": 600,
+          "hitung": 600,
+          "selisih": 0,
+          "vonis": "COCOK"
+        },
+        "slot": {
+          "naskah": 598,
+          "hitung": 598,
+          "selisih": 0,
+          "vonis": "COCOK"
+        },
+        "slot_plus_teks": {
+          "naskah": 641,
+          "hitung": 641,
+          "selisih": 0,
+          "vonis": "COCOK"
+        },
+        "label_salah": {
+          "naskah": 653,
+          "hitung": 653,
+          "selisih": 0,
+          "vonis": "COCOK"
+        }
+      },
+      "zerank-2": {
+        "tanpa_profil": {
+          "naskah": 600,
+          "hitung": 600,
+          "selisih": 0,
+          "vonis": "COCOK"
+        },
+        "slot": {
+          "naskah": 598,
+          "hitung": 598,
+          "selisih": 0,
+          "vonis": "COCOK"
+        },
+        "slot_plus_teks": {
+          "naskah": 818,
+          "hitung": 818,
+          "selisih": 0,
+          "vonis": "COCOK"
+        },
+        "label_salah": {
+          "naskah": 706,
+          "hitung": 706,
+          "selisih": 0,
+          "vonis": "COCOK"
+        }
+      }
+    },
+    "jumlah_beda": 0,
+    "daftar_beda": [],
+    "vonis": "all cells match"
+  },
+  "acuan_naskah": {
+    "kunci_buta_struktural": 600,
+    "n_baris": 1621,
+    "DITS_B": 779
+  },
+  "syarat_kutip": [
+    "the Slot+text and Wrong columns both use instruction=profile; they differ only in the content of the program label in the document text",
+    "on this pool zerank-2 with slot plus text is above DITS",
+    "the 4B wrong-label cell is higher than the right-label cell; the paper leaves the mechanism open"
+  ]
+}

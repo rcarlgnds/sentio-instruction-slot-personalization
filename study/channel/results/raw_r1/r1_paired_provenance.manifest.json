@@ -1,0 +1,23 @@
+{
+ "run_id": "r1_asal_paired_20261012T143840Z",
+ "script": "result/paper_q2/scripts/q2_r1_asal_paired.py",
+ "output": {
+  "path": "results/tables/r1_asal_paired.json",
+  "sha256": "76f4796d5e889ea4f3ddf10881d226f928c6624df0f6bfde5f1a37a4d7398a34"
+ },
+ "inputs": {
+  "journal": {
+   "path": "<home>/bukti_asal_paired_29jul2026/wf_d095d1b4-baf/journal.jsonl",
+   "sha256": "54eba014b7732e78fa1222418f40ec2b95699d05f13f59e80cff884003c4cf98",
+   "note": "Claude Code workflow journal kept outside the repository"
+  },
+  "topic_pairs": {
+   "path": "src/ai/data/paired_set/topic_pairs.jsonl",
+   "sha256": "bfbf7e88670621d60dbc2a177ff84d132b2df548f07219ab0c2f03cb78a96dc0"
+  },
+  "paired_queries": {
+   "path": "src/ai/data/paired_set/paired_queries.jsonl",
+   "sha256": "e2e6f315645203760cd989e6d929d31b17c30b68665e0387578bf613cc7f38f0"
+  }
+ }
+}

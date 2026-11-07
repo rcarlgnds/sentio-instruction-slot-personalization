@@ -1,0 +1,14 @@
+{
+  "run_id": "q2_sepemb_20260822T061958Z",
+  "script": "result/paper_q2/scripts/q2_separability_emb.py",
+  "config_version": "0a7b2e4de856",
+  "label_source": "deterministic",
+  "sumber": {
+    "corpus": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df"
+  },
+  "output": {
+    "path": "results/tables/separability_probe_embedding.json",
+    "sha256": "4072872b88f342e48574a50589866eb0d851267a597776fb257440e6385c0cc0",
+    "tingkat_reproduksi": "2_statistical (embedding GPU)"
+  }
+}

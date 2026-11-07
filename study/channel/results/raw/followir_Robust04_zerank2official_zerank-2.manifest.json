@@ -1,0 +1,11 @@
+{
+  "run_id": "followir_Robust04_zerank2official_zerank-2_20260919T075511Z",
+  "script": "result/paper_q2/scripts/q2_followir.py",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_followir.py --dataset Robust04 --family zerank2official --model zeroentropy/zerank-2 --dtype bfloat16 --batch 2 --max-len 1536 --min-free-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal",
+  "output": {
+    "path": "results/tables/followir_Robust04_zerank2official_zerank-2.json",
+    "sha256": "c396c85d8b740ec3822e2ea5c7d5a4874363ceee563b9fb172cc91e733850999"
+  }
+}

@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code or these results, cite this software and, once it is published,
+  the paper it accompanies. The paper is under review at the International
+  Journal of Intelligent Engineering and Systems. Its DOI will be added here
+  when it exists.
+type: software
+title: "Measuring student profile personalization in instruction-following rerankers: code and results"
+version: "1.4.0"
+repository-code: "https://github.com/rcarlgnds/sentio-instruction-slot-personalization"
+date-released: 2026-11-07
+authors:
+  - family-names: Sastra
+    given-names: Rico Aurelio Gunadi
+    affiliation: Information Systems Management Department, Bina Nusantara Graduate Program - Master of Information Systems Management, Bina Nusantara University, Jakarta 11480, Indonesia
+  - family-names: Fajar
+    given-names: Ahmad Nurul
+    affiliation: Information Systems Management Department, Bina Nusantara Graduate Program - Master of Information Systems Management, Bina Nusantara University, Jakarta 11480, Indonesia
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - instruction-following rerankers
+  - personalization
+  - student profile
+  - retrieval-augmented generation
+  - educational question answering
+  - evaluation methodology
+abstract: >-
+  Code, result tables, and per-row scores behind the paper "Measuring Student Profile
+  Personalization in Instruction-Following Rerankers for University Course Question Answering". Six
+  instruction-following rerankers were scored in a 2 x 2 design, a student profile in the instruction
+  slot against a label line in the passage, on paired and broad tracks. One command recomputes the
+  tables from the per-row scores and checks the paper's numbers. Chunk anchors, question texts, rebuild
+  scripts, pinned model commits, and a small open-licensed demo pool let a reader run the scorers.
+preferred-citation:
+  type: article
+  title: "Measuring Student Profile Personalization in Instruction-Following Rerankers for University Course Question Answering"
+  authors:
+    - family-names: Sastra
+      given-names: Rico Aurelio Gunadi
+    - family-names: Fajar
+      given-names: Ahmad Nurul
+  journal: International Journal of Intelligent Engineering and Systems
+  year: 2026
+  status: submitted

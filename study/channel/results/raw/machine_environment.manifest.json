@@ -1,0 +1,9 @@
+{
+ "run_id": "lingkungan_mesin_20260924T144339Z",
+ "script": "result/paper_q2/scripts/q2_lingkungan_mesin.py",
+ "output": {
+  "path": "results/tables/lingkungan_mesin.json",
+  "sha256": "300663777c2a27536da8a332dbdb7fc3e9951381d230180e33bf262989322983"
+ },
+ "label_source": "deterministic"
+}

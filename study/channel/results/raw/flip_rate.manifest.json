@@ -1,0 +1,17 @@
+{
+  "run_id": "q2_flip_20261003T050038Z",
+  "script": "result/paper_q2/scripts/q2_flip_rate.py",
+  "config_version": "0a7b2e4de856",
+  "label_source": "deterministic",
+  "sumber": {
+    "qwen_scores_0.6b_paired_default.jsonl": "ccba5735293225bf4978c9b454b93ce21c0166fce9872e0cd1abf966d8b7a3cc",
+    "qwen_scores_0.6b_paired_profile.jsonl": "ce388c8d6a3f4005d19f63335f6efed9754d868f649ee49831a2e14bd433ccf7",
+    "qwen_scores_4b_paired_default.jsonl": "78d14377f8f778c55c3cd7f2562b474badebbefef4664af2f279caae8a4eeaf3",
+    "qwen_scores_4b_paired_profile.jsonl": "3d82073844cfbf443db616158ab08241bd394fb4850cd8e8c4d4d964f51c26cf"
+  },
+  "output": {
+    "path": "results/tables/flip_rate.json",
+    "sha256": "b2d8ddec93dac30f60fd031d663caaa2e6b368394c0801d7062df043190e397c",
+    "tingkat_reproduksi": "1_bit_identical"
+  }
+}

@@ -1,0 +1,7 @@
+# The library versions that the scoring run manifests record (Python 3.12). Install this file after
+# system/requirements.txt, in a second pip command, because it pins newer transformers and
+# sentence-transformers than that file. The scorers need a CUDA GPU, the model weights, and, except for the
+# two FollowIR scripts, the candidate pools as text.
+torch==2.11.0  # +cu128, from https://download.pytorch.org/whl/cu128
+transformers==4.55.0
+sentence-transformers==6.0.1

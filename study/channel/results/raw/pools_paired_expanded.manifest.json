@@ -1,0 +1,44 @@
+{
+  "dibuat": "2026-08-22T11:30:40.718163+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Track berpasangan DIPERLUAS dengan mengikat ke kueri benchmark utama: gold asli jadi jawaban profil pertama, padanan nyaris kembar di buku prodi lain jadi jawaban profil kedua (dan ketiga bila ada).",
+  "populasi_sumber": "traindev 2.493, test_holdout TIDAK disentuh",
+  "jendela_kemiripan": [
+    0.66,
+    0.89
+  ],
+  "jaccard_teks_maks": 0.36,
+  "kalibrasi": "ambang DITURUNKAN dari 400 kandidat pasangan ASLI paper: sim 0,6594 sampai 0,8858 (median 0,7211), Jaccard teks 0,000 sampai 0,355 (median 0,127), NOL di atas 0,5.",
+  "acuan_ambang": "pasangan ASLI paper punya sim 0,8858 pada contoh pertama; ambang dipilih sedikit di bawahnya dan hasil di beberapa ambang dilaporkan di bawah",
+  "yield_per_ambang": {
+    "0.8": 86,
+    "0.85": 18,
+    "0.88": 1,
+    "0.9": 0,
+    "0.92": 0
+  },
+  "n_kueri_kandidat": 2200,
+  "n_pasangan_dibangun": 600,
+  "n_baris": 1621,
+  "rincian": {
+    "tanpa_padanan": 274,
+    "triple": 421,
+    "pasangan": 179
+  },
+  "sim_padanan": {
+    "n_dengan_padanan": 600,
+    "mean": 0.7311,
+    "median": 0.7192
+  },
+  "kontrol_kualitas": [
+    "counterpart WAJIB dari buku prodi lain",
+    "kueri yang gold-nya sudah lintas prodi dikeluarkan",
+    "pool identik antar profil dalam satu pasangan",
+    "tanpa pemanggilan LLM, tanpa gold baru yang dikarang"
+  ],
+  "batasan_wajib_ditulis": "padanan ditentukan kemiripan embedding, BUKAN penilaian manusia; kesetaraan jawaban antar dua chunk berstatus asumsi terukur, dan sampel wajib diaudit sebelum angkanya dipakai",
+  "output": {
+    "path": "results/raw/pools_paired_expanded.jsonl",
+    "sha256": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+  }
+}

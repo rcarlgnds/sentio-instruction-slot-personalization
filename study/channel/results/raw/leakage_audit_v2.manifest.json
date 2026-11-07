@@ -1,0 +1,15 @@
+{
+  "run_id": "q2_leak_20260822T060213Z",
+  "script": "result/paper_q2/scripts/q2_leakage_v2.py",
+  "config_version": "0a7b2e4de856",
+  "label_source": "deterministic",
+  "sumber": {
+    "corpus": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+    "paired_queries": "e2e6f315645203760cd989e6d929d31b17c30b68665e0387578bf613cc7f38f0"
+  },
+  "output": {
+    "path": "results/tables/leakage_audit_v2.json",
+    "sha256": "710e1cb01dfe02c84b46fc44613e70f44b07ad730aa94db066120e15169ef08c",
+    "tingkat_reproduksi": "1_bit_identical"
+  }
+}

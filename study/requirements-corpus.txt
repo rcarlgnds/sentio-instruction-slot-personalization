@@ -1,0 +1,7 @@
+# Extra packages for rebuild_corpus.py, on top of system/requirements.txt. Docling's layout model decides the
+# reading order of a PDF, so a newer version can change chunk boundaries. Docling 2.40.0 loads that model from
+# ds4sd/docling-models at tag v2.2.0 (commit 4659a7d29247f9f7a94102e1f313dad8e8c8f2f6). The chunker counts tokens
+# with the BAAI/bge-m3 tokenizer, and the rebuild that matched the study's corpus used its commit
+# 5617a9f61b028005a4858fdac845db406aefb181.
+docling==2.40.0
+PyMuPDF==1.25.5

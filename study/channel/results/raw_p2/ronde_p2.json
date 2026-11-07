@@ -1,0 +1,101 @@
+{
+ "updated": "2026-10-16T08:19:55+00:00",
+ "target_groups": 400,
+ "rounds": [
+  {
+   "ronde": 1,
+   "list": "fokus",
+   "tp_from": 1,
+   "tp_to": 500,
+   "sent": 500,
+   "written": 350,
+   "declined": 150,
+   "passed_screen": 174,
+   "judged": 174,
+   "clear": 174,
+   "groups": 131,
+   "strict_groups": 13,
+   "unreadable_replies": 0
+  },
+  {
+   "ronde": 2,
+   "list": "fokus",
+   "tp_from": 501,
+   "tp_to": 1000,
+   "sent": 500,
+   "written": 239,
+   "declined": 261,
+   "passed_screen": 114,
+   "judged": 114,
+   "clear": 114,
+   "groups": 90,
+   "strict_groups": 5,
+   "unreadable_replies": 0
+  },
+  {
+   "ronde": 3,
+   "list": "fokus",
+   "tp_from": 1001,
+   "tp_to": 1500,
+   "sent": 500,
+   "written": 196,
+   "declined": 304,
+   "passed_screen": 83,
+   "judged": 83,
+   "clear": 83,
+   "groups": 73,
+   "strict_groups": 2,
+   "unreadable_replies": 0
+  },
+  {
+   "ronde": 4,
+   "list": "fokus",
+   "tp_from": 1501,
+   "tp_to": 2000,
+   "sent": 500,
+   "written": 181,
+   "declined": 319,
+   "passed_screen": 67,
+   "judged": 67,
+   "clear": 67,
+   "groups": 61,
+   "strict_groups": 1,
+   "unreadable_replies": 0
+  },
+  {
+   "ronde": 5,
+   "list": "fokus",
+   "tp_from": 2001,
+   "tp_to": 2087,
+   "sent": 87,
+   "written": 23,
+   "declined": 64,
+   "passed_screen": 10,
+   "judged": 10,
+   "clear": 10,
+   "groups": 9,
+   "strict_groups": 0,
+   "unreadable_replies": 0
+  },
+  {
+   "ronde": 6,
+   "list": "acct",
+   "tp_from": 2088,
+   "tp_to": 2587,
+   "sent": 500,
+   "written": 291,
+   "declined": 209,
+   "passed_screen": 168,
+   "judged": 168,
+   "clear": 168,
+   "groups": 116,
+   "strict_groups": 22,
+   "unreadable_replies": 0
+  }
+ ],
+ "sent_total": 2587,
+ "groups_total": 480,
+ "next": {
+  "stop": "target reached: 480 groups"
+ }
+}

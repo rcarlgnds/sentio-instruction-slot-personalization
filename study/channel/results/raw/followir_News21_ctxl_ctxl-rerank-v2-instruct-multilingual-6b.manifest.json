@@ -1,0 +1,16 @@
+{
+  "run_id": "followir_News21_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_20260919T045000Z",
+  "script": "result/paper_q2/scripts/q2_arch_followir.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_arch_followir.py --dataset News21 --family ctxl --model ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b --gap-mib 300 --batch 4",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal, uji lintas arsitektur",
+  "durasi_s": 5631.7,
+  "vram_peak_mib": 14201.8,
+  "output": {
+    "path": "results/tables/followir_News21_ctxl_ctxl-rerank-v2-instruct-multilingual-6b.json",
+    "sha256": "5d6a4e61e93e5cd280c0c6c15c9171450450046e5e5292ddf63c39d6529028ab",
+    "run": "results/raw/followir_run_News21_ctxl_ctxl-rerank-v2-instruct-multilingual-6b.jsonl",
+    "run_sha256": "790994c2dcba12351b9498fa2192b374074d1bea2438c99c0d01616e0b3d74ef"
+  }
+}

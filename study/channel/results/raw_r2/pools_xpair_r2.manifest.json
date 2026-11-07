@@ -1,0 +1,387 @@
+{
+ "run_id": "pools_xpair_r2_20261016T075808Z",
+ "script": "result/paper_q2/scripts/q2_r2_tambang_luas.py",
+ "command": "q2_r2_tambang_luas.py --tahap undi",
+ "config_version_lock": "0a7b2e4de856",
+ "purpose": "broad-track groups whose partner golds answer the question (pre-registration)",
+ "rules": {
+  "population": "train and dev queries with exactly one gold passage, in the asker's program",
+  "question": "judge rates the question clear ('ya')",
+  "full_answer": "'penuh' under both answer wordings; wording B is asked only when wording A says 'penuh'",
+  "own_gold": "a full answer",
+  "candidates_per_program": "top 5 by cosine with the question, union top 5 by cosine with the gold",
+  "near_duplicate_of_gold": {
+   "cosine_above": 0.89,
+   "word_jaccard_above": 0.36
+  },
+  "partner": "first full answer in order of cosine with the question, one per program",
+  "near_duplicate_of_partner": "a candidate above either limit with a partner already taken is skipped unjudged",
+  "max_partners": 2,
+  "pool_size": 71,
+  "pool_centre": "gold chunk embedding",
+  "corpus_min_chars": 200,
+  "judge_passage": "chunk text cut at 4,000 characters, as in the pool"
+ },
+ "judge": {
+  "model": "Qwen/Qwen3-14B-AWQ",
+  "prompt_version": "juri_r2_v1",
+  "sampling": {
+   "temperature": 0.0,
+   "top_p": 1.0,
+   "presence_penalty": 0.0,
+   "frequency_penalty": 0.0,
+   "repetition_penalty": 1.0,
+   "max_tokens": 8
+  },
+  "thinking": false,
+  "prompts": {
+   "jelas": "Berikut pertanyaan seorang mahasiswa untuk asisten tanya jawab mata kuliah. Pertanyaan itu dibaca sendirian, tanpa gambar, tabel, soal, atau percakapan sebelumnya.\n\nPertanyaan:\n{pertanyaan}\n\nPilih satu:\n  ya        pertanyaan jelas dan wajar diajukan seorang mahasiswa\n  tidak     pertanyaan ambigu, janggal, atau tidak bisa dipahami\n\nJawab dengan satu kata saja: ya atau tidak.",
+   "jawab": "Berikut pertanyaan seorang mahasiswa (bahasa Indonesia) dan satu paragraf dari buku teks (bahasa Inggris). Nilai berdasarkan teks yang tertulis saja.\n\nPertanyaan:\n{pertanyaan}\n\nParagraf:\n{paragraf}\n\nPilih satu:\n  penuh     paragraf menjawab pertanyaan itu secara lengkap\n  sebagian  paragraf menjawab sebagian pertanyaan atau hanya sebagian aspeknya\n  tidak     paragraf tidak menjawab pertanyaan itu\n\nJawab dengan satu kata saja: penuh, sebagian, atau tidak.",
+   "jawab_b": "Baca paragraf buku teks (bahasa Inggris) di bawah ini, lalu tentukan apakah paragraf itu menjawab pertanyaan mahasiswa (bahasa Indonesia) yang menyertainya. Gunakan hanya isi teks yang tertulis.\n\nParagraf:\n{paragraf}\n\nPertanyaan mahasiswa:\n{pertanyaan}\n\nPilihan:\n  penuh     paragraf menjawab pertanyaan itu secara lengkap\n  sebagian  paragraf menjawab sebagian pertanyaan atau hanya sebagian aspeknya\n  tidak     paragraf tidak menjawab pertanyaan itu\n\nTulis satu kata saja: penuh, sebagian, atau tidak."
+  },
+  "parse": "first word of the reply after any think block; a reply that does not start with an allowed word counts as a negative verdict",
+  "server_runs": [
+   {
+    "time": "2026-10-16T03:26:28+00:00",
+    "url": "http://localhost:8001",
+    "served_models": [
+     "Qwen/Qwen3-14B-AWQ"
+    ],
+    "models": [
+     {
+      "id": "Qwen/Qwen3-14B-AWQ",
+      "root": "Qwen/Qwen3-14B-AWQ",
+      "max_model_len": 8192,
+      "revision": null
+     }
+    ],
+    "vllm_version": "0.26.0",
+    "sampling": {
+     "temperature": 0.0,
+     "top_p": 1.0,
+     "presence_penalty": 0.0,
+     "frequency_penalty": 0.0,
+     "repetition_penalty": 1.0,
+     "max_tokens": 8
+    },
+    "parallel_requests": 16,
+    "limit": 20,
+    "preregistration": {
+     "sha256": "e63ed46a462209b78f733c6c5ab03c71c5a8bab723b06ecc655ba55c9badcbbe",
+     "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+    },
+    "scripts": {
+     "q2_r2_tambang_luas.py": {
+      "sha256": "0704daceb77cfaab76bee5026f6e9d0890dc75d940de72a44ea90d4c1e03a382",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_kit.py": {
+      "sha256": "f1c4d0e951828b5882710a4fe31fca0d93e8751af7cdfd17dfa05b5efce0384a",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_rencana.py": {
+      "sha256": "4b19b59d3ac42d6954c3a0e330c1767270c012d12286ef491e88717df9954461",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_analisis.py": {
+      "sha256": "d1ea8524ac346bd835651ec044d04260360cc15f1dd7db71da34fcfedd8e175f",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_validasi.py": {
+      "sha256": "149662e3dd7784c5a7429b6e68df9ebf24adcee2c47c040807138729da39f6ae",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_pengawas.py": {
+      "sha256": "aae05c0fd53273a4164dac75985d73c21aa78da242641b05e2f2706858ac24de",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_uji.py": {
+      "sha256": "229580215283e2275128bfe4129518edc603a5cc3083ee677f91685c71647291",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_orkestra.sh": {
+      "sha256": "5a9576508181c0b76ce71f9061849954c992f0308503c870db47566082c7eb3e",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     }
+    }
+   },
+   {
+    "time": "2026-10-16T03:28:21+00:00",
+    "url": "http://localhost:8001",
+    "served_models": [
+     "Qwen/Qwen3-14B-AWQ"
+    ],
+    "models": [
+     {
+      "id": "Qwen/Qwen3-14B-AWQ",
+      "root": "Qwen/Qwen3-14B-AWQ",
+      "max_model_len": 8192,
+      "revision": null
+     }
+    ],
+    "vllm_version": "0.26.0",
+    "sampling": {
+     "temperature": 0.0,
+     "top_p": 1.0,
+     "presence_penalty": 0.0,
+     "frequency_penalty": 0.0,
+     "repetition_penalty": 1.0,
+     "max_tokens": 8
+    },
+    "parallel_requests": 16,
+    "limit": null,
+    "preregistration": {
+     "sha256": "e63ed46a462209b78f733c6c5ab03c71c5a8bab723b06ecc655ba55c9badcbbe",
+     "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+    },
+    "scripts": {
+     "q2_r2_tambang_luas.py": {
+      "sha256": "0704daceb77cfaab76bee5026f6e9d0890dc75d940de72a44ea90d4c1e03a382",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_kit.py": {
+      "sha256": "f1c4d0e951828b5882710a4fe31fca0d93e8751af7cdfd17dfa05b5efce0384a",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_rencana.py": {
+      "sha256": "4b19b59d3ac42d6954c3a0e330c1767270c012d12286ef491e88717df9954461",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_analisis.py": {
+      "sha256": "d1ea8524ac346bd835651ec044d04260360cc15f1dd7db71da34fcfedd8e175f",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_validasi.py": {
+      "sha256": "149662e3dd7784c5a7429b6e68df9ebf24adcee2c47c040807138729da39f6ae",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_pengawas.py": {
+      "sha256": "aae05c0fd53273a4164dac75985d73c21aa78da242641b05e2f2706858ac24de",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_uji.py": {
+      "sha256": "229580215283e2275128bfe4129518edc603a5cc3083ee677f91685c71647291",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     },
+     "q2_r2_orkestra.sh": {
+      "sha256": "5a9576508181c0b76ce71f9061849954c992f0308503c870db47566082c7eb3e",
+      "commit": "ad001040f7c68052b151413cc8566fb4afa4c909"
+     }
+    }
+   }
+  ],
+  "verdicts_used": 38141,
+  "unreadable_replies_used": 1,
+  "empty_replies_used": 0,
+  "unreadable_limit": 0.01,
+  "verdict_file": {
+   "path": "results/raw_r2/juri_r2.jsonl",
+   "sha256": "ee19c1bb2515a08e12b7d811afdd2091833df631938645d4a9f276de7e9f996d",
+   "verdicts_stored": 38141
+  }
+ },
+ "prompt_stability": {
+  "n": 300,
+  "seed": 20261019,
+  "agreement_three_classes": 0.91,
+  "kappa_three_classes": 0.6578,
+  "agreement_full_vs_not": 0.9833,
+  "kappa_full_vs_not": 0.6585,
+  "table": {
+   "penuh|penuh": 5,
+   "penuh|sebagian": 1,
+   "sebagian|penuh": 4,
+   "sebagian|sebagian": 24,
+   "sebagian|tidak": 19,
+   "tidak|sebagian": 3,
+   "tidak|tidak": 244
+  }
+ },
+ "first_kit_judged": {
+  "what": "both wordings and the clarity prompt on every passage of the rating kit drawn from the first broad sample (55 groups); selects nothing",
+  "by_role": {
+   "mined_partner_gold": {
+    "wording_a": {
+     "sebagian": 48,
+     "tidak": 46
+    },
+    "full_both_wordings": 0,
+    "items": 94
+   },
+   "original_gold": {
+    "wording_a": {
+     "penuh": 17,
+     "sebagian": 34,
+     "tidak": 4
+    },
+    "full_both_wordings": 17,
+    "items": 55
+   }
+  }
+ },
+ "sampling": {
+  "design": "stratified random sampling without replacement, or every group when at most n_groups qualify",
+  "strata": "gate version x asker program",
+  "allocation": "proportional to groupable queries, largest remainder",
+  "n_groups": 600,
+  "census": true,
+  "seed": 20261016,
+  "rng": "numpy.random.default_rng (PCG64)",
+  "numpy_version": "2.4.4"
+ },
+ "population": {
+  "eligible_r1_rule": 2200,
+  "exclusions": {
+   "groupable": 26,
+   "more_than_one_gold": 179,
+   "no_full_partner": 515,
+   "own_gold_not_full": 1309,
+   "question_not_clear": 171
+  },
+  "more_than_one_gold_by_class": {
+   "prerequisite_chain_depth": 179
+  },
+  "question_clear": {
+   "tidak": 171,
+   "ya": 1850
+  },
+  "own_gold_wording_a": {
+   "penuh": 579,
+   "sebagian": 1250,
+   "tidak": 21
+  },
+  "own_gold_full_in_a_not_b": 38,
+  "partner_candidates_judged": 33173,
+  "partner_candidates_wording_a": {
+   "penuh": 42,
+   "sebagian": 3622,
+   "tak_terbaca": 1,
+   "tidak": 29508
+  },
+  "partner_candidates_full_in_a_not_b": 13,
+  "candidates_skipped_as_near_duplicate_of_a_partner": 0,
+  "partners_found": {
+   "0": 515,
+   "1": 23,
+   "2": 3
+  },
+  "groupable_queries": 26,
+  "groupable_by_gate": {
+   "v1-cps-gate": 11,
+   "v2-multiarm": 15
+  },
+  "groupable_by_stratum": {
+   "v1-cps-gate|ISYS": 1,
+   "v1-cps-gate|MGMT": 2,
+   "v1-cps-gate|MKTG": 3,
+   "v1-cps-gate|STAT": 5,
+   "v2-multiarm|ACCT": 2,
+   "v2-multiarm|CSCI": 3,
+   "v2-multiarm|DTSC": 1,
+   "v2-multiarm|ISYS": 1,
+   "v2-multiarm|MGMT": 2,
+   "v2-multiarm|MKTG": 2,
+   "v2-multiarm|STAT": 4
+  },
+  "allocation_by_stratum": {
+   "v1-cps-gate|ISYS": 1,
+   "v1-cps-gate|MGMT": 2,
+   "v1-cps-gate|MKTG": 3,
+   "v1-cps-gate|STAT": 5,
+   "v2-multiarm|ACCT": 2,
+   "v2-multiarm|CSCI": 3,
+   "v2-multiarm|DTSC": 1,
+   "v2-multiarm|ISYS": 1,
+   "v2-multiarm|MGMT": 2,
+   "v2-multiarm|MKTG": 2,
+   "v2-multiarm|STAT": 4
+  }
+ },
+ "sample": {
+  "n_groups": 26,
+  "n_rows": 55,
+  "pairs": 23,
+  "triples": 3,
+  "by_gate": {
+   "v1-cps-gate": 11,
+   "v2-multiarm": 15
+  },
+  "by_program": {
+   "ACCT": 2,
+   "CSCI": 3,
+   "DTSC": 1,
+   "ISYS": 2,
+   "MGMT": 4,
+   "MKTG": 5,
+   "STAT": 9
+  },
+  "by_class": {
+   "adversarial_routing": 10,
+   "multi_disciplinary_ambiguity": 11,
+   "temporal_scope_drift": 5
+  },
+  "overlap_with_original_sample": 9,
+  "overlap_with_r1_sample": 8,
+  "query_ids": [
+   "temp-s42-rads-t1.4-3a5602196c",
+   "adve-s42-rads-t1.4-98dc3acc5d",
+   "temp-s42-rads-t1.4-4c3d2f446e",
+   "adve-s42-rads-t1.4-b22706c052",
+   "mult-s42-rads-t1.4-4feee7c408",
+   "mult-s77-rads-t1.4-060c1d6953",
+   "mult-s77-rads-t1.4-14a0b67a86",
+   "mult-s77-rads-t1.4-f1409efcb3",
+   "adve-s600-rads-t1.4-772acf382c",
+   "temp-s700-rads-t1.4-042f25b0c2",
+   "adve-s700-rads-t1.4-5d951a31fc",
+   "adve-s1200-rads-t1.4-1266bf5e12",
+   "adve-s1200-rads-t1.4-df3fac230c",
+   "mult-s1200-rads-t1.4-aee4d6ccb3",
+   "mult-s1300-rads-t1.4-17c0c406a8",
+   "mult-s1300-rads-t1.4-87deb5e944",
+   "temp-s1300-rads-t1.4-a44b676a94",
+   "temp-s1300-rads-t1.4-ee20823115",
+   "mult-s1500-rads-t1.4-86480125e5",
+   "mult-s1500-rads-t1.4-4032b815a0",
+   "adve-s1600-rads-t1.4-1ed266b251",
+   "mult-s1600-rads-t1.4-c4127e1ecb",
+   "adve-s1600-rads-t1.4-418dcbc4fe",
+   "adve-s1600-rads-t1.4-e315430ffe",
+   "mult-s1600-rads-t1.4-aef11e92cc",
+   "adve-s1600-rads-t1.4-336284fdd7"
+  ]
+ },
+ "preregistration": {
+  "path": "result/paper_q2/PRAREGISTRASI_R1_IJIES.md"
+ },
+ "code": {
+  "miner_sha256": "0704daceb77cfaab76bee5026f6e9d0890dc75d940de72a44ea90d4c1e03a382",
+  "miner_commit": "ad001040f7c68052b151413cc8566fb4afa4c909",
+  "frozen_rules": {
+   "path": "result/paper_q2/scripts/q2_r1_tambang_luas.py",
+   "sha256": "daf4a9d3c01ab6e3557f8ebb5065881ae8b10cb786e2e1fad032f86e75ff00ce"
+  }
+ },
+ "inputs": {
+  "corpus": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+  "queries": "cabfd3c3272cdee4c0fdd25b5eebd5995f766ce15fb19c151850bdc743e09f82",
+  "embedding_cache": "6e186f0bebe0cdfef9af452162edf5e5eda95ef4a8eb8a6308a198c18db97ed8",
+  "question_embeddings": "5148a914bf94611b1bf09f7163c4dce29697591aa76568795659e9568b770a42",
+  "split_manifest": "139f297d9a528d5da206e83b214c0f9c393c639356a6aa6ec1094d4614367f57",
+  "first_kit_key": "a17d57b57257aa43b36afac87cd8fce8c75ede91eba6479aa9797f00ceb92091",
+  "original_broad_pool": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+ },
+ "holdout_check": {
+  "source_queries": 26,
+  "outside_train_dev": 0
+ },
+ "output": {
+  "path": "results/raw_r2/pools_xpair_r2.jsonl",
+  "sha256": "6ceef3aebd6f0c8be9bdbbd242ccc4697653d141465d432cd7b90323c4a2599a",
+  "population_table": {
+   "path": "results/tables/r2_populasi_luas.json",
+   "sha256": "fe614c4e6e1a4ff1190e16a5b1f958cd69f942b444254e42c78fa4e03f6c4b0f"
+  }
+ },
+ "label_source": "Qwen3-14B-AWQ judge (question clarity and answerability, two wordings), embedding similarity (candidates and pool), seeded draw; the raters' ratings, not the judge, are the reference for validity"
+}

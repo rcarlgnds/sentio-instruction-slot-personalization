@@ -1,0 +1,250 @@
+{
+ "dibuat": "2026-09-24T14:49:48.995985+00:00",
+ "_apa_ini": "Relatedness values between programs that the proximity term (Prox) of DITS reads, frozen from the department_relations table with the fingerprint that matches config_lock.",
+ "sidik_jari_dihitung_ulang": "27cb2471f0ee",
+ "sidik_jari_config_lock": "27cb2471f0ee",
+ "cocok": true,
+ "nilai_prodi_sama": 1.0,
+ "tingkat_lintas_prodi": {
+  "0.7": "strong",
+  "0.5": "moderate",
+  "0.3": "unrelated"
+ },
+ "sebaran_nilai": {
+  "0.3": 26,
+  "0.5": 5,
+  "0.7": 5
+ },
+ "n_pasangan": 36,
+ "departemen": [
+  "ACCT",
+  "BANA",
+  "CHIN",
+  "CSCI",
+  "DTSC",
+  "ISYS",
+  "MGMT",
+  "MKTG",
+  "STAT"
+ ],
+ "pasangan": [
+  {
+   "prodi_a": "ACCT",
+   "prodi_b": "BANA",
+   "nilai_m": 0.3,
+   "alasan": "No code starting with ACCT in the Business Analytics catalog."
+  },
+  {
+   "prodi_a": "ACCT",
+   "prodi_b": "CHIN",
+   "nilai_m": 0.3,
+   "alasan": "Chinese Literature has no program catalog in B30 and no chunk in the corpus, so there is no measurable evidence of relatedness."
+  },
+  {
+   "prodi_a": "ACCT",
+   "prodi_b": "DTSC",
+   "nilai_m": 0.3,
+   "alasan": "No code starting with ACCT in the Data Science catalog."
+  },
+  {
+   "prodi_a": "ACCT",
+   "prodi_b": "ISYS",
+   "nilai_m": 0.3,
+   "alasan": "No code starting with ACCT in the Information Systems catalog."
+  },
+  {
+   "prodi_a": "ACCT",
+   "prodi_b": "MKTG",
+   "nilai_m": 0.5,
+   "alasan": "Codes starting with ACCT appear in the Global Business Marketing catalog. There is no support from the corpus side as for the ACCT-MGMT pair, so the evidence is thinner."
+  },
+  {
+   "prodi_a": "BANA",
+   "prodi_b": "CHIN",
+   "nilai_m": 0.3,
+   "alasan": "Chinese Literature has no program catalog in B30 and no chunk in the corpus, so there is no measurable evidence of relatedness."
+  },
+  {
+   "prodi_a": "CHIN",
+   "prodi_b": "MKTG",
+   "nilai_m": 0.3,
+   "alasan": "Chinese Literature has no program catalog in B30 and no chunk in the corpus, so there is no measurable evidence of relatedness."
+  },
+  {
+   "prodi_a": "ACCT",
+   "prodi_b": "CSCI",
+   "nilai_m": 0.3,
+   "alasan": "No code starting with ACCT in the Computer Science catalog."
+  },
+  {
+   "prodi_a": "BANA",
+   "prodi_b": "CSCI",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.00. No core course is shared."
+  },
+  {
+   "prodi_a": "CHIN",
+   "prodi_b": "CSCI",
+   "nilai_m": 0.3,
+   "alasan": "Chinese Literature has no program catalog in B30 and no chunk in the corpus, so there is no measurable evidence of relatedness."
+  },
+  {
+   "prodi_a": "CSCI",
+   "prodi_b": "DTSC",
+   "nilai_m": 0.5,
+   "alasan": "Core-curriculum overlap in B30 0.28. Both are SOCS programs, and Data Science uses programming courses from Computer Science."
+  },
+  {
+   "prodi_a": "CSCI",
+   "prodi_b": "ISYS",
+   "nilai_m": 0.5,
+   "alasan": "Measured core-curriculum overlap 0.02, but the ISYS study-plan extraction read only 58 courses and is probably truncated. On the full catalog the overlap is 0.38. A middle value was chosen because the two measurements disagree."
+  },
+  {
+   "prodi_a": "CSCI",
+   "prodi_b": "MKTG",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.00. No core course is shared."
+  },
+  {
+   "prodi_a": "BANA",
+   "prodi_b": "DTSC",
+   "nilai_m": 0.7,
+   "alasan": "Core-curriculum overlap in B30 0.54. Business Analytics uses the same sequence of data science courses."
+  },
+  {
+   "prodi_a": "CHIN",
+   "prodi_b": "DTSC",
+   "nilai_m": 0.3,
+   "alasan": "Chinese Literature has no program catalog in B30 and no chunk in the corpus, so there is no measurable evidence of relatedness."
+  },
+  {
+   "prodi_a": "DTSC",
+   "prodi_b": "MKTG",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.00. No core course is shared."
+  },
+  {
+   "prodi_a": "BANA",
+   "prodi_b": "ISYS",
+   "nilai_m": 0.5,
+   "alasan": "Core-curriculum overlap in B30 0.21. Both are programs of the School of Information Systems."
+  },
+  {
+   "prodi_a": "CHIN",
+   "prodi_b": "ISYS",
+   "nilai_m": 0.3,
+   "alasan": "Chinese Literature has no program catalog in B30 and no chunk in the corpus, so there is no measurable evidence of relatedness."
+  },
+  {
+   "prodi_a": "DTSC",
+   "prodi_b": "ISYS",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.00. No core course is shared."
+  },
+  {
+   "prodi_a": "ISYS",
+   "prodi_b": "MKTG",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.05."
+  },
+  {
+   "prodi_a": "ACCT",
+   "prodi_b": "MGMT",
+   "nilai_m": 0.7,
+   "alasan": "Codes starting with ACCT appear in the Management catalog and in none of the five non-business programs. Exact corpus count: 83.7 percent of the 9,067 chunks labeled ACCT come from the Entrepreneurship book (42.5 percent) and Principles of Management (41.2 percent), only 16.3 percent from accounting books."
+  },
+  {
+   "prodi_a": "BANA",
+   "prodi_b": "MGMT",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.03. Despite its name, the core curriculum of Business Analytics leans toward the analytics family, not management."
+  },
+  {
+   "prodi_a": "CHIN",
+   "prodi_b": "MGMT",
+   "nilai_m": 0.3,
+   "alasan": "Chinese Literature has no program catalog in B30 and no chunk in the corpus, so there is no measurable evidence of relatedness."
+  },
+  {
+   "prodi_a": "CSCI",
+   "prodi_b": "MGMT",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.00. No core course is shared."
+  },
+  {
+   "prodi_a": "DTSC",
+   "prodi_b": "MGMT",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.00. No core course is shared."
+  },
+  {
+   "prodi_a": "ISYS",
+   "prodi_b": "MGMT",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.03. The vision of the Information Systems program names an IT-business orientation, but its core courses barely overlap with Management."
+  },
+  {
+   "prodi_a": "MGMT",
+   "prodi_b": "MKTG",
+   "nilai_m": 0.7,
+   "alasan": "Core-curriculum overlap in B30 0.65. Both BBSUP and Global Business Marketing rest on a foundation of management courses."
+  },
+  {
+   "prodi_a": "BANA",
+   "prodi_b": "MKTG",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.02."
+  },
+  {
+   "prodi_a": "ACCT",
+   "prodi_b": "STAT",
+   "nilai_m": 0.3,
+   "alasan": "No code starting with ACCT in the Statistics and Computer Science catalog."
+  },
+  {
+   "prodi_a": "BANA",
+   "prodi_b": "STAT",
+   "nilai_m": 0.7,
+   "alasan": "Core-curriculum overlap in B30 0.54. Business Analytics uses the same sequence of statistics courses."
+  },
+  {
+   "prodi_a": "CHIN",
+   "prodi_b": "STAT",
+   "nilai_m": 0.3,
+   "alasan": "Chinese Literature has no program catalog in B30 and no chunk in the corpus, so there is no measurable evidence of relatedness."
+  },
+  {
+   "prodi_a": "CSCI",
+   "prodi_b": "STAT",
+   "nilai_m": 0.5,
+   "alasan": "Core-curriculum overlap in B30 0.26. The Statistics and Computer Science program combines both families."
+  },
+  {
+   "prodi_a": "DTSC",
+   "prodi_b": "STAT",
+   "nilai_m": 0.7,
+   "alasan": "Core-curriculum overlap in B30 0.67, the highest of the 21 measured pairs. Data Science and Statistics-CS share a statistics and computing path."
+  },
+  {
+   "prodi_a": "ISYS",
+   "prodi_b": "STAT",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.00. No core course is shared."
+  },
+  {
+   "prodi_a": "MGMT",
+   "prodi_b": "STAT",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.00. No core course is shared."
+  },
+  {
+   "prodi_a": "MKTG",
+   "prodi_b": "STAT",
+   "nilai_m": 0.3,
+   "alasan": "Core-curriculum overlap in B30 0.00. No core course is shared."
+  }
+ ],
+ "sumber_bukti": "system/scripts/seed_department_relations.py: core-curriculum overlap in the B30 catalog |A n B| / min(|A|,|B|), presence of codes across programs, corpus composition",
+ "label_source": "deterministic (read from the database, fingerprint matched)"
+}

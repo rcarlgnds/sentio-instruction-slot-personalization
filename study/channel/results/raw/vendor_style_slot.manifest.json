@@ -1,0 +1,11 @@
+{
+ "skrip": "q2_arch_vendor_style.py",
+ "dibuat": "2026-10-03T05:00:46.738792+00:00",
+ "masukan_sha256": {
+  "scores_followir_FollowIR-7B_paired_slot_vendor.jsonl": "61be42367ae0ade0a150b64cdcc0a8f96e646ace107d0dfaef5f01ebd258e320",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot_vendor.jsonl": "5cf7c32838386c46fbc36466841a51e4c9ebe58c520155594887fcf11378035e",
+  "scores_gemma_bge-reranker-v2-gemma_paired_slot_vendor.jsonl": "0b7348db8d514d49a2b47b499f3f89e10e2180851651b3fdef314d31ff8fcc52"
+ },
+ "keluaran": "<workstation>/result/paper_q2/results/tables/vendor_style_slot.json",
+ "keluaran_sha256": "1686e40af259900538e0a6f4e463a9467fffae64fc9d3ee6cd3731c6d1ed8b08"
+}

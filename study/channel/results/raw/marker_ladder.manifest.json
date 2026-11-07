@@ -1,0 +1,10 @@
+{
+ "run_id": "tangga_inferensi_20261003T050051Z",
+ "script": "result/paper_q2/scripts/q2_tangga_inferensi.py",
+ "output": {
+  "path": "results/tables/tangga_inferensi.json",
+  "sha256": "5438aac567d110d1e3653c2c555672804efab5d53915bc9908eeb00b8d0122dc"
+ },
+ "praregistrasi": "result/paper_q2/PRAREGISTRASI_TANGGA_JARAK_INFERENSI.md",
+ "label_source": "deterministic"
+}

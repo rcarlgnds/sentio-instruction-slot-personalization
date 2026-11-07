@@ -1,0 +1,9 @@
+{
+ "run_id": "tabel_model_20260924T151643Z",
+ "script": "result/paper_q2/scripts/q2_tabel_model.py",
+ "output": {
+  "path": "results/tables/tabel_model.json",
+  "sha256": "7ac1b7309f68e6d7518573a3a5105d522c0a7f766c8bce5ec79e69c25c6ac8de"
+ },
+ "label_source": "deterministic"
+}

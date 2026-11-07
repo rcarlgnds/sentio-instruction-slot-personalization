@@ -1,0 +1,36 @@
+{
+ "what": "the lecturers' ratings of the gold passages under rater codes, without book text, notes, or names",
+ "table": {
+  "file": "human_ratings.csv",
+  "sha256": "69293c718e3c80d18a21109080cb6fe7cbffd865651070feaf3727d6c5ef4804",
+  "rows": 308
+ },
+ "returned_workbooks_sha256": {
+  "S-1": "d1e2f75424f05fb9fad2f307bff7c7f15afd9d37abab693e25220c70d6e2b511",
+  "S-2": "a0d1dfb61f1db8655f33e81e4eb7237e088bb6a572dcb3d2ffbae2d73da2c297",
+  "N-1": "a82fb2a4d20e2ec1bd223d7ec459492b9931dcf9f9f706e7721ad4f07a4985a4",
+  "N-2": "2ad1370f2234a28308e9062b7c387f37c2f4f24feb27f300777d8c4a0a49be5e",
+  "N-3": "80560839196ba885928558fefb87646d8f5cea27e4233dafe5a3b36227943502"
+ },
+ "group_map_sha256": "1ad292ad5b7d83f2a1f4bf74129dc4c365b476741e03bb163dfb2ee63e733510",
+ "settled_by": {
+  "n3_median": 15,
+  "not_settled": 3,
+  "raters_agreed": 290
+ },
+ "columns": {
+  "item_id": "identifier of the item in the rating workbooks",
+  "track": "paired, r2 (rebuilt broad), audit (audited groups of the first broad sample), or p2 (extended paired)",
+  "group": "question group of the track",
+  "query_id, chunk_id": "the question and the gold passage, as in the track's pool",
+  "gold_role": "gold, original_gold, partner_gold, or mined_partner_gold",
+  "book": "book_slug in study/_shared/document_licenses.json",
+  "rater_group": "statistics or non_statistics, from the book of the passage",
+  "S1, S2, N1, N2, N3 _answer": "penuh (full answer), sebagian (partial answer), or tidak (no answer); empty when the rater did not rate this group",
+  "S1, S2, N1, N2, N3 _clear": "whether the rater found the question clear, ya or tidak",
+  "settled_answer, settled_clear": "the settled label; settled_answer is empty when settled_by is not_settled",
+  "settled_by": "raters_agreed, n3_median (the median of the answers of N1, N2, and N3), statistics_pair (decided by the statistics raters or a third non-author), or not_settled (penuh against sebagian, both valid)",
+  "valid_settled": "1 when the gold counts as valid, that is, a full or partial answer",
+  "judge_clear, judge_wording_a, judge_wording_b, judge_full_both": "the judge model's labels, empty for the paired track, which it did not rate"
+ }
+}

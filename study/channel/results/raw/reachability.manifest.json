@@ -1,0 +1,15 @@
+{
+  "run_id": "q2_reach_20260823T082904Z",
+  "script": "result/paper_q2/scripts/q2_reachability.py",
+  "config_version": "0a7b2e4de856",
+  "label_source": "deterministic",
+  "sumber": {
+    "queries": "cabfd3c3272cdee4c0fdd25b5eebd5995f766ce15fb19c151850bdc743e09f82",
+    "corpus": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df"
+  },
+  "output": {
+    "path": "results/tables/reachability.json",
+    "sha256": "15cec7ab3c1fef09df9281d5a216ff12f6cd95ccedd399a7e582b97db1c9fd84",
+    "tingkat_reproduksi": "1_bit_identical"
+  }
+}

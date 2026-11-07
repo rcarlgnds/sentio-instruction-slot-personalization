@@ -1,0 +1,16 @@
+{
+  "run_id": "followir_Robust04_followir_FollowIR-7B_20260919T031450Z",
+  "script": "result/paper_q2/scripts/q2_arch_followir.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_arch_followir.py --dataset Robust04 --family followir --model jhu-clsp/FollowIR-7B --gap-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal, uji lintas arsitektur",
+  "durasi_s": 13768.3,
+  "vram_peak_mib": 14557.6,
+  "output": {
+    "path": "results/tables/followir_Robust04_followir_FollowIR-7B.json",
+    "sha256": "e99a575915ce988d74e5a498b6fb748cded1f2f2c6dd7c3f60e3ded1d5555592",
+    "run": "results/raw/followir_run_Robust04_followir_FollowIR-7B.jsonl",
+    "run_sha256": "0597b43c0634a068149ec3c878395806bd182743429348da505a2996fab3e628"
+  }
+}

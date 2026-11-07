@@ -1,0 +1,41 @@
+{
+  "run_id": "scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_id_20260918T025220Z",
+  "script": "result/paper_q2/scripts/q2_arm_score.py",
+  "perintah_persis": "python q2_arm_score.py --family qwen3rr --model Qwen/Qwen3-Reranker-4B --pools <workstation>/result/novelty_1_dits/results/raw/pools_paired.jsonl --instruction profile_id --tag paired --dtype float16 --batch 4 --min-free-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, di luar keluarga pra-registrasi delapan",
+  "model": "Qwen/Qwen3-Reranker-4B",
+  "keluarga": "qwen3rr",
+  "dtype": "float16",
+  "instruction": "profile_id",
+  "vendor_memory": false,
+  "instruksi_profil_id_kerangka": "Diberikan pertanyaan dari mahasiswa program studi <DEPT> semester <N>, ambil bagian teks dari program studi mahasiswa itu sendiri yang menjawab pertanyaan tersebut pada tingkat yang sesuai untuk semester <N>",
+  "slot_format": "plain",
+  "slot_format_sumber": null,
+  "doc_metadata_injected": false,
+  "doc_metadata_label_salah": false,
+  "doc_metadata_field": "both",
+  "format_label_sumber": null,
+  "kontrol_label_salah": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "kontrak_inferensi": {
+    "format": "<Instruct>/<Query>/<Document>",
+    "skor": "softmax logit yes lawan no",
+    "sumber": "README resmi Qwen3-Reranker"
+  },
+  "n": 104,
+  "durasi_s": 335.9,
+  "latensi_mean_s": 3.2121,
+  "vram_peak_mib": 9730.2,
+  "sumber": {
+    "pools": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483"
+  },
+  "output": {
+    "path": "results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_id.jsonl",
+    "sha256": "98142196f3314a2f1ba248d977bd72ac0fc8411d1145da4258a7499533ac9ea9"
+  },
+  "segel_holdout": null,
+  "label_source": "deterministic (skor model, suhu tidak berlaku)",
+  "latensi_p95_s": 3.5014
+}

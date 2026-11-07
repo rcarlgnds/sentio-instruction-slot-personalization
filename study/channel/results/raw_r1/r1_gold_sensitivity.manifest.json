@@ -1,0 +1,36 @@
+{
+ "run_id": "r1_sensitivitas_gold_20261013T192432Z",
+ "script": "result/paper_q2/scripts/q2_r1_analisis.py",
+ "command": "q2_r1_analisis.py --bagian sensitivitas_gold",
+ "output": {
+  "path": "results/tables/r1_sensitivitas_gold.json",
+  "sha256": "b4569fb7cadd613670771e0f45e0172883af1d44fbbec5694c3eecacf0a3559b"
+ },
+ "inputs": {
+  "result/novelty_1_dits/results/raw/qwen_scores_0.6b_paired_default.jsonl": "ccba5735293225bf4978c9b454b93ce21c0166fce9872e0cd1abf966d8b7a3cc",
+  "result/novelty_1_dits/results/raw/qwen_scores_0.6b_paired_profile.jsonl": "ce388c8d6a3f4005d19f63335f6efed9754d868f649ee49831a2e14bd433ccf7",
+  "result/novelty_1_dits/results/raw/qwen_scores_4b_paired_default.jsonl": "78d14377f8f778c55c3cd7f2562b474badebbefef4664af2f279caae8a4eeaf3",
+  "result/novelty_1_dits/results/raw/qwen_scores_4b_paired_profile.jsonl": "3d82073844cfbf443db616158ab08241bd394fb4850cd8e8c4d4d964f51c26cf",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_paired_default.jsonl": "13973e29d24ea261a5913dc4d713d4bee5933a12f8e1eda04cc6fbca0086389d",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_paired_profile.jsonl": "e3d2bdf6be396611460b02e9e3ecdaf6d4f3137fd721e7cdb92cc128a1e71972",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_none.jsonl": "45c95f94def8d96e97ab3a8b8d3206b4aa77a472193ca86ee0dca39715de640b",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_paired_slot.jsonl": "a41f2a0f4fb511eecbed0c779ce9d6f31b758109dc1ecdc32d666cc5fee3ed94",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none.jsonl": "f381ddfc13e8ecd73a1ab90c3954d96e03c12ef7e58b64d69ba0022968412f43",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot.jsonl": "5794f6989ca44b7039bf727851bb124befee6a735102b15c0a51cd376eee8d31",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_none.jsonl": "76df6ab662a594386eb554a1bec7b83cee7b5529c5d0d96f9dafcb51374a1125",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_slot.jsonl": "dc30a7849d50a173a35e724fd6d4f5af3e5da0c938619df6f72448a4e74aa98d",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_default.jsonl": "3b40105fe23c2e06594c161e95e2d3b425e5631cd99e49457a94504e550414c5",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile.jsonl": "4d316b7ba37e2d739cdf704a6e61d13dc53ae3239ea0f18642b46fce474d138f",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_default.jsonl": "c6037be85eb82d9d01dae5eeba89a3bdf1d7bdd84224fee9dcaa99739a3d6cf3",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile.jsonl": "18e0a1dcd7447ee6a9d8c7e5a80a3bf133c68bb56567aead5a6b5b4bd9e3ce1d",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_default.jsonl": "5f748e95975e6530907579a918d098b62e47e5f88194c227ffe23bf1935c0a2b",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_profile.jsonl": "73bfcebcb107b734fb8a68a5bffe1a1027e558e3ee094f7b76e2f65b2e65bd54",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_none.jsonl": "b220c18d06ad1b4235a64d259170c5d094dcb01059193cf26b22312180af9658",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_slot.jsonl": "b16e516396bec5b93bf5600afdaf01ef3865f77bfd9f589d47dca70f5d03c99e",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_none.jsonl": "896c9d68040954f1cdf41d056fc4c0bb40e8c04ac56eec863f2c3146204a6453",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_slot.jsonl": "06ab4e51ac70faf5f5856fd247d2df05fba7e135215dbba29f1bb4c0eab183a1",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_none.jsonl": "4c3dcc63206d6108a361c4f5b3872a60a508d92387a4d849c74415169ee9c14e",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_slot.jsonl": "50f94ee1733be7193a0522146516658848a40e6817aa6e00c2ab160d5aca9318"
+ },
+ "seed": 20261012
+}

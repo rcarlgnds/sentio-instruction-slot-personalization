@@ -1,0 +1,16 @@
+{
+  "run_id": "followir_Robust04_gemma_bge-reranker-v2-gemma_20260918T205352Z",
+  "script": "result/paper_q2/scripts/q2_arch_followir.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_arch_followir.py --dataset Robust04 --family gemma --model BAAI/bge-reranker-v2-gemma --gap-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal, uji lintas arsitektur",
+  "durasi_s": 3709.6,
+  "vram_peak_mib": 6571.9,
+  "output": {
+    "path": "results/tables/followir_Robust04_gemma_bge-reranker-v2-gemma.json",
+    "sha256": "ce79ebe07850c4c43b77bf027f2d68fbb8811538524e5411ddcc2d41c15585b3",
+    "run": "results/raw/followir_run_Robust04_gemma_bge-reranker-v2-gemma.jsonl",
+    "run_sha256": "6fd3a613c0c10c3402744029017f85306d4d6c8784f917a332a9955fc5f8b36a"
+  }
+}

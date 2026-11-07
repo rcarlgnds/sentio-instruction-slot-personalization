@@ -1,0 +1,24 @@
+{
+ "run_id": "r1_gemma_vendor_20261013T192427Z",
+ "script": "result/paper_q2/scripts/q2_r1_analisis.py",
+ "command": "q2_r1_analisis.py --bagian gemma_vendor",
+ "output": {
+  "path": "results/tables/r1_gemma_vendor.json",
+  "sha256": "8dd8e1a45ecc9cb5f94ec9227437a002d661bc31acdbcab713f48461e543ed4c"
+ },
+ "inputs": {
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_none.jsonl": "76df6ab662a594386eb554a1bec7b83cee7b5529c5d0d96f9dafcb51374a1125",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_slot_vendor.jsonl": "0b7348db8d514d49a2b47b499f3f89e10e2180851651b3fdef314d31ff8fcc52",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_paired_both_vendor.jsonl": "88688600777a84b2ecd3bff218d739c771b1f81fea02928b13746e9ec548cdc1",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_paired_wrong_vendor.jsonl": "1754116d19e6dfe78e0fba06ef7a27e3443e3b5022ce79d59948871ee941feee",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_slot.jsonl": "dc30a7849d50a173a35e724fd6d4f5af3e5da0c938619df6f72448a4e74aa98d",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_paired_both.jsonl": "cac99cdd5ff59bcf65dd8e19b2bb060b84e98cd428db7a6ce3005420913c290f",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_none.jsonl": "4c3dcc63206d6108a361c4f5b3872a60a508d92387a4d849c74415169ee9c14e",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_xpair_slot_vendor.jsonl": "4681da9b74564b9a96069fa222092b3dabb41ba751b73694e7c2eca1d0723497",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_xpair_both_vendor.jsonl": "b040a0b7a7ca6201d86eab5c93f4332c6e2c29a21160e7e82fe79161b2eb0a32",
+  "result/paper_q2/results/raw_r1/scores_gemma_bge-reranker-v2-gemma_xpair_wrong_vendor.jsonl": "673e2d82042303b8a0cc7ce422df6c229e4122203668d3552a57e9537b7f3cfa",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_slot.jsonl": "50f94ee1733be7193a0522146516658848a40e6817aa6e00c2ab160d5aca9318",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_both.jsonl": "b7df87b687d306c7b7257558a97246a943e8226bd41f691ce4f345ad245a2e78"
+ },
+ "seed": 20261012
+}

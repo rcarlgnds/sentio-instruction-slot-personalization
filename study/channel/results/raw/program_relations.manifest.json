@@ -1,0 +1,9 @@
+{
+ "run_id": "relasi_prodi_20260924T144948Z",
+ "script": "result/paper_q2/scripts/q2_relasi_prodi.py",
+ "output": {
+  "path": "results/tables/relasi_prodi.json",
+  "sha256": "8336d78e6f6732fabe97cfd73da04597f1e7829199fba28c9a4761cb4124fc56"
+ },
+ "label_source": "deterministic"
+}

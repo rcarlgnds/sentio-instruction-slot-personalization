@@ -1,0 +1,12 @@
+{
+  "run_id": "dits_xpair_20261016T090901Z",
+  "script": "result/paper_q2/scripts/q2_dits_xpair.py",
+  "output": {
+    "path": "results/tables/r2_dits_xr2.json",
+    "sha256": "591e1526e2e25578996fc24842cdf67f6cf2b52b86bd58772450be292d8f2e08"
+  },
+  "sumber": {
+    "pools": "6ceef3aebd6f0c8be9bdbbd242ccc4697653d141465d432cd7b90323c4a2599a",
+    "emb_ids": "ab2ef2b348fcff21285460755d7f3da0dbaa4f43fa21c6efa256a23b7d1b19e6"
+  }
+}

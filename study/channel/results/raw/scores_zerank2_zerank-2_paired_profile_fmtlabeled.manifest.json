@@ -1,0 +1,40 @@
+{
+  "run_id": "scores_zerank2_zerank-2_paired_profile_fmtlabeled_20260906T021032Z",
+  "script": "result/paper_q2/scripts/q2_arm_score.py",
+  "perintah_persis": "python q2_arm_score.py --family zerank2 --model zeroentropy/zerank-2 --pools <workstation>/result/novelty_1_dits/results/raw/pools_paired.jsonl --instruction profile --tag paired --dtype bfloat16 --batch 2 --max-len 1536 --slot-format labeled",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, di luar keluarga pra-registrasi delapan",
+  "model": "zeroentropy/zerank-2",
+  "keluarga": "zerank2",
+  "dtype": "bfloat16",
+  "instruction": "profile",
+  "vendor_memory": false,
+  "slot_format": "labeled",
+  "slot_format_sumber": "zeroentropy.dev, Prompting Best Practices For Instruction-Following Rerankers, 22 Jan 2026 (tag = <query>..</query>\\n<instruction>..</instruction>; labeled = 'Query: ..\\nInstructions: ..')",
+  "doc_metadata_injected": false,
+  "doc_metadata_label_salah": false,
+  "doc_metadata_field": "both",
+  "format_label_sumber": null,
+  "kontrol_label_salah": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "kontrak_inferensi": {
+    "peran": "query -> system, document -> user, lalu generation prompt",
+    "true_token_id": 9454,
+    "false_token_id": null,
+    "sumber": "chat_template.jinja + 1_LogitScore/config.json repo resmi"
+  },
+  "n": 104,
+  "durasi_s": 327.7,
+  "latensi_mean_s": 3.1367,
+  "vram_peak_mib": 8283.2,
+  "sumber": {
+    "pools": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483"
+  },
+  "output": {
+    "path": "results/raw/scores_zerank2_zerank-2_paired_profile_fmtlabeled.jsonl",
+    "sha256": "89ba964a76e40531d2b0d6cd73daca6e2cce1713277e4c080ed862f9b3dc5d0c"
+  },
+  "label_source": "deterministic (skor model, suhu tidak berlaku)",
+  "latensi_p95_s": 3.4249
+}

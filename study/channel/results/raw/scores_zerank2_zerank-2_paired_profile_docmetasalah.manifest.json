@@ -1,0 +1,75 @@
+{
+  "run_id": "scores_zerank2_zerank-2_paired_profile_docmetasalah_20261002T090354Z",
+  "script": "result/paper_q2/scripts/q2_arm_score.py",
+  "perintah_persis": "python q2_arm_score.py --family zerank2 --model zeroentropy/zerank-2 --pools <workstation>/result/novelty_1_dits/results/raw/pools_paired.jsonl --instruction profile --tag paired --dtype bfloat16 --doc-metadata --doc-metadata-salah --batch 2 --max-len 1536 --peta-label id --out-dir <workstation>/result/paper_q2/results/raw_petaid",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, di luar keluarga pra-registrasi delapan",
+  "model": "zeroentropy/zerank-2",
+  "keluarga": "zerank2",
+  "dtype": "bfloat16",
+  "instruction": "profile",
+  "vendor_memory": false,
+  "instruksi_profil_id_kerangka": null,
+  "slot_format": "plain",
+  "slot_format_sumber": null,
+  "doc_metadata_injected": true,
+  "doc_metadata_label_salah": true,
+  "doc_metadata_field": "both",
+  "doc_label_gaya": null,
+  "doc_label_en": null,
+  "doc_label_sem": null,
+  "format_label_en": null,
+  "format_label_semester": null,
+  "format_label_program_gaya": null,
+  "format_label_sumber": "[Source: <DEPT> degree program textbook, semester <N>]",
+  "kontrol_label_salah": {
+    "tujuan": "memisahkan ISI label dari KEHADIRAN label",
+    "manipulasi": "hanya field department yang diganti; semester TETAP benar sehingga manipulasi satu faktor",
+    "pemilihan": "deterministik, sha256('dept_salah_v1|' + teks[:180]) modulo daftar prodi lain yang terurut",
+    "kolam_prodi": [
+      "ACCT",
+      "BANA",
+      "CSCI",
+      "DTSC",
+      "ISYS",
+      "MGMT",
+      "MKTG",
+      "STAT"
+    ],
+    "n_label_dibalik": 8138,
+    "cara_baca": "bila skor tetap melonjak seperti kondisi docmeta benar, lonjakan itu artefak panjang token dan BUKAN bukti reranker membaca metadata"
+  },
+  "n_kandidat_tak_terpetakan": 0,
+  "peta_label_sumber": {
+    "peta_label": "id",
+    "versi": "id-v1",
+    "sumber": {
+      "korpus": "src/ai/data/benchmark_release/corpus/corpus.jsonl",
+      "korpus_sha256": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+      "alias_uuid": "src/ai/data/benchmark_release/uuid_to_canonical.json",
+      "alias_sha256": "7b594b5d3322be88d11aa2ff481553c05001565d603bf14190a7bd1a6ceb7284"
+    },
+    "aturan": "prodi dan semester diambil dari identitas kandidat; pencocokan teks tidak dipakai"
+  },
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "kontrak_inferensi": {
+    "peran": "query -> system, document -> user, lalu generation prompt",
+    "true_token_id": 9454,
+    "false_token_id": null,
+    "sumber": "chat_template.jinja + 1_LogitScore/config.json repo resmi"
+  },
+  "n": 104,
+  "durasi_s": 336.0,
+  "latensi_mean_s": 3.2161,
+  "vram_peak_mib": 8293.6,
+  "sumber": {
+    "pools": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483"
+  },
+  "output": {
+    "path": "results/raw/scores_zerank2_zerank-2_paired_profile_docmetasalah.jsonl",
+    "sha256": "c5d66c979aaccc33c5efb6c7fd646695e05b7e9181e69f8b4e4d569a68fbe988"
+  },
+  "segel_holdout": null,
+  "label_source": "deterministic (skor model, suhu tidak berlaku)",
+  "latensi_p95_s": 3.4671
+}

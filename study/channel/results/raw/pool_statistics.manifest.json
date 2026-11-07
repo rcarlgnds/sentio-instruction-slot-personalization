@@ -1,0 +1,19 @@
+{
+ "run_id": "statistik_pool_20260924T155708Z",
+ "script": "result/paper_q2/scripts/q2_statistik_pool.py",
+ "input": {
+  "pools_paired": {
+   "path": "result/novelty_1_dits/results/raw/pools_paired.jsonl",
+   "sha256": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483"
+  },
+  "pools_paired_expanded": {
+   "path": "result/paper_q2/results/raw/pools_paired_expanded.jsonl",
+   "sha256": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+  }
+ },
+ "output": {
+  "path": "results/tables/statistik_pool.json",
+  "sha256": "4c02f806f2fae1408fee96e42ce1bb4d252358cf8919b968657d309824baf801"
+ },
+ "label_source": "deterministic"
+}

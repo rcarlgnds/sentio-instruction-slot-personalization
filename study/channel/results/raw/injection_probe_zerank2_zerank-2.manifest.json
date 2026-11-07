@@ -1,0 +1,15 @@
+{
+ "run_id": "release_probe_injeksi_zerank2_zerank-2_20260905T051322Z",
+ "_peran": "release manifest: written at packaging time from the frozen table, because the run that wrote the table left no manifest. It binds the file as released; the table's own timestamp and provenance fields are the run's.",
+ "script": "result/paper_q2/scripts/q2_probe_injeksi.py",
+ "manifest_written_by": "script/manifest_rilis_tabel.py",
+ "config_version": null,
+ "table_created": "2026-08-23T05:58:12.623310+00:00",
+ "label_source": "see table",
+ "sumber": {},
+ "output": {
+  "path": "results/tables/probe_injeksi_zerank2_zerank-2.json",
+  "sha256": "93dcb85e218c1242e994b2f04a3122a165039d36e89829e4f2ccc33f6ad82a00",
+  "tingkat_reproduksi": "frozen as released"
+ }
+}

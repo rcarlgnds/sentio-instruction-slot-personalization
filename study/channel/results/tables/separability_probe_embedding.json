@@ -1,0 +1,40 @@
+{
+  "dibuat": "2026-08-22T06:19:58.295328+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Book-membership separability in the production embedding space (BGE-M3 dense), the same space the retrieval of the system uses.",
+  "pasangan_buku": {
+    "kelas_positif": "stat-introduction-to-statistics-lane-publicdomain",
+    "kelas_negatif": "stat-introductory-statistics-2e-ccby-2023"
+  },
+  "n_chunk": 5859,
+  "dim": 1024,
+  "baseline_kelas_mayoritas": 0.5556,
+  "protokol": "grouped 5-fold per section_path, seed 42",
+  "probe_linear_logreg": {
+    "akurasi_per_fold": [
+      0.7838,
+      0.842,
+      0.536,
+      0.8301,
+      0.8959
+    ],
+    "akurasi_mean": 0.7775
+  },
+  "centroid_kosinus_tanpa_pelatihan": {
+    "akurasi_per_fold": [
+      0.7527,
+      0.8247,
+      0.4966,
+      0.8155,
+      0.891
+    ],
+    "akurasi_mean": 0.7561
+  },
+  "pembanding_tfidf": {
+    "cv_grouped_by_section": 0.9479,
+    "cv_chunk_level": 0.9718
+  },
+  "arti": "If separability is high in the embedding space the system uses, the membership information is available to neural models; the failure of instruction-following rerankers on the paired track is then a failure to use it, not a lack of it.",
+  "batasan": "the probe is supervised and sees the chunk as a standalone document; it measures whether the signal is available, not the query-conditioned reranking task",
+  "label_source": "deterministic (frozen embeddings and a probe with a fixed seed)"
+}

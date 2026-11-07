@@ -1,0 +1,64 @@
+{
+  "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_slot_20260918T052934Z",
+  "script": "result/paper_q2/scripts/q2_arch_score.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "python q2_arch_score.py --family ctxl --model ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b --cell slot --pools <workstation>/result/paper_q2/results/raw/pools_paired_expanded.jsonl --tag xpair --gap-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, uji lintas arsitektur, di luar keluarga pra-registrasi delapan",
+  "model": "ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b",
+  "keluarga": "ctxl",
+  "sel": "slot",
+  "definisi_sel": {
+    "inst": "profile",
+    "docmeta": false,
+    "salah": false
+  },
+  "dtype": "bfloat16",
+  "max_len": 1536,
+  "pemotongan": "dokumen dipotong 4.000 karakter, lalu token dokumen dipotong agar kerangka template tidak terpotong",
+  "n_dokumen_terpotong": 0,
+  "batch_dipakai": 8,
+  "batas_sisa_vram_mib": 300,
+  "cap_gpu": {
+    "mib": null,
+    "keputusan": "auto: bebas 15425 - cadangan 400 - bobot 14240 >= gap 300, dimuat penuh di GPU",
+    "offload": null
+  },
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "instruksi_profil_kerangka": "Given a query from a <DEPT> student in semester <N>, retrieve passages from that student's own study program that answer the query at a level appropriate for semester <N>",
+  "instruksi_profil_id_kerangka": null,
+  "instruksi_vendor_kerangka": null,
+  "instruksi_vendor_penempatan": null,
+  "format_label_sumber": null,
+  "kontrol_label_salah": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "kontrak_inferensi": {
+    "sumber": "README ContextualAI ctxl-rerank-v2, jalur Transformers infer_w_hf disalin verbatim",
+    "format": "Check whether a given document contains information helpful to answer the query.\n<Document> {doc}\n<Query> {query}{inst} ??",
+    "skor": "logit token id 0 pada posisi akhir, dicast ke bfloat16 lalu float",
+    "true_token_id": 0,
+    "false_token_id": null,
+    "slot_instruksi": "instruksi ditempel setelah query dengan satu spasi; kosong = bawaan vendor",
+    "bos": "satu, ditambah tokenizer (add_bos_token true); string tidak memuat <s>"
+  },
+  "versi_pustaka": {
+    "transformers": "4.55.0",
+    "torch": "2.11.0+cu128"
+  },
+  "n": 1621,
+  "durasi_s": 4226.4,
+  "durasi_muat_s": 2.3,
+  "latensi_mean_s": 2.5926,
+  "latensi_p95_s": 3.2856,
+  "vram_peak_mib": 14308.8,
+  "vram_bebas_sebelum_muat_mib": 15425,
+  "smoke": false,
+  "sumber": {
+    "pools": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+  },
+  "output": {
+    "path": "results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_slot.jsonl",
+    "sha256": "06ab4e51ac70faf5f5856fd247d2df05fba7e135215dbba29f1bb4c0eab183a1"
+  },
+  "label_source": "deterministic (skor model, suhu tidak berlaku)"
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "q2_sep_20260822T055907Z",
+  "script": "result/paper_q2/scripts/q2_separability.py",
+  "config_version": "0a7b2e4de856",
+  "label_source": "deterministic",
+  "sumber": {
+    "corpus": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df"
+  },
+  "output": {
+    "path": "results/tables/separability_probe.json",
+    "sha256": "72616506ed1b69bba439a70db308c5a0a886e1b6a0cb7e11d6b8e2632e4e1618",
+    "tingkat_reproduksi": "1_bit_identical"
+  }
+}

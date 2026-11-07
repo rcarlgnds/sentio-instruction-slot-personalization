@@ -1,0 +1,37 @@
+{
+ "run_id": "r1_semester_seragam_20261013T192424Z",
+ "script": "result/paper_q2/scripts/q2_r1_analisis.py",
+ "command": "q2_r1_analisis.py --bagian semester_seragam",
+ "output": {
+  "path": "results/tables/r1_semester_seragam.json",
+  "sha256": "e1370aea46bf16cbd1cff433c7c0be1bf7b8b6e2f7224e289119e07a04fe2776"
+ },
+ "inputs": {
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_default.jsonl": "3b40105fe23c2e06594c161e95e2d3b425e5631cd99e49457a94504e550414c5",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile.jsonl": "4d316b7ba37e2d739cdf704a6e61d13dc53ae3239ea0f18642b46fce474d138f",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_default.jsonl": "c6037be85eb82d9d01dae5eeba89a3bdf1d7bdd84224fee9dcaa99739a3d6cf3",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile.jsonl": "18e0a1dcd7447ee6a9d8c7e5a80a3bf133c68bb56567aead5a6b5b4bd9e3ce1d",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_default.jsonl": "5f748e95975e6530907579a918d098b62e47e5f88194c227ffe23bf1935c0a2b",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_profile.jsonl": "73bfcebcb107b734fb8a68a5bffe1a1027e558e3ee094f7b76e2f65b2e65bd54",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_none.jsonl": "b220c18d06ad1b4235a64d259170c5d094dcb01059193cf26b22312180af9658",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_slot.jsonl": "b16e516396bec5b93bf5600afdaf01ef3865f77bfd9f589d47dca70f5d03c99e",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_none.jsonl": "896c9d68040954f1cdf41d056fc4c0bb40e8c04ac56eec863f2c3146204a6453",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_slot.jsonl": "06ab4e51ac70faf5f5856fd247d2df05fba7e135215dbba29f1bb4c0eab183a1",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_none.jsonl": "4c3dcc63206d6108a361c4f5b3872a60a508d92387a4d849c74415169ee9c14e",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_slot.jsonl": "50f94ee1733be7193a0522146516658848a40e6817aa6e00c2ab160d5aca9318",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmeta.jsonl": "baae659693331a720127eb79c7a0dc1b235b267403334b063297f946c377ea78",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmeta.jsonl": "4a78249f9485139aeb0703e296688cbe983264c89013d82aca4c791a4dd5086f",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_profile_docmeta.jsonl": "925953ab603cde1529bf9707a47037bbe54c4de45d11a4037a01c4940d85bf2b",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_both.jsonl": "53dacedbf84b570b2a0c350bc24215cb5aba69a35c280954194ce14f676e0692",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_both.jsonl": "f764c1d7907bfa328ecac43ae6a5d276f00d4dc6d01e1d258c0317ae27b8f65a",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_both.jsonl": "b7df87b687d306c7b7257558a97246a943e8226bd41f691ce4f345ad245a2e78",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmetasalah.jsonl": "bfb13c6e4eaf6f79e3418243e1b67411e37f8f526ab6af900d989963026d61bc",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmetasalah.jsonl": "4395c4ad49682ec58d5d09525b84d3d733ae67395b7f196a537502072d823f22",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_profile_docmetasalah.jsonl": "d3065c6384e0b833dce613b866893b33e64555a5eb362fd8a90e8d9897547888",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_wrong.jsonl": "0c6449aa3e56c771e0df3c58d2d2cfca9945150d2776003bad283ab6b7acd2f3",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_wrong.jsonl": "33bab05661b8263bc1d7ac1be673ed2f1732f6ccd56170025e2c0a186d3ba974",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_wrong.jsonl": "3958c4dd71cdd5c5ec9ba760afae3724994d7ae570826ca59aa63da9de53661b",
+  "result/paper_q2/results/raw/pools_paired_expanded.jsonl": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+ },
+ "seed": 20261012
+}

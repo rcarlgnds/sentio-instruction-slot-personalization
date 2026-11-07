@@ -1,0 +1,54 @@
+{
+  "waktu": "2026-08-22T16:10:54.502730+00:00",
+  "vonis": "IDENTIK 3 arm x 3 metrik",
+  "detail": {
+    "S1": {
+      "dihitung": {
+        "pairwise": 0.5,
+        "n_komparabel": 96,
+        "top1": 0.125,
+        "ndcg": 0.3675213171378789,
+        "n_baris": 104
+      },
+      "terbit": {
+        "pairwise": 0.5,
+        "top1": 0.125,
+        "ndcg": 0.3675213171378789,
+        "in_pool": 0.9230769230769231
+      },
+      "identik": true
+    },
+    "S2": {
+      "dihitung": {
+        "pairwise": 0.96875,
+        "n_komparabel": 96,
+        "top1": 0.4519230769230769,
+        "ndcg": 0.7060478358643836,
+        "n_baris": 104
+      },
+      "terbit": {
+        "pairwise": 0.96875,
+        "top1": 0.4519230769230769,
+        "ndcg": 0.7060478358643836,
+        "in_pool": 0.9230769230769231
+      },
+      "identik": true
+    },
+    "B": {
+      "dihitung": {
+        "pairwise": 0.96875,
+        "n_komparabel": 96,
+        "top1": 0.4519230769230769,
+        "ndcg": 0.7060478358643836,
+        "n_baris": 104
+      },
+      "terbit": {
+        "pairwise": 0.96875,
+        "top1": 0.4519230769230769,
+        "ndcg": 0.7060478358643836,
+        "in_pool": 0.9230769230769231
+      },
+      "identik": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dibuat": "2026-10-03T05:00:43.581795+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Deployment envelope: peak VRAM and mean latency per reranker under one shared condition, against the free VRAM left beside the resident stack.",
+  "kondisi": "paired_profile_docmeta",
+  "per_model": [
+    {
+      "model": "Qwen3-Reranker-0.6B",
+      "kondisi": "paired_profile_docmeta",
+      "vram_puncak_mib": 5154.7,
+      "latensi_detik_mean": 0.812,
+      "sumber_manifest": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta.manifest.json",
+      "sha256_manifest": "8f1c01bd52147e643791ac49999be5cb09d2735d4655a3aaafc9e6d2af554de8"
+    },
+    {
+      "model": "zerank-2",
+      "kondisi": "paired_profile_docmeta",
+      "vram_puncak_mib": 8292.7,
+      "latensi_detik_mean": 3.212,
+      "sumber_manifest": "result/paper_q2/results/raw/scores_zerank2_zerank-2_paired_profile_docmeta.manifest.json",
+      "sha256_manifest": "a34db5386141408fefd5c28a085a303ee11944c102af5c2b953a9b524f25cbcc"
+    },
+    {
+      "model": "Qwen3-Reranker-4B",
+      "kondisi": "paired_profile_docmeta",
+      "vram_puncak_mib": 9715.7,
+      "latensi_detik_mean": 3.102,
+      "sumber_manifest": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta.manifest.json",
+      "sha256_manifest": "0e5f7c8c57f528be70dfd2ddd1c5c82881f0c9f8feddf8c8cf84ad723b1c834b"
+    }
+  ],
+  "headroom": {
+    "kartu_total_mib": 16303,
+    "generator_reservation_mib": 13750,
+    "generator_reservation_source": {
+      "path": "src/ai/app/config.py",
+      "field": "vllm_vram_bytes",
+      "sha256": "5de231886b5b4d1112813f05940c2d30bc60a35cbbf16f1d650e39083d074de6"
+    },
+    "sisa_mib": 2553,
+    "catatan": "remaining = the total card minus the reservation of the generator. The embedder loads lazily on the first query and is not included, so this remaining amount is an upper bound on the room for a reranker, not free memory."
+  },
+  "muat": {
+    "Qwen3-Reranker-0.6B": false,
+    "zerank-2": false,
+    "Qwen3-Reranker-4B": false
+  },
+  "label_source": "deterministic (read from the frozen run manifests)"
+}

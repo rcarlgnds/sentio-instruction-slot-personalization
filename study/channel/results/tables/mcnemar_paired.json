@@ -1,0 +1,180 @@
+{
+  "dibuat": "2026-10-03T05:00:38.908295+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Exact per-item McNemar tests for every paired contrast. Overlapping marginal intervals do not answer whether two cells differ. p_mcnemar_exact is stored with eight decimals and the Holm values with six, so a 0.0 is below what those decimals can show.",
+  "aturan_pelaporan": {
+    "hitungan_eksak": "measurement grid 1/96 = 0.0104; report a/96, not four decimals",
+    "null_degenerate": "the profile-blind arm is fixed at 48/96 algebraically, because the two rows of a pair get identical rankings; do not test against the 0.5 null",
+    "keluarga_holm": "a separate post hoc family, m = the number of contrasts in this table"
+  },
+  "per_arm": {
+    "C3_default": {
+      "menang": 48,
+      "n": 96,
+      "eksak": "48/96",
+      "rate": 0.5,
+      "wilson95_marginal": [
+        0.4019,
+        0.5981
+      ],
+      "terkunci_konstruksi": true
+    },
+    "C3_profil": {
+      "menang": 49,
+      "n": 96,
+      "eksak": "49/96",
+      "rate": 0.510417,
+      "wilson95_marginal": [
+        0.412,
+        0.6081
+      ],
+      "terkunci_konstruksi": false
+    },
+    "C3_docmeta": {
+      "menang": 48,
+      "n": 96,
+      "eksak": "48/96",
+      "rate": 0.5,
+      "wilson95_marginal": [
+        0.4019,
+        0.5981
+      ],
+      "terkunci_konstruksi": true
+    },
+    "C3_docmeta_profil": {
+      "menang": 88,
+      "n": 96,
+      "eksak": "88/96",
+      "rate": 0.916667,
+      "wilson95_marginal": [
+        0.8441,
+        0.9572
+      ],
+      "terkunci_konstruksi": false
+    },
+    "C4_default": {
+      "menang": 48,
+      "n": 96,
+      "eksak": "48/96",
+      "rate": 0.5,
+      "wilson95_marginal": [
+        0.4019,
+        0.5981
+      ],
+      "terkunci_konstruksi": true
+    },
+    "C4_profil": {
+      "menang": 50,
+      "n": 96,
+      "eksak": "50/96",
+      "rate": 0.520833,
+      "wilson95_marginal": [
+        0.422,
+        0.618
+      ],
+      "terkunci_konstruksi": false
+    },
+    "C4_docmeta": {
+      "menang": 48,
+      "n": 96,
+      "eksak": "48/96",
+      "rate": 0.5,
+      "wilson95_marginal": [
+        0.4019,
+        0.5981
+      ],
+      "terkunci_konstruksi": true
+    },
+    "C4_docmeta_profil": {
+      "menang": 83,
+      "n": 96,
+      "eksak": "83/96",
+      "rate": 0.864583,
+      "wilson95_marginal": [
+        0.782,
+        0.9191
+      ],
+      "terkunci_konstruksi": false
+    }
+  },
+  "arm_tetap_terbit": {
+    "B_DITS": "93/96",
+    "D_cascade": "65/96",
+    "filter_metadata": "96/96"
+  },
+  "kontras_mcnemar": {
+    "C3_default vs C3_profil": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 6,
+      "diskordan_a_menang_b_kalah": 5,
+      "selisih_bersih": 1,
+      "p_mcnemar_exact": 1.0,
+      "p_holm_keluarga_posthoc": 1.0,
+      "signifikan_0.05": false
+    },
+    "C3_profil vs C3_docmeta_profil": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 39,
+      "diskordan_a_menang_b_kalah": 0,
+      "selisih_bersih": 39,
+      "p_mcnemar_exact": 0.0,
+      "p_holm_keluarga_posthoc": 0.0,
+      "signifikan_0.05": true
+    },
+    "C3_docmeta vs C3_docmeta_profil": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 40,
+      "diskordan_a_menang_b_kalah": 0,
+      "selisih_bersih": 40,
+      "p_mcnemar_exact": 0.0,
+      "p_holm_keluarga_posthoc": 0.0,
+      "signifikan_0.05": true
+    },
+    "C4_default vs C4_profil": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 10,
+      "diskordan_a_menang_b_kalah": 8,
+      "selisih_bersih": 2,
+      "p_mcnemar_exact": 0.81452942,
+      "p_holm_keluarga_posthoc": 1.0,
+      "signifikan_0.05": false
+    },
+    "C4_profil vs C4_docmeta_profil": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 37,
+      "diskordan_a_menang_b_kalah": 4,
+      "selisih_bersih": 33,
+      "p_mcnemar_exact": 1e-07,
+      "p_holm_keluarga_posthoc": 1e-06,
+      "signifikan_0.05": true
+    },
+    "C4_docmeta vs C4_docmeta_profil": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 41,
+      "diskordan_a_menang_b_kalah": 6,
+      "selisih_bersih": 35,
+      "p_mcnemar_exact": 1.8e-07,
+      "p_holm_keluarga_posthoc": 1e-06,
+      "signifikan_0.05": true
+    },
+    "C3_docmeta_profil vs C4_docmeta_profil": {
+      "n_berpasangan": 96,
+      "diskordan_a_kalah_b_menang": 4,
+      "diskordan_a_menang_b_kalah": 9,
+      "selisih_bersih": -5,
+      "p_mcnemar_exact": 0.2668457,
+      "p_holm_keluarga_posthoc": 0.800537,
+      "signifikan_0.05": false
+    }
+  },
+  "kontras_terhadap_dits": {
+    "kontras": "B_DITS 93/96 lawan C4_docmeta_profil 83/96",
+    "status": "the per-item DITS output was not stored, so its discordant table cannot be computed directly",
+    "batas_analitik_p_exact": [
+      0.001953,
+      0.021271
+    ],
+    "penalaran": "the net discordant difference is fixed at 10; the number of DITS losses is at most 3, so the two-sided exact p lies in that range for every possible configuration"
+  },
+  "label_source": "deterministic (retesting the frozen score files)"
+}

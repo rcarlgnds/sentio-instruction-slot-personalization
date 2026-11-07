@@ -1,0 +1,77 @@
+{
+  "run_id": "scores_gemma_bge-reranker-v2-gemma_paired_label_opak_20261002T065511Z",
+  "script": "result/paper_q2/scripts/q2_arch_score.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "python q2_arch_score.py --family gemma --model BAAI/bge-reranker-v2-gemma --cell label_opak --gap-mib 300 --peta-label id --out-dir <workstation>/result/paper_q2/results/raw_petaid",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, uji lintas arsitektur, di luar keluarga pra-registrasi delapan",
+  "model": "BAAI/bge-reranker-v2-gemma",
+  "keluarga": "gemma",
+  "sel": "label_opak",
+  "definisi_sel": {
+    "inst": "profile",
+    "docmeta": true,
+    "salah": false,
+    "gaya": "opak"
+  },
+  "dtype": "bfloat16",
+  "max_len": 1536,
+  "pemotongan": "dokumen dipotong 4.000 karakter, lalu token dokumen dipotong agar kerangka template tidak terpotong",
+  "n_dokumen_terpotong": 0,
+  "batch_dipakai": 8,
+  "batas_sisa_vram_mib": 300,
+  "cap_gpu": {
+    "mib": null,
+    "keputusan": "auto: bebas 15689 - cadangan 400 - bobot 4780 >= gap 300, dimuat penuh di GPU",
+    "offload": null
+  },
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "instruksi_profil_kerangka": "Given a query from a <DEPT> student in semester <N>, retrieve passages from that student's own study program that answer the query at a level appropriate for semester <N>",
+  "instruksi_profil_id_kerangka": null,
+  "instruksi_vendor_kerangka": null,
+  "instruksi_vendor_penempatan": null,
+  "format_label_program_gaya": "[Source: PRG-09 degree program textbook]",
+  "format_label_sumber": "[Source: <DEPT> degree program textbook, semester <N>]",
+  "kontrol_label_salah": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "peta_label_sumber": {
+    "peta_label": "id",
+    "versi": "id-v1",
+    "sumber": {
+      "korpus": "src/ai/data/benchmark_release/corpus/corpus.jsonl",
+      "korpus_sha256": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+      "alias_uuid": "src/ai/data/benchmark_release/uuid_to_canonical.json",
+      "alias_sha256": "7b594b5d3322be88d11aa2ff481553c05001565d603bf14190a7bd1a6ceb7284"
+    },
+    "aturan": "prodi dan semester diambil dari identitas kandidat; pencocokan teks tidak dipakai"
+  },
+  "kontrak_inferensi": {
+    "sumber": "README BAAI/bge-reranker-v2-gemma, fungsi get_inputs disalin verbatim",
+    "format": "<bos>A: {query}\\nB: {passage}\\n{prompt}",
+    "skor": "logit mentah token 'Yes' pada posisi akhir, tanpa softmax",
+    "slot_instruksi": "argumen prompt; profil ditempel setelah prompt bawaan vendor",
+    "prompt_bawaan_verbatim": "Given a query A and a passage B, determine whether the passage contains an answer to the query by providing a prediction of either 'Yes' or 'No'.",
+    "padding_side": "left (dipaksa; README tidak menetapkannya)",
+    "yes_token_id": 3553
+  },
+  "versi_pustaka": {
+    "transformers": "4.55.0",
+    "torch": "2.11.0+cu128"
+  },
+  "n": 104,
+  "durasi_s": 146.9,
+  "durasi_muat_s": 3.7,
+  "latensi_mean_s": 1.3988,
+  "latensi_p95_s": 1.5737,
+  "vram_peak_mib": 5511.7,
+  "vram_bebas_sebelum_muat_mib": 15689,
+  "smoke": false,
+  "sumber": {
+    "pools": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483"
+  },
+  "output": {
+    "path": "results/raw/scores_gemma_bge-reranker-v2-gemma_paired_label_opak.jsonl",
+    "sha256": "3f048ba856eb2e7a0b67ca52e7ea4d93f76b5f62650e5443da93037cc9b696bb"
+  },
+  "label_source": "deterministic (skor model, suhu tidak berlaku)"
+}

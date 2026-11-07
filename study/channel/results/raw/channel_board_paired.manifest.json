@@ -1,0 +1,37 @@
+{
+  "run_id": "q2_agg_papan_saluran_papan_saluran_paired_20261003T050040Z",
+  "script": "result/paper_q2/scripts/q2_agg_papan_saluran.py",
+  "config_version": "0a7b2e4de856",
+  "sumber": {
+    "Qwen3-Reranker-0.6B/tanpa_profil": "ccba5735293225bf4978c9b454b93ce21c0166fce9872e0cd1abf966d8b7a3cc",
+    "Qwen3-Reranker-0.6B/slot": "ce388c8d6a3f4005d19f63335f6efed9754d868f649ee49831a2e14bd433ccf7",
+    "Qwen3-Reranker-0.6B/teks_saja": "db8b0afba644bdad69c837e8b9e7282bad3a59593880c5010fe70690642488f5",
+    "Qwen3-Reranker-0.6B/slot_plus_teks": "a8fd592f5cdcf67076211961902cbcbb6cf4c665bb56c476f1d89af8279b19a9",
+    "Qwen3-Reranker-0.6B/label_salah": "aa674e84e21120de536bde5e96a62c26c5d373c3233ac087e41b7b12fee7ad81",
+    "Qwen3-Reranker-4B/tanpa_profil": "78d14377f8f778c55c3cd7f2562b474badebbefef4664af2f279caae8a4eeaf3",
+    "Qwen3-Reranker-4B/slot": "3d82073844cfbf443db616158ab08241bd394fb4850cd8e8c4d4d964f51c26cf",
+    "Qwen3-Reranker-4B/teks_saja": "61d7861dc9168a443dc104fe034f625feb1e973ab4cb9c8cbeb3b8fb37df3652",
+    "Qwen3-Reranker-4B/slot_plus_teks": "c3b856093179c06b89643fa22e40be7b8158df7129aa7c15a120b0d32cc3b065",
+    "Qwen3-Reranker-4B/label_salah": "1b47823b46de5a0fb48ea15c67b587cf34047d719f02e3c225e7137c3f8b4723",
+    "zerank-2/tanpa_profil": "c62b00ef1981db96036f3b5fb2b38344b7f1bc6d1305dd3cf28b8a254fbf528e",
+    "zerank-2/slot": "c6146c3a9898f2bb00a0bef9004357258f8168eeb50d8dbb80e65a792fd12274",
+    "zerank-2/teks_saja": "cc3093336a029a9efbad309e7f18586fea9317525873817d1d3d1994be1e9d30",
+    "zerank-2/slot_plus_teks": "0a7872543b64ff7363790e8ce3dcdccdd11de98e85194193729073ddc686c595",
+    "zerank-2/label_salah": "c5d66c979aaccc33c5efb6c7fd646695e05b7e9181e69f8b4e4d569a68fbe988",
+    "zerank-2/vendor_memory": "fa561f2fae68f3182d74b33300375639af61456abad7289669786a6bd37cef55"
+  },
+  "n": 96,
+  "label_source": "deterministic (agregasi ulang atas artefak skor beku)",
+  "verifikasi_naskah": "SELURUH SEL COCOK",
+  "catatan_selisih": [
+    "zerank-2/tanpa_profil: field n manifest 69 tidak sama dengan jumlah baris berkas 104; sha256 COCOK sehingga isi berkas SAH. Sebabnya jalur resume q2_arm_score.py baris 331-338: saat berkas keluaran sudah berisi sebagian baris, skrip melanjutkan dan field n hanya mencatat baris yang diskor pada invokasi terakhir (69), bukan total berkas (104). Nama berkas keluaran diturunkan deterministik dari family, model, tag, instruction, dan ketiga flag metadata, jadi resume hanya bisa menempel ke berkas berkondisi identik. Yang ikut tercemar cuma durasi_s dan vram_peak_mib; skor tidak."
+  ],
+  "output": {
+    "path": "results/tables/papan_saluran_paired.json",
+    "sha256": "949d296de074dd717611750584cdc1f28e58b13753a7ded0d2ae737c6666044c",
+    "n_baris": 96,
+    "tingkat_reproduksi": "1_bit_identical",
+    "sha256_muatan_angka_tanpa_field_dibuat": "1bd5a70fad17a25cfe212f38d0caccc08509146915f4e853e4f38888ccfc49c0",
+    "verifikasi_determinisme": null
+  }
+}

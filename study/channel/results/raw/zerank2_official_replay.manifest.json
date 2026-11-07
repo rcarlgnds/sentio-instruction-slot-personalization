@@ -1,0 +1,89 @@
+{
+ "skrip": "q2_zerank2_official_replay.py",
+ "dibuat": "2026-10-03T05:00:44.852954+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "keluaran": "<workstation>/result/paper_q2/results/tables/zerank2_official_replay.json",
+ "keluaran_sha256": "41a39cd6a60e56302114edb30e5d59fcd5a7eefc62ae65b78d9fb98f821bcc4f",
+ "masukan_sha256": {
+  "control_default": {
+   "beku": "16243dc806ae019474dce5729c6ea64a3754dc54f5fd294ddb3bf9b6a341cf1e",
+   "resmi": "748ba8e6f1d1c8421c38c1675ff627a7b8c2b4d2c94c90a7f534a8f699f74df0"
+  },
+  "control_kondisi": {
+   "beku": "d2a376eb1528a23cd953f126d5378dde4997e810453042e2d6ae8c18bb23261c",
+   "resmi": "a5ab520c29a6884d7e699a5647e616bc605dce66dacb91692e71fa22ae90630b"
+  },
+  "holdout_default": {
+   "beku": "d4c270b795c6490e0cd1b5e8c2729368898da5e5b9c3cf2a2656afe32c894b52",
+   "resmi": "428b33570fd68efe40cf4be23bd66a5da895bee3b8ad15e3e51d0ccc59a392ee"
+  },
+  "holdout_profile": {
+   "beku": "738a594827836e62484e661e77ca931b3abc25a62dcf322d5c24e87d915ba1c5",
+   "resmi": "a6d9d173b643fc1271d64774e788d058094a97e47c63ded165a57ef05878c4f6"
+  },
+  "paired_default": {
+   "beku": "c62b00ef1981db96036f3b5fb2b38344b7f1bc6d1305dd3cf28b8a254fbf528e",
+   "resmi": "13973e29d24ea261a5913dc4d713d4bee5933a12f8e1eda04cc6fbca0086389d"
+  },
+  "paired_default_docmeta": {
+   "beku": "cc3093336a029a9efbad309e7f18586fea9317525873817d1d3d1994be1e9d30",
+   "resmi": "b9146503b72b001e5efec613f5cc7faeaf78bcaa7c1c2cd8f9ec863d83c78745"
+  },
+  "paired_profile": {
+   "beku": "c6146c3a9898f2bb00a0bef9004357258f8168eeb50d8dbb80e65a792fd12274",
+   "resmi": "e3d2bdf6be396611460b02e9e3ecdaf6d4f3137fd721e7cdb92cc128a1e71972"
+  },
+  "paired_profile_docmeta": {
+   "beku": "0a7872543b64ff7363790e8ce3dcdccdd11de98e85194193729073ddc686c595",
+   "resmi": "f41cca9bc09f1bbf09eacbe7f6936322eae88eba3803c06b9013a8add3a28692"
+  },
+  "paired_profile_docmeta_fieldprogram": {
+   "beku": "430b02062e51a1e6d3945d06ba249481c289bd465b2e875fd8219046d94f7ffa",
+   "resmi": "e34a28fa979f116baf3ccfec8a2b654dd24ff7ce43c5c6e378aa37e6ee683628"
+  },
+  "paired_profile_docmeta_fieldsemester": {
+   "beku": "3af2ba766aa646b5540a49c6b54a67b81993014140ab357e40cb689a4570523a",
+   "resmi": "e6bbfb043563a4df70cee70c4f35b55b3837c2c1b219685c9ac4fc569ffe840e"
+  },
+  "paired_profile_docmetasalah": {
+   "beku": "c5d66c979aaccc33c5efb6c7fd646695e05b7e9181e69f8b4e4d569a68fbe988",
+   "resmi": "ed9fbb5d1acb56f54fd0c3a657b768238f3a1f20fed5cd3de7272e6167d5b9ba"
+  },
+  "paired_profile_fmtlabeled": {
+   "beku": "89ba964a76e40531d2b0d6cd73daca6e2cce1713277e4c080ed862f9b3dc5d0c",
+   "resmi": "e617947f56d0b176fa36f0281c9bafa06d89a3a64cbb95e295c25e89a7e0b709"
+  },
+  "paired_profile_fmttag": {
+   "beku": "ec2fa2207d59ffc89134b15a659c633b9cfb91fffa7fde0f2859fb1266020c8d",
+   "resmi": "e9bee559cda18eaef5084ce0b32860b6a30fb4dce0a4b05f2817ee92102820e3"
+  },
+  "paired_profile_vmem": {
+   "beku": "fa561f2fae68f3182d74b33300375639af61456abad7289669786a6bd37cef55",
+   "resmi": "8748858ea0746bda0df961f45356988c2b2cb7f409837d488bf8342fdf5eab2d"
+  },
+  "traindev_default": {
+   "beku": "bb6b3fa74200b031be6f23c1af4457ab5120142e008a3494437155585f23a963",
+   "resmi": "582e670a4b8bddfdcc31fe83abc03649a626b7160cf45800b4aaef7aebff2214"
+  },
+  "traindev_profile": {
+   "beku": "c4639383fd250b553f50561b76fc3b1e74854c26d8ffbb984000ee3bc239aa75",
+   "resmi": "3a2ca4d01bc275c2b6cfba18a2ed1b2539c50b6da50bf18d41d5e41a2d57fb34"
+  },
+  "xpair_default": {
+   "beku": "2e97cda8f41ad33cb0afe64d0169ca59328f90952b7aab628d677d9784e16b47",
+   "resmi": "5f748e95975e6530907579a918d098b62e47e5f88194c227ffe23bf1935c0a2b"
+  },
+  "xpair_profile": {
+   "beku": "1259fdeb63c8903818917e3b39b96fb6ec041bfb59432a427c87eacbd00cfe4c",
+   "resmi": "73bfcebcb107b734fb8a68a5bffe1a1027e558e3ee094f7b76e2f65b2e65bd54"
+  },
+  "xpair_profile_docmeta": {
+   "beku": "8e630e9510712315a3b70da8b06e20232614904bb2aeec209f4ce780699ec627",
+   "resmi": "925953ab603cde1529bf9707a47037bbe54c4de45d11a4037a01c4940d85bf2b"
+  },
+  "xpair_profile_docmetasalah": {
+   "beku": "71c8364ae4a0fe76f3a3897dbf3907fe3b837ffdefc17f57609d7fe0c70f5f48",
+   "resmi": "d3065c6384e0b833dce613b866893b33e64555a5eb362fd8a90e8d9897547888"
+  }
+ }
+}

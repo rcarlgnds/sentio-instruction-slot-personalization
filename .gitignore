@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+desktop.ini
+.venv/
+venv/
+.idea/
+.vscode/
+.env
+/corpus.jsonl
+/pools_p2.jsonl
+/pools_r2.jsonl
+/study/retrieval/results/raw/pools_paired.jsonl
+/system/data/paired_set/

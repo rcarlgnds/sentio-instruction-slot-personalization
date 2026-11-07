@@ -1,0 +1,11 @@
+{
+ "run_id": "bootstrap_klaster_20261003T050048Z",
+ "script": "result/paper_q2/scripts/q2_bootstrap_klaster.py",
+ "output": {
+  "path": "results/tables/bootstrap_klaster.json",
+  "sha256": "f32d3b1882721c7ce9a2ec2baceb4464a3f2639d913d080b6371db04f1ea5bf9"
+ },
+ "resample": 10000,
+ "seed": 42,
+ "label_source": "deterministic"
+}

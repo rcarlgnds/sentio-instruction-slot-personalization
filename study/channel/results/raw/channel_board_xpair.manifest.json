@@ -1,0 +1,33 @@
+{
+  "run_id": "q2_agg_papan_saluran_papan_saluran_xpair_20261003T050040Z",
+  "script": "result/paper_q2/scripts/q2_agg_papan_saluran.py",
+  "config_version": "0a7b2e4de856",
+  "sumber": {
+    "Qwen3-Reranker-0.6B/tanpa_profil": "3b40105fe23c2e06594c161e95e2d3b425e5631cd99e49457a94504e550414c5",
+    "Qwen3-Reranker-0.6B/slot": "4d316b7ba37e2d739cdf704a6e61d13dc53ae3239ea0f18642b46fce474d138f",
+    "Qwen3-Reranker-0.6B/slot_plus_teks": "baae659693331a720127eb79c7a0dc1b235b267403334b063297f946c377ea78",
+    "Qwen3-Reranker-0.6B/label_salah": "bfb13c6e4eaf6f79e3418243e1b67411e37f8f526ab6af900d989963026d61bc",
+    "Qwen3-Reranker-4B/tanpa_profil": "c6037be85eb82d9d01dae5eeba89a3bdf1d7bdd84224fee9dcaa99739a3d6cf3",
+    "Qwen3-Reranker-4B/slot": "18e0a1dcd7447ee6a9d8c7e5a80a3bf133c68bb56567aead5a6b5b4bd9e3ce1d",
+    "Qwen3-Reranker-4B/slot_plus_teks": "4a78249f9485139aeb0703e296688cbe983264c89013d82aca4c791a4dd5086f",
+    "Qwen3-Reranker-4B/label_salah": "4395c4ad49682ec58d5d09525b84d3d733ae67395b7f196a537502072d823f22",
+    "zerank-2/tanpa_profil": "2e97cda8f41ad33cb0afe64d0169ca59328f90952b7aab628d677d9784e16b47",
+    "zerank-2/slot": "1259fdeb63c8903818917e3b39b96fb6ec041bfb59432a427c87eacbd00cfe4c",
+    "zerank-2/slot_plus_teks": "8e630e9510712315a3b70da8b06e20232614904bb2aeec209f4ce780699ec627",
+    "zerank-2/label_salah": "71c8364ae4a0fe76f3a3897dbf3907fe3b837ffdefc17f57609d7fe0c70f5f48"
+  },
+  "n": 1621,
+  "label_source": "deterministic (agregasi ulang atas artefak skor beku)",
+  "verifikasi_naskah": "SELURUH SEL COCOK",
+  "catatan_selisih": [
+    "zerank-2/tanpa_profil: field n manifest 69 tidak sama dengan jumlah baris berkas 104; sha256 COCOK sehingga isi berkas SAH. Sebabnya jalur resume q2_arm_score.py baris 331-338: saat berkas keluaran sudah berisi sebagian baris, skrip melanjutkan dan field n hanya mencatat baris yang diskor pada invokasi terakhir (69), bukan total berkas (104). Nama berkas keluaran diturunkan deterministik dari family, model, tag, instruction, dan ketiga flag metadata, jadi resume hanya bisa menempel ke berkas berkondisi identik. Yang ikut tercemar cuma durasi_s dan vram_peak_mib; skor tidak."
+  ],
+  "output": {
+    "path": "results/tables/papan_saluran_xpair.json",
+    "sha256": "e39484fe917f2ec6c992d8756bae9d6fb0adca3e39ae044bed63ea18739bbf0d",
+    "n_baris": 1621,
+    "tingkat_reproduksi": "1_bit_identical",
+    "sha256_muatan_angka_tanpa_field_dibuat": "2ee5606e54d977cc1998f710ba0127060d814290d4eb2b0f6d7b0099da7de0ac",
+    "verifikasi_determinisme": null
+  }
+}

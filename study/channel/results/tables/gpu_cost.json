@@ -1,0 +1,524 @@
+{
+ "dibuat": "2026-10-03T05:00:43.560687+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "_apa_ini": "Run time and peak GPU memory of every channel cell, read from the score manifests.",
+ "mesin": "one NVIDIA RTX 5080 16 GB that also drives the desktop; details in machine_environment.json",
+ "papan": {
+  "paired": {
+   "Qwen3-Reranker-0.6B": {
+    "sel": {
+     "none": {
+      "durasi_menit": null,
+      "vram_puncak_mib": null,
+      "catatan": "no manifest"
+     },
+     "slot": {
+      "durasi_menit": null,
+      "vram_puncak_mib": null,
+      "catatan": "no manifest"
+     },
+     "text": {
+      "durasi_menit": 1.4,
+      "vram_puncak_mib": 5038.8,
+      "presisi": "float16"
+     },
+     "both": {
+      "durasi_menit": 1.4,
+      "vram_puncak_mib": 5154.7,
+      "presisi": "float16"
+     },
+     "wrong": {
+      "durasi_menit": 1.4,
+      "vram_puncak_mib": 5154.7,
+      "presisi": "float16"
+     },
+     "sem": {
+      "durasi_menit": 1.4,
+      "vram_puncak_mib": 5143.7,
+      "presisi": "float16"
+     },
+     "prog": {
+      "durasi_menit": 1.4,
+      "vram_puncak_mib": 5132.6,
+      "presisi": "float16"
+     }
+    },
+    "median_menit_per_sel": 1.4,
+    "vram_puncak_maks_mib": 5154.7,
+    "total_jam_sel_inti_terukur": 0.05,
+    "sel_inti_terukur": "2 of 4"
+   },
+   "Qwen3-Reranker-4B": {
+    "sel": {
+     "none": {
+      "durasi_menit": null,
+      "vram_puncak_mib": null,
+      "catatan": "no manifest"
+     },
+     "slot": {
+      "durasi_menit": null,
+      "vram_puncak_mib": null,
+      "catatan": "no manifest"
+     },
+     "text": {
+      "durasi_menit": 5.1,
+      "vram_puncak_mib": 9654.9,
+      "presisi": "float16"
+     },
+     "both": {
+      "durasi_menit": 5.4,
+      "vram_puncak_mib": 9715.7,
+      "presisi": "float16"
+     },
+     "wrong": {
+      "durasi_menit": 5.4,
+      "vram_puncak_mib": 9718.6,
+      "presisi": "float16"
+     },
+     "sem": {
+      "durasi_menit": 5.4,
+      "vram_puncak_mib": 9712.8,
+      "presisi": "float16"
+     },
+     "prog": {
+      "durasi_menit": 5.3,
+      "vram_puncak_mib": 9704.1,
+      "presisi": "float16"
+     }
+    },
+    "median_menit_per_sel": 5.4,
+    "vram_puncak_maks_mib": 9718.6,
+    "total_jam_sel_inti_terukur": 0.17,
+    "sel_inti_terukur": "2 of 4"
+   },
+   "zerank-2": {
+    "sel": {
+     "none": {
+      "durasi_menit": 4.5,
+      "vram_puncak_mib": 7971.0,
+      "presisi": "bfloat16"
+     },
+     "slot": {
+      "durasi_menit": 4.8,
+      "vram_puncak_mib": 7980.1,
+      "presisi": "bfloat16"
+     },
+     "text": {
+      "durasi_menit": 4.6,
+      "vram_puncak_mib": 7976.2,
+      "presisi": "bfloat16"
+     },
+     "both": {
+      "durasi_menit": 4.8,
+      "vram_puncak_mib": 7985.3,
+      "presisi": "bfloat16"
+     },
+     "wrong": {
+      "durasi_menit": 4.8,
+      "vram_puncak_mib": 7985.7,
+      "presisi": "bfloat16"
+     },
+     "sem": {
+      "durasi_menit": 4.8,
+      "vram_puncak_mib": 7984.9,
+      "presisi": "bfloat16"
+     },
+     "prog": {
+      "durasi_menit": 4.8,
+      "vram_puncak_mib": 7983.6,
+      "presisi": "bfloat16"
+     }
+    },
+    "median_menit_per_sel": 4.8,
+    "vram_puncak_maks_mib": 7985.7,
+    "total_jam_sel_inti_terukur": 0.31,
+    "sel_inti_terukur": "4 of 4"
+   },
+   "FollowIR-7B": {
+    "sel": {
+     "none": {
+      "durasi_menit": 9.0,
+      "vram_puncak_mib": 14194.5,
+      "presisi": "bfloat16"
+     },
+     "slot": {
+      "durasi_menit": 9.5,
+      "vram_puncak_mib": 14213.3,
+      "presisi": "bfloat16"
+     },
+     "text": {
+      "durasi_menit": 8.7,
+      "vram_puncak_mib": 14203.2,
+      "presisi": "bfloat16"
+     },
+     "both": {
+      "durasi_menit": 9.8,
+      "vram_puncak_mib": 14221.9,
+      "presisi": "bfloat16"
+     },
+     "wrong": {
+      "durasi_menit": 9.8,
+      "vram_puncak_mib": 14222.4,
+      "presisi": "bfloat16"
+     },
+     "sem": {
+      "durasi_menit": 9.4,
+      "vram_puncak_mib": 14220.5,
+      "presisi": "bfloat16"
+     },
+     "prog": {
+      "durasi_menit": 9.4,
+      "vram_puncak_mib": 14219.5,
+      "presisi": "bfloat16"
+     }
+    },
+    "median_menit_per_sel": 9.4,
+    "vram_puncak_maks_mib": 14222.4,
+    "total_jam_sel_inti_terukur": 0.62,
+    "sel_inti_terukur": "4 of 4"
+   },
+   "ctxl-6B": {
+    "sel": {
+     "none": {
+      "durasi_menit": 5.5,
+      "vram_puncak_mib": 14043.8,
+      "presisi": "bfloat16"
+     },
+     "slot": {
+      "durasi_menit": 6.1,
+      "vram_puncak_mib": 14098.4,
+      "presisi": "bfloat16"
+     },
+     "text": {
+      "durasi_menit": 5.4,
+      "vram_puncak_mib": 14063.1,
+      "presisi": "bfloat16"
+     },
+     "both": {
+      "durasi_menit": 6.0,
+      "vram_puncak_mib": 14117.7,
+      "presisi": "bfloat16"
+     },
+     "wrong": {
+      "durasi_menit": 6.0,
+      "vram_puncak_mib": 14119.3,
+      "presisi": "bfloat16"
+     },
+     "sem": {
+      "durasi_menit": 5.9,
+      "vram_puncak_mib": 14116.0,
+      "presisi": "bfloat16"
+     },
+     "prog": {
+      "durasi_menit": 5.9,
+      "vram_puncak_mib": 14111.2,
+      "presisi": "bfloat16"
+     }
+    },
+    "median_menit_per_sel": 5.9,
+    "vram_puncak_maks_mib": 14119.3,
+    "total_jam_sel_inti_terukur": 0.38,
+    "sel_inti_terukur": "4 of 4"
+   },
+   "gemma": {
+    "sel": {
+     "none": {
+      "durasi_menit": 2.3,
+      "vram_puncak_mib": 5462.4,
+      "presisi": "bfloat16"
+     },
+     "slot": {
+      "durasi_menit": 2.5,
+      "vram_puncak_mib": 5495.3,
+      "presisi": "bfloat16"
+     },
+     "text": {
+      "durasi_menit": 2.2,
+      "vram_puncak_mib": 5478.9,
+      "presisi": "bfloat16"
+     },
+     "both": {
+      "durasi_menit": 2.5,
+      "vram_puncak_mib": 5511.7,
+      "presisi": "bfloat16"
+     },
+     "wrong": {
+      "durasi_menit": 2.5,
+      "vram_puncak_mib": 5511.7,
+      "presisi": "bfloat16"
+     },
+     "sem": {
+      "durasi_menit": 2.4,
+      "vram_puncak_mib": 5511.7,
+      "presisi": "bfloat16"
+     },
+     "prog": {
+      "durasi_menit": 2.4,
+      "vram_puncak_mib": 5503.5,
+      "presisi": "bfloat16"
+     }
+    },
+    "median_menit_per_sel": 2.4,
+    "vram_puncak_maks_mib": 5511.7,
+    "total_jam_sel_inti_terukur": 0.16,
+    "sel_inti_terukur": "4 of 4"
+   }
+  },
+  "xpair": {
+   "Qwen3-Reranker-0.6B": {
+    "sel": {
+     "none": {
+      "durasi_menit": 15.6,
+      "vram_puncak_mib": 4593.7,
+      "presisi": "float16"
+     },
+     "slot": {
+      "durasi_menit": 16.3,
+      "vram_puncak_mib": 4709.6,
+      "presisi": "float16"
+     },
+     "both": {
+      "durasi_menit": 17.5,
+      "vram_puncak_mib": 4781.3,
+      "presisi": "float16"
+     },
+     "wrong": {
+      "durasi_menit": 17.5,
+      "vram_puncak_mib": 4781.3,
+      "presisi": "float16"
+     }
+    },
+    "median_menit_per_sel": 16.9,
+    "vram_puncak_maks_mib": 4781.3,
+    "total_jam_sel_inti_terukur": 0.82,
+    "sel_inti_terukur": "3 of 3"
+   },
+   "Qwen3-Reranker-4B": {
+    "sel": {
+     "none": {
+      "durasi_menit": 62.6,
+      "vram_puncak_mib": 9970.0,
+      "presisi": "float16"
+     },
+     "slot": {
+      "durasi_menit": 66.8,
+      "vram_puncak_mib": 10030.8,
+      "presisi": "float16"
+     },
+     "both": {
+      "durasi_menit": 67.6,
+      "vram_puncak_mib": 10068.5,
+      "presisi": "float16"
+     },
+     "wrong": {
+      "durasi_menit": 67.3,
+      "vram_puncak_mib": 10068.5,
+      "presisi": "float16"
+     }
+    },
+    "median_menit_per_sel": 67.0,
+    "vram_puncak_maks_mib": 10068.5,
+    "total_jam_sel_inti_terukur": 3.28,
+    "sel_inti_terukur": "3 of 3"
+   },
+   "zerank-2": {
+    "sel": {
+     "none": {
+      "durasi_menit": 57.4,
+      "vram_puncak_mib": 8030.6,
+      "presisi": "bfloat16"
+     },
+     "slot": {
+      "durasi_menit": 61.5,
+      "vram_puncak_mib": 8039.7,
+      "presisi": "bfloat16"
+     },
+     "both": {
+      "durasi_menit": 61.0,
+      "vram_puncak_mib": 8045.4,
+      "presisi": "bfloat16"
+     },
+     "wrong": {
+      "durasi_menit": 62.4,
+      "vram_puncak_mib": 8045.4,
+      "presisi": "bfloat16"
+     }
+    },
+    "median_menit_per_sel": 61.2,
+    "vram_puncak_maks_mib": 8045.4,
+    "total_jam_sel_inti_terukur": 3.0,
+    "sel_inti_terukur": "3 of 3"
+   },
+   "FollowIR-7B": {
+    "sel": {
+     "none": {
+      "durasi_menit": 111.6,
+      "vram_puncak_mib": 14235.8,
+      "presisi": "bfloat16"
+     },
+     "slot": {
+      "durasi_menit": 120.5,
+      "vram_puncak_mib": 14255.0,
+      "presisi": "bfloat16"
+     },
+     "both": {
+      "durasi_menit": 122.3,
+      "vram_puncak_mib": 14263.7,
+      "presisi": "bfloat16"
+     },
+     "wrong": {
+      "durasi_menit": 124.7,
+      "vram_puncak_mib": 14263.2,
+      "presisi": "bfloat16"
+     }
+    },
+    "median_menit_per_sel": 121.4,
+    "vram_puncak_maks_mib": 14263.7,
+    "total_jam_sel_inti_terukur": 5.91,
+    "sel_inti_terukur": "3 of 3"
+   },
+   "ctxl-6B": {
+    "sel": {
+     "none": {
+      "durasi_menit": 62.9,
+      "vram_puncak_mib": 14254.2,
+      "presisi": "bfloat16"
+     },
+     "slot": {
+      "durasi_menit": 70.4,
+      "vram_puncak_mib": 14308.8,
+      "presisi": "bfloat16"
+     },
+     "both": {
+      "durasi_menit": 73.5,
+      "vram_puncak_mib": 14329.7,
+      "presisi": "bfloat16"
+     },
+     "wrong": {
+      "durasi_menit": 73.7,
+      "vram_puncak_mib": 14329.7,
+      "presisi": "bfloat16"
+     }
+    },
+    "median_menit_per_sel": 72.0,
+    "vram_puncak_maks_mib": 14329.7,
+    "total_jam_sel_inti_terukur": 3.45,
+    "sel_inti_terukur": "3 of 3"
+   },
+   "gemma": {
+    "sel": {
+     "none": {
+      "durasi_menit": 27.4,
+      "vram_puncak_mib": 5618.7,
+      "presisi": "bfloat16"
+     },
+     "slot": {
+      "durasi_menit": 29.9,
+      "vram_puncak_mib": 5659.9,
+      "presisi": "bfloat16"
+     },
+     "both": {
+      "durasi_menit": 30.5,
+      "vram_puncak_mib": 5668.1,
+      "presisi": "bfloat16"
+     },
+     "wrong": {
+      "durasi_menit": 30.5,
+      "vram_puncak_mib": 5668.1,
+      "presisi": "bfloat16"
+     }
+    },
+    "median_menit_per_sel": 30.2,
+    "vram_puncak_maks_mib": 5668.1,
+    "total_jam_sel_inti_terukur": 1.46,
+    "sel_inti_terukur": "3 of 3"
+   }
+  }
+ },
+ "total": {
+  "paired": {
+   "jam_gpu_sel_inti_enam_model": 1.69,
+   "sel_inti": [
+    "none",
+    "slot",
+    "text",
+    "both"
+   ]
+  },
+  "xpair": {
+   "jam_gpu_sel_inti_enam_model": 17.92,
+   "sel_inti": [
+    "none",
+    "slot",
+    "both"
+   ]
+  }
+ },
+ "batas": "the four Qwen3 paired cells without a label (none and slot on 0.6B and 4B) have no manifest and so no duration; the total sums only the measured cells, and the number of measured cells is recorded in every row",
+ "zerank2": "official vendor path",
+ "sumber_manifest_sha256": {
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_default_docmeta.manifest.json": "0480f011e93d195f7d535306f91984f28a4ae32529ffa1bd732c669be2c7d4e1",
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta.manifest.json": "8f1c01bd52147e643791ac49999be5cb09d2735d4655a3aaafc9e6d2af554de8",
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmetasalah.manifest.json": "3dbded6ecc2abec3b393b6c34385572810d26b757cc0c96a2bef7c24749a53a9",
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta_fieldsemester.manifest.json": "da0fa7d0893215a6f1b24f61a43e351400140a8803cc04d5dc198714628532c3",
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta_fieldprogram.manifest.json": "893f377b0e443ef9de1d138c59c538002c5220167b76ada28002e5e5b1c12752",
+  "scores_qwen3rr_Qwen3-Reranker-4B_paired_default_docmeta.manifest.json": "4779f908452e7a0321bb82761e507492c44598112100d473055360b022e5e3ee",
+  "scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta.manifest.json": "0e5f7c8c57f528be70dfd2ddd1c5c82881f0c9f8feddf8c8cf84ad723b1c834b",
+  "scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmetasalah.manifest.json": "4a863060b0459d6aa861f3dd8442683fd33a3dd6e4c1e2442db1200bf55bdf51",
+  "scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta_fieldsemester.manifest.json": "38850202138fd043917c50218c0b3401387496e9dbcacd835b2c64d4688ae43c",
+  "scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta_fieldprogram.manifest.json": "7f9de56f721afeaffe4ccd4f659a9bce4a075df6bd26ff9b09548cc82ce601e4",
+  "scores_zerank2official_zerank-2_paired_default.manifest.json": "7959dc6b5fd85696c215c6358dc406c3b6eebf0698bd56bf74ad7b35ed0996ef",
+  "scores_zerank2official_zerank-2_paired_profile.manifest.json": "7051fe028090d2e31d96819bef0e4c3569eb7129d4e8fa773478b182b4d423d5",
+  "scores_zerank2official_zerank-2_paired_default_docmeta.manifest.json": "662aceb5ef988b66dee4975941aecc222beb78aff12768ea2b5e0ff1050fb899",
+  "scores_zerank2official_zerank-2_paired_profile_docmeta.manifest.json": "55db1b8f446ff93ff966a27759c49ea89ab4ed6f03c25a8d84f719053c209b27",
+  "scores_zerank2official_zerank-2_paired_profile_docmetasalah.manifest.json": "8f47c87c63ec5e7f5eb0ffb6c81da0894317a7a8dd31069f412379ba62d2b8a8",
+  "scores_zerank2official_zerank-2_paired_profile_docmeta_fieldsemester.manifest.json": "f3e4f6c7aaefa35a31951f83b8cbb294c19cfcdea80a00618480c75ecc111572",
+  "scores_zerank2official_zerank-2_paired_profile_docmeta_fieldprogram.manifest.json": "c1142b3f76c1615229c5aff094bdaae21c71eaa8880504ffd0281410ed2144b7",
+  "scores_followir_FollowIR-7B_paired_none.manifest.json": "942f0b9d61ff34a5bd9c93737b72b29f59201d14e2a043910b3d0aed32603583",
+  "scores_followir_FollowIR-7B_paired_slot.manifest.json": "643b576a338d5268d03a56bade19771134c44326fb8199cc1d5f64b1ad8de2bf",
+  "scores_followir_FollowIR-7B_paired_text.manifest.json": "621d9436184fa710ba6220cd84d0b6631959f90bc19fe3cf228d99adca3890bc",
+  "scores_followir_FollowIR-7B_paired_both.manifest.json": "6074e3c9f9c476d28caf30fee0717d6a67979aea10c29cf502a5063dd750fb17",
+  "scores_followir_FollowIR-7B_paired_wrong.manifest.json": "a5a1b0a55a3d6106ab1d9431f549cffe2b010c760e90a3b4df9e4514e6038cfb",
+  "scores_followir_FollowIR-7B_paired_both_semester.manifest.json": "6aedcec02791e674ffc11fb043d24459fcb5c854048507cce853c2a7b3a03416",
+  "scores_followir_FollowIR-7B_paired_both_program.manifest.json": "d5ba13c55e7454fbd617e555aab2a3120092ca17e47656337f5cf3af6b2d692f",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_none.manifest.json": "d3623d0db99de2edfd24b3d8ca32494cba19b0bc657b32bbaa0e52971d50e9fa",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot.manifest.json": "0f429efc1c4d2a37b1c24820ff6cc68ab82a4c33ce062682d7898c28b57bbe69",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_text.manifest.json": "d3656ca1b640f414864fd929d00a3b376d9a4d6b1b6030d65d0364f9ab1ade43",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both.manifest.json": "1db2d4d3b3e0aa1fa367d662490151ff8a6c4fd745c2e41b9fa9ec2b58e8e5e2",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_wrong.manifest.json": "1160ffaaf02e8cd374edddf9383a1374e265936aca4fb5a64841114d8c32fcf5",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_semester.manifest.json": "7c2a1fa85ffe7b2d5d4c00154eef4efc71ea68661538689e1cb992331f333fc2",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_both_program.manifest.json": "5e93559aa56f280ee937c94c066199af78ddeb3584f9b64d9976a2c8cfd2381e",
+  "scores_gemma_bge-reranker-v2-gemma_paired_none.manifest.json": "2ddf981d625312635ab3151837e9f037fd0acd42dfe69d199a8bbf815ffe30c2",
+  "scores_gemma_bge-reranker-v2-gemma_paired_slot.manifest.json": "e6f9195ae7c8976e1f37a1fc2a1575596bfd4c1b09bf02160b8b15e6f174a53b",
+  "scores_gemma_bge-reranker-v2-gemma_paired_text.manifest.json": "64938c679f11607ccb6ecc70409eb0711864cb150a3c1fb1982be8499ca03e37",
+  "scores_gemma_bge-reranker-v2-gemma_paired_both.manifest.json": "c8af3d3f9e84417b080f1dfc371e9f3871042c44ea21ad4f0ad14b5c36148cc8",
+  "scores_gemma_bge-reranker-v2-gemma_paired_wrong.manifest.json": "c18280f9ec670981238529de6f8b6fbf9b96208597942ca277240000de5d0023",
+  "scores_gemma_bge-reranker-v2-gemma_paired_both_semester.manifest.json": "4ee1ebd95bf554058157fcf3166dededb0a202c0b25373c9b70efa66ccd2c4f5",
+  "scores_gemma_bge-reranker-v2-gemma_paired_both_program.manifest.json": "760ada1c1ccae9bc97f8d5321f2c0b607cd392e0bac210f176ef2e4437c91507",
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_default.manifest.json": "a7011f491b0eb6901ffa9218547670b94a6990fac8a051672292c07b65fdb18e",
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile.manifest.json": "28fb6da397b0c667c915e8363938e8505b5d7a1126d4818628fea4794dbe06e9",
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmeta.manifest.json": "2b8765249e00eb6114aacf1a7ccf3f8149615aa8a7001940ab5e19b8046e88d1",
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmetasalah.manifest.json": "55d7a10a684474c977d35dc93973cfd3916c44e206da93bec212857a026f1a0b",
+  "scores_qwen3rr_Qwen3-Reranker-4B_xpair_default.manifest.json": "b85c33e50bc4506f605f4bb672e236b7eac8bbb2a8e1bae523299a50080b1cd6",
+  "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile.manifest.json": "40cda4b4b9dc19ae414e7dd44ea75adb634ea94a622b917a36f506b86a4497f5",
+  "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmeta.manifest.json": "273894d802ff716a670a379cfbe467c9b26b53b69c771031055efbd8172ccc75",
+  "scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmetasalah.manifest.json": "3eb306530fbe2d0f7bf13fa6c893fb30ec944c0217df8e9bc02c68d7f5e021ea",
+  "scores_zerank2official_zerank-2_xpair_default.manifest.json": "f2c2bb51488696f93bf3a8fa46eedf7dd06d527c04009ade4af13cf1bae8efa2",
+  "scores_zerank2official_zerank-2_xpair_profile.manifest.json": "be037a755911f380dd6558987fb1b7ef2da93f7eacb7671da8f59debcc42f825",
+  "scores_zerank2official_zerank-2_xpair_profile_docmeta.manifest.json": "6ad9117c4d57912210231faef6694be90e781478557487192154e163fabbc80f",
+  "scores_zerank2official_zerank-2_xpair_profile_docmetasalah.manifest.json": "dd44ade0c08360572786d373fdf36d299d1607e34eae172fa9bc20757e048f7c",
+  "scores_followir_FollowIR-7B_xpair_none.manifest.json": "1bfee24ca8b429f4ff77b4e6b747fa4cdc0e953228a2c6f5dac03f2179eca518",
+  "scores_followir_FollowIR-7B_xpair_slot.manifest.json": "edde01d511c1471c4fa13245a1d0e1eb5469b0e53525f5a5b0cf0745283d10db",
+  "scores_followir_FollowIR-7B_xpair_both.manifest.json": "23986a04a6f6f67d8074540b7e97ce351f03e3ba53913f3e1758584a2fe5d74e",
+  "scores_followir_FollowIR-7B_xpair_wrong.manifest.json": "131183706fc97caf04eccaacc0ee90078548e1f20e7dff5e647fef166b8afcc3",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_none.manifest.json": "5d7f083fbc1c5315ac6aab69a1d4dbe89321e606c28f01d00e59d207c303df8b",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_slot.manifest.json": "3e94576db2319552b6efd6df8e6c6364f12d704b88a75a9d908dcb9166d0eaee",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_both.manifest.json": "cd33c303077e0cb4b33798b0a2e4e8b37c1ec2606dd27c435ad60d401e04de6d",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_wrong.manifest.json": "71f73aa37d4a3d7b94407ddb74e88430e731bb919174ad35eb7e56c213350e58",
+  "scores_gemma_bge-reranker-v2-gemma_xpair_none.manifest.json": "01eda4f4f708883cd95449957435eeec1a2a37ca8d69e18b0ba6e4e9adb865fa",
+  "scores_gemma_bge-reranker-v2-gemma_xpair_slot.manifest.json": "ecac0541e3904290c64ad994d68f2efabbf62ddfc12cca0a3da74f7ff69eb46e",
+  "scores_gemma_bge-reranker-v2-gemma_xpair_both.manifest.json": "51c4b8de39f481ecd303b95df264d1ae0fe6b0960afb616323699a65e329e4cb",
+  "scores_gemma_bge-reranker-v2-gemma_xpair_wrong.manifest.json": "733cd137d6efbca812861302f6201fe811af7d37ae46f1747164ab1a49616729"
+ },
+ "label_source": "deterministic (the durasi_s and vram_peak_mib fields of the score manifests)"
+}

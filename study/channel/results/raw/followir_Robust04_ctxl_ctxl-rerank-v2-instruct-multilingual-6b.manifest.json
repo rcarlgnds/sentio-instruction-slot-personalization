@@ -1,0 +1,16 @@
+{
+  "run_id": "followir_Robust04_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_20260918T232516Z",
+  "script": "result/paper_q2/scripts/q2_arch_followir.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_arch_followir.py --dataset Robust04 --family ctxl --model ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b --gap-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal, uji lintas arsitektur",
+  "durasi_s": 9076.3,
+  "vram_peak_mib": 14203.4,
+  "output": {
+    "path": "results/tables/followir_Robust04_ctxl_ctxl-rerank-v2-instruct-multilingual-6b.json",
+    "sha256": "cd645127c54aadf61567a36091de2ca2031be462b96e9de3a9258d1a196da9ad",
+    "run": "results/raw/followir_run_Robust04_ctxl_ctxl-rerank-v2-instruct-multilingual-6b.jsonl",
+    "run_sha256": "41330aab17eb0132489e588d6ac63e211e2c900b269b556f376a2c90dc660132"
+  }
+}

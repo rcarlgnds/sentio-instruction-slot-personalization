@@ -1,0 +1,57 @@
+{
+  "created": "2026-09-05T05:04:13.980798+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "what_this_is": "Descriptive counts of the benchmark read from the frozen qrels files and the split manifest: split sizes, gold passages per query, and the class composition recovered from the class prefix each query identifier carries.",
+  "benchmark": {
+    "queries": 2776,
+    "by_class": {
+      "adversarial_routing": 750,
+      "multi_disciplinary_ambiguity": 750,
+      "prerequisite_chain_depth": 526,
+      "temporal_scope_drift": 750
+    },
+    "class_design_target": 750,
+    "classes_below_target": [
+      "prerequisite_chain_depth"
+    ]
+  },
+  "splits": {
+    "from_split_manifest": {
+      "dev": 274,
+      "test_holdout": 283,
+      "train": 2219
+    },
+    "train_plus_dev": 2493,
+    "consistent_with_qrels": true
+  },
+  "per_split": {
+    "dev": {
+      "queries": 274,
+      "gold_passages": 326,
+      "gold_per_query": 1.1898,
+      "queries_by_gold_count": {
+        "1": 222,
+        "2": 52
+      }
+    },
+    "traindev": {
+      "queries": 2493,
+      "gold_passages": 2965,
+      "gold_per_query": 1.1893,
+      "queries_by_gold_count": {
+        "1": 2021,
+        "2": 472
+      }
+    },
+    "test_holdout": {
+      "queries": 283,
+      "gold_passages": 337,
+      "gold_per_query": 1.1908,
+      "queries_by_gold_count": {
+        "1": 229,
+        "2": 54
+      }
+    }
+  },
+  "label_source": "deterministic (counts over frozen qrels)"
+}

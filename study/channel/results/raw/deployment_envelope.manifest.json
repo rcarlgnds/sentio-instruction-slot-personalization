@@ -1,0 +1,18 @@
+{
+  "run_id": "q2_envelope_20260905T050414Z",
+  "script": "result/paper_q2/scripts/q2_envelope.py",
+  "config_version": "0a7b2e4de856",
+  "label_source": "deterministic",
+  "sumber": {
+    "Qwen3-Reranker-0.6B": "478595af1d42bd03dfdf23a4b09168bf258ec08229c546b4ebb9ca5c028500d2",
+    "zerank-2": "d96b51ba441e28b8ac6c969bdcff1e944e1ac44ab78196c57c0af600621305b2",
+    "Qwen3-Reranker-4B": "580240ba1190a15e4c7bbd9a1f2ff24fc98ddebb1890050782110c4461f5f68b",
+    "config_py": "b2608e7302c72f821676df14aec480e05b2c5caa59587fc1aa829a9f829e53e1",
+    "summary_json": "167d5953723af97e161731791ce662dd96e3a168db1a1815672db2cf8e1ca4d6"
+  },
+  "output": {
+    "path": "results/tables/deployment_envelope.json",
+    "sha256": "c775f0ef5dfcb9cc16a0986bd9d38f24d39e6c7e0ffc0d14af24fc6f181b16e2",
+    "tingkat_reproduksi": "1_bit_identical"
+  }
+}

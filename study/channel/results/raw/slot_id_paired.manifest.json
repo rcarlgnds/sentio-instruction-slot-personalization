@@ -1,0 +1,14 @@
+{
+ "skrip": "q2_arch_slot_id.py",
+ "dibuat": "2026-10-03T05:00:46.792359+00:00",
+ "masukan_sha256": {
+  "scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_id.jsonl": "f4ec76e0f198d41595c3a92676032ec18b257c362a23746f3c6602a77a18b5cb",
+  "scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_id.jsonl": "98142196f3314a2f1ba248d977bd72ac0fc8411d1145da4258a7499533ac9ea9",
+  "scores_zerank2official_zerank-2_paired_profile_id.jsonl": "6e150fb5e2d18ad8ae7519204be00ff1bdb368661f68b83dbfdf1a1a31903fe9",
+  "scores_followir_FollowIR-7B_paired_slot_id.jsonl": "523d226a3c4e851363ab4d89d7e62e2464cac59ec9894fb5088c143fbd42b884",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot_id.jsonl": "c670d7dfb7378d8634104268408bca695b40c607cc73ac8226d31c79d7db054a",
+  "scores_gemma_bge-reranker-v2-gemma_paired_slot_id.jsonl": "bfc08cb747d11da4b33ccb6b399bd35f2ed62eca57f74b20c1b17a644d18f2de"
+ },
+ "keluaran": "<workstation>/result/paper_q2/results/tables/slot_id_paired.json",
+ "keluaran_sha256": "55432c38b055004b3f9c85c9c9caa092ba184633786cc72c810fb596d112ad25"
+}

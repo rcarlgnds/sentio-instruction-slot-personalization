@@ -1,0 +1,16 @@
+{
+  "run_id": "followir_News21_gemma_bge-reranker-v2-gemma_20260918T164240Z",
+  "script": "result/paper_q2/scripts/q2_arch_followir.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_arch_followir.py --dataset News21 --family gemma --model BAAI/bge-reranker-v2-gemma --gap-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal, uji lintas arsitektur",
+  "durasi_s": 2346.4,
+  "vram_peak_mib": 6338.6,
+  "output": {
+    "path": "results/tables/followir_News21_gemma_bge-reranker-v2-gemma.json",
+    "sha256": "9ab0ba5d0ba4e53cbcde6d4e156dba9a17d70bb61949b54aaa00d22c8b8f3cef",
+    "run": "results/raw/followir_run_News21_gemma_bge-reranker-v2-gemma.jsonl",
+    "run_sha256": "a6f256f1c11e136aa74eed9f36014606a75760adf5fa7ca0bd015be3d5cc0b1f"
+  }
+}

@@ -1,0 +1,890 @@
+{
+  "dibuat": "2026-08-23T05:58:12.623310+00:00",
+  "_apa_ini": "Format sweep: 7 input formats, each on the same 10 pairs of the original track. It is a screening run, and its numbers are not results of the paper.",
+  "model": "zeroentropy/zerank-2",
+  "family": "zerank2",
+  "dtype": "bfloat16",
+  "dasar_dokumen": {
+    "qwen3rr": "official README: Instruction Aware Yes, format <Instruct>/<Query>/<Document>, English instructions recommended per scenario",
+    "zerank2": "README + chat_template.jinja: plain (query, document), query->system, document->user, logit Yes; no separate instruction parameter"
+  },
+  "agregat_per_kombinasi": {
+    "K1_default": {
+      "menang": 10,
+      "n_komparabel": 20,
+      "mean_rank_gold": 2.8
+    },
+    "K2_slot_instruksi": {
+      "menang": 12,
+      "n_komparabel": 20,
+      "mean_rank_gold": 3.8
+    },
+    "K3_profil_di_kueri": {
+      "menang": 11,
+      "n_komparabel": 20,
+      "mean_rank_gold": 2.55
+    },
+    "K4_label_di_dokumen": {
+      "menang": 10,
+      "n_komparabel": 20,
+      "mean_rank_gold": 3.1
+    },
+    "K5_slot_plus_dokumen": {
+      "menang": 20,
+      "n_komparabel": 20,
+      "mean_rank_gold": 1.35
+    },
+    "K6_frasa_imperatif": {
+      "menang": 10,
+      "n_komparabel": 20,
+      "mean_rank_gold": 4.35
+    },
+    "K7_memori_vendor": {
+      "menang": 10,
+      "n_komparabel": 20,
+      "mean_rank_gold": 2.85
+    }
+  },
+  "per_sampel": [
+    {
+      "query_id": "paired-0-csci",
+      "pair_id": "paired-0",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 9,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 23,
+          "rank_lawan": 3,
+          "menang": false
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 6,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 13,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 8,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 4,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 6,
+          "rank_lawan": 1,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-0-stat",
+      "pair_id": "paired-0",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 0,
+          "rank_lawan": 9,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 3,
+          "rank_lawan": 12,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 1,
+          "rank_lawan": 6,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 13,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 2,
+          "rank_lawan": 54,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 0,
+          "rank_lawan": 6,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 1,
+          "rank_lawan": 7,
+          "menang": true
+        }
+      }
+    },
+    {
+      "query_id": "paired-1-csci",
+      "pair_id": "paired-1",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 0,
+          "rank_lawan": 1,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 0,
+          "rank_lawan": 1,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 0,
+          "rank_lawan": 1,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 1,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 7,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 0,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 0,
+          "rank_lawan": 1,
+          "menang": true
+        }
+      }
+    },
+    {
+      "query_id": "paired-1-stat",
+      "pair_id": "paired-1",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 1,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 0,
+          "rank_lawan": 1,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 1,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 1,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 6,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 1,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 1,
+          "rank_lawan": 0,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-10-csci",
+      "pair_id": "paired-10",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 2,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 4,
+          "rank_lawan": 2,
+          "menang": false
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 2,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 3,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 1,
+          "rank_lawan": 13,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 5,
+          "rank_lawan": 2,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 3,
+          "rank_lawan": 1,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-10-stat",
+      "pair_id": "paired-10",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 1,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 1,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 1,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 1,
+          "rank_lawan": 3,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 1,
+          "rank_lawan": 15,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 2,
+          "rank_lawan": 4,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 1,
+          "rank_lawan": 3,
+          "menang": true
+        }
+      }
+    },
+    {
+      "query_id": "paired-11-csci",
+      "pair_id": "paired-11",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 3,
+          "rank_lawan": 4,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 1,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 2,
+          "rank_lawan": 4,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 2,
+          "rank_lawan": 4,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 8,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 4,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 1,
+          "rank_lawan": 3,
+          "menang": true
+        }
+      }
+    },
+    {
+      "query_id": "paired-11-stat",
+      "pair_id": "paired-11",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 4,
+          "rank_lawan": 3,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 2,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 4,
+          "rank_lawan": 2,
+          "menang": false
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 4,
+          "rank_lawan": 2,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 1,
+          "rank_lawan": 18,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 5,
+          "rank_lawan": 2,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 3,
+          "rank_lawan": 1,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-14-csci",
+      "pair_id": "paired-14",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 8,
+          "rank_lawan": 4,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 10,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 8,
+          "rank_lawan": 4,
+          "menang": false
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 10,
+          "rank_lawan": 5,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 2,
+          "rank_lawan": 17,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 8,
+          "rank_lawan": 3,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 9,
+          "rank_lawan": 5,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-14-stat",
+      "pair_id": "paired-14",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 4,
+          "rank_lawan": 8,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 1,
+          "rank_lawan": 11,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 4,
+          "rank_lawan": 8,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 5,
+          "rank_lawan": 10,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 10,
+          "rank_lawan": 28,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 7,
+          "rank_lawan": 15,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 5,
+          "rank_lawan": 9,
+          "menang": true
+        }
+      }
+    },
+    {
+      "query_id": "paired-15-csci",
+      "pair_id": "paired-15",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 0,
+          "rank_lawan": 6,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 7,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 0,
+          "rank_lawan": 4,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 1,
+          "rank_lawan": 11,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 5,
+          "rank_lawan": 4,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 2,
+          "rank_lawan": 4,
+          "menang": true
+        }
+      }
+    },
+    {
+      "query_id": "paired-15-stat",
+      "pair_id": "paired-15",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 6,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 0,
+          "rank_lawan": 7,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 4,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 5,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 25,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 3,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 5,
+          "rank_lawan": 2,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-16-csci",
+      "pair_id": "paired-16",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 2,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 3,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 1,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 2,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 14,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 8,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 2,
+          "rank_lawan": 1,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-16-stat",
+      "pair_id": "paired-16",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 1,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 1,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 1,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 1,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 14,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 1,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 0,
+          "rank_lawan": 2,
+          "menang": true
+        }
+      }
+    },
+    {
+      "query_id": "paired-17-csci",
+      "pair_id": "paired-17",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 2,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 2,
+          "rank_lawan": 9,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 3,
+          "rank_lawan": 7,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 2,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 20,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 8,
+          "rank_lawan": 17,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 2,
+          "rank_lawan": 7,
+          "menang": true
+        }
+      }
+    },
+    {
+      "query_id": "paired-17-stat",
+      "pair_id": "paired-17",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 5,
+          "rank_lawan": 2,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 9,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 6,
+          "rank_lawan": 3,
+          "menang": false
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 5,
+          "rank_lawan": 2,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 3,
+          "rank_lawan": 42,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 14,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 8,
+          "rank_lawan": 2,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-18-csci",
+      "pair_id": "paired-18",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 2,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 2,
+          "rank_lawan": 3,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 2,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 2,
+          "rank_lawan": 0,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 8,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 4,
+          "rank_lawan": 2,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 2,
+          "rank_lawan": 0,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-18-stat",
+      "pair_id": "paired-18",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 0,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 0,
+          "rank_lawan": 4,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 0,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 0,
+          "rank_lawan": 2,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 1,
+          "rank_lawan": 15,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 0,
+          "rank_lawan": 4,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 0,
+          "rank_lawan": 2,
+          "menang": true
+        }
+      }
+    },
+    {
+      "query_id": "paired-19-csci",
+      "pair_id": "paired-19",
+      "dept": "CSCI",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 5,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 6,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 5,
+          "rank_lawan": 1,
+          "menang": false
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 4,
+          "rank_lawan": 2,
+          "menang": false
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 2,
+          "rank_lawan": 9,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 5,
+          "rank_lawan": 3,
+          "menang": false
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 5,
+          "rank_lawan": 1,
+          "menang": false
+        }
+      }
+    },
+    {
+      "query_id": "paired-19-stat",
+      "pair_id": "paired-19",
+      "dept": "STAT",
+      "kombinasi": {
+        "K1_default": {
+          "rank_gold": 1,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K2_slot_instruksi": {
+          "rank_gold": 1,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K3_profil_di_kueri": {
+          "rank_gold": 0,
+          "rank_lawan": 5,
+          "menang": true
+        },
+        "K4_label_di_dokumen": {
+          "rank_gold": 2,
+          "rank_lawan": 4,
+          "menang": true
+        },
+        "K5_slot_plus_dokumen": {
+          "rank_gold": 3,
+          "rank_lawan": 43,
+          "menang": true
+        },
+        "K6_frasa_imperatif": {
+          "rank_gold": 3,
+          "rank_lawan": 6,
+          "menang": true
+        },
+        "K7_memori_vendor": {
+          "rank_gold": 1,
+          "rank_lawan": 5,
+          "menang": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "run_id": "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot_id_20260918T031335Z",
+  "script": "result/paper_q2/scripts/q2_arch_score.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "python q2_arch_score.py --family ctxl --model ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b --cell slot_id --gap-mib 300",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, uji lintas arsitektur, di luar keluarga pra-registrasi delapan",
+  "model": "ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b",
+  "keluarga": "ctxl",
+  "sel": "slot_id",
+  "definisi_sel": {
+    "inst": "profile_id",
+    "docmeta": false,
+    "salah": false
+  },
+  "dtype": "bfloat16",
+  "max_len": 1536,
+  "pemotongan": "dokumen dipotong 4.000 karakter, lalu token dokumen dipotong agar kerangka template tidak terpotong",
+  "n_dokumen_terpotong": 0,
+  "batch_dipakai": 8,
+  "batas_sisa_vram_mib": 300,
+  "cap_gpu": {
+    "mib": null,
+    "keputusan": "auto: bebas 15422 - cadangan 400 - bobot 14240 >= gap 300, dimuat penuh di GPU",
+    "offload": null
+  },
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "instruksi_profil_kerangka": "Given a query from a <DEPT> student in semester <N>, retrieve passages from that student's own study program that answer the query at a level appropriate for semester <N>",
+  "instruksi_profil_id_kerangka": "Diberikan pertanyaan dari mahasiswa program studi <DEPT> semester <N>, ambil bagian teks dari program studi mahasiswa itu sendiri yang menjawab pertanyaan tersebut pada tingkat yang sesuai untuk semester <N>",
+  "instruksi_vendor_kerangka": null,
+  "instruksi_vendor_penempatan": null,
+  "format_label_sumber": null,
+  "kontrol_label_salah": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "kontrak_inferensi": {
+    "sumber": "README ContextualAI ctxl-rerank-v2, jalur Transformers infer_w_hf disalin verbatim",
+    "format": "Check whether a given document contains information helpful to answer the query.\n<Document> {doc}\n<Query> {query}{inst} ??",
+    "skor": "logit token id 0 pada posisi akhir, dicast ke bfloat16 lalu float",
+    "true_token_id": 0,
+    "false_token_id": null,
+    "slot_instruksi": "instruksi ditempel setelah query dengan satu spasi; kosong = bawaan vendor",
+    "bos": "satu, ditambah tokenizer (add_bos_token true); string tidak memuat <s>"
+  },
+  "versi_pustaka": {
+    "transformers": "4.55.0",
+    "torch": "2.11.0+cu128"
+  },
+  "n": 104,
+  "durasi_s": 363.1,
+  "durasi_muat_s": 2.3,
+  "latensi_mean_s": 3.4756,
+  "latensi_p95_s": 3.9517,
+  "vram_peak_mib": 14116.0,
+  "vram_bebas_sebelum_muat_mib": 15422,
+  "smoke": false,
+  "sumber": {
+    "pools": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483"
+  },
+  "output": {
+    "path": "results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_paired_slot_id.jsonl",
+    "sha256": "c670d7dfb7378d8634104268408bca695b40c607cc73ac8226d31c79d7db054a"
+  },
+  "label_source": "deterministic (skor model, suhu tidak berlaku)"
+}

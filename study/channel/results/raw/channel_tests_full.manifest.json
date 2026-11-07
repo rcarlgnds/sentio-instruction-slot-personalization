@@ -1,0 +1,9 @@
+{
+ "run_id": "uji_lengkap_20261003T050042Z",
+ "script": "result/paper_q2/scripts/q2_uji_lengkap.py",
+ "output": {
+  "path": "results/tables/uji_lengkap.json",
+  "sha256": "4ef294b4efabf3f45ff36c66f3af093d4d0e7a77f76e67cc3ddcbe769a62f10d"
+ },
+ "label_source": "deterministic"
+}

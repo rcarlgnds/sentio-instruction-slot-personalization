@@ -1,0 +1,72 @@
+name_in_runs,file_here,note
+manifest_rilis_tabel.py,,Packaging helper that wrote five table manifests. Not in this repository.
+q2_agg_control.py,study/channel/scripts/5_why_slot_fails/aggregate_controls.py,
+q2_agg_papan_saluran.py,study/channel/scripts/4_slot_vs_baseline/aggregate_channel_board.py,
+q2_arch_agg.py,study/channel/scripts/4_slot_vs_baseline/aggregate_architecture_board.py,
+q2_arch_followir.py,study/channel/scripts/2_scoring/followir_architectures.py,
+q2_arch_score.py,study/channel/scripts/2_scoring/score_architectures.py,
+q2_arch_slot_id.py,study/channel/scripts/5_why_slot_fails/slot_indonesian.py,
+q2_arch_vendor_style.py,study/channel/scripts/5_why_slot_fails/slot_vendor_style.py,
+q2_arch_xpair.py,study/channel/scripts/4_slot_vs_baseline/mined_pairs_architectures.py,
+q2_arm_score.py,study/channel/scripts/2_scoring/score_arms.py,
+q2_asal_benchmark.py,study/channel/scripts/1_tracks/benchmark_provenance.py,
+q2_audit_validitas.py,study/channel/scripts/8_audits/validity_audit.py,
+q2_biaya_gpu.py,study/channel/scripts/8_audits/gpu_cost.py,
+q2_bootstrap_klaster.py,study/channel/scripts/4_slot_vs_baseline/cluster_bootstrap.py,
+q2_commit_protokol.py,study/channel/scripts/8_audits/protocol_commits.py,
+q2_dits_strata.py,,Writes dits_strata.json. Not in this repository.
+q2_dits_xpair.py,study/channel/scripts/7_metadata/mined_pairs.py,
+q2_ekuivalensi_slot.py,study/channel/scripts/4_slot_vs_baseline/equivalence_bounds.py,
+q2_envelope.py,study/channel/scripts/7_metadata/deployment_envelope.py,
+q2_flip_rate.py,study/channel/scripts/3_slot_changes/flip_rate.py,
+q2_followir.py,study/channel/scripts/2_scoring/followir.py,
+q2_followir_kalibrasi.py,study/channel/scripts/5_why_slot_fails/followir_calibration.py,
+q2_hit_mrr_penanya.py,study/channel/scripts/3_slot_changes/asker_hit_mrr.py,
+q2_kolinearitas_profil.py,study/channel/scripts/1_tracks/profile_collinearity.py,
+q2_label_satu_field.py,study/channel/scripts/6_label_check/single_field_label.py,
+q2_leakage_v2.py,study/channel/scripts/5_why_slot_fails/leakage_check.py,
+q2_lingkungan_mesin.py,study/channel/scripts/8_audits/machine_environment.py,
+q2_mcnemar.py,study/channel/scripts/4_slot_vs_baseline/mcnemar.py,
+q2_p2_alur_tulis.js,study/channel/provenance/extended_paired_writer_workflow.js,
+q2_p2_analisis.py,study/channel/scripts/10_rebuilt_and_extended/extended_paired_analysis.py,
+q2_p2_jaga.py,,Watches the GPU queue. Not in this repository.
+q2_p2_juri.py,study/channel/scripts/10_rebuilt_and_extended/extended_paired_judge.py,
+q2_p2_kit.py,,Builds the rating workbooks. Not in this repository.
+q2_p2_langkah.py,,Prints the next step of the queue. Not in this repository.
+q2_p2_orkestra.sh,,Runs the GPU queue. Not in this repository.
+q2_p2_pasangan.py,study/channel/scripts/10_rebuilt_and_extended/extended_paired_topic_pairs.py,
+q2_p2_pengawas.py,,Watches the GPU queue. Not in this repository.
+q2_p2_rakit.py,study/channel/scripts/10_rebuilt_and_extended/extended_paired_assemble.py,
+q2_p2_rencana.py,,Plans the GPU queue. Not in this repository.
+q2_p2_simpan.py,study/channel/scripts/10_rebuilt_and_extended/extended_paired_store.py,
+q2_p2_uji.py,,Tests the pipeline. Not in this repository.
+q2_p2_umum.py,study/channel/scripts/10_rebuilt_and_extended/extended_paired_common.py,
+q2_probe_injeksi.py,study/channel/scripts/2_scoring/injection_probe.py,
+q2_r1_analisis.py,study/channel/scripts/9_revision/revision_analysis.py,
+q2_r1_asal_paired.py,study/channel/scripts/9_revision/revision_paired_provenance.py,
+q2_r1_tambang_luas.py,study/channel/scripts/9_revision/revision_broad_sample.py,
+q2_r2_analisis.py,study/channel/scripts/10_rebuilt_and_extended/rebuilt_broad_analysis.py,
+q2_r2_kit.py,,Builds the rating workbooks. Not in this repository.
+q2_r2_orkestra.sh,,Runs the GPU queue. Not in this repository.
+q2_r2_pengawas.py,,Watches the GPU queue. Not in this repository.
+q2_r2_rencana.py,,Plans the GPU queue. Not in this repository.
+q2_r2_tambang_luas.py,study/channel/scripts/10_rebuilt_and_extended/rebuilt_broad_sample.py,
+q2_r2_uji.py,,Tests the pipeline. Not in this repository.
+q2_r2_validasi.py,,Computes agreement from the returned rating workbooks. Not in this repository.
+q2_reachability.py,study/channel/scripts/7_metadata/reachability.py,
+q2_relasi_prodi.py,study/channel/scripts/1_tracks/program_relations.py,
+q2_semester_gold_paired.py,study/channel/scripts/1_tracks/semester_gold.py,
+q2_separability.py,study/channel/scripts/5_why_slot_fails/separability.py,
+q2_separability_emb.py,study/channel/scripts/5_why_slot_fails/separability_embedding.py,
+q2_statistik_pool.py,study/channel/scripts/1_tracks/pool_statistics.py,
+q2_strata_gerbang.py,study/channel/scripts/7_metadata/gate_strata.py,
+q2_tabel_model.py,study/channel/scripts/8_audits/model_table.py,
+q2_tangga_inferensi.py,study/channel/scripts/6_label_check/inference_ladder.py,
+q2_tangga_permukaan.py,study/channel/scripts/6_label_check/inference_ladder_surface.py,
+q2_uji_lengkap.py,study/channel/scripts/4_slot_vs_baseline/channel_tests_full.py,
+q2_zerank2_equivalence.py,study/channel/scripts/2_scoring/zerank2_equivalence.py,
+q2_zerank2_equivalence_full.py,study/channel/scripts/2_scoring/zerank2_equivalence_full.py,
+q2_zerank2_official_replay.py,study/channel/scripts/2_scoring/zerank2_official_replay.py,
+t2_benchmark_composition.py,study/retrieval/scripts/benchmark_composition.py,
+t2_paired_hardset.py,study/retrieval/scripts/paired_hardset.py,
+t2_qwen_score.py,,Scorer of the earlier retrieval study. Not in this repository.

@@ -1,0 +1,51 @@
+{
+ "dibuat": "2026-09-24T15:57:08.624028+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "_apa_ini": "What the candidate pools of the two channel tracks hold: candidates per row, whether both golds are in, whether the pool of a pair is identical, and the text-length limit.",
+ "track_berpasangan": {
+  "cara_bangun": "retrieval stage of the frozen system: BGE-M3 dense and sparse search each return the limit below, RRF merges them on the client side, and the result is cut to retrieval_pool_size; child chunks only, no program filter",
+  "batas_pencarian_per_cabang_di_kode": [
+   50
+  ],
+  "rrf_k_config_lock": 60,
+  "retrieval_pool_size_config_lock": 80,
+  "pasangan_topik_kandidat": 400,
+  "baris_kueri": 104,
+  "baris_pool": 104,
+  "pasangan": 52,
+  "kandidat_unik_per_baris": {
+   "min": 64,
+   "median": 80.0,
+   "max": 80
+  },
+  "pasangan_pool_identik_kedua_baris": 52,
+  "pasangan_kedua_gold_di_pool": 48,
+  "baris_komparabel": 96,
+  "pasangan_gugur_karena_gold_di_luar_pool": [
+   "paired-35",
+   "paired-39",
+   "paired-61",
+   "paired-65"
+  ],
+  "teks_kandidat_terpanjang_karakter": 1346
+ },
+ "track_luas": {
+  "cara_bangun": "mining script: the nearest neighbours of the gold chunk by dense cosine, then every gold of the group is forced in, so all golds are present by construction",
+  "pool_size_di_skrip_penambang": 71,
+  "baris": 1621,
+  "grup": 600,
+  "ukuran_grup": {
+   "2": 179,
+   "3": 421
+  },
+  "kandidat_unik_per_baris": {
+   "min": 68,
+   "median": 68,
+   "max": 70
+  },
+  "baris_dengan_semua_gold_grup_di_pool": 1621,
+  "teks_kandidat_terpanjang_karakter": 1847
+ },
+ "definisi_resolved": "a row is resolved when the asker's gold ranks above every gold of the other profiles in its group; a profile-blind scorer gives one ranking for the whole group, so exactly one row per group can win",
+ "label_source": "deterministic (counts over the frozen pool files, the configuration, and the code)"
+}

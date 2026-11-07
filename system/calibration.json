@@ -1,0 +1,11 @@
+{
+ "absolute_min": 0.546,
+ "absolute_max": 0.7506,
+ "n_queries": 155,
+ "model_version": "bge-m3",
+ "date": "2026-08-04",
+ "provisional": false,
+ "calibration_set_version": "calib-v2",
+ "n_ood_queries": 64,
+ "_what": "Calibration bounds of the similarity term as frozen in study/_shared/config_lock.json. Place next to the working directory (system/) so app.retrieval.normalization reads it instead of the provisional fallback."
+}

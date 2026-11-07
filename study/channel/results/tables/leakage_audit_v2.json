@@ -1,0 +1,723 @@
+{
+  "dibuat": "2026-08-22T06:02:13.972966+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Leakage audit: whether the text of a passage announces its program membership. Domain vocabulary is not counted as leakage.",
+  "definisi_penanda": {
+    "kode_matkul_berformat": "\\b[A-Z]{4}\\d{5,7}\\b",
+    "frasa_program_studi": "\\b(?:degree program|study program|program studi|major in|undergraduate program|department of)\\b",
+    "frasa_kurikulum_institusi": "\\b(?:this course|our curriculum|the syllabus|course outline)\\b",
+    "nama_institusi": "\\b(?:university of|universitas|binus|college of)\\b"
+  },
+  "korpus_penuh": {
+    "n_chunk": 64108,
+    "n_chunk_ber_penanda": 577,
+    "rate": 0.009
+  },
+  "per_buku": {
+    "acct-accounting-principles-globaltext-hermanson-ccby3": {
+      "n_chunk": 3993,
+      "n_chunk_ber_penanda": 22,
+      "rate": 0.00551,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 6,
+        "frasa_kurikulum_institusi": 1,
+        "nama_institusi": 17
+      }
+    },
+    "acct-accountingprinciplesvol2-hermanson-ccby3": {
+      "n_chunk": 1179,
+      "n_chunk_ber_penanda": 11,
+      "rate": 0.00933,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 8,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 3
+      }
+    },
+    "bana-business-operations-analytics-christensen-ccby4": {
+      "n_chunk": 240,
+      "n_chunk_ber_penanda": 5,
+      "rate": 0.02083,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 2,
+        "frasa_kurikulum_institusi": 3,
+        "nama_institusi": 0
+      }
+    },
+    "csci-algorithms-jeffe": {
+      "n_chunk": 1522,
+      "n_chunk_ber_penanda": 8,
+      "rate": 0.00526,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 6,
+        "frasa_kurikulum_institusi": 1,
+        "nama_institusi": 2
+      }
+    },
+    "csci-calculus-made-easy-thompson-publicdomain": {
+      "n_chunk": 364,
+      "n_chunk_ber_penanda": 0,
+      "rate": 0.0,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "csci-computer-networking-principles-protocols-and-practice": {
+      "n_chunk": 1199,
+      "n_chunk_ber_penanda": 5,
+      "rate": 0.00417,
+      "per_pola": {
+        "kode_matkul_berformat": 1,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 4
+      }
+    },
+    "csci-high-performance-computing-ccby3": {
+      "n_chunk": 893,
+      "n_chunk_ber_penanda": 0,
+      "rate": 0.0,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "csci-intro-to-python-programming-ccby-2024": {
+      "n_chunk": 1215,
+      "n_chunk_ber_penanda": 7,
+      "rate": 0.00576,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 7
+      }
+    },
+    "csci-java-java-java-3e-ccby4": {
+      "n_chunk": 2845,
+      "n_chunk_ber_penanda": 1,
+      "rate": 0.00035,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 1
+      }
+    },
+    "csci-open-data-structures-in-cpp": {
+      "n_chunk": 712,
+      "n_chunk_ber_penanda": 1,
+      "rate": 0.0014,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 1,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "csci-understanding-linearalgebra-austin-ccby4": {
+      "n_chunk": 978,
+      "n_chunk_ber_penanda": 0,
+      "rate": 0.0,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "csci-xv6-os-book-mit-license": {
+      "n_chunk": 441,
+      "n_chunk_ber_penanda": 0,
+      "rate": 0.0,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "dtsc-datamining-for-the-masses-north-ccby3": {
+      "n_chunk": 619,
+      "n_chunk_ber_penanda": 1,
+      "rate": 0.00162,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 1
+      }
+    },
+    "dtsc-intro-modern-statistical-learning-makin-ccby4-arxiv": {
+      "n_chunk": 516,
+      "n_chunk_ber_penanda": 0,
+      "rate": 0.0,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "dtsc-intro-to-machine-learning-younes-ccby4-arxiv": {
+      "n_chunk": 1513,
+      "n_chunk_ber_penanda": 1,
+      "rate": 0.00066,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 1,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "dtsc-machine-learning-the-basics-jung-ccby4-arxiv": {
+      "n_chunk": 758,
+      "n_chunk_ber_penanda": 2,
+      "rate": 0.00264,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 2
+      }
+    },
+    "isys-business-processes-and-it-globaltext-ccby3": {
+      "n_chunk": 1832,
+      "n_chunk_ber_penanda": 15,
+      "rate": 0.00819,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 7,
+        "frasa_kurikulum_institusi": 1,
+        "nama_institusi": 8
+      }
+    },
+    "isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+      "n_chunk": 327,
+      "n_chunk_ber_penanda": 2,
+      "rate": 0.00612,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 1,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 1
+      }
+    },
+    "isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+      "n_chunk": 573,
+      "n_chunk_ber_penanda": 6,
+      "rate": 0.01047,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 4,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 2
+      }
+    },
+    "isys-information-systems-globaltext-ccby3": {
+      "n_chunk": 1313,
+      "n_chunk_ber_penanda": 24,
+      "rate": 0.01828,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 10,
+        "frasa_kurikulum_institusi": 2,
+        "nama_institusi": 12
+      }
+    },
+    "isys-nist-sp800-100-infosecgovernance-publicdomain": {
+      "n_chunk": 914,
+      "n_chunk_ber_penanda": 1,
+      "rate": 0.00109,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 1,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "isys-nist-sp800-12r1-infosec-publicdomain": {
+      "n_chunk": 422,
+      "n_chunk_ber_penanda": 7,
+      "rate": 0.01659,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 7,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "isys-projectmanagement-watt2e-snapshot2021-04": {
+      "n_chunk": 750,
+      "n_chunk_ber_penanda": 2,
+      "rate": 0.00267,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 2,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "mgmt-appliedfinitemath-sekhon-ccby4": {
+      "n_chunk": 1458,
+      "n_chunk_ber_penanda": 3,
+      "rate": 0.00206,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 1,
+        "frasa_kurikulum_institusi": 2,
+        "nama_institusi": 0
+      }
+    },
+    "mgmt-businessethics-openstax-snapshot2023-02": {
+      "n_chunk": 1671,
+      "n_chunk_ber_penanda": 63,
+      "rate": 0.0377,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 30,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 33
+      }
+    },
+    "mgmt-entrepreneurship-op2021-ccby4": {
+      "n_chunk": 3041,
+      "n_chunk_ber_penanda": 46,
+      "rate": 0.01513,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 26,
+        "frasa_kurikulum_institusi": 2,
+        "nama_institusi": 18
+      }
+    },
+    "mgmt-financial-strategy-public-managers-ccby4": {
+      "n_chunk": 921,
+      "n_chunk_ber_penanda": 8,
+      "rate": 0.00869,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 4,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 4
+      }
+    },
+    "mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+      "n_chunk": 1158,
+      "n_chunk_ber_penanda": 23,
+      "rate": 0.01986,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 13,
+        "frasa_kurikulum_institusi": 4,
+        "nama_institusi": 6
+      }
+    },
+    "mgmt-introduction-to-business": {
+      "n_chunk": 3306,
+      "n_chunk_ber_penanda": 52,
+      "rate": 0.01573,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 31,
+        "frasa_kurikulum_institusi": 2,
+        "nama_institusi": 19
+      }
+    },
+    "mgmt-introductory-business-statistics-op2021-ccby4": {
+      "n_chunk": 2411,
+      "n_chunk_ber_penanda": 29,
+      "rate": 0.01203,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 14,
+        "frasa_kurikulum_institusi": 4,
+        "nama_institusi": 11
+      }
+    },
+    "mgmt-principles-of-economics-3e-ccby-2022": {
+      "n_chunk": 4466,
+      "n_chunk_ber_penanda": 98,
+      "rate": 0.02194,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 67,
+        "frasa_kurikulum_institusi": 10,
+        "nama_institusi": 23
+      }
+    },
+    "mgmt-principlesofmanagement-openstax-snapshot2023-08": {
+      "n_chunk": 2987,
+      "n_chunk_ber_penanda": 60,
+      "rate": 0.02009,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 19,
+        "frasa_kurikulum_institusi": 7,
+        "nama_institusi": 34
+      }
+    },
+    "mktg-introducing-marketing-burnett-ccby3": {
+      "n_chunk": 1278,
+      "n_chunk_ber_penanda": 4,
+      "rate": 0.00313,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 2,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 2
+      }
+    },
+    "mktg-principles-of-marketing-ccby-2023": {
+      "n_chunk": 3139,
+      "n_chunk_ber_penanda": 33,
+      "rate": 0.01051,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 19,
+        "frasa_kurikulum_institusi": 1,
+        "nama_institusi": 13
+      }
+    },
+    "stat-high-dimensional-statistics-ccby4-arxiv": {
+      "n_chunk": 316,
+      "n_chunk_ber_penanda": 3,
+      "rate": 0.00949,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 3,
+        "nama_institusi": 0
+      }
+    },
+    "stat-intro-probability-statistics-computational-ccby4-arxiv": {
+      "n_chunk": 327,
+      "n_chunk_ber_penanda": 0,
+      "rate": 0.0,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "stat-introbusinessstats-mahbobitiemann-ccby4": {
+      "n_chunk": 431,
+      "n_chunk_ber_penanda": 3,
+      "rate": 0.00696,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 1,
+        "frasa_kurikulum_institusi": 1,
+        "nama_institusi": 1
+      }
+    },
+    "stat-introduction-to-statistics-lane-publicdomain": {
+      "n_chunk": 3694,
+      "n_chunk_ber_penanda": 0,
+      "rate": 0.0,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 0,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 0
+      }
+    },
+    "stat-introductory-statistics-2e-ccby-2023": {
+      "n_chunk": 2997,
+      "n_chunk_ber_penanda": 28,
+      "rate": 0.00934,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 15,
+        "frasa_kurikulum_institusi": 6,
+        "nama_institusi": 8
+      }
+    },
+    "stat-probability-mathstat-stochastic-siegrist-ccby2": {
+      "n_chunk": 5389,
+      "n_chunk_ber_penanda": 3,
+      "rate": 0.00056,
+      "per_pola": {
+        "kode_matkul_berformat": 0,
+        "frasa_program_studi": 1,
+        "frasa_kurikulum_institusi": 0,
+        "nama_institusi": 2
+      }
+    }
+  },
+  "pasangan_track": {
+    "buku_a": "stat-introduction-to-statistics-lane-publicdomain",
+    "buku_b": "stat-introductory-statistics-2e-ccby-2023",
+    "top25_condong_a": [
+      {
+        "token": "font",
+        "z": 89.45,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "glyph",
+        "z": 88.42,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "calibri",
+        "z": 83.8,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "cambriamath",
+        "z": 29.03,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "rzcrmw",
+        "z": 17.15,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "bold",
+        "z": 17.08,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "bsdybz",
+        "z": 16.37,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "pkksoz",
+        "z": 16.22,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "bhgmwt",
+        "z": 16.14,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "ybiait",
+        "z": 16.0,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "noitod",
+        "z": 15.63,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "glfklz",
+        "z": 15.61,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "geuazr",
+        "z": 15.41,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "yarfbo",
+        "z": 14.79,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "oivsqq",
+        "z": 14.37,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "hztsoo",
+        "z": 14.28,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "njngxw",
+        "z": 14.26,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "ncrxhh",
+        "z": 14.11,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "lhoiaf",
+        "z": 14.07,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "mrgghn",
+        "z": 13.85,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "wslziq",
+        "z": 13.66,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "gpfduo",
+        "z": 13.6,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "fplyxi",
+        "z": 13.41,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "rfqxrg",
+        "z": 12.49,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "ewgabr",
+        "z": 12.48,
+        "jenis": "kosakata_topik_atau_gaya"
+      }
+    ],
+    "top25_condong_b": [
+      {
+        "token": "the",
+        "z": -84.16,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "and",
+        "z": -39.9,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "that",
+        "z": -32.25,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "data",
+        "z": -28.91,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "are",
+        "z": -28.13,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "for",
+        "z": -27.44,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "find",
+        "z": -26.61,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "you",
+        "z": -26.33,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "sample",
+        "z": -25.43,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "what",
+        "z": -25.0,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "use",
+        "z": -24.55,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "number",
+        "z": -23.29,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "value",
+        "z": -22.47,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "standard",
+        "z": -21.66,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "random",
+        "z": -21.63,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "probability",
+        "z": -21.57,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "deviation",
+        "z": -21.17,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "students",
+        "z": -20.35,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "following",
+        "z": -20.27,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "population",
+        "z": -18.75,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "your",
+        "z": -18.61,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "average",
+        "z": -18.45,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "mean",
+        "z": -18.36,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "time",
+        "z": -18.35,
+        "jenis": "kosakata_topik_atau_gaya"
+      },
+      {
+        "token": "not",
+        "z": -17.95,
+        "jenis": "kosakata_topik_atau_gaya"
+      }
+    ],
+    "n_dari_50_yang_penanda_keanggotaan": 0
+  },
+  "gold_paired_track": {
+    "n_chunk_terpetakan": 104,
+    "n_ber_penanda": 1,
+    "rate": 0.00962
+  },
+  "label_source": "deterministic (pattern scan over the frozen corpus)"
+}

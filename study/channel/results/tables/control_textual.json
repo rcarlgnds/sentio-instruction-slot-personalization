@@ -1,0 +1,968 @@
+{
+  "dibuat": "2026-10-03T05:00:46.619902+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Worked-example control. It follows the protocol of the paired track on the same two statistics books, but the two passages of a pair differ in the text itself, a worked example against a definition, instead of in the profile metadata. It checks on this corpus, as FollowIR does on an outside English corpus, that the scoring setup can show instruction following.",
+  "status_arm": "post hoc, outside the pre-registered family of eight",
+  "label_source": "deterministic (model scores); the textual gold and counterpart are built deterministically from the book structure, with no LLM and no human annotator",
+  "populasi": "58 topic pairs, 116 rows, a pool of 71 candidates per row",
+  "sumber_buku": [
+    "stat-introduction-to-statistics-lane-publicdomain",
+    "stat-introductory-statistics-2e-ccby-2023"
+  ],
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "instruksi_kondisi_verbatim": {
+    "contoh": "Retrieve a passage that works through a concrete numerical example with actual numbers and a step-by-step solution",
+    "definisi": "Retrieve a passage that states the conceptual definition and explanation, without numerical worked examples"
+  },
+  "fakta_struktural_default": "In the default arm the two rows of a pair receive the same query and instruction, so their rankings are identical (checked 58 of 58 for all three models) and exactly one row wins. The default pairwise rate is therefore exactly 0.5000 by construction.",
+  "uji_primer": "pair-level sign test on the difference in win counts (condition minus default, where default is always 1), Holm within the family of three models, run on the full 58 pairs and on the 36 filtered pairs",
+  "uji_sekunder": "row-level exact McNemar; reported in full but secondary, because the two rows of a pair are perfectly negatively correlated in the default arm",
+  "aturan_saring_verbatim": "A topic pair is kept only when the title of its source section passes all four conditions below. Every condition is computed from the title text alone, without touching scores, rankings, golds, or counterparts. T1, no PDF extraction artifact: the title holds none of 'GLYPH<', 'font=/', or '<c='. T2, a well-formed head: the title starts with a letter, or with a section number matching ^\\d+\\.\\d+\\s. T3, not book apparatus: the title (lowercased, section number removed, spaces collapsed) is not in the closed stop list S and starts with none of the prefixes in P. T4, topically specific: after the section number is removed, at least two alphabetic tokens of 3 or more letters remain that are not function words F. S, P, and F are listed in full in the daftar_henti, awalan_henti, and kata_fungsi fields of this table.",
+  "filter_rule_verbatim_en": "A topic pair is RETAINED only if its source section heading satisfies all four conditions. Every condition is computed from the heading text alone, touching no score, ranking, gold, or counterpart. T1 no PDF extraction artefact: the heading contains none of 'GLYPH<', 'font=/', '<c='. T2 well-formed heading: the heading starts with a letter, or with a section-number pattern ^\\d+\\.\\d+\\s. T3 not book apparatus: the heading (lowercased, section number stripped, whitespace collapsed) is not in the closed stoplist S and does not start with any prefix in P. T4 topical specificity: after stripping the section number, at least two alphabetic tokens of length >= 3 remain that are not function words in F. S, P, and F are listed verbatim in the table.",
+  "aturan_saring_ditetapkan": "The four rules were written after the cells were scored. Each reads only the section title, never a score, ranking, or gold.",
+  "daftar_henti": [
+    "answers",
+    "chapter review",
+    "exercise",
+    "exercises",
+    "formula review",
+    "glossary",
+    "homework",
+    "introduction",
+    "key terms",
+    "learning objectives",
+    "learning objectives introduction",
+    "note",
+    "notes",
+    "practice",
+    "prerequisites",
+    "problem",
+    "problems",
+    "references",
+    "review",
+    "solution",
+    "solutions",
+    "statistical literacy",
+    "summary",
+    "what do you think?"
+  ],
+  "awalan_henti": [
+    "try it",
+    "collaborative exercise",
+    "bringing it together",
+    "part ",
+    "using the ti-",
+    "example ",
+    "answers to",
+    "chapter ",
+    "appendix"
+  ],
+  "kata_fungsi": [
+    "and",
+    "are",
+    "but",
+    "for",
+    "from",
+    "into",
+    "its",
+    "that",
+    "the",
+    "their",
+    "then",
+    "there",
+    "these",
+    "this",
+    "was",
+    "were",
+    "with",
+    "you",
+    "your"
+  ],
+  "sumber": {
+    "pools": "fab003b2e20183c8a61c16163786220f5c3f3510521252b658395034493a2dcd"
+  },
+  "gerbang_replikasi_metrik": {
+    "qwen_scores_0.6b_paired_default.jsonl": {
+      "pairwise": 0.5,
+      "acuan": 0.5,
+      "n_komparabel": 96
+    },
+    "qwen_scores_0.6b_paired_profile.jsonl": {
+      "pairwise": 0.5104,
+      "acuan": 0.5104,
+      "n_komparabel": 96
+    },
+    "qwen_scores_4b_paired_default.jsonl": {
+      "pairwise": 0.5,
+      "acuan": 0.5,
+      "n_komparabel": 96
+    },
+    "qwen_scores_4b_paired_profile.jsonl": {
+      "pairwise": 0.5208,
+      "acuan": 0.5208,
+      "n_komparabel": 96
+    }
+  },
+  "pembanding_saluran_metadata": {
+    "Qwen3-Reranker-0.6B": {
+      "populasi": "paired track, 96 rows, the difference lies in the profile metadata",
+      "default": {
+        "pairwise": 0.5,
+        "n_komparabel": 96,
+        "sha256_sumber": "ccba5735293225bf4978c9b454b93ce21c0166fce9872e0cd1abf966d8b7a3cc"
+      },
+      "profil": {
+        "pairwise": 0.5104,
+        "n_komparabel": 96,
+        "sha256_sumber": "ce388c8d6a3f4005d19f63335f6efed9754d868f649ee49831a2e14bd433ccf7"
+      }
+    },
+    "Qwen3-Reranker-4B": {
+      "populasi": "paired track, 96 rows, the difference lies in the profile metadata",
+      "default": {
+        "pairwise": 0.5,
+        "n_komparabel": 96,
+        "sha256_sumber": "78d14377f8f778c55c3cd7f2562b474badebbefef4664af2f279caae8a4eeaf3"
+      },
+      "profil": {
+        "pairwise": 0.5208,
+        "n_komparabel": 96,
+        "sha256_sumber": "3d82073844cfbf443db616158ab08241bd394fb4850cd8e8c4d4d964f51c26cf"
+      }
+    },
+    "zerank-2": {
+      "populasi": "paired track, 96 rows, the difference lies in the profile metadata",
+      "default": {
+        "pairwise": 0.5,
+        "n_komparabel": 96,
+        "sha256_sumber": "c62b00ef1981db96036f3b5fb2b38344b7f1bc6d1305dd3cf28b8a254fbf528e"
+      },
+      "profil": {
+        "pairwise": 0.4896,
+        "n_komparabel": 96,
+        "sha256_sumber": "c6146c3a9898f2bb00a0bef9004357258f8168eeb50d8dbb80e65a792fd12274"
+      }
+    }
+  },
+  "cara_baca_pembanding": "Both blocks use the same three models, metric, and paired protocol, and only the place of the difference changes. When the difference is in the profile metadata, the pairwise rate stays near 0.5. When it is in the text, the rate rises on all three models, most on zerank-2. So the scoring setup can detect a difference, and it does not explain the null on the metadata channel.",
+  "jejak_saring": [
+    {
+      "pair_id": "ctrl-0",
+      "judul_seksi": "8.3 A Population Proportion",
+      "kueri": "Explain 8.3 A Population Proportion",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-1",
+      "judul_seksi": "USING THE TI-83, 83+, 84, 84+ CALCULATOR",
+      "kueri": "Explain USING THE TI-83, 83+, 84, 84+ CALCULATOR",
+      "lolos": false,
+      "alasan": "T3 book apparatus, prefix (using the ti-)"
+    },
+    {
+      "pair_id": "ctrl-2",
+      "judul_seksi": "11.5 Comparison of the Chi-Square Tests",
+      "kueri": "Explain 11.5 Comparison of the Chi-Square Tests",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-3",
+      "judul_seksi": "Exercises",
+      "kueri": "Explain Exercises",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (exercises)"
+    },
+    {
+      "pair_id": "ctrl-4",
+      "judul_seksi": "Transformation to Normality",
+      "kueri": "Explain Transformation to Normality",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-5",
+      "judul_seksi": "Solution",
+      "kueri": "Explain Solution",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (solution)"
+    },
+    {
+      "pair_id": "ctrl-6",
+      "judul_seksi": "11.2 Goodness-of-Fit Test",
+      "kueri": "Explain 11.2 Goodness-of-Fit Test",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-7",
+      "judul_seksi": "13.4 Test of Two Variances",
+      "kueri": "Explain 13.4 Test of Two Variances",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-8",
+      "judul_seksi": "3.3 Two Basic Rules of Probability",
+      "kueri": "Explain 3.3 Two Basic Rules of Probability",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-9",
+      "judul_seksi": "Key Terms",
+      "kueri": "Explain Key Terms",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (key terms)"
+    },
+    {
+      "pair_id": "ctrl-10",
+      "judul_seksi": "Learning Objectives Introduction",
+      "kueri": "Explain Learning Objectives Introduction",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (learning objectives introduction)"
+    },
+    {
+      "pair_id": "ctrl-11",
+      "judul_seksi": "9.1 Null and Alternative Hypotheses",
+      "kueri": "Explain 9.1 Null and Alternative Hypotheses",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-12",
+      "judul_seksi": "3.1 Terminology",
+      "kueri": "Explain 3.1 Terminology",
+      "lolos": false,
+      "alasan": "T4 not specific enough, 1 content token"
+    },
+    {
+      "pair_id": "ctrl-13",
+      "judul_seksi": "4.4 Geometric Distribution",
+      "kueri": "Explain 4.4 Geometric Distribution",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-14",
+      "judul_seksi": "47 . 4",
+      "kueri": "Explain 47 . 4",
+      "lolos": false,
+      "alasan": "T2 title head not well formed"
+    },
+    {
+      "pair_id": "ctrl-15",
+      "judul_seksi": "7.1 The Central Limit Theorem for Sample Means (Averages)",
+      "kueri": "Explain 7.1 The Central Limit Theorem for Sample Means (Averages)",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-16",
+      "judul_seksi": "What do you think?",
+      "kueri": "Explain What do you think?",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (what do you think?)"
+    },
+    {
+      "pair_id": "ctrl-17",
+      "judul_seksi": "COLLABORATIVE EXERCISE",
+      "kueri": "Explain COLLABORATIVE EXERCISE",
+      "lolos": false,
+      "alasan": "T3 book apparatus, prefix (collaborative exercise)"
+    },
+    {
+      "pair_id": "ctrl-18",
+      "judul_seksi": "9.4 Rare Events, the Sample, Decision and Conclusion",
+      "kueri": "Explain 9.4 Rare Events, the Sample, Decision and Conclusion",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-19",
+      "judul_seksi": "Prerequisites",
+      "kueri": "Explain Prerequisites",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (prerequisites)"
+    },
+    {
+      "pair_id": "ctrl-20",
+      "judul_seksi": "2.6 Skewness and the Mean, Median, and Mode",
+      "kueri": "Explain 2.6 Skewness and the Mean, Median, and Mode",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-21",
+      "judul_seksi": "Assessing Distributional Assumptions",
+      "kueri": "Explain Assessing Distributional Assumptions",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-22",
+      "judul_seksi": "4.5 Hypergeometric Distribution",
+      "kueri": "Explain 4.5 Hypergeometric Distribution",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-23",
+      "judul_seksi": "Problem",
+      "kueri": "Explain Problem",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (problem)"
+    },
+    {
+      "pair_id": "ctrl-24",
+      "judul_seksi": "Part III: CLT Experiments",
+      "kueri": "Explain Part III: CLT Experiments",
+      "lolos": false,
+      "alasan": "T3 book apparatus, prefix (part)"
+    },
+    {
+      "pair_id": "ctrl-25",
+      "judul_seksi": "1.2 Data, Sampling, and Variation in Data and Sampling",
+      "kueri": "Explain 1.2 Data, Sampling, and Variation in Data and Sampling",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-26",
+      "judul_seksi": "Learning Objectives",
+      "kueri": "Explain Learning Objectives",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (learning objectives)"
+    },
+    {
+      "pair_id": "ctrl-27",
+      "judul_seksi": "97 . \"The Craven,\" by Mark Salangsang",
+      "kueri": "Explain 97 . \"The Craven,\" by Mark Salangsang",
+      "lolos": false,
+      "alasan": "T2 title head not well formed"
+    },
+    {
+      "pair_id": "ctrl-28",
+      "judul_seksi": "Bringing It Together: Homework",
+      "kueri": "Explain Bringing It Together: Homework",
+      "lolos": false,
+      "alasan": "T3 book apparatus, prefix (bringing it together)"
+    },
+    {
+      "pair_id": "ctrl-29",
+      "judul_seksi": "10.3 Comparing Two Independent Population Proportions",
+      "kueri": "Explain 10.3 Comparing Two Independent Population Proportions",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-30",
+      "judul_seksi": "Probability",
+      "kueri": "Explain Probability",
+      "lolos": false,
+      "alasan": "T4 not specific enough, 1 content token"
+    },
+    {
+      "pair_id": "ctrl-31",
+      "judul_seksi": "2.4 Box Plots",
+      "kueri": "Explain 2.4 Box Plots",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-32",
+      "judul_seksi": "4.6 Poisson Distribution",
+      "kueri": "Explain 4.6 Poisson Distribution",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-33",
+      "judul_seksi": "2.1 Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs",
+      "kueri": "Explain 2.1 Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-34",
+      "judul_seksi": "Discrete Distributions",
+      "kueri": "Explain Discrete Distributions",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-35",
+      "judul_seksi": "4.3 Binomial Distribution",
+      "kueri": "Explain 4.3 Binomial Distribution",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-36",
+      "judul_seksi": "6.2 Using the Normal Distribution",
+      "kueri": "Explain 6.2 Using the Normal Distribution",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-37",
+      "judul_seksi": "3.2 Independent and Mutually Exclusive Events",
+      "kueri": "Explain 3.2 Independent and Mutually Exclusive Events",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-38",
+      "judul_seksi": "10.4 Matched or Paired Samples",
+      "kueri": "Explain 10.4 Matched or Paired Samples",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-39",
+      "judul_seksi": "Errors Resulting From Failure to Understand Regression Toward the Mean",
+      "kueri": "Explain Errors Resulting From Failure to Understand Regression Toward the Mean",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-40",
+      "judul_seksi": "8.1 A Single Population Mean using the Normal Distribution",
+      "kueri": "Explain 8.1 A Single Population Mean using the Normal Distribution",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-41",
+      "judul_seksi": "TRY IT 12.5",
+      "kueri": "Explain TRY IT 12.5",
+      "lolos": false,
+      "alasan": "T3 book apparatus, prefix (try it)"
+    },
+    {
+      "pair_id": "ctrl-42",
+      "judul_seksi": "Probability Densities",
+      "kueri": "Explain Probability Densities",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-43",
+      "judul_seksi": "NOTE",
+      "kueri": "Explain NOTE",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (note)"
+    },
+    {
+      "pair_id": "ctrl-44",
+      "judul_seksi": "Notation for the Geometric: G = Geometric Probability Distribution Function",
+      "kueri": "Explain Notation for the Geometric: G = Geometric Probability Distribution Function",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-45",
+      "judul_seksi": "Probability of A and B",
+      "kueri": "Explain Probability of A and B",
+      "lolos": false,
+      "alasan": "T4 not specific enough, 1 content token"
+    },
+    {
+      "pair_id": "ctrl-46",
+      "judul_seksi": "4.2 Mean or Expected Value and Standard Deviation",
+      "kueri": "Explain 4.2 Mean or Expected Value and Standard Deviation",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-47",
+      "judul_seksi": "8.2 A Single Population Mean using the Student t Distribution",
+      "kueri": "Explain 8.2 A Single Population Mean using the Student t Distribution",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-48",
+      "judul_seksi": "Probability of A or B",
+      "kueri": "Explain Probability of A or B",
+      "lolos": false,
+      "alasan": "T4 not specific enough, 1 content token"
+    },
+    {
+      "pair_id": "ctrl-49",
+      "judul_seksi": "11.4 Test for Homogeneity",
+      "kueri": "Explain 11.4 Test for Homogeneity",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-50",
+      "judul_seksi": "Causation in Non-Experimental Designs",
+      "kueri": "Explain Causation in Non-Experimental Designs",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-51",
+      "judul_seksi": "Factors and Levels",
+      "kueri": "Explain Factors and Levels",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-52",
+      "judul_seksi": "An Example with Interaction",
+      "kueri": "Explain An Example with Interaction",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-53",
+      "judul_seksi": "Introduction",
+      "kueri": "Explain Introduction",
+      "lolos": false,
+      "alasan": "T3 book apparatus, stop list (introduction)"
+    },
+    {
+      "pair_id": "ctrl-54",
+      "judul_seksi": "9.2 Outcomes and the Type I and Type II Errors",
+      "kueri": "Explain 9.2 Outcomes and the Type I and Type II Errors",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-55",
+      "judul_seksi": "Stratified Sampling",
+      "kueri": "Explain Stratified Sampling",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    },
+    {
+      "pair_id": "ctrl-56",
+      "judul_seksi": "is LESS than seven (7)? GLYPH<c=3,font=/BOPFIB+Calibri-Bold",
+      "kueri": "Explain is LESS than seven (7)? GLYPH<c=3,font=/BOPFIB+Calibri-Bold",
+      "lolos": false,
+      "alasan": "T1 PDF extraction artifact (GLYPH<)"
+    },
+    {
+      "pair_id": "ctrl-57",
+      "judul_seksi": "5.1 Continuous Probability Functions",
+      "kueri": "Explain 5.1 Continuous Probability Functions",
+      "lolos": true,
+      "alasan": "passed T1-T4"
+    }
+  ],
+  "n_dibuang": 22,
+  "populasi_tersaring": {
+    "n_pasangan": 36,
+    "n_baris": 72,
+    "peran": "exploratory",
+    "model": {
+      "Qwen3-Reranker-0.6B": {
+        "model": "Qwen3-Reranker-0.6B",
+        "metrik_default": {
+          "n_baris": 72,
+          "n_komparabel": 72,
+          "pairwise": 0.5,
+          "top1_gold": 0.0833,
+          "ndcg5": 0.1869,
+          "sha256_sumber": "1327bc3b415d5a1bc0e521a3d3ea7c68ea83ac254ecfa2563588e392bc71adaf"
+        },
+        "metrik_kondisi": {
+          "n_baris": 72,
+          "n_komparabel": 72,
+          "pairwise": 0.5694,
+          "top1_gold": 0.1389,
+          "ndcg5": 0.2791,
+          "sha256_sumber": "1f83c1824b987bfe8244c31e6160b7bd3158273eed68ad1739ba155fa0aa6c65"
+        },
+        "mcnemar_baris": {
+          "n_baris": 72,
+          "keduanya_benar": 34,
+          "keduanya_salah": 29,
+          "hanya_default_benar": 2,
+          "hanya_kondisi_benar": 7,
+          "p_dua_sisi_exact": 0.1797,
+          "peringatan": "the two rows of a pair are perfectly negatively correlated in the default arm, so this test is secondary"
+        },
+        "uji_tanda_pasangan": {
+          "n_pasangan": 36,
+          "kondisi_lebih_baik": 6,
+          "kondisi_lebih_buruk": 1,
+          "seri": 29,
+          "kondisi_menang_dua_dua": 6,
+          "kondisi_menang_satu": 29,
+          "kondisi_menang_nol": 1,
+          "kemenangan_default_per_pasangan": 1,
+          "pairwise_default": 0.5,
+          "pairwise_kondisi": 0.5694,
+          "delta_pairwise": 0.0694,
+          "wilson95_dua_dua": [
+            0.0787,
+            0.3189
+          ],
+          "p_dua_sisi_exact": 0.125,
+          "p_holm": 0.125
+        },
+        "menang_per_sisi": {
+          "contoh": {
+            "n": 36,
+            "default": 9,
+            "kondisi": 12
+          },
+          "definisi": {
+            "n": 36,
+            "default": 27,
+            "kondisi": 29
+          }
+        }
+      },
+      "Qwen3-Reranker-4B": {
+        "model": "Qwen3-Reranker-4B",
+        "metrik_default": {
+          "n_baris": 72,
+          "n_komparabel": 72,
+          "pairwise": 0.5,
+          "top1_gold": 0.1667,
+          "ndcg5": 0.3118,
+          "sha256_sumber": "33d9e0ef29f48a6a93c46080f091f2a1376dc5391793cdcc6bbb1bf533968a4d"
+        },
+        "metrik_kondisi": {
+          "n_baris": 72,
+          "n_komparabel": 72,
+          "pairwise": 0.6667,
+          "top1_gold": 0.1944,
+          "ndcg5": 0.3666,
+          "sha256_sumber": "69df0c0f7beee81279d4ac9ff3e2e460a2ca87f3c574d3cf237b52aabaca7f25"
+        },
+        "mcnemar_baris": {
+          "n_baris": 72,
+          "keduanya_benar": 32,
+          "keduanya_salah": 20,
+          "hanya_default_benar": 4,
+          "hanya_kondisi_benar": 16,
+          "p_dua_sisi_exact": 0.01182,
+          "peringatan": "the two rows of a pair are perfectly negatively correlated in the default arm, so this test is secondary"
+        },
+        "uji_tanda_pasangan": {
+          "n_pasangan": 36,
+          "kondisi_lebih_baik": 13,
+          "kondisi_lebih_buruk": 1,
+          "seri": 22,
+          "kondisi_menang_dua_dua": 13,
+          "kondisi_menang_satu": 22,
+          "kondisi_menang_nol": 1,
+          "kemenangan_default_per_pasangan": 1,
+          "pairwise_default": 0.5,
+          "pairwise_kondisi": 0.6667,
+          "delta_pairwise": 0.1667,
+          "wilson95_dua_dua": [
+            0.2248,
+            0.5243
+          ],
+          "p_dua_sisi_exact": 0.001831,
+          "p_holm": 0.003662
+        },
+        "menang_per_sisi": {
+          "contoh": {
+            "n": 36,
+            "default": 6,
+            "kondisi": 20
+          },
+          "definisi": {
+            "n": 36,
+            "default": 30,
+            "kondisi": 28
+          }
+        }
+      },
+      "zerank-2": {
+        "model": "zerank-2",
+        "metrik_default": {
+          "n_baris": 72,
+          "n_komparabel": 72,
+          "pairwise": 0.5,
+          "top1_gold": 0.1389,
+          "ndcg5": 0.3184,
+          "sha256_sumber": "16243dc806ae019474dce5729c6ea64a3754dc54f5fd294ddb3bf9b6a341cf1e"
+        },
+        "metrik_kondisi": {
+          "n_baris": 72,
+          "n_komparabel": 72,
+          "pairwise": 0.8333,
+          "top1_gold": 0.2361,
+          "ndcg5": 0.4135,
+          "sha256_sumber": "d2a376eb1528a23cd953f126d5378dde4997e810453042e2d6ae8c18bb23261c"
+        },
+        "mcnemar_baris": {
+          "n_baris": 72,
+          "keduanya_benar": 35,
+          "keduanya_salah": 11,
+          "hanya_default_benar": 1,
+          "hanya_kondisi_benar": 25,
+          "p_dua_sisi_exact": 8.047e-07,
+          "peringatan": "the two rows of a pair are perfectly negatively correlated in the default arm, so this test is secondary"
+        },
+        "uji_tanda_pasangan": {
+          "n_pasangan": 36,
+          "kondisi_lebih_baik": 25,
+          "kondisi_lebih_buruk": 1,
+          "seri": 10,
+          "kondisi_menang_dua_dua": 25,
+          "kondisi_menang_satu": 10,
+          "kondisi_menang_nol": 1,
+          "kemenangan_default_per_pasangan": 1,
+          "pairwise_default": 0.5,
+          "pairwise_kondisi": 0.8333,
+          "delta_pairwise": 0.3333,
+          "wilson95_dua_dua": [
+            0.5314,
+            0.82
+          ],
+          "p_dua_sisi_exact": 8.047e-07,
+          "p_holm": 2.414e-06
+        },
+        "menang_per_sisi": {
+          "contoh": {
+            "n": 36,
+            "default": 5,
+            "kondisi": 27
+          },
+          "definisi": {
+            "n": 36,
+            "default": 31,
+            "kondisi": 33
+          }
+        }
+      }
+    },
+    "holm_keluarga": "three models, pair-level sign test, corrected within this population"
+  },
+  "populasi_penuh": {
+    "n_pasangan": 58,
+    "n_baris": 116,
+    "peran": "main",
+    "model": {
+      "Qwen3-Reranker-0.6B": {
+        "model": "Qwen3-Reranker-0.6B",
+        "metrik_default": {
+          "n_baris": 116,
+          "n_komparabel": 116,
+          "pairwise": 0.5,
+          "top1_gold": 0.069,
+          "ndcg5": 0.1496,
+          "sha256_sumber": "1327bc3b415d5a1bc0e521a3d3ea7c68ea83ac254ecfa2563588e392bc71adaf"
+        },
+        "metrik_kondisi": {
+          "n_baris": 116,
+          "n_komparabel": 116,
+          "pairwise": 0.5776,
+          "top1_gold": 0.1034,
+          "ndcg5": 0.2111,
+          "sha256_sumber": "1f83c1824b987bfe8244c31e6160b7bd3158273eed68ad1739ba155fa0aa6c65"
+        },
+        "mcnemar_baris": {
+          "n_baris": 116,
+          "keduanya_benar": 53,
+          "keduanya_salah": 44,
+          "hanya_default_benar": 5,
+          "hanya_kondisi_benar": 14,
+          "p_dua_sisi_exact": 0.06357,
+          "peringatan": "the two rows of a pair are perfectly negatively correlated in the default arm, so this test is secondary"
+        },
+        "uji_tanda_pasangan": {
+          "n_pasangan": 58,
+          "kondisi_lebih_baik": 10,
+          "kondisi_lebih_buruk": 1,
+          "seri": 47,
+          "kondisi_menang_dua_dua": 10,
+          "kondisi_menang_satu": 47,
+          "kondisi_menang_nol": 1,
+          "kemenangan_default_per_pasangan": 1,
+          "pairwise_default": 0.5,
+          "pairwise_kondisi": 0.5776,
+          "delta_pairwise": 0.0776,
+          "wilson95_dua_dua": [
+            0.0964,
+            0.2891
+          ],
+          "p_dua_sisi_exact": 0.01172,
+          "p_holm": 0.01172
+        },
+        "menang_per_sisi": {
+          "contoh": {
+            "n": 58,
+            "default": 23,
+            "kondisi": 31
+          },
+          "definisi": {
+            "n": 58,
+            "default": 35,
+            "kondisi": 36
+          }
+        }
+      },
+      "Qwen3-Reranker-4B": {
+        "model": "Qwen3-Reranker-4B",
+        "metrik_default": {
+          "n_baris": 116,
+          "n_komparabel": 116,
+          "pairwise": 0.5,
+          "top1_gold": 0.1207,
+          "ndcg5": 0.2314,
+          "sha256_sumber": "33d9e0ef29f48a6a93c46080f091f2a1376dc5391793cdcc6bbb1bf533968a4d"
+        },
+        "metrik_kondisi": {
+          "n_baris": 116,
+          "n_komparabel": 116,
+          "pairwise": 0.6638,
+          "top1_gold": 0.1552,
+          "ndcg5": 0.2908,
+          "sha256_sumber": "69df0c0f7beee81279d4ac9ff3e2e460a2ca87f3c574d3cf237b52aabaca7f25"
+        },
+        "mcnemar_baris": {
+          "n_baris": 116,
+          "keduanya_benar": 51,
+          "keduanya_salah": 32,
+          "hanya_default_benar": 7,
+          "hanya_kondisi_benar": 26,
+          "p_dua_sisi_exact": 0.001319,
+          "peringatan": "the two rows of a pair are perfectly negatively correlated in the default arm, so this test is secondary"
+        },
+        "uji_tanda_pasangan": {
+          "n_pasangan": 58,
+          "kondisi_lebih_baik": 20,
+          "kondisi_lebih_buruk": 1,
+          "seri": 37,
+          "kondisi_menang_dua_dua": 20,
+          "kondisi_menang_satu": 37,
+          "kondisi_menang_nol": 1,
+          "kemenangan_default_per_pasangan": 1,
+          "pairwise_default": 0.5,
+          "pairwise_kondisi": 0.6638,
+          "delta_pairwise": 0.1638,
+          "wilson95_dua_dua": [
+            0.2356,
+            0.4733
+          ],
+          "p_dua_sisi_exact": 2.098e-05,
+          "p_holm": 4.196e-05
+        },
+        "menang_per_sisi": {
+          "contoh": {
+            "n": 58,
+            "default": 18,
+            "kondisi": 40
+          },
+          "definisi": {
+            "n": 58,
+            "default": 40,
+            "kondisi": 37
+          }
+        }
+      },
+      "zerank-2": {
+        "model": "zerank-2",
+        "metrik_default": {
+          "n_baris": 116,
+          "n_komparabel": 116,
+          "pairwise": 0.5,
+          "top1_gold": 0.1207,
+          "ndcg5": 0.2592,
+          "sha256_sumber": "16243dc806ae019474dce5729c6ea64a3754dc54f5fd294ddb3bf9b6a341cf1e"
+        },
+        "metrik_kondisi": {
+          "n_baris": 116,
+          "n_komparabel": 116,
+          "pairwise": 0.8017,
+          "top1_gold": 0.2414,
+          "ndcg5": 0.3967,
+          "sha256_sumber": "d2a376eb1528a23cd953f126d5378dde4997e810453042e2d6ae8c18bb23261c"
+        },
+        "mcnemar_baris": {
+          "n_baris": 116,
+          "keduanya_benar": 56,
+          "keduanya_salah": 21,
+          "hanya_default_benar": 2,
+          "hanya_kondisi_benar": 37,
+          "p_dua_sisi_exact": 2.841e-09,
+          "peringatan": "the two rows of a pair are perfectly negatively correlated in the default arm, so this test is secondary"
+        },
+        "uji_tanda_pasangan": {
+          "n_pasangan": 58,
+          "kondisi_lebih_baik": 36,
+          "kondisi_lebih_buruk": 1,
+          "seri": 21,
+          "kondisi_menang_dua_dua": 36,
+          "kondisi_menang_satu": 21,
+          "kondisi_menang_nol": 1,
+          "kemenangan_default_per_pasangan": 1,
+          "pairwise_default": 0.5,
+          "pairwise_kondisi": 0.8017,
+          "delta_pairwise": 0.3017,
+          "wilson95_dua_dua": [
+            0.492,
+            0.7344
+          ],
+          "p_dua_sisi_exact": 5.53e-10,
+          "p_holm": 1.659e-09
+        },
+        "menang_per_sisi": {
+          "contoh": {
+            "n": 58,
+            "default": 21,
+            "kondisi": 49
+          },
+          "definisi": {
+            "n": 58,
+            "default": 37,
+            "kondisi": 44
+          }
+        }
+      }
+    },
+    "holm_keluarga": "three models, pair-level sign test, corrected within this population"
+  },
+  "ringkasan": {
+    "tersaring": {
+      "n_pasangan": 36,
+      "model_signifikan_setelah_holm": [
+        "Qwen3-Reranker-4B",
+        "zerank-2"
+      ],
+      "jumlah_signifikan": "2 dari 3",
+      "delta_pairwise": {
+        "Qwen3-Reranker-0.6B": 0.0694,
+        "Qwen3-Reranker-4B": 0.1667,
+        "zerank-2": 0.3333
+      },
+      "model_naik_di_kedua_sisi": [
+        "Qwen3-Reranker-0.6B",
+        "zerank-2"
+      ],
+      "arti_naik_di_kedua_sisi": "for these models the example side rises and the definition side does not fall, so the gain is not a general shift toward one kind of paragraph. The instruction changes which passage comes first."
+    },
+    "penuh": {
+      "n_pasangan": 58,
+      "model_signifikan_setelah_holm": [
+        "Qwen3-Reranker-0.6B",
+        "Qwen3-Reranker-4B",
+        "zerank-2"
+      ],
+      "jumlah_signifikan": "3 dari 3",
+      "delta_pairwise": {
+        "Qwen3-Reranker-0.6B": 0.0776,
+        "Qwen3-Reranker-4B": 0.1638,
+        "zerank-2": 0.3017
+      },
+      "model_naik_di_kedua_sisi": [
+        "Qwen3-Reranker-0.6B",
+        "zerank-2"
+      ],
+      "arti_naik_di_kedua_sisi": "for these models the example side rises and the definition side does not fall, so the gain is not a general shift toward one kind of paragraph. The instruction changes which passage comes first."
+    },
+    "catatan_daya": "The 58 pairs are the main result. The 36 filtered pairs are an exploratory subset, because their rules were written after scoring. The effect has the same direction on both sets, and the smallest model is significant only on the 58 pairs, which give more power.",
+    "bias_default": "In the default arm all three models favor the definition paragraph (for example, filtered zerank-2 wins 31 of 36 definition rows against 5 of 36 example rows). The condition instruction raises the example side sharply without lowering the definition side, which is the pattern expected from instruction following and not from a global shift in bias."
+  }
+}

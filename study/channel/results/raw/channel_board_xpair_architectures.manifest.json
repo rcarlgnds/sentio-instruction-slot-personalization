@@ -1,0 +1,20 @@
+{
+ "skrip": "q2_arch_xpair.py",
+ "dibuat": "2026-10-03T05:00:41.216339+00:00",
+ "masukan_sha256": {
+  "scores_followir_FollowIR-7B_xpair_none.jsonl": "b220c18d06ad1b4235a64d259170c5d094dcb01059193cf26b22312180af9658",
+  "scores_followir_FollowIR-7B_xpair_slot.jsonl": "b16e516396bec5b93bf5600afdaf01ef3865f77bfd9f589d47dca70f5d03c99e",
+  "scores_followir_FollowIR-7B_xpair_both.jsonl": "53dacedbf84b570b2a0c350bc24215cb5aba69a35c280954194ce14f676e0692",
+  "scores_followir_FollowIR-7B_xpair_wrong.jsonl": "0c6449aa3e56c771e0df3c58d2d2cfca9945150d2776003bad283ab6b7acd2f3",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_none.jsonl": "896c9d68040954f1cdf41d056fc4c0bb40e8c04ac56eec863f2c3146204a6453",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_slot.jsonl": "06ab4e51ac70faf5f5856fd247d2df05fba7e135215dbba29f1bb4c0eab183a1",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_both.jsonl": "f764c1d7907bfa328ecac43ae6a5d276f00d4dc6d01e1d258c0317ae27b8f65a",
+  "scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_wrong.jsonl": "33bab05661b8263bc1d7ac1be673ed2f1732f6ccd56170025e2c0a186d3ba974",
+  "scores_gemma_bge-reranker-v2-gemma_xpair_none.jsonl": "4c3dcc63206d6108a361c4f5b3872a60a508d92387a4d849c74415169ee9c14e",
+  "scores_gemma_bge-reranker-v2-gemma_xpair_slot.jsonl": "50f94ee1733be7193a0522146516658848a40e6817aa6e00c2ab160d5aca9318",
+  "scores_gemma_bge-reranker-v2-gemma_xpair_both.jsonl": "b7df87b687d306c7b7257558a97246a943e8226bd41f691ce4f345ad245a2e78",
+  "scores_gemma_bge-reranker-v2-gemma_xpair_wrong.jsonl": "3958c4dd71cdd5c5ec9ba760afae3724994d7ae570826ca59aa63da9de53661b"
+ },
+ "keluaran": "<workstation>/result/paper_q2/results/tables/papan_saluran_xpair_arsitektur.json",
+ "keluaran_sha256": "7ee540dfc25a216837feacfd50467af2ed7ddd0cfa5608e048f7a9b75ccf9598"
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "q2_arch_agg_papan_saluran_paired_arsitektur_20261003T050040Z",
+  "script": "result/paper_q2/scripts/q2_arch_agg.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "config_version": "0a7b2e4de856",
+  "sumber": {
+    "bge-reranker-v2-gemma/none": "76df6ab662a594386eb554a1bec7b83cee7b5529c5d0d96f9dafcb51374a1125",
+    "bge-reranker-v2-gemma/slot": "dc30a7849d50a173a35e724fd6d4f5af3e5da0c938619df6f72448a4e74aa98d",
+    "bge-reranker-v2-gemma/text": "febaf0c32a58ec2dace0f491c6999ae8820fdfa5509b1e47a804e215c1828bc5",
+    "bge-reranker-v2-gemma/both": "cac99cdd5ff59bcf65dd8e19b2bb060b84e98cd428db7a6ce3005420913c290f",
+    "bge-reranker-v2-gemma/wrong": "3131bdb053caa67fbe1bd7f434cfd1c94673eebc39c0f3c9016f2f92e9e13b06",
+    "bge-reranker-v2-gemma/both_program": "e3609b8b71ff2922bdaa4f59d72c0e29b6d831c87d19ddd6971184cf70fae0d2",
+    "bge-reranker-v2-gemma/both_semester": "e61ad8cfb79a9d7278d629b4e00e6a37fcc2ad22609dfcdd8f837fd42fab34b6",
+    "ctxl-rerank-v2-instruct-multilingual-6b/none": "f381ddfc13e8ecd73a1ab90c3954d96e03c12ef7e58b64d69ba0022968412f43",
+    "ctxl-rerank-v2-instruct-multilingual-6b/slot": "5794f6989ca44b7039bf727851bb124befee6a735102b15c0a51cd376eee8d31",
+    "ctxl-rerank-v2-instruct-multilingual-6b/text": "b271f6377754fc427170307f9153c5492c25dafa22c39976a7a0d1670d9caa67",
+    "ctxl-rerank-v2-instruct-multilingual-6b/both": "e5cb074b39262f731e2e9040739f5fed875874b086c0ee495983fd5b948b8b20",
+    "ctxl-rerank-v2-instruct-multilingual-6b/wrong": "2cb84c709bb1da1c7c74c272d01313bc4ddd73736ea0d73ccf05144ab21fedb6",
+    "ctxl-rerank-v2-instruct-multilingual-6b/both_program": "3f2dd7fde2b177a3dd89a466c100bb61035d4452ae8aaea3c4e8652907efe308",
+    "ctxl-rerank-v2-instruct-multilingual-6b/both_semester": "c34875e504d61512ec4b88fff12ed9f7f3b4b63fd4a72e2ccd6c4afa4e637687",
+    "FollowIR-7B/none": "45c95f94def8d96e97ab3a8b8d3206b4aa77a472193ca86ee0dca39715de640b",
+    "FollowIR-7B/slot": "a41f2a0f4fb511eecbed0c779ce9d6f31b758109dc1ecdc32d666cc5fee3ed94",
+    "FollowIR-7B/text": "dc1716b9945cfc5d104813633af885f31273c72306c377011fe573e24413f9ca",
+    "FollowIR-7B/both": "54e3923c38142d2cb9575bdaab508739bf641862358efd1e707e841626244e0a",
+    "FollowIR-7B/wrong": "d2980fd70de6d780eb9f015e0a494501ff3c02a77b31d17023e5a95cc5512d66",
+    "FollowIR-7B/both_program": "3865694f38c1adf9543230d898466516fa50703d6238cb047589b2bbb2788bce",
+    "FollowIR-7B/both_semester": "06603c3aaa3f96ad8b47637d55467ad53cb50e64ba96d2f27c15b3bb8bb71201"
+  },
+  "n": 96,
+  "label_source": "deterministic (agregasi ulang atas artefak skor beku)",
+  "output": {
+    "path": "results/tables/papan_saluran_paired_arsitektur.json",
+    "sha256": "41bca04ec29b75d94aaa16aaffc7c40a9412790bd8bd7ebe9b5a1fdd09a8bd2e",
+    "tingkat_reproduksi": "1_bit_identical",
+    "sha256_muatan_angka_tanpa_field_dibuat": "fe9ff1578b2289c65c0c3e292d4d552bd2d9e40b6df6f832b96bd8746b8e4593",
+    "verifikasi_determinisme": null
+  }
+}

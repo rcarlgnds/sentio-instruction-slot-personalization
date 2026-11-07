@@ -1,0 +1,15 @@
+{
+  "run_id": "zerank2_equivalence_20260917T114117Z",
+  "script": "result/paper_q2/scripts/q2_zerank2_equivalence.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "config_version": "0a7b2e4de856",
+  "sumber": {
+    "pools": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483",
+    "berkas_beku": "c62b00ef1981db96036f3b5fb2b38344b7f1bc6d1305dd3cf28b8a254fbf528e"
+  },
+  "durasi_s": 8.5,
+  "output": {
+    "path": "results/tables/zerank2_equivalence.json",
+    "sha256": "1c5c0fea57abafdac6fb4d5af461a5adde0e6d3c0fce6b5a8802d1be0f02c1c9"
+  }
+}

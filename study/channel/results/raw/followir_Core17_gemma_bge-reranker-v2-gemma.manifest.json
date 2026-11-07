@@ -1,0 +1,16 @@
+{
+  "run_id": "followir_Core17_gemma_bge-reranker-v2-gemma_20260917T142907Z",
+  "script": "result/paper_q2/scripts/q2_arch_followir.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "<workstation>/result/paper_q2/scripts/q2_arch_followir.py --dataset Core17 --family gemma --model BAAI/bge-reranker-v2-gemma",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, kontrol positif eksternal, uji lintas arsitektur",
+  "durasi_s": 1336.3,
+  "vram_peak_mib": 5915.7,
+  "output": {
+    "path": "results/tables/followir_Core17_gemma_bge-reranker-v2-gemma.json",
+    "sha256": "6182765cb0e48dd5b28766455449b16968ab330933876847a9794a90fb8a50fe",
+    "run": "results/raw/followir_run_Core17_gemma_bge-reranker-v2-gemma.jsonl",
+    "run_sha256": "97ace2211b89c79f79af7c0628d825b0a61b82190ea28b0dde4ce10c66c03ff3"
+  }
+}

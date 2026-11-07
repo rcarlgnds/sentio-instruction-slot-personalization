@@ -1,0 +1,1664 @@
+{
+ "created": "2026-10-16T07:38:41+00:00",
+ "script": "result/paper_q2/scripts/q2_p2_pasangan.py",
+ "command": "q2_p2_pasangan.py --tahap urutan",
+ "rules": {
+  "programs_focus": [
+   "CSCI",
+   "ISYS",
+   "MGMT"
+  ],
+  "program_fallback": "ACCT",
+  "rotation_focus": [
+   "ISYS-MGMT",
+   "CSCI-MGMT",
+   "CSCI-ISYS"
+  ],
+  "rotation_fallback": [
+   "ACCT-MGMT",
+   "ACCT-ISYS",
+   "ACCT-CSCI"
+  ],
+  "cosine_window": [
+   0.62,
+   0.93
+  ],
+  "cosine_used_from": 0.66,
+  "near_duplicate": {
+   "cosine_above": 0.89,
+   "word_jaccard_above": 0.36
+  },
+  "min_tokens": 80,
+  "min_chars": 200,
+  "text_cut": 4000,
+  "editions_never_paired": [
+   [
+    "acct-accounting-principles-globaltext-hermanson-ccby3",
+    "acct-accountingprinciplesvol2-hermanson-ccby3"
+   ]
+  ],
+  "shown_order_seed": 20261022,
+  "test_holdout": "never read"
+ },
+ "counts": {
+  "chunks_dropped": {
+   "paired_track_chunk": 58,
+   "quality_flag": 6177,
+   "under_80_tokens": 4596
+  },
+  "chunks_by_program_kept": {
+   "ACCT": 5743,
+   "CSCI": 6935,
+   "ISYS": 4683,
+   "MGMT": 14965
+  },
+  "by_program_pair": {
+   "ACCT-CSCI": {
+    "pairs_062_093": 819,
+    "used_066_or_more": 211
+   },
+   "ACCT-ISYS": {
+    "pairs_062_093": 2857,
+    "used_066_or_more": 1795
+   },
+   "ACCT-MGMT": {
+    "pairs_062_093": 5468,
+    "used_066_or_more": 3663
+   },
+   "CSCI-ISYS": {
+    "pairs_062_093": 2346,
+    "used_066_or_more": 814
+   },
+   "CSCI-MGMT": {
+    "pairs_062_093": 2863,
+    "used_066_or_more": 1105
+   },
+   "ISYS-MGMT": {
+    "pairs_062_093": 5137,
+    "used_066_or_more": 2727
+   }
+  },
+  "skipped_chunk_already_in_a_pair": {
+   "CSCI-MGMT": 515,
+   "CSCI-ISYS": 440,
+   "ISYS-MGMT": 1604,
+   "ACCT-MGMT": 2135,
+   "ACCT-ISYS": 1358,
+   "ACCT-CSCI": 166
+  },
+  "in_order": {
+   "fokus": 2087,
+   "acct": 2010
+  },
+  "in_order_by_program_pair": {
+   "ACCT-CSCI": 45,
+   "ACCT-ISYS": 437,
+   "ACCT-MGMT": 1528,
+   "CSCI-ISYS": 374,
+   "CSCI-MGMT": 590,
+   "ISYS-MGMT": 1123
+  },
+  "by_book_pair": {
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:csci-algorithms-jeffe": {
+    "pairs_062_093": 4,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:csci-calculus-made-easy-thompson-publicdomain": {
+    "pairs_062_093": 14,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:csci-computer-networking-principles-protocols-and-practice": {
+    "pairs_062_093": 3,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:csci-high-performance-computing-ccby3": {
+    "pairs_062_093": 34,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:csci-intro-to-python-programming-ccby-2024": {
+    "pairs_062_093": 16,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:csci-java-java-java-3e-ccby4": {
+    "pairs_062_093": 24,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:csci-open-data-structures-in-cpp": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:csci-understanding-linearalgebra-austin-ccby4": {
+    "pairs_062_093": 3,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:csci-xv6-os-book-mit-license": {
+    "pairs_062_093": 6,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | CSCI:stat-introduction-to-statistics-lane-publicdomain": {
+    "pairs_062_093": 30,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 130,
+    "used_066_or_more": 70,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 11,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 61,
+    "used_066_or_more": 29,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 93,
+    "used_066_or_more": 62,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 49,
+    "used_066_or_more": 20,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 39,
+    "used_066_or_more": 12,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 114,
+    "used_066_or_more": 59,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 82,
+    "used_066_or_more": 36,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 80,
+    "used_066_or_more": 29,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 176,
+    "used_066_or_more": 127,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 130,
+    "used_066_or_more": 86,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 176,
+    "used_066_or_more": 131,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 59,
+    "used_066_or_more": 17,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 179,
+    "used_066_or_more": 117,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:acct-accountingprinciplesvol2-hermanson-ccby3 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 21,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:csci-algorithms-jeffe": {
+    "pairs_062_093": 19,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:csci-calculus-made-easy-thompson-publicdomain": {
+    "pairs_062_093": 12,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:csci-computer-networking-principles-protocols-and-practice": {
+    "pairs_062_093": 29,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:csci-high-performance-computing-ccby3": {
+    "pairs_062_093": 37,
+    "used_066_or_more": 9,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:csci-intro-to-python-programming-ccby-2024": {
+    "pairs_062_093": 43,
+    "used_066_or_more": 14,
+    "near_duplicates_dropped": 2
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:csci-java-java-java-3e-ccby4": {
+    "pairs_062_093": 78,
+    "used_066_or_more": 26,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:csci-open-data-structures-in-cpp": {
+    "pairs_062_093": 21,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:csci-understanding-linearalgebra-austin-ccby4": {
+    "pairs_062_093": 11,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:csci-xv6-os-book-mit-license": {
+    "pairs_062_093": 11,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | CSCI:stat-introduction-to-statistics-lane-publicdomain": {
+    "pairs_062_093": 42,
+    "used_066_or_more": 16,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 290,
+    "used_066_or_more": 187,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 35,
+    "used_066_or_more": 10,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 157,
+    "used_066_or_more": 103,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 318,
+    "used_066_or_more": 201,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 110,
+    "used_066_or_more": 61,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 83,
+    "used_066_or_more": 46,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 211,
+    "used_066_or_more": 145,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 341,
+    "used_066_or_more": 214,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 61,
+    "used_066_or_more": 24,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 341,
+    "used_066_or_more": 244,
+    "near_duplicates_dropped": 26
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 162,
+    "used_066_or_more": 109,
+    "near_duplicates_dropped": 1
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 243,
+    "used_066_or_more": 163,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 697,
+    "used_066_or_more": 578,
+    "near_duplicates_dropped": 5
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 85,
+    "used_066_or_more": 43,
+    "near_duplicates_dropped": 2
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 451,
+    "used_066_or_more": 283,
+    "near_duplicates_dropped": 4
+   },
+   "ACCT:mgmt-entrepreneurship-op2021-ccby4 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 29,
+    "used_066_or_more": 14,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:csci-algorithms-jeffe": {
+    "pairs_062_093": 17,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:csci-calculus-made-easy-thompson-publicdomain": {
+    "pairs_062_093": 12,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:csci-computer-networking-principles-protocols-and-practice": {
+    "pairs_062_093": 39,
+    "used_066_or_more": 12,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:csci-high-performance-computing-ccby3": {
+    "pairs_062_093": 55,
+    "used_066_or_more": 19,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:csci-intro-to-python-programming-ccby-2024": {
+    "pairs_062_093": 41,
+    "used_066_or_more": 16,
+    "near_duplicates_dropped": 2
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:csci-java-java-java-3e-ccby4": {
+    "pairs_062_093": 65,
+    "used_066_or_more": 20,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:csci-open-data-structures-in-cpp": {
+    "pairs_062_093": 28,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:csci-understanding-linearalgebra-austin-ccby4": {
+    "pairs_062_093": 12,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:csci-xv6-os-book-mit-license": {
+    "pairs_062_093": 21,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | CSCI:stat-introduction-to-statistics-lane-publicdomain": {
+    "pairs_062_093": 82,
+    "used_066_or_more": 15,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 257,
+    "used_066_or_more": 182,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 41,
+    "used_066_or_more": 17,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 166,
+    "used_066_or_more": 102,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 290,
+    "used_066_or_more": 209,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 123,
+    "used_066_or_more": 80,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 84,
+    "used_066_or_more": 55,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 195,
+    "used_066_or_more": 143,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 203,
+    "used_066_or_more": 116,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 45,
+    "used_066_or_more": 11,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 399,
+    "used_066_or_more": 289,
+    "near_duplicates_dropped": 4
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 150,
+    "used_066_or_more": 73,
+    "near_duplicates_dropped": 0
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 246,
+    "used_066_or_more": 165,
+    "near_duplicates_dropped": 1
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 579,
+    "used_066_or_more": 489,
+    "near_duplicates_dropped": 22
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 101,
+    "used_066_or_more": 40,
+    "near_duplicates_dropped": 2
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 400,
+    "used_066_or_more": 252,
+    "near_duplicates_dropped": 3
+   },
+   "ACCT:mgmt-principlesofmanagement-openstax-snapshot2023-08 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 32,
+    "used_066_or_more": 8,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 24,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 12,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 15,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 28,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 8,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 6,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 15,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 5,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 45,
+    "used_066_or_more": 14,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 3,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 3,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 13,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 18,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 42,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 13,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-algorithms-jeffe | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 7,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 4,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 1,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 9,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 18,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 60,
+    "used_066_or_more": 34,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 4,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 5,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 6,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 15,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 62,
+    "used_066_or_more": 18,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 34,
+    "used_066_or_more": 15,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-calculus-made-easy-thompson-publicdomain | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 18,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 89,
+    "used_066_or_more": 20,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 17,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 75,
+    "used_066_or_more": 38,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 82,
+    "used_066_or_more": 39,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 32,
+    "used_066_or_more": 9,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 41,
+    "used_066_or_more": 9,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 23,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 9,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 14,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 1,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 16,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 51,
+    "used_066_or_more": 18,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 16,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 18,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-computer-networking-principles-protocols-and-practice | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 5,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 116,
+    "used_066_or_more": 31,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 25,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 72,
+    "used_066_or_more": 32,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 101,
+    "used_066_or_more": 43,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 44,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 34,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 49,
+    "used_066_or_more": 17,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 39,
+    "used_066_or_more": 9,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 47,
+    "used_066_or_more": 14,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 8,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 14,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 45,
+    "used_066_or_more": 11,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 63,
+    "used_066_or_more": 21,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 43,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 37,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-high-performance-computing-ccby3 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 17,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 80,
+    "used_066_or_more": 26,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 46,
+    "used_066_or_more": 21,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 41,
+    "used_066_or_more": 24,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 63,
+    "used_066_or_more": 24,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 16,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 21,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 31,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 53,
+    "used_066_or_more": 8,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 66,
+    "used_066_or_more": 20,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 9,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 3
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 8,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 23,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 47,
+    "used_066_or_more": 22,
+    "near_duplicates_dropped": 2
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 71,
+    "used_066_or_more": 29,
+    "near_duplicates_dropped": 2
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 40,
+    "used_066_or_more": 11,
+    "near_duplicates_dropped": 3
+   },
+   "CSCI:csci-intro-to-python-programming-ccby-2024 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 21,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 144,
+    "used_066_or_more": 59,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 47,
+    "used_066_or_more": 16,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 90,
+    "used_066_or_more": 55,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 115,
+    "used_066_or_more": 69,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 43,
+    "used_066_or_more": 11,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 54,
+    "used_066_or_more": 18,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 49,
+    "used_066_or_more": 12,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 46,
+    "used_066_or_more": 15,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 83,
+    "used_066_or_more": 28,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 17,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 20,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 52,
+    "used_066_or_more": 10,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 83,
+    "used_066_or_more": 34,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 69,
+    "used_066_or_more": 16,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 52,
+    "used_066_or_more": 14,
+    "near_duplicates_dropped": 1
+   },
+   "CSCI:csci-java-java-java-3e-ccby4 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 18,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 43,
+    "used_066_or_more": 8,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 18,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 17,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 33,
+    "used_066_or_more": 13,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 6,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 8,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 18,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 46,
+    "used_066_or_more": 19,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 6,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 9,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 25,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 44,
+    "used_066_or_more": 18,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 16,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-open-data-structures-in-cpp | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 9,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 18,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 6,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 8,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 17,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 2,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 2,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 65,
+    "used_066_or_more": 48,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 4,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 3,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 7,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 7,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 41,
+    "used_066_or_more": 16,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 12,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-understanding-linearalgebra-austin-ccby4 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 22,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 53,
+    "used_066_or_more": 12,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 9,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 33,
+    "used_066_or_more": 14,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 36,
+    "used_066_or_more": 15,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 17,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 22,
+    "used_066_or_more": 6,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 9,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 7,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 6,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 3,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 12,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 24,
+    "used_066_or_more": 8,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 6,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:csci-xv6-os-book-mit-license | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 8,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 1
+   },
+   "CSCI:csci-xv6-os-book-mit-license | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 1,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | ISYS:isys-business-processes-and-it-globaltext-ccby3": {
+    "pairs_062_093": 36,
+    "used_066_or_more": 8,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby": {
+    "pairs_062_093": 11,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois": {
+    "pairs_062_093": 25,
+    "used_066_or_more": 10,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | ISYS:isys-information-systems-globaltext-ccby3": {
+    "pairs_062_093": 57,
+    "used_066_or_more": 20,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain": {
+    "pairs_062_093": 13,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | ISYS:isys-nist-sp800-12r1-infosec-publicdomain": {
+    "pairs_062_093": 12,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | ISYS:isys-projectmanagement-watt2e-snapshot2021-04": {
+    "pairs_062_093": 36,
+    "used_066_or_more": 12,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 46,
+    "used_066_or_more": 13,
+    "near_duplicates_dropped": 1
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 85,
+    "used_066_or_more": 38,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 25,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 20,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 29,
+    "used_066_or_more": 9,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 53,
+    "used_066_or_more": 14,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 365,
+    "used_066_or_more": 296,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 95,
+    "used_066_or_more": 32,
+    "near_duplicates_dropped": 0
+   },
+   "CSCI:stat-introduction-to-statistics-lane-publicdomain | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 109,
+    "used_066_or_more": 90,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-business-processes-and-it-globaltext-ccby3 | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 259,
+    "used_066_or_more": 188,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-business-processes-and-it-globaltext-ccby3 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 52,
+    "used_066_or_more": 19,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-business-processes-and-it-globaltext-ccby3 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 122,
+    "used_066_or_more": 55,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-business-processes-and-it-globaltext-ccby3 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 111,
+    "used_066_or_more": 52,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-business-processes-and-it-globaltext-ccby3 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 252,
+    "used_066_or_more": 150,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-business-processes-and-it-globaltext-ccby3 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 300,
+    "used_066_or_more": 208,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-business-processes-and-it-globaltext-ccby3 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 68,
+    "used_066_or_more": 18,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-business-processes-and-it-globaltext-ccby3 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 189,
+    "used_066_or_more": 67,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-business-processes-and-it-globaltext-ccby3 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 28,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 35,
+    "used_066_or_more": 14,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 22,
+    "used_066_or_more": 9,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 13,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 24,
+    "used_066_or_more": 7,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 29,
+    "used_066_or_more": 9,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 31,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 23,
+    "used_066_or_more": 8,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-database-design-2e-trimmed-no-ch11-ch13-ccby | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 1
+   },
+   "ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 87,
+    "used_066_or_more": 54,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 28,
+    "used_066_or_more": 10,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 105,
+    "used_066_or_more": 51,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 39,
+    "used_066_or_more": 13,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 116,
+    "used_066_or_more": 76,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 166,
+    "used_066_or_more": 123,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 35,
+    "used_066_or_more": 15,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 109,
+    "used_066_or_more": 48,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-for-business-and-beyond-edisi-2014-bourgeois | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 12,
+    "used_066_or_more": 5,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-globaltext-ccby3 | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 152,
+    "used_066_or_more": 96,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-globaltext-ccby3 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 42,
+    "used_066_or_more": 19,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-globaltext-ccby3 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 170,
+    "used_066_or_more": 86,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-globaltext-ccby3 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 97,
+    "used_066_or_more": 38,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-globaltext-ccby3 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 187,
+    "used_066_or_more": 125,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-globaltext-ccby3 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 294,
+    "used_066_or_more": 218,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-globaltext-ccby3 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 68,
+    "used_066_or_more": 20,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-globaltext-ccby3 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 207,
+    "used_066_or_more": 104,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-information-systems-globaltext-ccby3 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 33,
+    "used_066_or_more": 9,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 63,
+    "used_066_or_more": 27,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 58,
+    "used_066_or_more": 20,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 51,
+    "used_066_or_more": 19,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 93,
+    "used_066_or_more": 49,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 83,
+    "used_066_or_more": 61,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 18,
+    "used_066_or_more": 2,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 42,
+    "used_066_or_more": 3,
+    "near_duplicates_dropped": 1
+   },
+   "ISYS:isys-nist-sp800-100-infosecgovernance-publicdomain | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 7,
+    "used_066_or_more": 0,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-12r1-infosec-publicdomain | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 46,
+    "used_066_or_more": 28,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-12r1-infosec-publicdomain | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 10,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-12r1-infosec-publicdomain | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 56,
+    "used_066_or_more": 25,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-12r1-infosec-publicdomain | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 40,
+    "used_066_or_more": 12,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-12r1-infosec-publicdomain | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 68,
+    "used_066_or_more": 42,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-12r1-infosec-publicdomain | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 75,
+    "used_066_or_more": 56,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-12r1-infosec-publicdomain | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 12,
+    "used_066_or_more": 1,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-12r1-infosec-publicdomain | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 52,
+    "used_066_or_more": 10,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-nist-sp800-12r1-infosec-publicdomain | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 5,
+    "used_066_or_more": 4,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-projectmanagement-watt2e-snapshot2021-04 | MGMT:acct-accounting-principles-globaltext-hermanson-ccby3": {
+    "pairs_062_093": 106,
+    "used_066_or_more": 46,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-projectmanagement-watt2e-snapshot2021-04 | MGMT:mgmt-appliedfinitemath-sekhon-ccby4": {
+    "pairs_062_093": 36,
+    "used_066_or_more": 13,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-projectmanagement-watt2e-snapshot2021-04 | MGMT:mgmt-businessethics-openstax-snapshot2023-02": {
+    "pairs_062_093": 97,
+    "used_066_or_more": 49,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-projectmanagement-watt2e-snapshot2021-04 | MGMT:mgmt-financial-strategy-public-managers-ccby4": {
+    "pairs_062_093": 80,
+    "used_066_or_more": 34,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-projectmanagement-watt2e-snapshot2021-04 | MGMT:mgmt-intro-supplychain-operations-mgmt-ku-ccby4": {
+    "pairs_062_093": 119,
+    "used_066_or_more": 78,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-projectmanagement-watt2e-snapshot2021-04 | MGMT:mgmt-introduction-to-business": {
+    "pairs_062_093": 189,
+    "used_066_or_more": 140,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-projectmanagement-watt2e-snapshot2021-04 | MGMT:mgmt-introductory-business-statistics-op2021-ccby4": {
+    "pairs_062_093": 54,
+    "used_066_or_more": 16,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-projectmanagement-watt2e-snapshot2021-04 | MGMT:mgmt-principles-of-economics-3e-ccby-2022": {
+    "pairs_062_093": 123,
+    "used_066_or_more": 46,
+    "near_duplicates_dropped": 0
+   },
+   "ISYS:isys-projectmanagement-watt2e-snapshot2021-04 | MGMT:stat-introbusinessstats-mahbobitiemann-ccby4": {
+    "pairs_062_093": 19,
+    "used_066_or_more": 10,
+    "near_duplicates_dropped": 1
+   }
+  }
+ },
+ "scripts": {
+  "q2_p2_umum.py": {
+   "sha256": "7e07fad171e45c853277b790a30f5a0fa96ccbb0962fe79ba595af2c4ce16d86",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_pasangan.py": {
+   "sha256": "e8ca21f50623e3a82ede326eb5ada4c5b5c7358b00fadbe8607e6ece0d5524ca",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_simpan.py": {
+   "sha256": "5b256ebf829cdcc44866438cec125d72dd26862af6fb2a496bb392590a06ce61",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_juri.py": {
+   "sha256": "e1cbabf6b85e8875ed7cf5319b28204acd5034fd1baa8a3f856443b1bae2e3bd",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_rakit.py": {
+   "sha256": "07851ee67a8a39d7505f5f951407a5c64fdf805ee5ab23e32b84a67d733232b9",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_kit.py": {
+   "sha256": "dbeccaae02f2fa0a4465c744bb3ace073f2b81fdde29c2bbf37b94f0e9f1e39c",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_rencana.py": {
+   "sha256": "d1ad1da605bbcf12b6191a840a9ed0ed6cf6011514db2c5d8cc3ee6b2203a330",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_analisis.py": {
+   "sha256": "d95c33e7add57fcf0089daab6ed756af9568bb80bfcb979b26ff69a9080126c8",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_uji.py": {
+   "sha256": "a4687cd421fad23426e378322ba2b6c00baf4275018f9ab439652f4113766a3f",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_alur_tulis.js": {
+   "sha256": "74e6227961d711a61832a0ccc68b9828dcba3a72436ab14f684640fca9929789",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_orkestra.sh": {
+   "sha256": "c62a8d54161f733874f4d11aebf1ebdd523d6cd20ffd56ee614697667498c1e0",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_langkah.py": {
+   "sha256": "5cdd8f7696df0e1a36728e7dd66b09dd94ad1a2cb219c1dc186473c223669637",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_jaga.py": {
+   "sha256": "51c5349872d0da91da1c12616adb8bec32b7701abe9db12cd64054cfd1a2bee9",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  },
+  "q2_p2_pengawas.py": {
+   "sha256": "66712203798e4265f2cfcb6778805ed984f062c5d95ccd643af7248f95f81fa3",
+   "commit": "919c14d21ee75b20d4b98e52a2fd82ebb7dfcf57"
+  }
+ },
+ "inputs": {
+  "corpus": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+  "embedding_cache": "6e186f0bebe0cdfef9af452162edf5e5eda95ef4a8eb8a6308a198c18db97ed8",
+  "embedding_cache_ids": "ab2ef2b348fcff21285460755d7f3da0dbaa4f43fa21c6efa256a23b7d1b19e6",
+  "paired_queries": "e2e6f315645203760cd989e6d929d31b17c30b68665e0387578bf613cc7f38f0"
+ },
+ "numpy_version": "2.4.4",
+ "output": {
+  "path": "results/raw_p2/pasangan_topik_p2.jsonl",
+  "sha256": "e43a4cc123221d7f060523df2ab7b0a1dd42ff6490eac64b4c6b11399aa12c4d",
+  "records": 4097
+ }
+}

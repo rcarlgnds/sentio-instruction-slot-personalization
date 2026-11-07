@@ -1,0 +1,131 @@
+{
+  "dibuat": "2026-10-03T05:00:41.233559+00:00",
+  "_apa_ini": "Single-field label control on the paired track, slot-plus-text condition, three rerankers. The both cells are the saved slot-plus-text cells, and the program and semester cells were scored for this control.",
+  "praregistrasi": "the reading and interpretation rules are in the docstring of the script",
+  "format_label": {
+    "both": "[Source: <DEPT> degree program textbook, semester <N>]",
+    "program": "[Source: <DEPT> degree program textbook]",
+    "semester": "[Source: degree program textbook, semester <N>]"
+  },
+  "model": {
+    "Qwen3-Reranker-0.6B": {
+      "both_frozen": {
+        "n_bandingkan": 96,
+        "menang": 88,
+        "p_binomial_satu_sisi_vs_kunci": 0.0
+      },
+      "program_only": {
+        "n_bandingkan": 96,
+        "menang": 71,
+        "p_binomial_satu_sisi_vs_kunci": 1e-06,
+        "diskordan_vs_both": {
+          "menang_satu_field_saja": 0,
+          "menang_both_saja": 17,
+          "p_mcnemar_eksak": 1.5e-05
+        }
+      },
+      "semester_only": {
+        "n_bandingkan": 96,
+        "menang": 78,
+        "p_binomial_satu_sisi_vs_kunci": 0.0,
+        "diskordan_vs_both": {
+          "menang_satu_field_saja": 0,
+          "menang_both_saja": 10,
+          "p_mcnemar_eksak": 0.001953
+        }
+      }
+    },
+    "Qwen3-Reranker-4B": {
+      "both_frozen": {
+        "n_bandingkan": 96,
+        "menang": 83,
+        "p_binomial_satu_sisi_vs_kunci": 0.0
+      },
+      "program_only": {
+        "n_bandingkan": 96,
+        "menang": 73,
+        "p_binomial_satu_sisi_vs_kunci": 0.0,
+        "diskordan_vs_both": {
+          "menang_satu_field_saja": 1,
+          "menang_both_saja": 11,
+          "p_mcnemar_eksak": 0.006348
+        }
+      },
+      "semester_only": {
+        "n_bandingkan": 96,
+        "menang": 84,
+        "p_binomial_satu_sisi_vs_kunci": 0.0,
+        "diskordan_vs_both": {
+          "menang_satu_field_saja": 7,
+          "menang_both_saja": 6,
+          "p_mcnemar_eksak": 1.0
+        }
+      }
+    },
+    "zerank-2": {
+      "both_frozen": {
+        "n_bandingkan": 96,
+        "menang": 96,
+        "p_binomial_satu_sisi_vs_kunci": 0.0
+      },
+      "program_only": {
+        "n_bandingkan": 96,
+        "menang": 85,
+        "p_binomial_satu_sisi_vs_kunci": 0.0,
+        "diskordan_vs_both": {
+          "menang_satu_field_saja": 0,
+          "menang_both_saja": 11,
+          "p_mcnemar_eksak": 0.000977
+        }
+      },
+      "semester_only": {
+        "n_bandingkan": 96,
+        "menang": 93,
+        "p_binomial_satu_sisi_vs_kunci": 0.0,
+        "diskordan_vs_both": {
+          "menang_satu_field_saja": 0,
+          "menang_both_saja": 3,
+          "p_mcnemar_eksak": 0.25
+        }
+      }
+    }
+  },
+  "sumber": {
+    "Qwen3-Reranker-0.6B/both_frozen": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta.jsonl",
+      "sha256": "a8fd592f5cdcf67076211961902cbcbb6cf4c665bb56c476f1d89af8279b19a9"
+    },
+    "Qwen3-Reranker-0.6B/program_only": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta_fieldprogram.jsonl",
+      "sha256": "a074b205391d9735ba6673b874bf0fc7954035e475ef5b80e83c33fe312de19a"
+    },
+    "Qwen3-Reranker-0.6B/semester_only": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_paired_profile_docmeta_fieldsemester.jsonl",
+      "sha256": "3a54638b2942191c68805cfd80e62e597e5a111041c0d9818c77980fb6ba830d"
+    },
+    "Qwen3-Reranker-4B/both_frozen": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta.jsonl",
+      "sha256": "c3b856093179c06b89643fa22e40be7b8158df7129aa7c15a120b0d32cc3b065"
+    },
+    "Qwen3-Reranker-4B/program_only": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta_fieldprogram.jsonl",
+      "sha256": "38d9011643b6f969560d3888816bf568108083f91fc4c42a8c9ca253be1bc54f"
+    },
+    "Qwen3-Reranker-4B/semester_only": {
+      "path": "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_paired_profile_docmeta_fieldsemester.jsonl",
+      "sha256": "2f81ac9b3533c5c4d0770a022f8a0dee99c5ad5570238f99466bb16da7f9be8f"
+    },
+    "zerank-2/both_frozen": {
+      "path": "result/paper_q2/results/raw/scores_zerank2_zerank-2_paired_profile_docmeta.jsonl",
+      "sha256": "0a7872543b64ff7363790e8ce3dcdccdd11de98e85194193729073ddc686c595"
+    },
+    "zerank-2/program_only": {
+      "path": "result/paper_q2/results/raw/scores_zerank2_zerank-2_paired_profile_docmeta_fieldprogram.jsonl",
+      "sha256": "430b02062e51a1e6d3945d06ba249481c289bd465b2e875fd8219046d94f7ffa"
+    },
+    "zerank-2/semester_only": {
+      "path": "result/paper_q2/results/raw/scores_zerank2_zerank-2_paired_profile_docmeta_fieldsemester.jsonl",
+      "sha256": "3af2ba766aa646b5540a49c6b54a67b81993014140ab357e40cb689a4570523a"
+    }
+  }
+}

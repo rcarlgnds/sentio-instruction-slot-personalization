@@ -1,0 +1,26 @@
+{
+  "run_id": "zerank2_equivalence_full_20260917T120000Z",
+  "script": "result/paper_q2/scripts/q2_zerank2_equivalence_full.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md (adendum kesetaraan penuh)",
+  "config_version": "0a7b2e4de856",
+  "sumber": {
+    "pools": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483",
+    "beku_default": "c62b00ef1981db96036f3b5fb2b38344b7f1bc6d1305dd3cf28b8a254fbf528e",
+    "beku_profile": "c6146c3a9898f2bb00a0bef9004357258f8168eeb50d8dbb80e65a792fd12274"
+  },
+  "durasi_s": 543.3,
+  "output": {
+    "path": "results/tables/zerank2_equivalence_full.json",
+    "sha256": "faf8901712b8fd6ee1189f262deb3521ee1dc4a4d64f62667753ed64090a0d6e",
+    "skor": {
+      "default": {
+        "path": "results/raw/scores_zerank2official_zerank-2_paired_default_equivfull.jsonl",
+        "sha256": "af6db26b5b26056d217aedb4ecde336e3a4a42d07d1ab478deab80c354fb84ff"
+      },
+      "profile": {
+        "path": "results/raw/scores_zerank2official_zerank-2_paired_profile_equivfull.jsonl",
+        "sha256": "b5cbc524a12e4eace9afa06a0d4f8369af80fc0f99e20f615a4e309c32acd8c1"
+      }
+    }
+  }
+}

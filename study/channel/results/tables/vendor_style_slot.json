@@ -1,0 +1,147 @@
+{
+ "dibuat": "2026-10-03T05:00:46.738792+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR_ADENDUM3.md",
+ "_apa_ini": "The slot_vendor cells (the profile in the slot, in the sentence style each vendor documents) against the frozen none and slot cells of the same model; exact McNemar, Holm m=3 over vendor against none, slot-effect bound from the same analysis(). No frozen cell rescored.",
+ "sel": {
+  "FollowIR-7B": {
+   "status": "selesai",
+   "menang_vendor": 46,
+   "n_komparabel": 96,
+   "menang_none_beku": 48,
+   "menang_slot_beku": 47,
+   "vendor_vs_none": {
+    "n": 96,
+    "a_kalah_b_menang": 7,
+    "a_menang_b_kalah": 9,
+    "p_mcnemar_exact": 0.8036,
+    "p_holm_keluarga_V": 1.0,
+    "signifikan_0.05": false
+   },
+   "vendor_vs_slot": {
+    "n": 96,
+    "a_kalah_b_menang": 4,
+    "a_menang_b_kalah": 5,
+    "p_mcnemar_exact": 1.0
+   },
+   "batas_efek_slot_vendor": {
+    "model": "FollowIR-7B",
+    "n_berpasangan": 96,
+    "diskordan_slot_menang": 7,
+    "diskordan_buta_menang": 9,
+    "selisih_bersih": -2,
+    "selisih_proporsi": -0.020833,
+    "wald95": [
+     -0.102392,
+     0.060725
+    ],
+    "eksak_bersyarat95": [
+     -0.100822,
+     0.067074
+    ],
+    "dilaporkan95": [
+     -0.102392,
+     0.067074
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.102392,
+    "batas_atas_poin_persen": 10.24
+   },
+   "instruksi_vendor_kerangka": "A relevant document would come from a textbook assigned to the <DEPT> degree program and would suit a student in semester <N>, rather than from a textbook of another degree program.",
+   "penempatan": "narrative appended to the query text, the README convention"
+  },
+  "ctxl-rerank-v2-instruct-multilingual-6b": {
+   "status": "selesai",
+   "menang_vendor": 51,
+   "n_komparabel": 96,
+   "menang_none_beku": 48,
+   "menang_slot_beku": 52,
+   "vendor_vs_none": {
+    "n": 96,
+    "a_kalah_b_menang": 11,
+    "a_menang_b_kalah": 8,
+    "p_mcnemar_exact": 0.6476,
+    "p_holm_keluarga_V": 1.0,
+    "signifikan_0.05": false
+   },
+   "vendor_vs_slot": {
+    "n": 96,
+    "a_kalah_b_menang": 7,
+    "a_menang_b_kalah": 8,
+    "p_mcnemar_exact": 1.0
+   },
+   "batas_efek_slot_vendor": {
+    "model": "ctxl-rerank-v2-instruct-multilingual-6b",
+    "n_berpasangan": 96,
+    "diskordan_slot_menang": 11,
+    "diskordan_buta_menang": 8,
+    "selisih_bersih": 3,
+    "selisih_proporsi": 0.03125,
+    "wald95": [
+     -0.057523,
+     0.120023
+    ],
+    "eksak_bersyarat95": [
+     -0.065313,
+     0.117752
+    ],
+    "dilaporkan95": [
+     -0.065313,
+     0.120023
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.120023,
+    "batas_atas_poin_persen": 12.0
+   },
+   "instruksi_vendor_kerangka": "Prioritize passages from the <DEPT> degree program's own textbooks at a level suitable for a semester <N> student",
+   "penempatan": "a short custom instruction after the query, the README convention"
+  },
+  "bge-reranker-v2-gemma": {
+   "status": "selesai",
+   "menang_vendor": 46,
+   "n_komparabel": 96,
+   "menang_none_beku": 48,
+   "menang_slot_beku": 43,
+   "vendor_vs_none": {
+    "n": 96,
+    "a_kalah_b_menang": 3,
+    "a_menang_b_kalah": 5,
+    "p_mcnemar_exact": 0.7266,
+    "p_holm_keluarga_V": 1.0,
+    "signifikan_0.05": false
+   },
+   "vendor_vs_slot": {
+    "n": 96,
+    "a_kalah_b_menang": 7,
+    "a_menang_b_kalah": 4,
+    "p_mcnemar_exact": 0.5488
+   },
+   "batas_efek_slot_vendor": {
+    "model": "bge-reranker-v2-gemma",
+    "n_berpasangan": 96,
+    "diskordan_slot_menang": 3,
+    "diskordan_buta_menang": 5,
+    "selisih_bersih": -2,
+    "selisih_proporsi": -0.020833,
+    "wald95": [
+     -0.078429,
+     0.036762
+    ],
+    "eksak_bersyarat95": [
+     -0.069128,
+     0.042523
+    ],
+    "dilaporkan95": [
+     -0.078429,
+     0.042523
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.078429,
+    "batas_atas_poin_persen": 7.84
+   },
+   "instruksi_vendor_kerangka": "Given a query A from a <DEPT> student in semester <N> and a passage B, determine whether the passage comes from that student's own degree program and contains an answer to the query at a level appropriate for semester <N> by providing a prediction of either 'Yes' or 'No'.",
+   "penempatan": "replaces the default prompt entirely, in the README prompt form"
+  }
+ },
+ "label_source": "deterministic (model scores)"
+}

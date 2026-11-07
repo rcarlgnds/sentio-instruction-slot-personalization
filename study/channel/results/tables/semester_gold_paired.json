@@ -1,0 +1,40 @@
+{
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Semester of the golds on the paired track: whether the gold always carries the asker's semester and the counterpart never does, which bounds what the wrong-label control can show.",
+  "gerbang": {
+    "segel_test_holdout": {
+      "lolos": true,
+      "n_diperiksa": 104,
+      "per_split": {
+        "tak_terdaftar_paired": 104
+      }
+    }
+  },
+  "populasi": {
+    "n_baris_kolam": 104,
+    "n_baris_teresolusi": 96,
+    "definisi_teresolusi": "the gold and the counterpart both map to the corpus metadata, by the first 180 characters of their text (teks map) or by their own record (id map). These 96 rows are the denominator the paper uses for this track."
+  },
+  "semester": {
+    "gold_cocok_semester_mahasiswa": 96,
+    "counterpart_cocok_semester_mahasiswa": 0,
+    "penyebut": 96
+  },
+  "prodi": {
+    "gold_cocok_prodi_mahasiswa": 75,
+    "counterpart_cocok_prodi_mahasiswa": 0,
+    "penyebut": 96,
+    "_catatan": "With the teks map the program matches on 75 of the 96 rows, and with the id map on all 96. The semester matches on all 96 under both maps, so it always identifies the gold."
+  },
+  "varian_gold_saja": {
+    "n_baris": 99,
+    "gold_cocok_semester": 99,
+    "_catatan": "a looser population in which only the gold must resolve, reported so the alternative denominator has a source; the paper uses the strict denominator above"
+  },
+  "label_source": "deterministic (read from the frozen corpus metadata and the student profiles in the frozen pools)",
+  "syarat_kutip": [
+    "these numbers are a property of how the pools were built, not a result of any model",
+    "the program and semester collinearity of this track is in profile_collinearity.json and should be cited with these numbers"
+  ],
+  "dibuat": "2026-08-24T04:48:02.569251+00:00"
+}

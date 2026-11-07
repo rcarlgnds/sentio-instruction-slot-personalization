@@ -1,0 +1,31 @@
+{
+  "dibuat": "2026-08-22T06:27:56.033925+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "_apa_ini": "Control track BUKTI TEKSTUAL, cermin protokol paired track tetapi pembedanya hadir di teks.",
+  "n_topik": 58,
+  "n_baris": 116,
+  "pool_size": 71,
+  "buku_sumber": [
+    "stat-introduction-to-statistics-lane-publicdomain",
+    "stat-introductory-statistics-2e-ccby-2023"
+  ],
+  "instruksi": {
+    "contoh": "Retrieve a passage that works through a concrete numerical example with actual numbers and a step-by-step solution",
+    "definisi": "Retrieve a passage that states the conceptual definition and explanation, without numerical worked examples"
+  },
+  "klasifikasi_tekstual": {
+    "penjaga_prosa": "tolak sampah GLYPH/font PDF, minimal 60 kata alfabet, minimal 3 penutup kalimat, rasio huruf+spasi >= 0,72",
+    "contoh": "ada penanda example/solution/suppose/calculate DAN rasio digit 0,008-0,06",
+    "definisi": "tidak ada penanda tersebut DAN rasio digit <= 0,004",
+    "ambigu": "dibuang"
+  },
+  "kueri_dibangun": "deterministik dari judul seksi, TANPA LLM, supaya tidak menambah lapisan pembangkit ke provenance",
+  "audit_manual": "raw/control_track_audit20.json holds 20 samples for manual inspection before the numbers are used",
+  "sumber": {
+    "corpus": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df"
+  },
+  "output": {
+    "path": "results/raw/pools_control_textual.jsonl",
+    "sha256": "fab003b2e20183c8a61c16163786220f5c3f3510521252b658395034493a2dcd"
+  }
+}

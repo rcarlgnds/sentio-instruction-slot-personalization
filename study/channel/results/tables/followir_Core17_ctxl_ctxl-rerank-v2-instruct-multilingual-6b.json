@@ -1,0 +1,77 @@
+{
+  "dibuat": "2026-09-17T15:45:01.096777+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "_apa_ini": "External positive control for bge-gemma, ctxl-6B, and FollowIR-7B, with the same protocol as followir.py (FollowIR, NAACL 2025).",
+  "dataset": "mteb/Core17InstructionRetrieval",
+  "model": "ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b",
+  "keluarga": "ctxl",
+  "dtype": "bfloat16",
+  "max_len": 1536,
+  "kandidat_per_kueri": 1000,
+  "batch_dipakai": 4,
+  "n_dokumen_terpotong": 0,
+  "cap_gpu": {
+    "mib": 13505,
+    "keputusan": "auto: weights 14240 MiB do not fit with a gap of 500 (free 14705); GPU cap 13505 MiB, the rest of the weights in RAM",
+    "offload": {
+      "cap_gpu_mib": 13505,
+      "n_modul_gpu": 22,
+      "n_modul_cpu_saat_muat": 1,
+      "modul_cpu_saat_muat": [
+        "lm_head"
+      ],
+      "dipulihkan_ke_gpu_setelah_cast": [
+        "lm_head"
+      ],
+      "n_modul_cpu_saat_jalan": 0,
+      "cara": "explicit device map from the safetensors header; the modules that fit move back to the GPU after the bf16 cast"
+    }
+  },
+  "n_kueri": 40,
+  "n_topik_berubah": 20,
+  "p_MRR": 0.132736,
+  "p_MRR_per_topik": {
+    "310": -0.270802,
+    "336": 0.244608,
+    "341": 0.066268,
+    "344": 0.252389,
+    "355": -0.136102,
+    "356": -0.18172,
+    "367": 0.139816,
+    "379": 0.150068,
+    "400": 0.240083,
+    "404": 0.020073,
+    "414": 0.645759,
+    "416": -0.1307,
+    "419": 0.069859,
+    "433": 0.37992,
+    "435": 0.61773,
+    "445": -0.032881,
+    "614": 0.113109,
+    "620": 0.435956,
+    "677": 0.04195,
+    "690": -0.010653
+  },
+  "ndcg5_og": 0.515832,
+  "ndcg5_changed": 0.382801,
+  "implementasi_metrik": "imported unchanged from followir.py (adapted from MTEB, see NOTICE.md)",
+  "kontrak_inferensi": {
+    "sumber": "README of ContextualAI ctxl-rerank-v2, the Transformers path infer_w_hf copied verbatim",
+    "format": "Check whether a given document contains information helpful to answer the query.\n<Document> {doc}\n<Query> {query}{inst} ??",
+    "skor": "logit of token id 0 at the last position, cast to bfloat16 and then to float",
+    "true_token_id": 0,
+    "false_token_id": null,
+    "slot_instruksi": "the instruction is appended after the query with one space; empty means the vendor default",
+    "bos": "one, added by the tokenizer (add_bos_token true); the string holds no <s>"
+  },
+  "versi_pustaka": {
+    "transformers": "4.55.0",
+    "torch": "2.11.0+cu128"
+  },
+  "durasi_s": 3236.9,
+  "durasi_muat_s": 2.2,
+  "vram_peak_mib": 13860.2,
+  "smoke": false,
+  "label_source": "deterministic (model scores)"
+}

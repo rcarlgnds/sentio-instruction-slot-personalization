@@ -1,0 +1,21 @@
+{
+  "run_id": "q2_mcnemar_20261003T050038Z",
+  "script": "result/paper_q2/scripts/q2_mcnemar.py",
+  "config_version": "0a7b2e4de856",
+  "label_source": "deterministic",
+  "sumber": {
+    "C3_default": "ccba5735293225bf4978c9b454b93ce21c0166fce9872e0cd1abf966d8b7a3cc",
+    "C3_profil": "ce388c8d6a3f4005d19f63335f6efed9754d868f649ee49831a2e14bd433ccf7",
+    "C3_docmeta": "db8b0afba644bdad69c837e8b9e7282bad3a59593880c5010fe70690642488f5",
+    "C3_docmeta_profil": "a8fd592f5cdcf67076211961902cbcbb6cf4c665bb56c476f1d89af8279b19a9",
+    "C4_default": "78d14377f8f778c55c3cd7f2562b474badebbefef4664af2f279caae8a4eeaf3",
+    "C4_profil": "3d82073844cfbf443db616158ab08241bd394fb4850cd8e8c4d4d964f51c26cf",
+    "C4_docmeta": "61d7861dc9168a443dc104fe034f625feb1e973ab4cb9c8cbeb3b8fb37df3652",
+    "C4_docmeta_profil": "c3b856093179c06b89643fa22e40be7b8158df7129aa7c15a120b0d32cc3b065"
+  },
+  "output": {
+    "path": "results/tables/mcnemar_paired.json",
+    "sha256": "fa62bdf4bda8ffdf12e6d233fbb7d0487b4b20ba8031d83ed68d2d1e1bf57be6",
+    "tingkat_reproduksi": "1_bit_identical"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "dibuat": "2026-10-12T22:48:42.310509+00:00",
+  "_apa_ini": "DITS and its ablations on one channel track (the file name says which), scored with the production module after the replication gate passed (dits_gate_lolos.json).",
+  "gerbang": "identical, 3 arms x 3 metrics",
+  "bounds": [
+    0.546,
+    0.7506
+  ],
+  "flag_produksi": {
+    "cps_prox_semester_mode": "asymmetric",
+    "cps_prox_asym_cross_dept": true,
+    "cps_zero_sim_not_candidate": true,
+    "cps_dept_match_default": 0.5
+  },
+  "catatan_metode": [
+    "Sim = BGE-M3 dense dot product from the expansion cache (the same files that built the track), normalized with the production normalize_sims",
+    "production relatedness remapped from UUID to program code, values unchanged",
+    "Struct inert: profiles without enrolled_courses, as on the original track",
+    "candidates without an embedding skipped: 0"
+  ],
+  "sumber": {
+    "pools": "20097410f4cf373d359a84c7f0425785c1c37caed8675975f0db94e70d1dd848"
+  },
+  "arms": {
+    "S1": {
+      "pairwise": 0.37105751391465674,
+      "n_komparabel": 1617,
+      "top1": 0.2622139764996908,
+      "ndcg": 0.35994370005382276,
+      "n_baris": 1617,
+      "menang_eksak": "600/1617",
+      "per_departemen": {
+        "ACCT": {
+          "pairwise": 0.1653,
+          "n": 248
+        },
+        "BANA": {
+          "pairwise": 0.3824,
+          "n": 34
+        },
+        "CSCI": {
+          "pairwise": 0.4724,
+          "n": 199
+        },
+        "DTSC": {
+          "pairwise": 0.6667,
+          "n": 66
+        },
+        "ISYS": {
+          "pairwise": 0.4149,
+          "n": 188
+        },
+        "MGMT": {
+          "pairwise": 0.3552,
+          "n": 473
+        },
+        "MKTG": {
+          "pairwise": 0.386,
+          "n": 215
+        },
+        "STAT": {
+          "pairwise": 0.4072,
+          "n": 194
+        }
+      }
+    },
+    "S2": {
+      "pairwise": 0.47866419294990725,
+      "n_komparabel": 1617,
+      "top1": 0.3494124922696351,
+      "ndcg": 0.47225887487439405,
+      "n_baris": 1617,
+      "menang_eksak": "774/1617",
+      "per_departemen": {
+        "ACCT": {
+          "pairwise": 0.2661,
+          "n": 248
+        },
+        "BANA": {
+          "pairwise": 0.4412,
+          "n": 34
+        },
+        "CSCI": {
+          "pairwise": 0.5779,
+          "n": 199
+        },
+        "DTSC": {
+          "pairwise": 0.7424,
+          "n": 66
+        },
+        "ISYS": {
+          "pairwise": 0.516,
+          "n": 188
+        },
+        "MGMT": {
+          "pairwise": 0.5032,
+          "n": 473
+        },
+        "MKTG": {
+          "pairwise": 0.4558,
+          "n": 215
+        },
+        "STAT": {
+          "pairwise": 0.4948,
+          "n": 194
+        }
+      }
+    },
+    "B": {
+      "pairwise": 0.47866419294990725,
+      "n_komparabel": 1617,
+      "top1": 0.3494124922696351,
+      "ndcg": 0.47225887487439405,
+      "n_baris": 1617,
+      "menang_eksak": "774/1617",
+      "per_departemen": {
+        "ACCT": {
+          "pairwise": 0.2661,
+          "n": 248
+        },
+        "BANA": {
+          "pairwise": 0.4412,
+          "n": 34
+        },
+        "CSCI": {
+          "pairwise": 0.5779,
+          "n": 199
+        },
+        "DTSC": {
+          "pairwise": 0.7424,
+          "n": 66
+        },
+        "ISYS": {
+          "pairwise": 0.516,
+          "n": 188
+        },
+        "MGMT": {
+          "pairwise": 0.5032,
+          "n": 473
+        },
+        "MKTG": {
+          "pairwise": 0.4558,
+          "n": 215
+        },
+        "STAT": {
+          "pairwise": 0.4948,
+          "n": 194
+        }
+      }
+    }
+  }
+}

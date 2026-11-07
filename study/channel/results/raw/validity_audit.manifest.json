@@ -1,0 +1,16 @@
+{
+  "run_id": "release_audit_validitas_20260905T051322Z",
+  "_peran": "release manifest: written at packaging time from the frozen table, because the run that wrote the table left no manifest. It binds the file as released; the table's own timestamp and provenance fields are the run's.",
+  "script": "result/paper_q2/scripts/q2_audit_validitas.py",
+  "manifest_written_by": "script/manifest_rilis_tabel.py",
+  "config_version": "0a7b2e4de856",
+  "table_created": "2026-08-23T05:41:59.887493+00:00",
+  "label_source": "see table",
+  "sumber": {},
+  "output": {
+    "path": "results/tables/audit_validitas.json",
+    "sha256": "5219a8a540231e4f10ba963e7b89f63ac2c938277f2af1a0d2d3d3d018b20dc3",
+    "tingkat_reproduksi": "frozen as released",
+    "sha256_sebelum_koreksi": "80b6d673e3f304f5f0f4b86e8e3b1e838852aa5afd3dea68fae4b59a70e8e9ae"
+  }
+}

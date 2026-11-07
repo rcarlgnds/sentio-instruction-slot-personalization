@@ -1,0 +1,100 @@
+{
+ "dibuat": "2026-08-24T04:27:15.883495+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "label_source": "deterministic (profile metadata read from the frozen pools)",
+ "_apa_ini": "Collinearity of program and semester on the two channel tracks.",
+ "gerbang": {
+  "segel_test_holdout": "passed, no test_holdout query_id in either pool"
+ },
+ "track": {
+  "paired": {
+   "track": "asli (paired)",
+   "n_baris": 104,
+   "n_grup_pair_id": 52,
+   "ukuran_grup": {
+    "2": 52
+   },
+   "n_profil_unik": 2,
+   "n_prodi": 2,
+   "n_semester": 2,
+   "n_kombinasi_prodi_x_semester": 2,
+   "kombinasi": {
+    "CSCI/sem1": 52,
+    "STAT/sem2": 52
+   },
+   "prodi_dgn_lebih_dari_satu_semester": [],
+   "semester_dipakai_lebih_dari_satu_prodi": [],
+   "n_grup_semester_beragam": 52,
+   "n_grup_semester_seragam": 0,
+   "prodi_dan_semester_kolinear_sempurna": true,
+   "kenapa": "each program maps to exactly one semester and back, so a label that carries both fields cannot separate their contributions on this track"
+  },
+  "xpair": {
+   "track": "penambangan (xpair)",
+   "n_baris": 1621,
+   "n_grup_pair_id": 600,
+   "ukuran_grup": {
+    "2": 179,
+    "3": 421
+   },
+   "n_profil_unik": 24,
+   "n_prodi": 8,
+   "n_semester": 5,
+   "n_kombinasi_prodi_x_semester": 24,
+   "kombinasi": {
+    "ACCT/sem1": 94,
+    "ACCT/sem3": 30,
+    "ACCT/sem4": 104,
+    "BANA/sem4": 35,
+    "CSCI/sem1": 137,
+    "CSCI/sem2": 8,
+    "CSCI/sem3": 44,
+    "CSCI/sem5": 2,
+    "DTSC/sem1": 40,
+    "DTSC/sem3": 33,
+    "DTSC/sem4": 7,
+    "ISYS/sem1": 90,
+    "ISYS/sem2": 80,
+    "ISYS/sem4": 16,
+    "MGMT/sem1": 182,
+    "MGMT/sem2": 232,
+    "MGMT/sem3": 39,
+    "MGMT/sem5": 16,
+    "MKTG/sem2": 140,
+    "MKTG/sem4": 93,
+    "STAT/sem1": 69,
+    "STAT/sem2": 92,
+    "STAT/sem3": 30,
+    "STAT/sem4": 8
+   },
+   "prodi_dgn_lebih_dari_satu_semester": [
+    "ACCT",
+    "CSCI",
+    "DTSC",
+    "ISYS",
+    "MGMT",
+    "MKTG",
+    "STAT"
+   ],
+   "semester_dipakai_lebih_dari_satu_prodi": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "n_grup_semester_beragam": 505,
+   "n_grup_semester_seragam": 95,
+   "prodi_dan_semester_kolinear_sempurna": false,
+   "kenapa": "program and semester cross, so this stratum separates the two fields better than the collinear track"
+  }
+ },
+ "dipakai_di_naskah": {
+  "paper, Section 3.2": "the two fields covary by construction on the paired track"
+ },
+ "syarat_kutip": [
+  "these numbers describe the design of the pools, not the performance of any arm",
+  "the collinearity on the paired track is a property of its construction, not a finding",
+  "the xpair track is cleaner on this axis but more adversarial on another (the source-mirror asymmetry, see dits_strata.json)"
+ ]
+}

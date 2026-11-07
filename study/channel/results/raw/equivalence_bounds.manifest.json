@@ -1,0 +1,16 @@
+{
+  "run_id": "q2_ekuivalensi_20261003T050043Z",
+  "script": "result/paper_q2/scripts/q2_ekuivalensi_slot.py",
+  "config_version": "0a7b2e4de856",
+  "label_source": "deterministic",
+  "sumber": {
+    "papan_saluran_paired.json": "949d296de074dd717611750584cdc1f28e58b13753a7ded0d2ae737c6666044c",
+    "papan_saluran_xpair.json": "e39484fe917f2ec6c992d8756bae9d6fb0adca3e39ae044bed63ea18739bbf0d",
+    "mcnemar_paired.json": "fa62bdf4bda8ffdf12e6d233fbb7d0487b4b20ba8031d83ed68d2d1e1bf57be6"
+  },
+  "output": {
+    "path": "results/tables/ekuivalensi_slot.json",
+    "sha256": "9192ac637535ab1c27b5371e52fe6f59fd956d64654fefd73ec89460ed698ba9",
+    "tingkat_reproduksi": "1_bit_identical"
+  }
+}

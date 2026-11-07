@@ -1,0 +1,23 @@
+{
+  "run_id": "q2_semester_gold_paired_20260824T044802Z",
+  "script": "result/paper_q2/scripts/q2_semester_gold_paired.py",
+  "perintah_persis": "python q2_semester_gold_paired.py",
+  "config_version": "0a7b2e4de856",
+  "sumber": {
+    "pools_paired.jsonl": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483",
+    "corpus.jsonl": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+    "split_manifest.json": "72bbf6293974d605a737dbea65be5b1bbf67527c84e6213dca6c65fb923dd9ae"
+  },
+  "n": 96,
+  "label_source": "deterministic (pembacaan metadata korpus beku dan profil mahasiswa di kolam beku)",
+  "output": {
+    "path": "results/tables/semester_gold_paired.json",
+    "sha256": "0ae44bca0f4e272eaf5a76f5ed00873ece6a4b78d78e73e9d42db293311b58d4",
+    "tingkat_reproduksi": "1_bit_identical",
+    "sha256_muatan_angka_tanpa_field_dibuat": "2dadf08eefe0a3c403e8536c4e0d0a3d310e978fce430b44418a5f68408913ff",
+    "verifikasi_determinisme": {
+      "dijalankan": true,
+      "cara": "jalankan ulang dgn --verify-determinism"
+    }
+  }
+}

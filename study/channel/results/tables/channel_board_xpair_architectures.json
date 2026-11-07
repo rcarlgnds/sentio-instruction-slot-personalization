@@ -1,0 +1,281 @@
+{
+ "dibuat": "2026-10-03T05:00:41.216339+00:00",
+ "config_version_lock": "0a7b2e4de856",
+ "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR_ADENDUM2.md section E",
+ "_apa_ini": "Channel board of the 1,621-row broad track (8 programs) for bge-gemma, ctxl-6B, and FollowIR-7B. The structural key is 600, the slot-effect bound comes from the same analysis() as the frozen board, and Holm uses m=3 over none against slot.",
+ "n_populasi": 1621,
+ "kunci_buta_struktural": 600,
+ "papan": {
+  "FollowIR-7B": {
+   "keturunan": "Mistral, tuned to follow retrieval instructions",
+   "sel": {
+    "none": {
+     "menang": 600,
+     "eksak": "600/1621",
+     "pairwise": 0.3701,
+     "top1_gold": 0.1518,
+     "ndcg5": 0.2441,
+     "sha256": "b220c18d06ad1b4235a64d259170c5d094dcb01059193cf26b22312180af9658"
+    },
+    "slot": {
+     "menang": 593,
+     "eksak": "593/1621",
+     "pairwise": 0.3658,
+     "top1_gold": 0.1672,
+     "ndcg5": 0.258,
+     "sha256": "b16e516396bec5b93bf5600afdaf01ef3865f77bfd9f589d47dca70f5d03c99e"
+    },
+    "both": {
+     "menang": 841,
+     "eksak": "841/1621",
+     "pairwise": 0.5188,
+     "top1_gold": 0.2196,
+     "ndcg5": 0.3368,
+     "sha256": "53dacedbf84b570b2a0c350bc24215cb5aba69a35c280954194ce14f676e0692"
+    },
+    "wrong": {
+     "menang": 812,
+     "eksak": "812/1621",
+     "pairwise": 0.5009,
+     "top1_gold": 0.1993,
+     "ndcg5": 0.3156,
+     "sha256": "0c6449aa3e56c771e0df3c58d2d2cfca9945150d2776003bad283ab6b7acd2f3"
+    }
+   },
+   "none_vs_slot": {
+    "n": 1621,
+    "a_kalah_b_menang": 51,
+    "a_menang_b_kalah": 58,
+    "selisih_bersih": -7,
+    "selisih_pp": -0.43,
+    "p_mcnemar_exact": 0.5657,
+    "p_holm_keluarga_E": 1.0,
+    "signifikan_0.05": false
+   },
+   "batas_efek_slot_poin_persen": 1.73,
+   "ci_atas_poin_persen": 0.89,
+   "batas_ekuivalensi_slot": {
+    "model": "FollowIR-7B",
+    "n_berpasangan": 1621,
+    "diskordan_slot_menang": 51,
+    "diskordan_buta_menang": 58,
+    "selisih_bersih": -7,
+    "selisih_proporsi": -0.004318,
+    "wald95": [
+     -0.01694,
+     0.008303
+    ],
+    "eksak_bersyarat95": [
+     -0.017258,
+     0.008862
+    ],
+    "dilaporkan95": [
+     -0.017258,
+     0.008862
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.017258,
+    "batas_atas_poin_persen": 1.73
+   },
+   "slot_vs_both": {
+    "n": 1621,
+    "a_kalah_b_menang": 263,
+    "a_menang_b_kalah": 15,
+    "selisih_bersih": 248,
+    "selisih_pp": 15.3,
+    "p_mcnemar_exact": 1.04e-59
+   },
+   "label_ditambahkan_pp": 15.3,
+   "label_ditambahkan_baris": 248,
+   "wrong_vs_both": {
+    "n": 1621,
+    "a_kalah_b_menang": 60,
+    "a_menang_b_kalah": 31,
+    "selisih_bersih": 29,
+    "selisih_pp": 1.79,
+    "p_mcnemar_exact": 0.003113
+   }
+  },
+  "ctxl-rerank-v2-instruct-multilingual-6b": {
+   "keturunan": "Mistral",
+   "sel": {
+    "none": {
+     "menang": 600,
+     "eksak": "600/1621",
+     "pairwise": 0.3701,
+     "top1_gold": 0.2819,
+     "ndcg5": 0.3572,
+     "sha256": "896c9d68040954f1cdf41d056fc4c0bb40e8c04ac56eec863f2c3146204a6453"
+    },
+    "slot": {
+     "menang": 603,
+     "eksak": "603/1621",
+     "pairwise": 0.372,
+     "top1_gold": 0.264,
+     "ndcg5": 0.3441,
+     "sha256": "06ab4e51ac70faf5f5856fd247d2df05fba7e135215dbba29f1bb4c0eab183a1"
+    },
+    "both": {
+     "menang": 921,
+     "eksak": "921/1621",
+     "pairwise": 0.5682,
+     "top1_gold": 0.3782,
+     "ndcg5": 0.5513,
+     "sha256": "f764c1d7907bfa328ecac43ae6a5d276f00d4dc6d01e1d258c0317ae27b8f65a"
+    },
+    "wrong": {
+     "menang": 705,
+     "eksak": "705/1621",
+     "pairwise": 0.4349,
+     "top1_gold": 0.2992,
+     "ndcg5": 0.4051,
+     "sha256": "33bab05661b8263bc1d7ac1be673ed2f1732f6ccd56170025e2c0a186d3ba974"
+    }
+   },
+   "none_vs_slot": {
+    "n": 1621,
+    "a_kalah_b_menang": 15,
+    "a_menang_b_kalah": 12,
+    "selisih_bersih": 3,
+    "selisih_pp": 0.19,
+    "p_mcnemar_exact": 0.7011,
+    "p_holm_keluarga_E": 1.0,
+    "signifikan_0.05": false
+   },
+   "batas_efek_slot_poin_persen": 0.82,
+   "ci_atas_poin_persen": 0.82,
+   "batas_ekuivalensi_slot": {
+    "model": "ctxl-rerank-v2-instruct-multilingual-6b",
+    "n_berpasangan": 1621,
+    "diskordan_slot_menang": 15,
+    "diskordan_buta_menang": 12,
+    "selisih_bersih": 3,
+    "selisih_proporsi": 0.001851,
+    "wald95": [
+     -0.004431,
+     0.008133
+    ],
+    "eksak_bersyarat95": [
+     -0.004888,
+     0.008168
+    ],
+    "dilaporkan95": [
+     -0.004888,
+     0.008168
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.008168,
+    "batas_atas_poin_persen": 0.82
+   },
+   "slot_vs_both": {
+    "n": 1621,
+    "a_kalah_b_menang": 318,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih": 318,
+    "selisih_pp": 19.62,
+    "p_mcnemar_exact": 3.745e-96
+   },
+   "label_ditambahkan_pp": 19.6,
+   "label_ditambahkan_baris": 318,
+   "wrong_vs_both": {
+    "n": 1621,
+    "a_kalah_b_menang": 216,
+    "a_menang_b_kalah": 0,
+    "selisih_bersih": 216,
+    "selisih_pp": 13.33,
+    "p_mcnemar_exact": 1.899e-65
+   }
+  },
+  "bge-reranker-v2-gemma": {
+   "keturunan": "Gemma (Google)",
+   "sel": {
+    "none": {
+     "menang": 600,
+     "eksak": "600/1621",
+     "pairwise": 0.3701,
+     "top1_gold": 0.2838,
+     "ndcg5": 0.3565,
+     "sha256": "4c3dcc63206d6108a361c4f5b3872a60a508d92387a4d849c74415169ee9c14e"
+    },
+    "slot": {
+     "menang": 602,
+     "eksak": "602/1621",
+     "pairwise": 0.3714,
+     "top1_gold": 0.285,
+     "ndcg5": 0.3574,
+     "sha256": "50f94ee1733be7193a0522146516658848a40e6817aa6e00c2ab160d5aca9318"
+    },
+    "both": {
+     "menang": 603,
+     "eksak": "603/1621",
+     "pairwise": 0.372,
+     "top1_gold": 0.2838,
+     "ndcg5": 0.3545,
+     "sha256": "b7df87b687d306c7b7257558a97246a943e8226bd41f691ce4f345ad245a2e78"
+    },
+    "wrong": {
+     "menang": 599,
+     "eksak": "599/1621",
+     "pairwise": 0.3695,
+     "top1_gold": 0.2801,
+     "ndcg5": 0.3527,
+     "sha256": "3958c4dd71cdd5c5ec9ba760afae3724994d7ae570826ca59aa63da9de53661b"
+    }
+   },
+   "none_vs_slot": {
+    "n": 1621,
+    "a_kalah_b_menang": 8,
+    "a_menang_b_kalah": 6,
+    "selisih_bersih": 2,
+    "selisih_pp": 0.12,
+    "p_mcnemar_exact": 0.7905,
+    "p_holm_keluarga_E": 1.0,
+    "signifikan_0.05": false
+   },
+   "batas_efek_slot_poin_persen": 0.58,
+   "ci_atas_poin_persen": 0.58,
+   "batas_ekuivalensi_slot": {
+    "model": "bge-reranker-v2-gemma",
+    "n_berpasangan": 1621,
+    "diskordan_slot_menang": 8,
+    "diskordan_buta_menang": 6,
+    "selisih_bersih": 2,
+    "selisih_proporsi": 0.001234,
+    "wald95": [
+     -0.00329,
+     0.005757
+    ],
+    "eksak_bersyarat95": [
+     -0.003651,
+     0.005586
+    ],
+    "dilaporkan95": [
+     -0.003651,
+     0.005757
+    ],
+    "metode_dilaporkan": "the wider interval on each side, of Wald and exact",
+    "batas_atas_besaran_efek": 0.005757,
+    "batas_atas_poin_persen": 0.58
+   },
+   "slot_vs_both": {
+    "n": 1621,
+    "a_kalah_b_menang": 8,
+    "a_menang_b_kalah": 7,
+    "selisih_bersih": 1,
+    "selisih_pp": 0.06,
+    "p_mcnemar_exact": 1.0
+   },
+   "label_ditambahkan_pp": 0.1,
+   "label_ditambahkan_baris": 1,
+   "wrong_vs_both": {
+    "n": 1621,
+    "a_kalah_b_menang": 8,
+    "a_menang_b_kalah": 4,
+    "selisih_bersih": 4,
+    "selisih_pp": 0.25,
+    "p_mcnemar_exact": 0.3877
+   }
+  }
+ },
+ "label_source": "deterministic (model scores)"
+}

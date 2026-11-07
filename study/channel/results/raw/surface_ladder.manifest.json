@@ -1,0 +1,10 @@
+{
+ "run_id": "tangga_permukaan_20261003T050051Z",
+ "script": "result/paper_q2/scripts/q2_tangga_permukaan.py",
+ "output": {
+  "path": "results/tables/tangga_permukaan.json",
+  "sha256": "aa0e3b402cc1bd712bd1de39ed71a4bc74b1b86019fd4fba46b578746967d03d"
+ },
+ "praregistrasi": "result/paper_q2/PRAREGISTRASI_TANGGA_ADENDUM5_PERMUKAAN.md",
+ "label_source": "deterministic"
+}

@@ -1,0 +1,960 @@
+{"query_id": "p2-1-isys", "query": "Gantt chart itu sebenarnya apa ya, dan informasi apa saja yang bisa dilihat dari grafik itu untuk memantau jadwal proyek?"}
+{"query_id": "p2-1-mgmt", "query": "Gantt chart itu sebenarnya apa ya, dan informasi apa saja yang bisa dilihat dari grafik itu untuk memantau jadwal proyek?"}
+{"query_id": "p2-2-csci", "query": "Bagaimana cara kerja stratified sampling, dan kenapa populasi perlu dibagi ke beberapa kelompok dulu sebelum sampel diambil?"}
+{"query_id": "p2-2-mgmt", "query": "Bagaimana cara kerja stratified sampling, dan kenapa populasi perlu dibagi ke beberapa kelompok dulu sebelum sampel diambil?"}
+{"query_id": "p2-3-csci", "query": "Apa bedanya sistem operasi dengan software aplikasi, dan apa peran masing-masing di komputer?"}
+{"query_id": "p2-3-isys", "query": "Apa bedanya sistem operasi dengan software aplikasi, dan apa peran masing-masing di komputer?"}
+{"query_id": "p2-4-isys", "query": "Apa definisi proyek, dan kenapa proyek disebut sebagai kegiatan yang sifatnya sementara?"}
+{"query_id": "p2-4-mgmt", "query": "Apa definisi proyek, dan kenapa proyek disebut sebagai kegiatan yang sifatnya sementara?"}
+{"query_id": "p2-5-csci", "query": "Bagaimana cara menghitung rata-rata geometrik dari beberapa angka, misalnya kalau ada tiga angka?"}
+{"query_id": "p2-5-mgmt", "query": "Bagaimana cara menghitung rata-rata geometrik dari beberapa angka, misalnya kalau ada tiga angka?"}
+{"query_id": "p2-6-csci", "query": "Apa beda jaringan LAN dan WAN, dan bagaimana kaitannya dengan model client-server?"}
+{"query_id": "p2-6-isys", "query": "Apa beda jaringan LAN dan WAN, dan bagaimana kaitannya dengan model client-server?"}
+{"query_id": "p2-7-isys", "query": "Apa fungsi database dan software pengelola database bagi perusahaan dalam menyimpan dan mengambil data?"}
+{"query_id": "p2-7-mgmt", "query": "Apa fungsi database dan software pengelola database bagi perusahaan dalam menyimpan dan mengambil data?"}
+{"query_id": "p2-8-csci", "query": "Apa sebenarnya peran CPU di dalam komputer, dan bagaimana CPU menjalankan perintah dari software?"}
+{"query_id": "p2-8-isys", "query": "Apa sebenarnya peran CPU di dalam komputer, dan bagaimana CPU menjalankan perintah dari software?"}
+{"query_id": "p2-9-isys", "query": "Apa yang dimaksud dengan crashing pada jadwal proyek, dan apa dampaknya terhadap biaya proyek?"}
+{"query_id": "p2-9-mgmt", "query": "Apa yang dimaksud dengan crashing pada jadwal proyek, dan apa dampaknya terhadap biaya proyek?"}
+{"query_id": "p2-10-csci", "query": "Apa perbedaan bahasa pemrograman yang dikompilasi dengan yang diinterpretasi, dan apa kelebihan serta kekurangan masing-masing?"}
+{"query_id": "p2-10-isys", "query": "Apa perbedaan bahasa pemrograman yang dikompilasi dengan yang diinterpretasi, dan apa kelebihan serta kekurangan masing-masing?"}
+{"query_id": "p2-11-isys", "query": "Kenapa perusahaan memilih menyerahkan sebagian pekerjaannya ke pihak luar daripada mengerjakannya sendiri?"}
+{"query_id": "p2-11-mgmt", "query": "Kenapa perusahaan memilih menyerahkan sebagian pekerjaannya ke pihak luar daripada mengerjakannya sendiri?"}
+{"query_id": "p2-12-csci", "query": "Apa yang dimaksud dengan pemrograman berorientasi objek dan bagaimana objek berperan di dalam program?"}
+{"query_id": "p2-12-isys", "query": "Apa yang dimaksud dengan pemrograman berorientasi objek dan bagaimana objek berperan di dalam program?"}
+{"query_id": "p2-13-isys", "query": "Apa itu invoice dan informasi apa saja yang biasanya tercantum di dalamnya?"}
+{"query_id": "p2-13-mgmt", "query": "Apa itu invoice dan informasi apa saja yang biasanya tercantum di dalamnya?"}
+{"query_id": "p2-14-csci", "query": "Apa itu fungsi kepadatan probabilitas dan untuk apa fungsi itu dipakai dalam menghitung peluang?"}
+{"query_id": "p2-14-mgmt", "query": "Apa itu fungsi kepadatan probabilitas dan untuk apa fungsi itu dipakai dalam menghitung peluang?"}
+{"query_id": "p2-15-csci", "query": "Apa itu intelligent agent dan bagaimana program seperti itu bisa membantu pekerjaan pengguna?"}
+{"query_id": "p2-15-isys", "query": "Apa itu intelligent agent dan bagaimana program seperti itu bisa membantu pekerjaan pengguna?"}
+{"query_id": "p2-16-csci", "query": "Bahasa pemrograman itu sebenarnya apa, dan apa saja contoh bahasa yang banyak dipakai untuk menulis program?"}
+{"query_id": "p2-16-isys", "query": "Bahasa pemrograman itu sebenarnya apa, dan apa saja contoh bahasa yang banyak dipakai untuk menulis program?"}
+{"query_id": "p2-17-isys", "query": "Apa itu Gantt chart dan kenapa masih populer dipakai untuk mengatur jadwal proyek?"}
+{"query_id": "p2-17-mgmt", "query": "Apa itu Gantt chart dan kenapa masih populer dipakai untuk mengatur jadwal proyek?"}
+{"query_id": "p2-18-csci", "query": "Bagaimana cara mengubah kecepatan transfer data dari satuan bit ke byte, dan kenapa ukuran mega atau giga kadang dihitung berbeda?"}
+{"query_id": "p2-18-isys", "query": "Bagaimana cara mengubah kecepatan transfer data dari satuan bit ke byte, dan kenapa ukuran mega atau giga kadang dihitung berbeda?"}
+{"query_id": "p2-19-isys", "query": "Apa yang dimaksud dengan sistem ERP, dan kenapa sistem ini bikin data antar bagian perusahaan bisa langsung saling terhubung?"}
+{"query_id": "p2-19-mgmt", "query": "Apa yang dimaksud dengan sistem ERP, dan kenapa sistem ini bikin data antar bagian perusahaan bisa langsung saling terhubung?"}
+{"query_id": "p2-20-csci", "query": "Apa konsep dasar dari pendekatan berorientasi objek, dan apa saja yang biasanya terkandung di dalam sebuah objek?"}
+{"query_id": "p2-20-isys", "query": "Apa konsep dasar dari pendekatan berorientasi objek, dan apa saja yang biasanya terkandung di dalam sebuah objek?"}
+{"query_id": "p2-21-isys", "query": "Apa yang dimaksud dengan kualitas sebuah produk, dan bagaimana kualitas itu dikendalikan supaya sesuai standar yang ditetapkan?"}
+{"query_id": "p2-21-mgmt", "query": "Apa yang dimaksud dengan kualitas sebuah produk, dan bagaimana kualitas itu dikendalikan supaya sesuai standar yang ditetapkan?"}
+{"query_id": "p2-22-isys", "query": "Dalam organisasi, apa yang dimaksud dengan fungsi pengendalian, dan apa yang dilakukan kalau ternyata tujuan yang ditetapkan belum tercapai?"}
+{"query_id": "p2-22-mgmt", "query": "Dalam organisasi, apa yang dimaksud dengan fungsi pengendalian, dan apa yang dilakukan kalau ternyata tujuan yang ditetapkan belum tercapai?"}
+{"query_id": "p2-23-isys", "query": "Apa itu jalur kritis dalam penjadwalan proyek, dan kenapa aktivitas di jalur itu harus selesai tepat waktu?"}
+{"query_id": "p2-23-mgmt", "query": "Apa itu jalur kritis dalam penjadwalan proyek, dan kenapa aktivitas di jalur itu harus selesai tepat waktu?"}
+{"query_id": "p2-24-csci", "query": "Analisis varians itu dipakai untuk apa kalau kita mau membandingkan rata-rata dari lebih dari dua kelompok?"}
+{"query_id": "p2-24-mgmt", "query": "Analisis varians itu dipakai untuk apa kalau kita mau membandingkan rata-rata dari lebih dari dua kelompok?"}
+{"query_id": "p2-25-isys", "query": "Apa itu paten, dan hak apa saja yang didapat seorang penemu setelah patennya diberikan?"}
+{"query_id": "p2-25-mgmt", "query": "Apa itu paten, dan hak apa saja yang didapat seorang penemu setelah patennya diberikan?"}
+{"query_id": "p2-26-csci", "query": "Apa hubungan antara nilai alpha dengan kesalahan Tipe I dalam uji hipotesis?"}
+{"query_id": "p2-26-mgmt", "query": "Apa hubungan antara nilai alpha dengan kesalahan Tipe I dalam uji hipotesis?"}
+{"query_id": "p2-27-isys", "query": "Apa yang dimaksud dengan reengineering dalam proses bisnis, dan perbaikan apa yang ingin dicapai perusahaan lewat cara ini?"}
+{"query_id": "p2-27-mgmt", "query": "Apa yang dimaksud dengan reengineering dalam proses bisnis, dan perbaikan apa yang ingin dicapai perusahaan lewat cara ini?"}
+{"query_id": "p2-28-csci", "query": "Kenapa program yang ditulis dengan Java bisa dijalankan di berbagai sistem operasi tanpa perlu diubah?"}
+{"query_id": "p2-28-isys", "query": "Kenapa program yang ditulis dengan Java bisa dijalankan di berbagai sistem operasi tanpa perlu diubah?"}
+{"query_id": "p2-29-isys", "query": "Apa hubungan perpanjangan masa berlaku hak cipta di Amerika Serikat dengan tokoh Mickey Mouse, dan apa dampaknya bagi karya-karya lama?"}
+{"query_id": "p2-29-mgmt", "query": "Apa hubungan perpanjangan masa berlaku hak cipta di Amerika Serikat dengan tokoh Mickey Mouse, dan apa dampaknya bagi karya-karya lama?"}
+{"query_id": "p2-30-isys", "query": "Gimana cara mengelompokkan item persediaan berdasarkan nilainya, supaya tahu item mana yang perlu dikontrol lebih ketat?"}
+{"query_id": "p2-30-mgmt", "query": "Gimana cara mengelompokkan item persediaan berdasarkan nilainya, supaya tahu item mana yang perlu dikontrol lebih ketat?"}
+{"query_id": "p2-31-csci", "query": "Sebenarnya program komputer atau software itu apa sih, dan apa perannya bagi sebuah komputer?"}
+{"query_id": "p2-31-isys", "query": "Sebenarnya program komputer atau software itu apa sih, dan apa perannya bagi sebuah komputer?"}
+{"query_id": "p2-32-isys", "query": "Apa yang dimaksud dengan keunggulan bersaing suatu perusahaan, dan dari mana saja keunggulan itu bisa diperoleh?"}
+{"query_id": "p2-32-mgmt", "query": "Apa yang dimaksud dengan keunggulan bersaing suatu perusahaan, dan dari mana saja keunggulan itu bisa diperoleh?"}
+{"query_id": "p2-33-csci", "query": "Apa itu distribusi frekuensi, dan bagaimana kaitannya dengan distribusi normal?"}
+{"query_id": "p2-33-isys", "query": "Apa itu distribusi frekuensi, dan bagaimana kaitannya dengan distribusi normal?"}
+{"query_id": "p2-34-isys", "query": "Apa itu expert system, dan biasanya dipakai untuk membantu hal apa saja?"}
+{"query_id": "p2-34-mgmt", "query": "Apa itu expert system, dan biasanya dipakai untuk membantu hal apa saja?"}
+{"query_id": "p2-35-csci", "query": "Bagaimana perkembangan kecepatan Ethernet sejak pertama kali muncul sampai versi-versi berikutnya?"}
+{"query_id": "p2-35-isys", "query": "Bagaimana perkembangan kecepatan Ethernet sejak pertama kali muncul sampai versi-versi berikutnya?"}
+{"query_id": "p2-36-csci", "query": "Apa yang dimaksud dengan statistik deskriptif, dan apa fungsinya dalam mengolah data?"}
+{"query_id": "p2-36-mgmt", "query": "Apa yang dimaksud dengan statistik deskriptif, dan apa fungsinya dalam mengolah data?"}
+{"query_id": "p2-37-csci", "query": "Bagaimana cara menghitung peluang munculnya suatu hasil kalau semua kemungkinan hasilnya punya kesempatan yang sama?"}
+{"query_id": "p2-37-mgmt", "query": "Bagaimana cara menghitung peluang munculnya suatu hasil kalau semua kemungkinan hasilnya punya kesempatan yang sama?"}
+{"query_id": "p2-38-csci", "query": "XML itu sebenarnya apa, dan kenapa banyak dipakai untuk bertukar data antar sistem?"}
+{"query_id": "p2-38-isys", "query": "XML itu sebenarnya apa, dan kenapa banyak dipakai untuk bertukar data antar sistem?"}
+{"query_id": "p2-39-isys", "query": "Apa yang dimaksud dengan knowledge management di sebuah organisasi, dan apa tujuannya?"}
+{"query_id": "p2-39-mgmt", "query": "Apa yang dimaksud dengan knowledge management di sebuah organisasi, dan apa tujuannya?"}
+{"query_id": "p2-40-csci", "query": "Bagaimana cara firewall menyaring paket data yang masuk ke jaringan?"}
+{"query_id": "p2-40-isys", "query": "Bagaimana cara firewall menyaring paket data yang masuk ke jaringan?"}
+{"query_id": "p2-41-csci", "query": "Apa saja langkah awal dalam melakukan uji hipotesis, terutama soal menentukan hipotesis nol dan tingkat signifikansinya?"}
+{"query_id": "p2-41-mgmt", "query": "Apa saja langkah awal dalam melakukan uji hipotesis, terutama soal menentukan hipotesis nol dan tingkat signifikansinya?"}
+{"query_id": "p2-42-csci", "query": "Apa saja tahapan dalam siklus hidup pengembangan sebuah sistem atau program, dan apa yang dikerjakan di tahap desainnya?"}
+{"query_id": "p2-42-isys", "query": "Apa saja tahapan dalam siklus hidup pengembangan sebuah sistem atau program, dan apa yang dikerjakan di tahap desainnya?"}
+{"query_id": "p2-43-isys", "query": "Bagaimana perencanaan teknologi informasi di perusahaan seharusnya diselaraskan dengan tujuan strategis organisasi?"}
+{"query_id": "p2-43-mgmt", "query": "Bagaimana perencanaan teknologi informasi di perusahaan seharusnya diselaraskan dengan tujuan strategis organisasi?"}
+{"query_id": "p2-44-csci", "query": "Bagaimana aturan penulisan dan indentasi yang baik supaya struktur sebuah statement dalam kode program mudah dibaca?"}
+{"query_id": "p2-44-isys", "query": "Bagaimana aturan penulisan dan indentasi yang baik supaya struktur sebuah statement dalam kode program mudah dibaca?"}
+{"query_id": "p2-45-isys", "query": "Apa yang dimaksud dengan e-commerce dalam dunia bisnis dan aktivitas apa saja yang termasuk di dalamnya?"}
+{"query_id": "p2-45-mgmt", "query": "Apa yang dimaksud dengan e-commerce dalam dunia bisnis dan aktivitas apa saja yang termasuk di dalamnya?"}
+{"query_id": "p2-46-csci", "query": "Bagaimana cara memahami interval kepercayaan untuk rata-rata populasi, dan seberapa yakin kita bahwa interval itu memuat nilai sebenarnya?"}
+{"query_id": "p2-46-mgmt", "query": "Bagaimana cara memahami interval kepercayaan untuk rata-rata populasi, dan seberapa yakin kita bahwa interval itu memuat nilai sebenarnya?"}
+{"query_id": "p2-47-csci", "query": "Bagaimana sistem lisensi spektrum frekuensi radio untuk komunikasi nirkabel bekerja, dan apa kaitannya dengan masalah interferensi?"}
+{"query_id": "p2-47-isys", "query": "Bagaimana sistem lisensi spektrum frekuensi radio untuk komunikasi nirkabel bekerja, dan apa kaitannya dengan masalah interferensi?"}
+{"query_id": "p2-48-isys", "query": "Apa itu EDI dalam pertukaran informasi antar mitra bisnis, dan apa manfaatnya bagi perusahaan?"}
+{"query_id": "p2-48-mgmt", "query": "Apa itu EDI dalam pertukaran informasi antar mitra bisnis, dan apa manfaatnya bagi perusahaan?"}
+{"query_id": "p2-49-csci", "query": "Apa yang dimaksud dengan tabel frekuensi dalam statistik?"}
+{"query_id": "p2-49-mgmt", "query": "Apa yang dimaksud dengan tabel frekuensi dalam statistik?"}
+{"query_id": "p2-50-csci", "query": "Apa saja jenis firewall dan bagaimana firewall menyaring paket yang masuk ke jaringan atau komputer?"}
+{"query_id": "p2-50-isys", "query": "Apa saja jenis firewall dan bagaimana firewall menyaring paket yang masuk ke jaringan atau komputer?"}
+{"query_id": "p2-51-isys", "query": "Apa itu rencana kontinjensi, dan kenapa organisasi perlu menyiapkannya untuk menghadapi kejadian tak terduga?"}
+{"query_id": "p2-51-mgmt", "query": "Apa itu rencana kontinjensi, dan kenapa organisasi perlu menyiapkannya untuk menghadapi kejadian tak terduga?"}
+{"query_id": "p2-52-csci", "query": "Email mulai dipakai di internet sejak kapan, dan bagaimana penggunaannya berkembang setelah itu?"}
+{"query_id": "p2-52-isys", "query": "Email mulai dipakai di internet sejak kapan, dan bagaimana penggunaannya berkembang setelah itu?"}
+{"query_id": "p2-53-csci", "query": "Apa itu FTP dan bagaimana server FTP melayani permintaan kirim atau ambil file dari komputer lain?"}
+{"query_id": "p2-53-isys", "query": "Apa itu FTP dan bagaimana server FTP melayani permintaan kirim atau ambil file dari komputer lain?"}
+{"query_id": "p2-54-isys", "query": "Apa kelebihan RFID dibandingkan barcode untuk melacak barang dan inventaris?"}
+{"query_id": "p2-54-mgmt", "query": "Apa kelebihan RFID dibandingkan barcode untuk melacak barang dan inventaris?"}
+{"query_id": "p2-55-csci", "query": "Apa yang dimaksud inheritance antara superclass dan subclass dalam konsep berorientasi objek?"}
+{"query_id": "p2-55-isys", "query": "Apa yang dimaksud inheritance antara superclass dan subclass dalam konsep berorientasi objek?"}
+{"query_id": "p2-56-csci", "query": "Kapan sebaiknya memakai grafik garis dibanding grafik batang untuk menyajikan data?"}
+{"query_id": "p2-56-mgmt", "query": "Kapan sebaiknya memakai grafik garis dibanding grafik batang untuk menyajikan data?"}
+{"query_id": "p2-57-isys", "query": "Apa yang terjadi pada Enron di tahun 2001 sampai perusahaan itu akhirnya bangkrut?"}
+{"query_id": "p2-57-mgmt", "query": "Apa yang terjadi pada Enron di tahun 2001 sampai perusahaan itu akhirnya bangkrut?"}
+{"query_id": "p2-58-csci", "query": "Bagaimana cara menguji apakah rata-rata dua populasi berbeda, dan asumsi apa saja yang perlu dipenuhi?"}
+{"query_id": "p2-58-mgmt", "query": "Bagaimana cara menguji apakah rata-rata dua populasi berbeda, dan asumsi apa saja yang perlu dipenuhi?"}
+{"query_id": "p2-59-isys", "query": "Metode PERT untuk penjadwalan proyek itu awalnya dikembangkan kapan dan untuk proyek apa?"}
+{"query_id": "p2-59-mgmt", "query": "Metode PERT untuk penjadwalan proyek itu awalnya dikembangkan kapan dan untuk proyek apa?"}
+{"query_id": "p2-60-csci", "query": "Gimana cara memutuskan menolak atau tidak menolak hipotesis nol kalau kita membandingkan p-value dengan tingkat signifikansi alpha?"}
+{"query_id": "p2-60-mgmt", "query": "Gimana cara memutuskan menolak atau tidak menolak hipotesis nol kalau kita membandingkan p-value dengan tingkat signifikansi alpha?"}
+{"query_id": "p2-61-isys", "query": "Apa beda reward intrinsik dan ekstrinsik untuk karyawan, dan contohnya apa saja?"}
+{"query_id": "p2-61-mgmt", "query": "Apa beda reward intrinsik dan ekstrinsik untuk karyawan, dan contohnya apa saja?"}
+{"query_id": "p2-62-csci", "query": "Apa hubungan rantai Markov dengan algoritma PageRank yang dipakai Google untuk pencarian web?"}
+{"query_id": "p2-62-mgmt", "query": "Apa hubungan rantai Markov dengan algoritma PageRank yang dipakai Google untuk pencarian web?"}
+{"query_id": "p2-63-isys", "query": "Perlindungan hak cipta atas sebuah karya itu berlaku berapa lama?"}
+{"query_id": "p2-63-mgmt", "query": "Perlindungan hak cipta atas sebuah karya itu berlaku berapa lama?"}
+{"query_id": "p2-64-isys", "query": "Apa saja yang dilakukan auditor saat mengevaluasi kontrol internal sebuah organisasi?"}
+{"query_id": "p2-64-mgmt", "query": "Apa saja yang dilakukan auditor saat mengevaluasi kontrol internal sebuah organisasi?"}
+{"query_id": "p2-65-csci", "query": "Variance itu definisinya apa, dan bagaimana menghitungnya dari selisih data terhadap rata-rata?"}
+{"query_id": "p2-65-mgmt", "query": "Variance itu definisinya apa, dan bagaimana menghitungnya dari selisih data terhadap rata-rata?"}
+{"query_id": "p2-66-csci", "query": "Faktor apa saja yang menentukan seberapa cepat sebuah komputer atau prosesor bekerja?"}
+{"query_id": "p2-66-isys", "query": "Faktor apa saja yang menentukan seberapa cepat sebuah komputer atau prosesor bekerja?"}
+{"query_id": "p2-67-isys", "query": "Apa itu globalisasi dan faktor apa saja yang mendorong terjadinya?"}
+{"query_id": "p2-67-mgmt", "query": "Apa itu globalisasi dan faktor apa saja yang mendorong terjadinya?"}
+{"query_id": "p2-68-isys", "query": "Biaya kualitas atau cost of quality itu sebenarnya mencakup biaya apa saja?"}
+{"query_id": "p2-68-mgmt", "query": "Biaya kualitas atau cost of quality itu sebenarnya mencakup biaya apa saja?"}
+{"query_id": "p2-69-isys", "query": "Gimana Walmart memanfaatkan teknologi untuk mengembangkan bisnis ritelnya?"}
+{"query_id": "p2-69-mgmt", "query": "Gimana Walmart memanfaatkan teknologi untuk mengembangkan bisnis ritelnya?"}
+{"query_id": "p2-70-csci", "query": "Bagaimana perkembangan jumlah pengguna ponsel dan kaitannya dengan akses Internet?"}
+{"query_id": "p2-70-isys", "query": "Bagaimana perkembangan jumlah pengguna ponsel dan kaitannya dengan akses Internet?"}
+{"query_id": "p2-71-csci", "query": "Bagaimana sejarah awal munculnya World Wide Web dan untuk apa awalnya dikembangkan?"}
+{"query_id": "p2-71-isys", "query": "Bagaimana sejarah awal munculnya World Wide Web dan untuk apa awalnya dikembangkan?"}
+{"query_id": "p2-72-isys", "query": "Bagaimana karyawan sendiri bisa jadi ancaman bagi keamanan sistem dan data perusahaan, dan apa yang bisa dilakukan untuk mengurangi dampaknya?"}
+{"query_id": "p2-72-mgmt", "query": "Bagaimana karyawan sendiri bisa jadi ancaman bagi keamanan sistem dan data perusahaan, dan apa yang bisa dilakukan untuk mengurangi dampaknya?"}
+{"query_id": "p2-73-isys", "query": "Apa saja yang perlu dikendalikan manajer proyek supaya proyek selesai tepat waktu dan tidak melebihi anggaran?"}
+{"query_id": "p2-73-mgmt", "query": "Apa saja yang perlu dikendalikan manajer proyek supaya proyek selesai tepat waktu dan tidak melebihi anggaran?"}
+{"query_id": "p2-74-isys", "query": "Apa yang sebenarnya terjadi dalam skandal Enron, dan apa peran Sherron Watkins dalam membongkar masalah tersebut?"}
+{"query_id": "p2-74-mgmt", "query": "Apa yang sebenarnya terjadi dalam skandal Enron, dan apa peran Sherron Watkins dalam membongkar masalah tersebut?"}
+{"query_id": "p2-75-isys", "query": "Dalam proses pembelian barang, apa hubungan antara purchase order, invoice dari pemasok, dan laporan penerimaan barang?"}
+{"query_id": "p2-75-mgmt", "query": "Dalam proses pembelian barang, apa hubungan antara purchase order, invoice dari pemasok, dan laporan penerimaan barang?"}
+{"query_id": "p2-76-csci", "query": "Kenapa sampel harus benar-benar mewakili populasi supaya kesimpulan statistik yang kita tarik bisa dipercaya?"}
+{"query_id": "p2-76-mgmt", "query": "Kenapa sampel harus benar-benar mewakili populasi supaya kesimpulan statistik yang kita tarik bisa dipercaya?"}
+{"query_id": "p2-77-isys", "query": "Apa yang dimaksud dengan budaya perusahaan, dan bagaimana budaya itu membedakan satu organisasi dari organisasi lain?"}
+{"query_id": "p2-77-mgmt", "query": "Apa yang dimaksud dengan budaya perusahaan, dan bagaimana budaya itu membedakan satu organisasi dari organisasi lain?"}
+{"query_id": "p2-78-isys", "query": "Kenapa proses bisnis perusahaan perlu dibenahi dulu sebelum memasang sistem informasi yang baru?"}
+{"query_id": "p2-78-mgmt", "query": "Kenapa proses bisnis perusahaan perlu dibenahi dulu sebelum memasang sistem informasi yang baru?"}
+{"query_id": "p2-79-csci", "query": "Kapan ARPANET mulai beroperasi dan apa alasan awal komputer-komputer waktu itu ingin dihubungkan dalam satu jaringan?"}
+{"query_id": "p2-79-isys", "query": "Kapan ARPANET mulai beroperasi dan apa alasan awal komputer-komputer waktu itu ingin dihubungkan dalam satu jaringan?"}
+{"query_id": "p2-80-csci", "query": "Apa yang dimaksud dengan one-way ANOVA dan dalam kondisi seperti apa analisis ini dipakai?"}
+{"query_id": "p2-80-mgmt", "query": "Apa yang dimaksud dengan one-way ANOVA dan dalam kondisi seperti apa analisis ini dipakai?"}
+{"query_id": "p2-81-csci", "query": "Kalau kita menemukan error di program lalu memperbaikinya, langkah apa yang harus dilakukan sesudahnya supaya programnya benar-benar siap?"}
+{"query_id": "p2-81-isys", "query": "Kalau kita menemukan error di program lalu memperbaikinya, langkah apa yang harus dilakukan sesudahnya supaya programnya benar-benar siap?"}
+{"query_id": "p2-82-isys", "query": "Biasanya kode etik atau code of conduct perusahaan untuk karyawan mengatur hal-hal apa saja?"}
+{"query_id": "p2-82-mgmt", "query": "Biasanya kode etik atau code of conduct perusahaan untuk karyawan mengatur hal-hal apa saja?"}
+{"query_id": "p2-83-csci", "query": "Bagaimana cara mengubah tipe data suatu nilai, misalnya angka desimal menjadi bilangan bulat?"}
+{"query_id": "p2-83-isys", "query": "Bagaimana cara mengubah tipe data suatu nilai, misalnya angka desimal menjadi bilangan bulat?"}
+{"query_id": "p2-84-isys", "query": "Bagaimana perusahaan menentukan kapan harus memesan ulang stok barang di gudang?"}
+{"query_id": "p2-84-mgmt", "query": "Bagaimana perusahaan menentukan kapan harus memesan ulang stok barang di gudang?"}
+{"query_id": "p2-85-csci", "query": "Perangkat apa saja yang dipakai komputer untuk menyimpan data jangka panjang, dan bagaimana perbandingan kecepatannya?"}
+{"query_id": "p2-85-isys", "query": "Perangkat apa saja yang dipakai komputer untuk menyimpan data jangka panjang, dan bagaimana perbandingan kecepatannya?"}
+{"query_id": "p2-86-isys", "query": "Kalau ingin berkarier sebagai manajer proyek, organisasi profesi dan sertifikasi apa yang sebaiknya diketahui?"}
+{"query_id": "p2-86-mgmt", "query": "Kalau ingin berkarier sebagai manajer proyek, organisasi profesi dan sertifikasi apa yang sebaiknya diketahui?"}
+{"query_id": "p2-87-isys", "query": "Bentuk pengendalian apa saja yang biasanya ditetapkan manajemen untuk mengurangi risiko dalam organisasi?"}
+{"query_id": "p2-87-mgmt", "query": "Bentuk pengendalian apa saja yang biasanya ditetapkan manajemen untuk mengurangi risiko dalam organisasi?"}
+{"query_id": "p2-88-isys", "query": "Apa yang dimaksud float dalam pembayaran pakai cek, dan kenapa hal ini penting bagi perusahaan?"}
+{"query_id": "p2-88-mgmt", "query": "Apa yang dimaksud float dalam pembayaran pakai cek, dan kenapa hal ini penting bagi perusahaan?"}
+{"query_id": "p2-89-isys", "query": "Apa saja keuntungan yang didapat perusahaan kalau menjalankan bisnisnya lewat internet?"}
+{"query_id": "p2-89-mgmt", "query": "Apa saja keuntungan yang didapat perusahaan kalau menjalankan bisnisnya lewat internet?"}
+{"query_id": "p2-90-csci", "query": "Gimana cara mendapatkan nilai pengali yang dipakai untuk membuat selang kepercayaan 95% atas rata-rata populasi?"}
+{"query_id": "p2-90-mgmt", "query": "Gimana cara mendapatkan nilai pengali yang dipakai untuk membuat selang kepercayaan 95% atas rata-rata populasi?"}
+{"query_id": "p2-91-isys", "query": "Apa tujuan utama dari manajemen rantai pasok dalam sebuah perusahaan?"}
+{"query_id": "p2-91-mgmt", "query": "Apa tujuan utama dari manajemen rantai pasok dalam sebuah perusahaan?"}
+{"query_id": "p2-92-isys", "query": "Apa peran dan tanggung jawab seorang chief information officer (CIO) di perusahaan?"}
+{"query_id": "p2-92-mgmt", "query": "Apa peran dan tanggung jawab seorang chief information officer (CIO) di perusahaan?"}
+{"query_id": "p2-93-csci", "query": "Bagaimana cara mengurutkan data dari yang terkecil ke terbesar atau sebaliknya?"}
+{"query_id": "p2-93-isys", "query": "Bagaimana cara mengurutkan data dari yang terkecil ke terbesar atau sebaliknya?"}
+{"query_id": "p2-94-isys", "query": "Bagaimana cara mengidentifikasi dan menganalisis para pemangku kepentingan (stakeholder) sebelum mengambil sebuah keputusan?"}
+{"query_id": "p2-94-mgmt", "query": "Bagaimana cara mengidentifikasi dan menganalisis para pemangku kepentingan (stakeholder) sebelum mengambil sebuah keputusan?"}
+{"query_id": "p2-95-csci", "query": "Apa arti nilai koefisien korelasi r yang mendekati -1, 0, atau 1?"}
+{"query_id": "p2-95-mgmt", "query": "Apa arti nilai koefisien korelasi r yang mendekati -1, 0, atau 1?"}
+{"query_id": "p2-96-isys", "query": "Apa perbedaan antara data warehouse dan data mining?"}
+{"query_id": "p2-96-mgmt", "query": "Apa perbedaan antara data warehouse dan data mining?"}
+{"query_id": "p2-97-csci", "query": "Apa yang dimaksud dengan bias dalam pengambilan sampel?"}
+{"query_id": "p2-97-mgmt", "query": "Apa yang dimaksud dengan bias dalam pengambilan sampel?"}
+{"query_id": "p2-98-csci", "query": "Pada persamaan garis lurus, bagaimana kemiringan garis berhubungan dengan turunan dy/dx, dan di titik mana garis itu memotong sumbu y?"}
+{"query_id": "p2-98-mgmt", "query": "Pada persamaan garis lurus, bagaimana kemiringan garis berhubungan dengan turunan dy/dx, dan di titik mana garis itu memotong sumbu y?"}
+{"query_id": "p2-99-csci", "query": "Bagaimana proses enkripsi mengubah pesan asli menjadi teks sandi, lalu bagaimana penerima mengembalikannya ke pesan semula?"}
+{"query_id": "p2-99-isys", "query": "Bagaimana proses enkripsi mengubah pesan asli menjadi teks sandi, lalu bagaimana penerima mengembalikannya ke pesan semula?"}
+{"query_id": "p2-100-csci", "query": "Kenapa spesifikasi perlu disusun dulu sebelum sebuah program atau aplikasi dibangun, dan hal apa saja yang perlu dijelaskan di dalamnya?"}
+{"query_id": "p2-100-isys", "query": "Kenapa spesifikasi perlu disusun dulu sebelum sebuah program atau aplikasi dibangun, dan hal apa saja yang perlu dijelaskan di dalamnya?"}
+{"query_id": "p2-101-isys", "query": "Apa itu teknologi Bluetooth dan apa saja contoh pemakaiannya dalam kehidupan sehari-hari?"}
+{"query_id": "p2-101-mgmt", "query": "Apa itu teknologi Bluetooth dan apa saja contoh pemakaiannya dalam kehidupan sehari-hari?"}
+{"query_id": "p2-102-csci", "query": "Bagaimana cara menyelesaikan sistem persamaan linear dengan operasi baris pada matriks yang diperluas sampai mencapai bentuk eselon baris tereduksi?"}
+{"query_id": "p2-102-mgmt", "query": "Bagaimana cara menyelesaikan sistem persamaan linear dengan operasi baris pada matriks yang diperluas sampai mencapai bentuk eselon baris tereduksi?"}
+{"query_id": "p2-103-csci", "query": "Kenapa kalau titik-titik data makin jauh tersebar dari garis regresi, standard error-nya jadi makin besar, dan apa artinya buat ketepatan modelnya?"}
+{"query_id": "p2-103-mgmt", "query": "Kenapa kalau titik-titik data makin jauh tersebar dari garis regresi, standard error-nya jadi makin besar, dan apa artinya buat ketepatan modelnya?"}
+{"query_id": "p2-104-isys", "query": "Kapan perusahaan mulai memakai komputer untuk pekerjaan akuntansi, dan aplikasi apa yang pertama kali diotomatisasi?"}
+{"query_id": "p2-104-mgmt", "query": "Kapan perusahaan mulai memakai komputer untuk pekerjaan akuntansi, dan aplikasi apa yang pertama kali diotomatisasi?"}
+{"query_id": "p2-105-isys", "query": "Bagaimana cara manajer mengidentifikasi pemangku kepentingan dan menentukan mana yang perlu diprioritaskan sesuai kebutuhan dan pengaruhnya?"}
+{"query_id": "p2-105-mgmt", "query": "Bagaimana cara manajer mengidentifikasi pemangku kepentingan dan menentukan mana yang perlu diprioritaskan sesuai kebutuhan dan pengaruhnya?"}
+{"query_id": "p2-106-csci", "query": "Bagaimana cara menghitung bunga sederhana dari modal awal yang disimpan selama beberapa tahun?"}
+{"query_id": "p2-106-mgmt", "query": "Bagaimana cara menghitung bunga sederhana dari modal awal yang disimpan selama beberapa tahun?"}
+{"query_id": "p2-107-isys", "query": "Apa maksud gagasan bahwa dunia menjadi 'datar' akibat globalisasi dan internet?"}
+{"query_id": "p2-107-mgmt", "query": "Apa maksud gagasan bahwa dunia menjadi 'datar' akibat globalisasi dan internet?"}
+{"query_id": "p2-108-isys", "query": "Apa bedanya perusahaan manufaktur dengan perusahaan dagang dilihat dari cara mereka memperoleh dan menjual barang?"}
+{"query_id": "p2-108-mgmt", "query": "Apa bedanya perusahaan manufaktur dengan perusahaan dagang dilihat dari cara mereka memperoleh dan menjual barang?"}
+{"query_id": "p2-109-csci", "query": "Bagaimana cara menyusun matriks augmented dari sebuah sistem persamaan linear, dan informasi apa saja yang dimasukkan ke dalamnya?"}
+{"query_id": "p2-109-mgmt", "query": "Bagaimana cara menyusun matriks augmented dari sebuah sistem persamaan linear, dan informasi apa saja yang dimasukkan ke dalamnya?"}
+{"query_id": "p2-110-isys", "query": "Kenapa kontrol yang sudah diterapkan di sebuah organisasi tetap harus dipantau secara berkala?"}
+{"query_id": "p2-110-mgmt", "query": "Kenapa kontrol yang sudah diterapkan di sebuah organisasi tetap harus dipantau secara berkala?"}
+{"query_id": "p2-111-csci", "query": "Sebenarnya berapa banyak angka desimal yang perlu dicatat atau dilaporkan dari data hasil pengukuran, apakah makin banyak digit selalu makin bagus?"}
+{"query_id": "p2-111-mgmt", "query": "Sebenarnya berapa banyak angka desimal yang perlu dicatat atau dilaporkan dari data hasil pengukuran, apakah makin banyak digit selalu makin bagus?"}
+{"query_id": "p2-112-isys", "query": "Bagaimana bias yang ada dalam diri seseorang bisa memengaruhi cara dia mengambil keputusan?"}
+{"query_id": "p2-112-mgmt", "query": "Bagaimana bias yang ada dalam diri seseorang bisa memengaruhi cara dia mengambil keputusan?"}
+{"query_id": "p2-113-csci", "query": "Apa itu string dan kenapa tipe data ini penting untuk merepresentasikan data berupa teks atau kata?"}
+{"query_id": "p2-113-isys", "query": "Apa itu string dan kenapa tipe data ini penting untuk merepresentasikan data berupa teks atau kata?"}
+{"query_id": "p2-114-isys", "query": "Risiko keamanan apa saja yang bisa timbul dari perangkat mobile milik karyawan terhadap data perusahaan?"}
+{"query_id": "p2-114-mgmt", "query": "Risiko keamanan apa saja yang bisa timbul dari perangkat mobile milik karyawan terhadap data perusahaan?"}
+{"query_id": "p2-115-csci", "query": "Bagaimana sebuah program bisa memastikan data yang dimasukkan pengguna itu benar atau valid sebelum diproses lebih lanjut?"}
+{"query_id": "p2-115-isys", "query": "Bagaimana sebuah program bisa memastikan data yang dimasukkan pengguna itu benar atau valid sebelum diproses lebih lanjut?"}
+{"query_id": "p2-116-csci", "query": "Kapan sebaiknya kita pakai grafik garis untuk menampilkan data, dan apa bedanya dengan grafik batang?"}
+{"query_id": "p2-116-mgmt", "query": "Kapan sebaiknya kita pakai grafik garis untuk menampilkan data, dan apa bedanya dengan grafik batang?"}
+{"query_id": "p2-117-isys", "query": "Bagaimana perkembangan jaringan nirkabel dan jaringan seluler untuk akses Internet belakangan ini?"}
+{"query_id": "p2-117-mgmt", "query": "Bagaimana perkembangan jaringan nirkabel dan jaringan seluler untuk akses Internet belakangan ini?"}
+{"query_id": "p2-118-csci", "query": "Kenapa jumlah hasil kali simpangan x dan y dari rata-ratanya bisa menunjukkan apakah dua variabel punya hubungan positif atau negatif?"}
+{"query_id": "p2-118-mgmt", "query": "Kenapa jumlah hasil kali simpangan x dan y dari rata-ratanya bisa menunjukkan apakah dua variabel punya hubungan positif atau negatif?"}
+{"query_id": "p2-119-isys", "query": "Apa itu tim virtual dan tantangan apa yang muncul kalau anggota tim bekerja dari lokasi yang berjauhan?"}
+{"query_id": "p2-119-mgmt", "query": "Apa itu tim virtual dan tantangan apa yang muncul kalau anggota tim bekerja dari lokasi yang berjauhan?"}
+{"query_id": "p2-120-isys", "query": "Apa yang dimaksud dengan kekayaan intelektual dan apa sebenarnya yang dilindungi oleh hukumnya?"}
+{"query_id": "p2-120-mgmt", "query": "Apa yang dimaksud dengan kekayaan intelektual dan apa sebenarnya yang dilindungi oleh hukumnya?"}
+{"query_id": "p2-121-csci", "query": "Dalam situasi seperti apa distribusi binomial dipakai untuk menghitung peluang?"}
+{"query_id": "p2-121-mgmt", "query": "Dalam situasi seperti apa distribusi binomial dipakai untuk menghitung peluang?"}
+{"query_id": "p2-122-isys", "query": "Kenapa sistem informasi sekarang dianggap makin penting buat perusahaan dan cara mereka menjalankan bisnis?"}
+{"query_id": "p2-122-mgmt", "query": "Kenapa sistem informasi sekarang dianggap makin penting buat perusahaan dan cara mereka menjalankan bisnis?"}
+{"query_id": "p2-123-isys", "query": "Sebenarnya kualitas itu artinya apa, dan kenapa kualitas perlu dikelola secara khusus?"}
+{"query_id": "p2-123-mgmt", "query": "Sebenarnya kualitas itu artinya apa, dan kenapa kualitas perlu dikelola secara khusus?"}
+{"query_id": "p2-124-isys", "query": "Apa yang dimaksud jalur kritis dalam penjadwalan sebuah proyek?"}
+{"query_id": "p2-124-mgmt", "query": "Apa yang dimaksud jalur kritis dalam penjadwalan sebuah proyek?"}
+{"query_id": "p2-125-csci", "query": "Apa hubungan antara field, record, dan database dalam cara data disimpan dan diorganisasi?"}
+{"query_id": "p2-125-isys", "query": "Apa hubungan antara field, record, dan database dalam cara data disimpan dan diorganisasi?"}
+{"query_id": "p2-126-csci", "query": "Bagaimana cara membaca tabel distribusi normal standar untuk mencari luas area atau peluang dari suatu nilai Z?"}
+{"query_id": "p2-126-mgmt", "query": "Bagaimana cara membaca tabel distribusi normal standar untuk mencari luas area atau peluang dari suatu nilai Z?"}
+{"query_id": "p2-127-csci", "query": "Apa sumbangan penting Alan Turing lewat makalahnya tentang bilangan yang bisa dihitung?"}
+{"query_id": "p2-127-mgmt", "query": "Apa sumbangan penting Alan Turing lewat makalahnya tentang bilangan yang bisa dihitung?"}
+{"query_id": "p2-128-isys", "query": "Apa tujuan penilaian kinerja karyawan bagi organisasi, misalnya terkait gaji, promosi, atau pelatihan?"}
+{"query_id": "p2-128-mgmt", "query": "Apa tujuan penilaian kinerja karyawan bagi organisasi, misalnya terkait gaji, promosi, atau pelatihan?"}
+{"query_id": "p2-129-isys", "query": "Bagaimana tren jumlah pengajuan paten dalam beberapa dekade terakhir, dan apa yang mendorong kenaikannya?"}
+{"query_id": "p2-129-mgmt", "query": "Bagaimana tren jumlah pengajuan paten dalam beberapa dekade terakhir, dan apa yang mendorong kenaikannya?"}
+{"query_id": "p2-130-isys", "query": "Sebenarnya apa yang dimaksud dengan teknologi, dan hal apa saja yang tercakup di dalamnya?"}
+{"query_id": "p2-130-mgmt", "query": "Sebenarnya apa yang dimaksud dengan teknologi, dan hal apa saja yang tercakup di dalamnya?"}
+{"query_id": "p2-131-csci", "query": "Apa hubungan antara sum of squares dengan varians dalam analisis statistik?"}
+{"query_id": "p2-131-mgmt", "query": "Apa hubungan antara sum of squares dengan varians dalam analisis statistik?"}
+{"query_id": "p2-132-isys", "query": "Gimana peramalan yang memakai data historis bisa membantu perusahaan mengatur jumlah persediaan barangnya?"}
+{"query_id": "p2-132-mgmt", "query": "Gimana peramalan yang memakai data historis bisa membantu perusahaan mengatur jumlah persediaan barangnya?"}
+{"query_id": "p2-133-isys", "query": "Tahapan apa saja yang dilalui manajer waktu mengambil keputusan, dan informasi apa yang dibutuhkan di sepanjang tahapan itu?"}
+{"query_id": "p2-133-mgmt", "query": "Tahapan apa saja yang dilalui manajer waktu mengambil keputusan, dan informasi apa yang dibutuhkan di sepanjang tahapan itu?"}
+{"query_id": "p2-134-isys", "query": "Apa yang dimaksud dengan perencanaan produksi dalam sebuah perusahaan?"}
+{"query_id": "p2-134-mgmt", "query": "Apa yang dimaksud dengan perencanaan produksi dalam sebuah perusahaan?"}
+{"query_id": "p2-135-isys", "query": "Kegiatan apa saja yang dilakukan perusahaan untuk mendorong pelanggan supaya mau membeli produknya?"}
+{"query_id": "p2-135-mgmt", "query": "Kegiatan apa saja yang dilakukan perusahaan untuk mendorong pelanggan supaya mau membeli produknya?"}
+{"query_id": "p2-136-isys", "query": "Apa saja peran yang dijalankan seorang manajer dalam pekerjaannya, dan bagaimana peran-peran itu dikelompokkan?"}
+{"query_id": "p2-136-mgmt", "query": "Apa saja peran yang dijalankan seorang manajer dalam pekerjaannya, dan bagaimana peran-peran itu dikelompokkan?"}
+{"query_id": "p2-137-isys", "query": "Kejahatan yang memakai komputer di lingkungan perusahaan itu bentuknya apa saja?"}
+{"query_id": "p2-137-mgmt", "query": "Kejahatan yang memakai komputer di lingkungan perusahaan itu bentuknya apa saja?"}
+{"query_id": "p2-138-csci", "query": "Apa yang dimaksud dengan data atau variabel diskrit, dan kenapa nilainya tidak bisa berupa pecahan?"}
+{"query_id": "p2-138-mgmt", "query": "Apa yang dimaksud dengan data atau variabel diskrit, dan kenapa nilainya tidak bisa berupa pecahan?"}
+{"query_id": "p2-139-isys", "query": "Dalam studi kelayakan, aspek kelayakan teknis itu sebenarnya memeriksa apa?"}
+{"query_id": "p2-139-mgmt", "query": "Dalam studi kelayakan, aspek kelayakan teknis itu sebenarnya memeriksa apa?"}
+{"query_id": "p2-140-isys", "query": "Bagaimana cara menentukan stakeholder mana yang benar-benar penting dan perlu diprioritaskan?"}
+{"query_id": "p2-140-mgmt", "query": "Bagaimana cara menentukan stakeholder mana yang benar-benar penting dan perlu diprioritaskan?"}
+{"query_id": "p2-141-csci", "query": "Kapan kita tidak bisa menolak hipotesis nol, dan apa artinya kalau hasilnya seperti itu?"}
+{"query_id": "p2-141-mgmt", "query": "Kapan kita tidak bisa menolak hipotesis nol, dan apa artinya kalau hasilnya seperti itu?"}
+{"query_id": "p2-142-csci", "query": "Bagaimana komunikasi nirkabel menghubungkan perangkat tanpa kabel, dan media sinyal apa saja yang bisa dipakai?"}
+{"query_id": "p2-142-isys", "query": "Bagaimana komunikasi nirkabel menghubungkan perangkat tanpa kabel, dan media sinyal apa saja yang bisa dipakai?"}
+{"query_id": "p2-143-isys", "query": "Apa perbedaan antara barang dan jasa?"}
+{"query_id": "p2-143-mgmt", "query": "Apa perbedaan antara barang dan jasa?"}
+{"query_id": "p2-144-isys", "query": "Apa maksudnya informasi itu bisa dibandingkan (comparable), dan kenapa sifat itu penting?"}
+{"query_id": "p2-144-mgmt", "query": "Apa maksudnya informasi itu bisa dibandingkan (comparable), dan kenapa sifat itu penting?"}
+{"query_id": "p2-145-csci", "query": "Bagaimana cara mengukur seberapa jauh sebuah data pengamatan menyimpang dari garis regresi?"}
+{"query_id": "p2-145-mgmt", "query": "Bagaimana cara mengukur seberapa jauh sebuah data pengamatan menyimpang dari garis regresi?"}
+{"query_id": "p2-146-csci", "query": "Sebenarnya analisis regresi itu dipakai untuk apa?"}
+{"query_id": "p2-146-mgmt", "query": "Sebenarnya analisis regresi itu dipakai untuk apa?"}
+{"query_id": "p2-147-csci", "query": "Apa ciri-ciri distribusi normal dan seperti apa bentuk grafiknya?"}
+{"query_id": "p2-147-mgmt", "query": "Apa ciri-ciri distribusi normal dan seperti apa bentuk grafiknya?"}
+{"query_id": "p2-148-isys", "query": "Siapa saja pihak yang bisa dianggap stakeholder, dan kenapa penting untuk memperhatikan mereka?"}
+{"query_id": "p2-148-mgmt", "query": "Siapa saja pihak yang bisa dianggap stakeholder, dan kenapa penting untuk memperhatikan mereka?"}
+{"query_id": "p2-149-csci", "query": "Deviasi suatu data dari mean itu maksudnya apa, dan cara menghitungnya bagaimana?"}
+{"query_id": "p2-149-mgmt", "query": "Deviasi suatu data dari mean itu maksudnya apa, dan cara menghitungnya bagaimana?"}
+{"query_id": "p2-150-isys", "query": "Kenapa penerapan sistem perangkat lunak terintegrasi yang baru di Hershey tahun 1999 dianggap gagal, dan apa akibatnya bagi perusahaan?"}
+{"query_id": "p2-150-mgmt", "query": "Kenapa penerapan sistem perangkat lunak terintegrasi yang baru di Hershey tahun 1999 dianggap gagal, dan apa akibatnya bagi perusahaan?"}
+{"query_id": "p2-151-isys", "query": "Apa itu outsourcing, dan fungsi apa saja di perusahaan yang bisa diserahkan ke pihak luar?"}
+{"query_id": "p2-151-mgmt", "query": "Apa itu outsourcing, dan fungsi apa saja di perusahaan yang bisa diserahkan ke pihak luar?"}
+{"query_id": "p2-152-csci", "query": "Bagaimana cara menyelesaikan sebuah sistem persamaan linear secara sistematis?"}
+{"query_id": "p2-152-mgmt", "query": "Bagaimana cara menyelesaikan sebuah sistem persamaan linear secara sistematis?"}
+{"query_id": "p2-153-isys", "query": "Aspek apa saja yang perlu dipertimbangkan dalam studi kelayakan sebelum sebuah proyek atau produk baru dijalankan?"}
+{"query_id": "p2-153-mgmt", "query": "Aspek apa saja yang perlu dipertimbangkan dalam studi kelayakan sebelum sebuah proyek atau produk baru dijalankan?"}
+{"query_id": "p2-154-csci", "query": "Apa itu vektor keadaan dan bagaimana perannya dalam menggambarkan perubahan kondisi suatu sistem dari satu waktu ke waktu berikutnya?"}
+{"query_id": "p2-154-mgmt", "query": "Apa itu vektor keadaan dan bagaimana perannya dalam menggambarkan perubahan kondisi suatu sistem dari satu waktu ke waktu berikutnya?"}
+{"query_id": "p2-155-isys", "query": "Apa saja tantangan perusahaan dalam mendorong karyawan yang ahli untuk mau berbagi keahlian dan pengetahuannya dengan rekan kerja?"}
+{"query_id": "p2-155-mgmt", "query": "Apa saja tantangan perusahaan dalam mendorong karyawan yang ahli untuk mau berbagi keahlian dan pengetahuannya dengan rekan kerja?"}
+{"query_id": "p2-156-csci", "query": "Gimana cara kerja uji Mann-Whitney U untuk membandingkan dua kelompok sampel kalau datanya diubah jadi peringkat?"}
+{"query_id": "p2-156-mgmt", "query": "Gimana cara kerja uji Mann-Whitney U untuk membandingkan dua kelompok sampel kalau datanya diubah jadi peringkat?"}
+{"query_id": "p2-157-isys", "query": "Apa yang dimaksud dengan master production schedule dan apa perannya dalam perencanaan kebutuhan material?"}
+{"query_id": "p2-157-mgmt", "query": "Apa yang dimaksud dengan master production schedule dan apa perannya dalam perencanaan kebutuhan material?"}
+{"query_id": "p2-158-csci", "query": "Dalam pemrograman berorientasi objek, selain atribut atau properti, apa lagi yang dimiliki sebuah objek dan apa gunanya?"}
+{"query_id": "p2-158-isys", "query": "Dalam pemrograman berorientasi objek, selain atribut atau properti, apa lagi yang dimiliki sebuah objek dan apa gunanya?"}
+{"query_id": "p2-159-isys", "query": "Apa yang dimaksud dengan Internet of Things?"}
+{"query_id": "p2-159-mgmt", "query": "Apa yang dimaksud dengan Internet of Things?"}
+{"query_id": "p2-160-isys", "query": "Apa manfaat audit yang dilakukan oleh pihak internal organisasi sendiri?"}
+{"query_id": "p2-160-mgmt", "query": "Apa manfaat audit yang dilakukan oleh pihak internal organisasi sendiri?"}
+{"query_id": "p2-161-csci", "query": "Apa itu distribusi probabilitas kontinu dan apa saja contohnya?"}
+{"query_id": "p2-161-mgmt", "query": "Apa itu distribusi probabilitas kontinu dan apa saja contohnya?"}
+{"query_id": "p2-162-isys", "query": "Bagaimana internet dimanfaatkan perusahaan untuk proses pengadaan barang dengan pemasok dalam rantai pasok?"}
+{"query_id": "p2-162-mgmt", "query": "Bagaimana internet dimanfaatkan perusahaan untuk proses pengadaan barang dengan pemasok dalam rantai pasok?"}
+{"query_id": "p2-163-isys", "query": "Kenapa perdagangan online terus berkembang, dan apa manfaatnya buat perusahaan?"}
+{"query_id": "p2-163-mgmt", "query": "Kenapa perdagangan online terus berkembang, dan apa manfaatnya buat perusahaan?"}
+{"query_id": "p2-164-isys", "query": "Apa saja keuntungan yang bisa didapat perusahaan kalau karyawannya bekerja jarak jauh dari rumah?"}
+{"query_id": "p2-164-mgmt", "query": "Apa saja keuntungan yang bisa didapat perusahaan kalau karyawannya bekerja jarak jauh dari rumah?"}
+{"query_id": "p2-165-isys", "query": "Apa itu blog, dan bagaimana blog bisa dimanfaatkan dalam pekerjaan profesional?"}
+{"query_id": "p2-165-mgmt", "query": "Apa itu blog, dan bagaimana blog bisa dimanfaatkan dalam pekerjaan profesional?"}
+{"query_id": "p2-166-isys", "query": "Apakah perkembangan teknologi komunikasi membuat perusahaan cenderung jadi lebih besar atau lebih kecil, dan kenapa?"}
+{"query_id": "p2-166-mgmt", "query": "Apakah perkembangan teknologi komunikasi membuat perusahaan cenderung jadi lebih besar atau lebih kecil, dan kenapa?"}
+{"query_id": "p2-167-csci", "query": "Ukuran efek seperti Cohen's d itu dihitung berdasarkan apa, dan kenapa variasi data bisa memengaruhi nilainya?"}
+{"query_id": "p2-167-mgmt", "query": "Ukuran efek seperti Cohen's d itu dihitung berdasarkan apa, dan kenapa variasi data bisa memengaruhi nilainya?"}
+{"query_id": "p2-168-isys", "query": "Dalam perencanaan produksi, capacity requirements planning itu sebenarnya ngapain sih, dan gimana hubungannya dengan kapasitas mesin dan tenaga kerja yang tersedia?"}
+{"query_id": "p2-168-mgmt", "query": "Dalam perencanaan produksi, capacity requirements planning itu sebenarnya ngapain sih, dan gimana hubungannya dengan kapasitas mesin dan tenaga kerja yang tersedia?"}
+{"query_id": "p2-169-isys", "query": "Apa kelemahan kalau kita menilai kondisi suatu organisasi dengan membandingkan anggarannya ke organisasi lain yang mirip?"}
+{"query_id": "p2-169-mgmt", "query": "Apa kelemahan kalau kita menilai kondisi suatu organisasi dengan membandingkan anggarannya ke organisasi lain yang mirip?"}
+{"query_id": "p2-170-csci", "query": "Gimana cara memilih jenis grafik yang paling pas untuk menampilkan data, apa ada aturan bakunya?"}
+{"query_id": "p2-170-mgmt", "query": "Gimana cara memilih jenis grafik yang paling pas untuk menampilkan data, apa ada aturan bakunya?"}
+{"query_id": "p2-171-csci", "query": "Apa bedanya distribusi data yang simetris dengan yang miring (skewed), dan gimana cara mengenalinya?"}
+{"query_id": "p2-171-mgmt", "query": "Apa bedanya distribusi data yang simetris dengan yang miring (skewed), dan gimana cara mengenalinya?"}
+{"query_id": "p2-172-isys", "query": "Dulu sebelum ada teknologi modern, kartu berlubang (punch card) dipakai untuk mencatat data seperti apa, dan apa kekurangannya?"}
+{"query_id": "p2-172-mgmt", "query": "Dulu sebelum ada teknologi modern, kartu berlubang (punch card) dipakai untuk mencatat data seperti apa, dan apa kekurangannya?"}
+{"query_id": "p2-173-csci", "query": "Dalam uji statistik berbasis peringkat, bagaimana jumlah peringkat dipakai bersama tabel untuk memutuskan apakah perbedaannya signifikan?"}
+{"query_id": "p2-173-mgmt", "query": "Dalam uji statistik berbasis peringkat, bagaimana jumlah peringkat dipakai bersama tabel untuk memutuskan apakah perbedaannya signifikan?"}
+{"query_id": "p2-174-isys", "query": "Apa yang dimaksud dengan konsep triple bottom line dalam keberlanjutan bisnis?"}
+{"query_id": "p2-174-mgmt", "query": "Apa yang dimaksud dengan konsep triple bottom line dalam keberlanjutan bisnis?"}
+{"query_id": "p2-175-csci", "query": "Kalau tiap subjek diukur dua kali, sebelum dan sesudah perlakuan, bagaimana cara pakai selisih skornya untuk uji t apakah ada perubahan yang berarti?"}
+{"query_id": "p2-175-mgmt", "query": "Kalau tiap subjek diukur dua kali, sebelum dan sesudah perlakuan, bagaimana cara pakai selisih skornya untuk uji t apakah ada perubahan yang berarti?"}
+{"query_id": "p2-176-csci", "query": "Kenapa nomor identitas unik seperti nomor jaminan sosial dianggap sensitif dan berisiko buat privasi kalau datanya dikumpulkan organisasi?"}
+{"query_id": "p2-176-isys", "query": "Kenapa nomor identitas unik seperti nomor jaminan sosial dianggap sensitif dan berisiko buat privasi kalau datanya dikumpulkan organisasi?"}
+{"query_id": "p2-177-isys", "query": "Apa maksud perbaikan proses secara berkelanjutan, dan kenapa hal itu penting untuk menjaga kualitas?"}
+{"query_id": "p2-177-mgmt", "query": "Apa maksud perbaikan proses secara berkelanjutan, dan kenapa hal itu penting untuk menjaga kualitas?"}
+{"query_id": "p2-178-csci", "query": "Kenapa keamanan jaringan jadi perhatian besar ketika makin banyak perusahaan terhubung ke internet?"}
+{"query_id": "p2-178-isys", "query": "Kenapa keamanan jaringan jadi perhatian besar ketika makin banyak perusahaan terhubung ke internet?"}
+{"query_id": "p2-179-isys", "query": "Apa peran internet dan website perusahaan dalam menjangkau pelanggan dan mendorong penjualan?"}
+{"query_id": "p2-179-mgmt", "query": "Apa peran internet dan website perusahaan dalam menjangkau pelanggan dan mendorong penjualan?"}
+{"query_id": "p2-180-csci", "query": "Seberapa besar peran software open source dalam perkembangan internet dan website?"}
+{"query_id": "p2-180-isys", "query": "Seberapa besar peran software open source dalam perkembangan internet dan website?"}
+{"query_id": "p2-181-isys", "query": "Apa itu data dan datum, dan apa bedanya?"}
+{"query_id": "p2-181-mgmt", "query": "Apa itu data dan datum, dan apa bedanya?"}
+{"query_id": "p2-182-isys", "query": "Kenapa kemampuan untuk belajar cara belajar dianggap penting bagi mahasiswa menghadapi perubahan di dunia kerja?"}
+{"query_id": "p2-182-mgmt", "query": "Kenapa kemampuan untuk belajar cara belajar dianggap penting bagi mahasiswa menghadapi perubahan di dunia kerja?"}
+{"query_id": "p2-183-isys", "query": "Kemampuan apa saja yang perlu dimiliki seseorang supaya bisa sukses menjalankan bisnisnya sendiri?"}
+{"query_id": "p2-183-mgmt", "query": "Kemampuan apa saja yang perlu dimiliki seseorang supaya bisa sukses menjalankan bisnisnya sendiri?"}
+{"query_id": "p2-184-isys", "query": "Apa saja yang harus dilakukan seorang tenaga penjual dalam menangani pesanan pelanggan?"}
+{"query_id": "p2-184-mgmt", "query": "Apa saja yang harus dilakukan seorang tenaga penjual dalam menangani pesanan pelanggan?"}
+{"query_id": "p2-185-isys", "query": "Apa bedanya perusahaan dagang dengan perusahaan jasa dalam hal pencatatan kegiatan bisnisnya?"}
+{"query_id": "p2-185-mgmt", "query": "Apa bedanya perusahaan dagang dengan perusahaan jasa dalam hal pencatatan kegiatan bisnisnya?"}
+{"query_id": "p2-186-isys", "query": "Apa yang dimaksud efektivitas dalam sebuah organisasi?"}
+{"query_id": "p2-186-mgmt", "query": "Apa yang dimaksud efektivitas dalam sebuah organisasi?"}
+{"query_id": "p2-187-isys", "query": "Apa itu batch processing dan kenapa cara ini dianggap efisien untuk mengolah data bisnis?"}
+{"query_id": "p2-187-mgmt", "query": "Apa itu batch processing dan kenapa cara ini dianggap efisien untuk mengolah data bisnis?"}
+{"query_id": "p2-188-csci", "query": "Kalau nilai F di ANOVA yang didapat besar, apa artinya untuk peluang di ekor kanan distribusi F dan keputusan soal hipotesis nol bahwa rata-rata semua kelompok sama?"}
+{"query_id": "p2-188-mgmt", "query": "Kalau nilai F di ANOVA yang didapat besar, apa artinya untuk peluang di ekor kanan distribusi F dan keputusan soal hipotesis nol bahwa rata-rata semua kelompok sama?"}
+{"query_id": "p2-189-isys", "query": "Seperti apa bentuk kerja sama antar perusahaan dalam organisasi virtual, dan apa yang membuatnya berbeda dari organisasi biasa?"}
+{"query_id": "p2-189-mgmt", "query": "Seperti apa bentuk kerja sama antar perusahaan dalam organisasi virtual, dan apa yang membuatnya berbeda dari organisasi biasa?"}
+{"query_id": "p2-190-isys", "query": "Apa saja yang perlu dilakukan pada tahap perencanaan proyek setelah tujuan proyeknya ditetapkan?"}
+{"query_id": "p2-190-mgmt", "query": "Apa saja yang perlu dilakukan pada tahap perencanaan proyek setelah tujuan proyeknya ditetapkan?"}
+{"query_id": "p2-191-csci", "query": "Kalau dua variabel atau dua kumpulan data diukur dengan skala yang beda jauh, gimana cara membandingkannya supaya adil?"}
+{"query_id": "p2-191-mgmt", "query": "Kalau dua variabel atau dua kumpulan data diukur dengan skala yang beda jauh, gimana cara membandingkannya supaya adil?"}
+{"query_id": "p2-192-csci", "query": "Apa maksud prinsip first-in first-out (FIFO), dan dalam situasi apa urutan seperti itu masuk akal dipakai?"}
+{"query_id": "p2-192-mgmt", "query": "Apa maksud prinsip first-in first-out (FIFO), dan dalam situasi apa urutan seperti itu masuk akal dipakai?"}
+{"query_id": "p2-193-csci", "query": "Bagaimana cara kerja checksum untuk mendeteksi perubahan atau kerusakan data, dan apa kelemahannya?"}
+{"query_id": "p2-193-isys", "query": "Bagaimana cara kerja checksum untuk mendeteksi perubahan atau kerusakan data, dan apa kelemahannya?"}
+{"query_id": "p2-194-isys", "query": "Sejauh mana perusahaan boleh memantau email karyawan, dan hal apa yang perlu diperhatikan soal privasi mereka?"}
+{"query_id": "p2-194-mgmt", "query": "Sejauh mana perusahaan boleh memantau email karyawan, dan hal apa yang perlu diperhatikan soal privasi mereka?"}
+{"query_id": "p2-195-csci", "query": "Bagaimana distribusi binomial dipakai untuk menganalisis hasil pelemparan koin yang dilakukan berkali-kali?"}
+{"query_id": "p2-195-mgmt", "query": "Bagaimana distribusi binomial dipakai untuk menganalisis hasil pelemparan koin yang dilakukan berkali-kali?"}
+{"query_id": "p2-196-isys", "query": "Bagaimana proses-proses dalam sebuah perusahaan bisa dikelompokkan atau diklasifikasikan?"}
+{"query_id": "p2-196-mgmt", "query": "Bagaimana proses-proses dalam sebuah perusahaan bisa dikelompokkan atau diklasifikasikan?"}
+{"query_id": "p2-197-isys", "query": "Kenapa perusahaan perlu membangun pengendalian internal, dan bagaimana kaitannya dengan pencegahan kecurangan?"}
+{"query_id": "p2-197-mgmt", "query": "Kenapa perusahaan perlu membangun pengendalian internal, dan bagaimana kaitannya dengan pencegahan kecurangan?"}
+{"query_id": "p2-198-isys", "query": "Apa tujuan utama customer relationship management bagi sebuah perusahaan?"}
+{"query_id": "p2-198-mgmt", "query": "Apa tujuan utama customer relationship management bagi sebuah perusahaan?"}
+{"query_id": "p2-199-isys", "query": "Kenapa komunikasi yang baik antar anggota tim penting untuk keberhasilan kerja tim?"}
+{"query_id": "p2-199-mgmt", "query": "Kenapa komunikasi yang baik antar anggota tim penting untuk keberhasilan kerja tim?"}
+{"query_id": "p2-200-isys", "query": "Bagaimana cara mengelola stakeholder dan menentukan stakeholder mana yang perlu diperhatikan lebih dulu?"}
+{"query_id": "p2-200-mgmt", "query": "Bagaimana cara mengelola stakeholder dan menentukan stakeholder mana yang perlu diperhatikan lebih dulu?"}
+{"query_id": "p2-201-csci", "query": "Apa keuntungan menerbitkan sebuah karya dengan lisensi Creative Commons?"}
+{"query_id": "p2-201-isys", "query": "Apa keuntungan menerbitkan sebuah karya dengan lisensi Creative Commons?"}
+{"query_id": "p2-202-csci", "query": "Apa saja yang perlu dipertimbangkan waktu menentukan bagaimana data akan direpresentasikan dalam sebuah rancangan sistem atau program?"}
+{"query_id": "p2-202-isys", "query": "Apa saja yang perlu dipertimbangkan waktu menentukan bagaimana data akan direpresentasikan dalam sebuah rancangan sistem atau program?"}
+{"query_id": "p2-203-csci", "query": "Apa yang dimaksud dengan deviasi dari rata-rata pada suatu data, dan bagaimana cara menuliskannya?"}
+{"query_id": "p2-203-mgmt", "query": "Apa yang dimaksud dengan deviasi dari rata-rata pada suatu data, dan bagaimana cara menuliskannya?"}
+{"query_id": "p2-204-csci", "query": "Dalam regresi, residual itu maksudnya apa dan bagaimana cara mendapatkannya?"}
+{"query_id": "p2-204-mgmt", "query": "Dalam regresi, residual itu maksudnya apa dan bagaimana cara mendapatkannya?"}
+{"query_id": "p2-205-csci", "query": "Di dunia kerja seperti bisnis dan industri, bidang apa saja yang banyak memanfaatkan metode matematika?"}
+{"query_id": "p2-205-mgmt", "query": "Di dunia kerja seperti bisnis dan industri, bidang apa saja yang banyak memanfaatkan metode matematika?"}
+{"query_id": "p2-206-isys", "query": "Wawancara itu dipakai untuk apa, dan informasi apa saja yang biasanya ingin digali dari orang yang diwawancarai?"}
+{"query_id": "p2-206-mgmt", "query": "Wawancara itu dipakai untuk apa, dan informasi apa saja yang biasanya ingin digali dari orang yang diwawancarai?"}
+{"query_id": "p2-207-isys", "query": "Kalau mau mewawancarai orang di sebuah perusahaan tentang teknologi atau sistem informasi yang mereka pakai, aspek apa saja yang sebaiknya ditanyakan?"}
+{"query_id": "p2-207-mgmt", "query": "Kalau mau mewawancarai orang di sebuah perusahaan tentang teknologi atau sistem informasi yang mereka pakai, aspek apa saja yang sebaiknya ditanyakan?"}
+{"query_id": "p2-208-csci", "query": "Secara umum, bagaimana sebuah pesan atau data dienkripsi lalu didekripsi kembali?"}
+{"query_id": "p2-208-isys", "query": "Secara umum, bagaimana sebuah pesan atau data dienkripsi lalu didekripsi kembali?"}
+{"query_id": "p2-209-isys", "query": "Bagaimana globalisasi mengubah cara organisasi menjalankan bisnis dan berhubungan dengan pihak lain?"}
+{"query_id": "p2-209-mgmt", "query": "Bagaimana globalisasi mengubah cara organisasi menjalankan bisnis dan berhubungan dengan pihak lain?"}
+{"query_id": "p2-210-isys", "query": "Apa yang dimaksud dengan pemrosesan transaksi secara online atau real-time dalam sistem informasi bisnis?"}
+{"query_id": "p2-210-mgmt", "query": "Apa yang dimaksud dengan pemrosesan transaksi secara online atau real-time dalam sistem informasi bisnis?"}
+{"query_id": "p2-211-csci", "query": "Kenapa korelasi antara dua variabel tidak bisa langsung dipakai untuk menyimpulkan hubungan sebab-akibat?"}
+{"query_id": "p2-211-mgmt", "query": "Kenapa korelasi antara dua variabel tidak bisa langsung dipakai untuk menyimpulkan hubungan sebab-akibat?"}
+{"query_id": "p2-212-isys", "query": "Bagaimana perusahaan jasa pengiriman paket memanfaatkan teknologi informasi supaya status kiriman bisa diketahui atau dikonfirmasi dengan cepat?"}
+{"query_id": "p2-212-mgmt", "query": "Bagaimana perusahaan jasa pengiriman paket memanfaatkan teknologi informasi supaya status kiriman bisa diketahui atau dikonfirmasi dengan cepat?"}
+{"query_id": "p2-213-isys", "query": "Apa saja risiko atau tantangan yang perlu diwaspadai organisasi terkait penggunaan media sosial?"}
+{"query_id": "p2-213-mgmt", "query": "Apa saja risiko atau tantangan yang perlu diwaspadai organisasi terkait penggunaan media sosial?"}
+{"query_id": "p2-214-isys", "query": "Gimana caranya pakai model untuk memperkirakan dampak perubahan biaya iklan terhadap penjualan sebelum mengambil keputusan?"}
+{"query_id": "p2-214-mgmt", "query": "Gimana caranya pakai model untuk memperkirakan dampak perubahan biaya iklan terhadap penjualan sebelum mengambil keputusan?"}
+{"query_id": "p2-215-isys", "query": "Kenapa kemampuan mendengarkan dianggap penting dalam komunikasi di dunia kerja, dan gimana cara melatihnya?"}
+{"query_id": "p2-215-mgmt", "query": "Kenapa kemampuan mendengarkan dianggap penting dalam komunikasi di dunia kerja, dan gimana cara melatihnya?"}
+{"query_id": "p2-216-isys", "query": "Gimana cara kerja cash discount untuk pembayaran invoice yang lebih cepat, dan apa yang harus diperhatikan supaya perusahaan tetap dapat potongannya?"}
+{"query_id": "p2-216-mgmt", "query": "Gimana cara kerja cash discount untuk pembayaran invoice yang lebih cepat, dan apa yang harus diperhatikan supaya perusahaan tetap dapat potongannya?"}
+{"query_id": "p2-217-isys", "query": "Apa fungsi general ledger dalam menyusun laporan keuangan sebuah organisasi?"}
+{"query_id": "p2-217-mgmt", "query": "Apa fungsi general ledger dalam menyusun laporan keuangan sebuah organisasi?"}
+{"query_id": "p2-218-isys", "query": "Sebenarnya bagan organisasi itu menggambarkan apa sih dalam struktur sebuah perusahaan?"}
+{"query_id": "p2-218-mgmt", "query": "Sebenarnya bagan organisasi itu menggambarkan apa sih dalam struktur sebuah perusahaan?"}
+{"query_id": "p2-219-csci", "query": "Dalam uji hipotesis untuk rata-rata populasi, kapan kita memutuskan untuk menolak hipotesis nol berdasarkan rata-rata sampel yang didapat?"}
+{"query_id": "p2-219-mgmt", "query": "Dalam uji hipotesis untuk rata-rata populasi, kapan kita memutuskan untuk menolak hipotesis nol berdasarkan rata-rata sampel yang didapat?"}
+{"query_id": "p2-220-isys", "query": "Bagaimana sistem informasi bisa membantu perusahaan menekan biaya operasionalnya?"}
+{"query_id": "p2-220-mgmt", "query": "Bagaimana sistem informasi bisa membantu perusahaan menekan biaya operasionalnya?"}
+{"query_id": "p2-221-csci", "query": "Apa yang dimaksud dengan ukuran sampel n dalam statistik?"}
+{"query_id": "p2-221-mgmt", "query": "Apa yang dimaksud dengan ukuran sampel n dalam statistik?"}
+{"query_id": "p2-222-csci", "query": "Bagaimana cara memperkirakan varians populasi kalau kita cuma punya data dari sampel?"}
+{"query_id": "p2-222-mgmt", "query": "Bagaimana cara memperkirakan varians populasi kalau kita cuma punya data dari sampel?"}
+{"query_id": "p2-223-isys", "query": "Apa itu sistem manajemen basis data, dan apa untungnya menyimpan data terpisah dari program aplikasinya?"}
+{"query_id": "p2-223-mgmt", "query": "Apa itu sistem manajemen basis data, dan apa untungnya menyimpan data terpisah dari program aplikasinya?"}
+{"query_id": "p2-224-isys", "query": "Sebenarnya apa yang dimaksud dengan pengambilan keputusan dalam konteks manajemen sebuah perusahaan?"}
+{"query_id": "p2-224-mgmt", "query": "Sebenarnya apa yang dimaksud dengan pengambilan keputusan dalam konteks manajemen sebuah perusahaan?"}
+{"query_id": "p2-225-csci", "query": "Kalau suatu data mengikuti distribusi uniform, bagaimana seharusnya sebaran nilai-nilainya terlihat?"}
+{"query_id": "p2-225-mgmt", "query": "Kalau suatu data mengikuti distribusi uniform, bagaimana seharusnya sebaran nilai-nilainya terlihat?"}
+{"query_id": "p2-226-isys", "query": "Kalau banyak perusahaan baru masuk ke suatu pasar, apa dampaknya terhadap harga dan keuntungan perusahaan yang sudah ada?"}
+{"query_id": "p2-226-mgmt", "query": "Kalau banyak perusahaan baru masuk ke suatu pasar, apa dampaknya terhadap harga dan keuntungan perusahaan yang sudah ada?"}
+{"query_id": "p2-227-csci", "query": "Kalau kita melempar dadu beberapa kali, bagaimana cara menghitung peluang angka tertentu muncul atau tidak muncul di lemparan-lemparan tersebut?"}
+{"query_id": "p2-227-mgmt", "query": "Kalau kita melempar dadu beberapa kali, bagaimana cara menghitung peluang angka tertentu muncul atau tidak muncul di lemparan-lemparan tersebut?"}
+{"query_id": "p2-228-isys", "query": "Kenapa manajer perlu mengendalikan biaya dan sumber daya yang dipakai dibandingkan dengan hasil yang ingin dicapai?"}
+{"query_id": "p2-228-mgmt", "query": "Kenapa manajer perlu mengendalikan biaya dan sumber daya yang dipakai dibandingkan dengan hasil yang ingin dicapai?"}
+{"query_id": "p2-229-csci", "query": "Dalam sebuah fungsi matematika, apa maksudnya nilai satu variabel bergantung pada nilai variabel lainnya?"}
+{"query_id": "p2-229-mgmt", "query": "Dalam sebuah fungsi matematika, apa maksudnya nilai satu variabel bergantung pada nilai variabel lainnya?"}
+{"query_id": "p2-230-csci", "query": "Gimana cara menghitung peluang suatu hasil yang bisa terjadi lewat beberapa urutan pengambilan berbeda, misalnya mengambil benda satu per satu tanpa pengembalian?"}
+{"query_id": "p2-230-mgmt", "query": "Gimana cara menghitung peluang suatu hasil yang bisa terjadi lewat beberapa urutan pengambilan berbeda, misalnya mengambil benda satu per satu tanpa pengembalian?"}
+{"query_id": "p2-231-isys", "query": "Apa itu layanan cloud computing dan perusahaan apa saja yang jadi contoh penyedianya?"}
+{"query_id": "p2-231-mgmt", "query": "Apa itu layanan cloud computing dan perusahaan apa saja yang jadi contoh penyedianya?"}
+{"query_id": "p2-232-isys", "query": "Apa peran dewan direksi dalam tata kelola perusahaan, terutama dalam mengawasi kinerja manajemen?"}
+{"query_id": "p2-232-mgmt", "query": "Apa peran dewan direksi dalam tata kelola perusahaan, terutama dalam mengawasi kinerja manajemen?"}
+{"query_id": "p2-233-isys", "query": "Siapa saja pihak yang memakai informasi laporan keuangan perusahaan, dan untuk keperluan pengambilan keputusan apa?"}
+{"query_id": "p2-233-mgmt", "query": "Siapa saja pihak yang memakai informasi laporan keuangan perusahaan, dan untuk keperluan pengambilan keputusan apa?"}
+{"query_id": "p2-234-isys", "query": "Gimana caranya perusahaan supaya pengetahuan dan pengalaman karyawan senior nggak hilang begitu saja waktu mereka pensiun?"}
+{"query_id": "p2-234-mgmt", "query": "Gimana caranya perusahaan supaya pengetahuan dan pengalaman karyawan senior nggak hilang begitu saja waktu mereka pensiun?"}
+{"query_id": "p2-235-isys", "query": "Kenapa ketersediaan uang tunai pada waktu yang tepat itu penting, padahal di sisi lain perusahaan juga nggak mau menyimpan uang tunai terlalu banyak?"}
+{"query_id": "p2-235-mgmt", "query": "Kenapa ketersediaan uang tunai pada waktu yang tepat itu penting, padahal di sisi lain perusahaan juga nggak mau menyimpan uang tunai terlalu banyak?"}
+{"query_id": "p2-236-isys", "query": "Apa saja yang dilakukan atau diwajibkan organisasi supaya karyawan tidak menyalahgunakan aset dan informasi rahasia perusahaan?"}
+{"query_id": "p2-236-mgmt", "query": "Apa saja yang dilakukan atau diwajibkan organisasi supaya karyawan tidak menyalahgunakan aset dan informasi rahasia perusahaan?"}
+{"query_id": "p2-237-isys", "query": "Kenapa pencatatan data pesanan ke dalam sistem itu penting selama proses pengambilan barang di gudang sampai barang dikirim ke pelanggan?"}
+{"query_id": "p2-237-mgmt", "query": "Kenapa pencatatan data pesanan ke dalam sistem itu penting selama proses pengambilan barang di gudang sampai barang dikirim ke pelanggan?"}
+{"query_id": "p2-238-isys", "query": "Apa yang membuat perangkat tablet seperti iPad berbeda dari komputer desktop biasa, terutama dari sisi cara pakainya?"}
+{"query_id": "p2-238-mgmt", "query": "Apa yang membuat perangkat tablet seperti iPad berbeda dari komputer desktop biasa, terutama dari sisi cara pakainya?"}
+{"query_id": "p2-239-csci", "query": "Kalau kita mau menguji apakah ada hubungan antara dua variabel di populasi, hipotesis nolnya biasanya dirumuskan seperti apa?"}
+{"query_id": "p2-239-mgmt", "query": "Kalau kita mau menguji apakah ada hubungan antara dua variabel di populasi, hipotesis nolnya biasanya dirumuskan seperti apa?"}
+{"query_id": "p2-240-isys", "query": "Kenapa pekerjaan ulang (rework) untuk memperbaiki kesalahan atau cacat dianggap sangat merugikan, dan bagaimana cara menguranginya?"}
+{"query_id": "p2-240-mgmt", "query": "Kenapa pekerjaan ulang (rework) untuk memperbaiki kesalahan atau cacat dianggap sangat merugikan, dan bagaimana cara menguranginya?"}
+{"query_id": "p2-241-isys", "query": "Bagaimana perkembangan komputerisasi mengubah apa yang harus dikuasai para profesional di bidang akuntansi dan audit?"}
+{"query_id": "p2-241-mgmt", "query": "Bagaimana perkembangan komputerisasi mengubah apa yang harus dikuasai para profesional di bidang akuntansi dan audit?"}
+{"query_id": "p2-242-isys", "query": "Apa ciri utama sebuah proyek sehingga bisa dibedakan dari pekerjaan yang sifatnya rutin atau terus berjalan?"}
+{"query_id": "p2-242-mgmt", "query": "Apa ciri utama sebuah proyek sehingga bisa dibedakan dari pekerjaan yang sifatnya rutin atau terus berjalan?"}
+{"query_id": "p2-243-isys", "query": "Sebenarnya apa tujuan utama sebuah organisasi menjalankan program manajemen risiko?"}
+{"query_id": "p2-243-mgmt", "query": "Sebenarnya apa tujuan utama sebuah organisasi menjalankan program manajemen risiko?"}
+{"query_id": "p2-244-csci", "query": "Dalam ANOVA, nilai F itu dihitung dari pembagian apa, dan bagaimana kita memakainya untuk menyimpulkan ada perbedaan rata-rata yang signifikan?"}
+{"query_id": "p2-244-mgmt", "query": "Dalam ANOVA, nilai F itu dihitung dari pembagian apa, dan bagaimana kita memakainya untuk menyimpulkan ada perbedaan rata-rata yang signifikan?"}
+{"query_id": "p2-245-isys", "query": "Tuntutan pelanggan seperti apa yang mendorong organisasi terus menyesuaikan layanannya dengan memanfaatkan teknologi?"}
+{"query_id": "p2-245-mgmt", "query": "Tuntutan pelanggan seperti apa yang mendorong organisasi terus menyesuaikan layanannya dengan memanfaatkan teknologi?"}
+{"query_id": "p2-246-isys", "query": "Bagaimana sejarah awal munculnya internet, dan untuk keperluan siapa jaringan itu pertama kali dibangun?"}
+{"query_id": "p2-246-mgmt", "query": "Bagaimana sejarah awal munculnya internet, dan untuk keperluan siapa jaringan itu pertama kali dibangun?"}
+{"query_id": "p2-247-isys", "query": "Bagaimana Amazon mengubah cara orang membeli buku dibandingkan dengan toko buku fisik?"}
+{"query_id": "p2-247-mgmt", "query": "Bagaimana Amazon mengubah cara orang membeli buku dibandingkan dengan toko buku fisik?"}
+{"query_id": "p2-248-isys", "query": "Jurnal penyesuaian biasanya dibuat untuk hal apa saja, dan bagaimana cara mengetahui penyesuaian mana yang perlu dicatat?"}
+{"query_id": "p2-248-mgmt", "query": "Jurnal penyesuaian biasanya dibuat untuk hal apa saja, dan bagaimana cara mengetahui penyesuaian mana yang perlu dicatat?"}
+{"query_id": "p2-249-isys", "query": "Dari mana saja perusahaan bisa memperoleh data untuk riset pemasaran tentang pelanggannya?"}
+{"query_id": "p2-249-mgmt", "query": "Dari mana saja perusahaan bisa memperoleh data untuk riset pemasaran tentang pelanggannya?"}
+{"query_id": "p2-250-isys", "query": "Apa perubahan utama yang dibawa Revolusi Industri dalam cara pekerjaan dilakukan dan dampaknya ke kehidupan masyarakat?"}
+{"query_id": "p2-250-mgmt", "query": "Apa perubahan utama yang dibawa Revolusi Industri dalam cara pekerjaan dilakukan dan dampaknya ke kehidupan masyarakat?"}
+{"query_id": "p2-251-isys", "query": "Bagaimana teknologi berbasis web bisa membantu menyatukan sistem-sistem yang berbeda di dalam perusahaan maupun antar perusahaan?"}
+{"query_id": "p2-251-mgmt", "query": "Bagaimana teknologi berbasis web bisa membantu menyatukan sistem-sistem yang berbeda di dalam perusahaan maupun antar perusahaan?"}
+{"query_id": "p2-252-isys", "query": "Siapa saja yang biasanya termasuk jajaran manajemen puncak di sebuah perusahaan dan apa peran mereka?"}
+{"query_id": "p2-252-mgmt", "query": "Siapa saja yang biasanya termasuk jajaran manajemen puncak di sebuah perusahaan dan apa peran mereka?"}
+{"query_id": "p2-253-isys", "query": "Bagaimana kaitan antara sistem pencatatan manual dengan sistem yang sudah terkomputerisasi dalam memproses data bisnis?"}
+{"query_id": "p2-253-mgmt", "query": "Bagaimana kaitan antara sistem pencatatan manual dengan sistem yang sudah terkomputerisasi dalam memproses data bisnis?"}
+{"query_id": "p2-254-isys", "query": "Apa tujuan perusahaan mengelola hubungan dengan pelanggannya secara khusus, dan apa manfaatnya bagi bisnis?"}
+{"query_id": "p2-254-mgmt", "query": "Apa tujuan perusahaan mengelola hubungan dengan pelanggannya secara khusus, dan apa manfaatnya bagi bisnis?"}
+{"query_id": "p2-255-isys", "query": "Kenapa perusahaan berusaha keras melindungi merek dagangnya, dan apa risikonya kalau merek itu malah jadi sebutan umum untuk satu jenis produk?"}
+{"query_id": "p2-255-mgmt", "query": "Kenapa perusahaan berusaha keras melindungi merek dagangnya, dan apa risikonya kalau merek itu malah jadi sebutan umum untuk satu jenis produk?"}
+{"query_id": "p2-256-isys", "query": "Kenapa karyawan bisa merasa khawatir atau tidak nyaman ketika manajemen mengumpulkan data tentang kinerja mereka?"}
+{"query_id": "p2-256-mgmt", "query": "Kenapa karyawan bisa merasa khawatir atau tidak nyaman ketika manajemen mengumpulkan data tentang kinerja mereka?"}
+{"query_id": "p2-257-isys", "query": "Apa peran manajemen dan nilai etika dalam membuat sistem pengendalian internal perusahaan berjalan efektif?"}
+{"query_id": "p2-257-mgmt", "query": "Apa peran manajemen dan nilai etika dalam membuat sistem pengendalian internal perusahaan berjalan efektif?"}
+{"query_id": "p2-258-csci", "query": "Kesalahan atau trik apa saja dalam penyajian grafik yang bisa bikin pembaca salah menangkap data?"}
+{"query_id": "p2-258-mgmt", "query": "Kesalahan atau trik apa saja dalam penyajian grafik yang bisa bikin pembaca salah menangkap data?"}
+{"query_id": "p2-259-isys", "query": "Gimana proses negosiasi seharusnya berjalan kalau dua pihak punya kepentingan atau tuntutan yang berbeda?"}
+{"query_id": "p2-259-mgmt", "query": "Gimana proses negosiasi seharusnya berjalan kalau dua pihak punya kepentingan atau tuntutan yang berbeda?"}
+{"query_id": "p2-260-isys", "query": "Apa kegunaan Gantt chart untuk mengendalikan dan memantau kemajuan sebuah proyek?"}
+{"query_id": "p2-260-mgmt", "query": "Apa kegunaan Gantt chart untuk mengendalikan dan memantau kemajuan sebuah proyek?"}
+{"query_id": "p2-261-isys", "query": "Bagaimana perkembangan teknologi seperti cloud mengubah jenis tenaga kerja yang dicari perusahaan?"}
+{"query_id": "p2-261-mgmt", "query": "Bagaimana perkembangan teknologi seperti cloud mengubah jenis tenaga kerja yang dicari perusahaan?"}
+{"query_id": "p2-262-isys", "query": "Apa keuntungan pelatihan karyawan berbasis komputer atau online dibanding pelatihan tradisional?"}
+{"query_id": "p2-262-mgmt", "query": "Apa keuntungan pelatihan karyawan berbasis komputer atau online dibanding pelatihan tradisional?"}
+{"query_id": "p2-263-isys", "query": "Bagaimana cara menjaga hubungan dengan stakeholder supaya mereka merasa kepentingannya diperhatikan?"}
+{"query_id": "p2-263-mgmt", "query": "Bagaimana cara menjaga hubungan dengan stakeholder supaya mereka merasa kepentingannya diperhatikan?"}
+{"query_id": "p2-264-isys", "query": "Kenapa tujuan atau sasaran yang ditetapkan pimpinan harus dirumuskan dengan jelas, supaya semua orang yang menjalankannya punya pemahaman yang sama?"}
+{"query_id": "p2-264-mgmt", "query": "Kenapa tujuan atau sasaran yang ditetapkan pimpinan harus dirumuskan dengan jelas, supaya semua orang yang menjalankannya punya pemahaman yang sama?"}
+{"query_id": "p2-265-isys", "query": "Apa tujuan Telecommunications Act tahun 1996 di Amerika Serikat dan bagaimana kaitannya dengan persaingan di industri telekomunikasi?"}
+{"query_id": "p2-265-mgmt", "query": "Apa tujuan Telecommunications Act tahun 1996 di Amerika Serikat dan bagaimana kaitannya dengan persaingan di industri telekomunikasi?"}
+{"query_id": "p2-266-csci", "query": "Kenapa diagram batang sering dipakai untuk membandingkan beberapa kelompok data sekaligus?"}
+{"query_id": "p2-266-mgmt", "query": "Kenapa diagram batang sering dipakai untuk membandingkan beberapa kelompok data sekaligus?"}
+{"query_id": "p2-267-isys", "query": "Gimana konsep seorang manajer membagikan tanggung jawab dan pekerjaan ke orang-orang di bawahnya, dan siapa yang tetap bertanggung jawab atas hasilnya?"}
+{"query_id": "p2-267-mgmt", "query": "Gimana konsep seorang manajer membagikan tanggung jawab dan pekerjaan ke orang-orang di bawahnya, dan siapa yang tetap bertanggung jawab atas hasilnya?"}
+{"query_id": "p2-268-isys", "query": "Dalam pembelian barang atau outsourcing jasa ke pihak luar, bagaimana sebaiknya perusahaan menjalin hubungan kerja sama dengan pemasoknya?"}
+{"query_id": "p2-268-mgmt", "query": "Dalam pembelian barang atau outsourcing jasa ke pihak luar, bagaimana sebaiknya perusahaan menjalin hubungan kerja sama dengan pemasoknya?"}
+{"query_id": "p2-269-isys", "query": "Bagaimana peran sistem informasi dalam mengubah cara kerja rantai pasok sebuah perusahaan?"}
+{"query_id": "p2-269-mgmt", "query": "Bagaimana peran sistem informasi dalam mengubah cara kerja rantai pasok sebuah perusahaan?"}
+{"query_id": "p2-270-isys", "query": "Bagaimana perkembangan transistor sejak pertama kali ditemukan sampai bisa dipakai di perangkat elektronik sekarang?"}
+{"query_id": "p2-270-mgmt", "query": "Bagaimana perkembangan transistor sejak pertama kali ditemukan sampai bisa dipakai di perangkat elektronik sekarang?"}
+{"query_id": "p2-271-isys", "query": "Kenapa asumsi bahwa orang atau pelaku bisnis selalu mengambil keputusan secara rasional sering dianggap kurang realistis?"}
+{"query_id": "p2-271-mgmt", "query": "Kenapa asumsi bahwa orang atau pelaku bisnis selalu mengambil keputusan secara rasional sering dianggap kurang realistis?"}
+{"query_id": "p2-272-isys", "query": "Faktor-faktor eksternal apa saja yang memengaruhi jalannya sebuah organisasi atau bisnis?"}
+{"query_id": "p2-272-mgmt", "query": "Faktor-faktor eksternal apa saja yang memengaruhi jalannya sebuah organisasi atau bisnis?"}
+{"query_id": "p2-273-isys", "query": "Kenapa data mining menimbulkan kekhawatiran soal privasi data orang?"}
+{"query_id": "p2-273-mgmt", "query": "Kenapa data mining menimbulkan kekhawatiran soal privasi data orang?"}
+{"query_id": "p2-274-isys", "query": "Bagaimana catatan perpetual inventory diperbarui saat perusahaan memesan dan menerima barang?"}
+{"query_id": "p2-274-mgmt", "query": "Bagaimana catatan perpetual inventory diperbarui saat perusahaan memesan dan menerima barang?"}
+{"query_id": "p2-275-isys", "query": "Apa tujuan dilakukannya feasibility study sebelum sebuah proyek atau pengembangan baru dilanjutkan?"}
+{"query_id": "p2-275-mgmt", "query": "Apa tujuan dilakukannya feasibility study sebelum sebuah proyek atau pengembangan baru dilanjutkan?"}
+{"query_id": "p2-276-isys", "query": "Kritik apa saja yang pernah ditujukan ke perusahaan multinasional terkait praktik tenaga kerja di pabrik-pabrik negara berkembang?"}
+{"query_id": "p2-276-mgmt", "query": "Kritik apa saja yang pernah ditujukan ke perusahaan multinasional terkait praktik tenaga kerja di pabrik-pabrik negara berkembang?"}
+{"query_id": "p2-277-isys", "query": "Kenapa sekarang banyak perusahaan mulai bikin konten video dan podcast sendiri lalu menyebarkannya lewat internet?"}
+{"query_id": "p2-277-mgmt", "query": "Kenapa sekarang banyak perusahaan mulai bikin konten video dan podcast sendiri lalu menyebarkannya lewat internet?"}
+{"query_id": "p2-278-isys", "query": "Apa hubungan antara besarnya risiko yang diambil dengan potensi keuntungan atau hasil yang bisa didapat dalam bisnis?"}
+{"query_id": "p2-278-mgmt", "query": "Apa hubungan antara besarnya risiko yang diambil dengan potensi keuntungan atau hasil yang bisa didapat dalam bisnis?"}
+{"query_id": "p2-279-isys", "query": "Kenapa kita perlu paham rincian biaya dulu sebelum menyusun anggaran, dan gimana anggaran itu dipakai setelahnya?"}
+{"query_id": "p2-279-mgmt", "query": "Kenapa kita perlu paham rincian biaya dulu sebelum menyusun anggaran, dan gimana anggaran itu dipakai setelahnya?"}
+{"query_id": "p2-280-isys", "query": "Kenapa periode waktu dan ketelitian data penting supaya hasil peramalan penjualan atau permintaan bisa berguna?"}
+{"query_id": "p2-280-mgmt", "query": "Kenapa periode waktu dan ketelitian data penting supaya hasil peramalan penjualan atau permintaan bisa berguna?"}
+{"query_id": "p2-281-isys", "query": "Gimana kemajuan komputer dan software mengubah jenis data dan analisis yang bisa dikerjakan sekarang?"}
+{"query_id": "p2-281-mgmt", "query": "Gimana kemajuan komputer dan software mengubah jenis data dan analisis yang bisa dikerjakan sekarang?"}
+{"query_id": "p2-282-isys", "query": "Kenapa banyak perusahaan memilih menyerahkan urusan pemrosesan payroll ke service bureau daripada mengerjakannya sendiri?"}
+{"query_id": "p2-282-mgmt", "query": "Kenapa banyak perusahaan memilih menyerahkan urusan pemrosesan payroll ke service bureau daripada mengerjakannya sendiri?"}
+{"query_id": "p2-283-isys", "query": "Kalau mau memperbaiki sebuah proses bisnis, data apa saja yang perlu dicatat dari tiap langkah prosesnya dan untuk apa data itu dipakai?"}
+{"query_id": "p2-283-mgmt", "query": "Kalau mau memperbaiki sebuah proses bisnis, data apa saja yang perlu dicatat dari tiap langkah prosesnya dan untuk apa data itu dipakai?"}
+{"query_id": "p2-284-isys", "query": "Apa manfaat yang bisa didapat dengan bergabung ke organisasi profesional di bidang yang kita tekuni?"}
+{"query_id": "p2-284-mgmt", "query": "Apa manfaat yang bisa didapat dengan bergabung ke organisasi profesional di bidang yang kita tekuni?"}
+{"query_id": "p2-285-isys", "query": "Sejauh mana pengujian atau inspeksi kualitas produk bisa membantu perusahaan mengatasi masalah kualitas dalam proses produksi?"}
+{"query_id": "p2-285-mgmt", "query": "Sejauh mana pengujian atau inspeksi kualitas produk bisa membantu perusahaan mengatasi masalah kualitas dalam proses produksi?"}
+{"query_id": "p2-286-csci", "query": "Dengan cara apa saja sebuah grafik bisa menyesatkan pembaca soal besarnya perubahan atau perbedaan data?"}
+{"query_id": "p2-286-mgmt", "query": "Dengan cara apa saja sebuah grafik bisa menyesatkan pembaca soal besarnya perubahan atau perbedaan data?"}
+{"query_id": "p2-287-csci", "query": "Dalam regresi dengan beberapa variabel penjelas sekaligus, bentuk hubungan antara variabel yang mau diprediksi dan variabel-variabel penjelasnya itu dimodelkan seperti apa?"}
+{"query_id": "p2-287-mgmt", "query": "Dalam regresi dengan beberapa variabel penjelas sekaligus, bentuk hubungan antara variabel yang mau diprediksi dan variabel-variabel penjelasnya itu dimodelkan seperti apa?"}
+{"query_id": "p2-288-isys", "query": "Bagaimana sistem informasi bisa bikin proses pemesanan dari pelanggan jadi lebih cepat di dalam perusahaan?"}
+{"query_id": "p2-288-mgmt", "query": "Bagaimana sistem informasi bisa bikin proses pemesanan dari pelanggan jadi lebih cepat di dalam perusahaan?"}
+{"query_id": "p2-289-isys", "query": "Selain buat jualan, website perusahaan bisa dimanfaatkan untuk apa saja dalam membangun hubungan dengan pelanggan?"}
+{"query_id": "p2-289-mgmt", "query": "Selain buat jualan, website perusahaan bisa dimanfaatkan untuk apa saja dalam membangun hubungan dengan pelanggan?"}
+{"query_id": "p2-290-isys", "query": "Apa sebenarnya yang dimaksud pertumbuhan eksponensial, dan bagaimana laju pertumbuhannya berperilaku dari waktu ke waktu?"}
+{"query_id": "p2-290-mgmt", "query": "Apa sebenarnya yang dimaksud pertumbuhan eksponensial, dan bagaimana laju pertumbuhannya berperilaku dari waktu ke waktu?"}
+{"query_id": "p2-291-isys", "query": "Apakah dalam kehidupan nyata orang benar-benar mengambil keputusan dengan mengumpulkan semua informasi dan menimbang pilihan secara cermat seperti yang diasumsikan teori?"}
+{"query_id": "p2-291-mgmt", "query": "Apakah dalam kehidupan nyata orang benar-benar mengambil keputusan dengan mengumpulkan semua informasi dan menimbang pilihan secara cermat seperti yang diasumsikan teori?"}
+{"query_id": "p2-292-isys", "query": "Sebenarnya apa saja tujuan sebuah perusahaan bisnis, apakah hanya soal mendapatkan keuntungan finansial?"}
+{"query_id": "p2-292-mgmt", "query": "Sebenarnya apa saja tujuan sebuah perusahaan bisnis, apakah hanya soal mendapatkan keuntungan finansial?"}
+{"query_id": "p2-293-isys", "query": "Apa yang bisa dilakukan seorang manajer supaya anggota tim atau karyawannya lebih termotivasi dan bekerja lebih produktif?"}
+{"query_id": "p2-293-mgmt", "query": "Apa yang bisa dilakukan seorang manajer supaya anggota tim atau karyawannya lebih termotivasi dan bekerja lebih produktif?"}
+{"query_id": "p2-294-isys", "query": "Apa saja yang perlu dipertimbangkan perusahaan saat memutuskan apakah suatu pekerjaan atau produk sebaiknya dikerjakan sendiri atau diserahkan ke pihak luar?"}
+{"query_id": "p2-294-mgmt", "query": "Apa saja yang perlu dipertimbangkan perusahaan saat memutuskan apakah suatu pekerjaan atau produk sebaiknya dikerjakan sendiri atau diserahkan ke pihak luar?"}
+{"query_id": "p2-295-isys", "query": "Apa keterbatasan akun-akun di general ledger kalau kita mau melihat informasi lengkap tentang suatu transaksi bisnis?"}
+{"query_id": "p2-295-mgmt", "query": "Apa keterbatasan akun-akun di general ledger kalau kita mau melihat informasi lengkap tentang suatu transaksi bisnis?"}
+{"query_id": "p2-296-csci", "query": "Bagaimana cara menghitung rata-rata berbobot, dan bobotnya biasanya ditentukan dari mana?"}
+{"query_id": "p2-296-mgmt", "query": "Bagaimana cara menghitung rata-rata berbobot, dan bobotnya biasanya ditentukan dari mana?"}
+{"query_id": "p2-297-isys", "query": "Kenapa kita perlu memperkirakan useful life dari sesuatu yang kita beli atau bangun, dan apa yang bisa bikin umur pakainya beda dari perkiraan awal?"}
+{"query_id": "p2-297-mgmt", "query": "Kenapa kita perlu memperkirakan useful life dari sesuatu yang kita beli atau bangun, dan apa yang bisa bikin umur pakainya beda dari perkiraan awal?"}
+{"query_id": "p2-298-isys", "query": "Bagaimana sebuah perusahaan menciptakan nilai dari aktivitas produksinya?"}
+{"query_id": "p2-298-mgmt", "query": "Bagaimana sebuah perusahaan menciptakan nilai dari aktivitas produksinya?"}
+{"query_id": "p2-299-isys", "query": "Seperti apa gambaran jumlah dan komposisi pengguna Facebook?"}
+{"query_id": "p2-299-mgmt", "query": "Seperti apa gambaran jumlah dan komposisi pengguna Facebook?"}
+{"query_id": "p2-300-isys", "query": "Bagaimana perkembangan teknologi digital dan internet memunculkan masalah etika baru, terutama yang berkaitan dengan data pribadi orang?"}
+{"query_id": "p2-300-mgmt", "query": "Bagaimana perkembangan teknologi digital dan internet memunculkan masalah etika baru, terutama yang berkaitan dengan data pribadi orang?"}
+{"query_id": "p2-301-isys", "query": "Apa saja yang perlu dicatat perusahaan ketika barang yang dipesan dari pemasok sudah diterima tetapi mungkin belum dibayar?"}
+{"query_id": "p2-301-mgmt", "query": "Apa saja yang perlu dicatat perusahaan ketika barang yang dipesan dari pemasok sudah diterima tetapi mungkin belum dibayar?"}
+{"query_id": "p2-302-isys", "query": "Bagaimana alur sebuah transaksi bisnis sampai akhirnya tercatat di buku besar perusahaan?"}
+{"query_id": "p2-302-mgmt", "query": "Bagaimana alur sebuah transaksi bisnis sampai akhirnya tercatat di buku besar perusahaan?"}
+{"query_id": "p2-303-isys", "query": "Apa dampak pensiunnya generasi baby boomer bagi organisasi dan komposisi tenaga kerja?"}
+{"query_id": "p2-303-mgmt", "query": "Apa dampak pensiunnya generasi baby boomer bagi organisasi dan komposisi tenaga kerja?"}
+{"query_id": "p2-304-isys", "query": "Kenapa organisasi perlu menyeimbangkan keterbukaan informasi dengan menjaga kerahasiaan?"}
+{"query_id": "p2-304-mgmt", "query": "Kenapa organisasi perlu menyeimbangkan keterbukaan informasi dengan menjaga kerahasiaan?"}
+{"query_id": "p2-305-isys", "query": "Apa keunggulan Amazon dibanding toko buku biasa dari sisi biaya menyimpan dan menjual stok buku?"}
+{"query_id": "p2-305-mgmt", "query": "Apa keunggulan Amazon dibanding toko buku biasa dari sisi biaya menyimpan dan menjual stok buku?"}
+{"query_id": "p2-306-isys", "query": "Bagaimana stres di tempat kerja memengaruhi kinerja karyawan, dan apa yang bisa dilakukan untuk menguranginya?"}
+{"query_id": "p2-306-mgmt", "query": "Bagaimana stres di tempat kerja memengaruhi kinerja karyawan, dan apa yang bisa dilakukan untuk menguranginya?"}
+{"query_id": "p2-307-isys", "query": "Bagaimana perbedaan budaya antarnegara memengaruhi cara kita berinteraksi dan berbisnis dengan pihak dari luar negeri?"}
+{"query_id": "p2-307-mgmt", "query": "Bagaimana perbedaan budaya antarnegara memengaruhi cara kita berinteraksi dan berbisnis dengan pihak dari luar negeri?"}
+{"query_id": "p2-308-isys", "query": "Bagaimana peran kebijakan pemerintah dibandingkan mekanisme pasar dalam mendorong kemajuan ekonomi dan teknologi suatu negara?"}
+{"query_id": "p2-308-mgmt", "query": "Bagaimana peran kebijakan pemerintah dibandingkan mekanisme pasar dalam mendorong kemajuan ekonomi dan teknologi suatu negara?"}
+{"query_id": "p2-309-isys", "query": "Kenapa perusahaan menerapkan rotasi tugas dan mewajibkan karyawan mengambil cuti sebagai bentuk pengendalian?"}
+{"query_id": "p2-309-mgmt", "query": "Kenapa perusahaan menerapkan rotasi tugas dan mewajibkan karyawan mengambil cuti sebagai bentuk pengendalian?"}
+{"query_id": "p2-310-isys", "query": "Bagaimana inovasi bisa membuat sebuah perusahaan memperoleh keuntungan yang lebih besar?"}
+{"query_id": "p2-310-mgmt", "query": "Bagaimana inovasi bisa membuat sebuah perusahaan memperoleh keuntungan yang lebih besar?"}
+{"query_id": "p2-311-isys", "query": "Kenapa perusahaan memindahkan sebagian operasinya ke negara lain?"}
+{"query_id": "p2-311-mgmt", "query": "Kenapa perusahaan memindahkan sebagian operasinya ke negara lain?"}
+{"query_id": "p2-312-isys", "query": "Bagaimana kepentingan kelompok atau industri tertentu bisa memengaruhi kebijakan yang dibuat pemerintah?"}
+{"query_id": "p2-312-mgmt", "query": "Bagaimana kepentingan kelompok atau industri tertentu bisa memengaruhi kebijakan yang dibuat pemerintah?"}
+{"query_id": "p2-313-isys", "query": "Apa saja yang perlu diperhatikan perusahaan kalau mau menerapkan pembayaran gaji yang langsung masuk ke rekening bank karyawan?"}
+{"query_id": "p2-313-mgmt", "query": "Apa saja yang perlu diperhatikan perusahaan kalau mau menerapkan pembayaran gaji yang langsung masuk ke rekening bank karyawan?"}
+{"query_id": "p2-314-isys", "query": "Apa saja yang perlu dicakup dalam perencanaan kontinjensi supaya organisasi tetap bisa jalan waktu terjadi gangguan besar atau bencana?"}
+{"query_id": "p2-314-mgmt", "query": "Apa saja yang perlu dicakup dalam perencanaan kontinjensi supaya organisasi tetap bisa jalan waktu terjadi gangguan besar atau bencana?"}
+{"query_id": "p2-315-isys", "query": "Apa yang membentuk gaya kepemimpinan seseorang, dan bagaimana sebaiknya seorang pemimpin menentukan gaya yang cocok untuk situasinya?"}
+{"query_id": "p2-315-mgmt", "query": "Apa yang membentuk gaya kepemimpinan seseorang, dan bagaimana sebaiknya seorang pemimpin menentukan gaya yang cocok untuk situasinya?"}
+{"query_id": "p2-316-isys", "query": "Apa saja yang perlu dimuat dalam sebuah kebijakan perusahaan supaya karyawan benar-benar mematuhinya?"}
+{"query_id": "p2-316-mgmt", "query": "Apa saja yang perlu dimuat dalam sebuah kebijakan perusahaan supaya karyawan benar-benar mematuhinya?"}
+{"query_id": "p2-317-isys", "query": "Tantangan apa saja yang bakal dihadapi ke depan terkait perkembangan dan pemanfaatan teknologi?"}
+{"query_id": "p2-317-mgmt", "query": "Tantangan apa saja yang bakal dihadapi ke depan terkait perkembangan dan pemanfaatan teknologi?"}
+{"query_id": "p2-318-isys", "query": "Siapa saja yang termasuk stakeholder dan kenapa kepentingan mereka perlu diperhatikan?"}
+{"query_id": "p2-318-mgmt", "query": "Siapa saja yang termasuk stakeholder dan kenapa kepentingan mereka perlu diperhatikan?"}
+{"query_id": "p2-319-isys", "query": "Bagaimana internet memungkinkan perusahaan memanfaatkan data pembelian pelanggan untuk menyesuaikan penawaran mereka?"}
+{"query_id": "p2-319-mgmt", "query": "Bagaimana internet memungkinkan perusahaan memanfaatkan data pembelian pelanggan untuk menyesuaikan penawaran mereka?"}
+{"query_id": "p2-320-isys", "query": "Kenapa pelatihan saja tidak cukup untuk membentuk perilaku karyawan yang benar di dalam organisasi?"}
+{"query_id": "p2-320-mgmt", "query": "Kenapa pelatihan saja tidak cukup untuk membentuk perilaku karyawan yang benar di dalam organisasi?"}
+{"query_id": "p2-321-isys", "query": "Apa yang dimaksud dengan budaya organisasi, dan bagaimana budaya itu terbentuk di dalam sebuah perusahaan?"}
+{"query_id": "p2-321-mgmt", "query": "Apa yang dimaksud dengan budaya organisasi, dan bagaimana budaya itu terbentuk di dalam sebuah perusahaan?"}
+{"query_id": "p2-322-isys", "query": "Kenapa memenuhi kebutuhan dan kepuasan pelanggan dianggap sangat penting agar perusahaan bisa bersaing?"}
+{"query_id": "p2-322-mgmt", "query": "Kenapa memenuhi kebutuhan dan kepuasan pelanggan dianggap sangat penting agar perusahaan bisa bersaing?"}
+{"query_id": "p2-323-isys", "query": "Bagaimana tahapan perusahaan dalam menyaring pelamar kerja sampai akhirnya memutuskan siapa yang direkrut?"}
+{"query_id": "p2-323-mgmt", "query": "Bagaimana tahapan perusahaan dalam menyaring pelamar kerja sampai akhirnya memutuskan siapa yang direkrut?"}
+{"query_id": "p2-324-isys", "query": "Dari mana organisasi bisa mendapatkan informasi terbaru tentang ancaman dan kerentanan keamanan komputer?"}
+{"query_id": "p2-324-mgmt", "query": "Dari mana organisasi bisa mendapatkan informasi terbaru tentang ancaman dan kerentanan keamanan komputer?"}
+{"query_id": "p2-325-isys", "query": "Bagaimana proses penyusunan anggaran dilakukan pada tahap perencanaan, dan siapa yang terlibat?"}
+{"query_id": "p2-325-mgmt", "query": "Bagaimana proses penyusunan anggaran dilakukan pada tahap perencanaan, dan siapa yang terlibat?"}
+{"query_id": "p2-326-isys", "query": "Gimana perkembangan internet mengubah cara orang mengakses dan berbagi informasi, dan apa pengaruhnya ke cara kerja?"}
+{"query_id": "p2-326-mgmt", "query": "Gimana perkembangan internet mengubah cara orang mengakses dan berbagi informasi, dan apa pengaruhnya ke cara kerja?"}
+{"query_id": "p2-327-isys", "query": "Apa saja yang perlu diperhatikan waktu menegosiasikan kontrak pembelian dalam bisnis, dan perlukah melibatkan pihak ahli dalam prosesnya?"}
+{"query_id": "p2-327-mgmt", "query": "Apa saja yang perlu diperhatikan waktu menegosiasikan kontrak pembelian dalam bisnis, dan perlukah melibatkan pihak ahli dalam prosesnya?"}
+{"query_id": "p2-328-isys", "query": "Dalam pengelolaan persediaan, keputusan apa saja yang harus diambil sebelum memesan ulang barang, dan cara apa yang dipakai untuk menentukannya?"}
+{"query_id": "p2-328-mgmt", "query": "Dalam pengelolaan persediaan, keputusan apa saja yang harus diambil sebelum memesan ulang barang, dan cara apa yang dipakai untuk menentukannya?"}
+{"query_id": "p2-329-isys", "query": "Bagaimana tahapan menyelesaikan konflik atau perselisihan di tempat kerja sampai akhirnya ada keputusan yang diterima?"}
+{"query_id": "p2-329-mgmt", "query": "Bagaimana tahapan menyelesaikan konflik atau perselisihan di tempat kerja sampai akhirnya ada keputusan yang diterima?"}
+{"query_id": "p2-330-isys", "query": "Gimana caranya perusahaan mengurangi risiko dari naik-turunnya kurs mata uang asing waktu menjalankan bisnis lintas negara?"}
+{"query_id": "p2-330-mgmt", "query": "Gimana caranya perusahaan mengurangi risiko dari naik-turunnya kurs mata uang asing waktu menjalankan bisnis lintas negara?"}
+{"query_id": "p2-331-isys", "query": "Bagaimana perkembangan teknologi mengubah peran ruang kantor, termasuk interaksi sosial antar pekerja di dalamnya?"}
+{"query_id": "p2-331-mgmt", "query": "Bagaimana perkembangan teknologi mengubah peran ruang kantor, termasuk interaksi sosial antar pekerja di dalamnya?"}
+{"query_id": "p2-332-isys", "query": "Bagaimana munculnya komputer pribadi mengubah cara pekerjaan administrasi dan pencatatan di perusahaan dikerjakan?"}
+{"query_id": "p2-332-mgmt", "query": "Bagaimana munculnya komputer pribadi mengubah cara pekerjaan administrasi dan pencatatan di perusahaan dikerjakan?"}
+{"query_id": "p2-333-isys", "query": "Bagaimana perkembangan teknologi bisa memunculkan persoalan etika yang baru dalam masyarakat dan bisnis?"}
+{"query_id": "p2-333-mgmt", "query": "Bagaimana perkembangan teknologi bisa memunculkan persoalan etika yang baru dalam masyarakat dan bisnis?"}
+{"query_id": "p2-334-isys", "query": "Waktu mulai mengembangkan produk atau sistem baru, gimana cara menentukan apa yang sebenarnya harus bisa dilakukan oleh hasilnya?"}
+{"query_id": "p2-334-mgmt", "query": "Waktu mulai mengembangkan produk atau sistem baru, gimana cara menentukan apa yang sebenarnya harus bisa dilakukan oleh hasilnya?"}
+{"query_id": "p2-335-isys", "query": "Bagaimana perusahaan sebaiknya merespons pelanggan yang makin menuntut supaya tetap bisa bersaing?"}
+{"query_id": "p2-335-mgmt", "query": "Bagaimana perusahaan sebaiknya merespons pelanggan yang makin menuntut supaya tetap bisa bersaing?"}
+{"query_id": "p2-336-isys", "query": "Apa yang dimaksud dengan kepuasan pelanggan dan bagaimana perusahaan bisa memastikannya tercapai?"}
+{"query_id": "p2-336-mgmt", "query": "Apa yang dimaksud dengan kepuasan pelanggan dan bagaimana perusahaan bisa memastikannya tercapai?"}
+{"query_id": "p2-337-isys", "query": "Bagaimana organisasi bisa mengurangi rasa takut karyawan supaya tidak menghambat kinerja atau perubahan?"}
+{"query_id": "p2-337-mgmt", "query": "Bagaimana organisasi bisa mengurangi rasa takut karyawan supaya tidak menghambat kinerja atau perubahan?"}
+{"query_id": "p2-338-isys", "query": "Sebenarnya apa saja fungsi utama yang dijalankan seorang manajer dalam organisasi?"}
+{"query_id": "p2-338-mgmt", "query": "Sebenarnya apa saja fungsi utama yang dijalankan seorang manajer dalam organisasi?"}
+{"query_id": "p2-339-isys", "query": "Bagaimana cara seorang pemimpin membangun rasa saling percaya di dalam timnya?"}
+{"query_id": "p2-339-mgmt", "query": "Bagaimana cara seorang pemimpin membangun rasa saling percaya di dalam timnya?"}
+{"query_id": "p2-340-isys", "query": "Apa yang dimaksud dengan efisiensi kalau dikaitkan dengan pemakaian sumber daya?"}
+{"query_id": "p2-340-mgmt", "query": "Apa yang dimaksud dengan efisiensi kalau dikaitkan dengan pemakaian sumber daya?"}
+{"query_id": "p2-341-isys", "query": "Gimana cara perusahaan jasa seperti konsultan atau firma hukum mencatat pekerjaan dan biaya untuk masing-masing klien secara terpisah?"}
+{"query_id": "p2-341-mgmt", "query": "Gimana cara perusahaan jasa seperti konsultan atau firma hukum mencatat pekerjaan dan biaya untuk masing-masing klien secara terpisah?"}
+{"query_id": "p2-342-isys", "query": "Langkah awal dalam analisis risiko itu gimana, terutama untuk mengenali sumber-sumber risiko yang mungkin muncul?"}
+{"query_id": "p2-342-mgmt", "query": "Langkah awal dalam analisis risiko itu gimana, terutama untuk mengenali sumber-sumber risiko yang mungkin muncul?"}
+{"query_id": "p2-343-isys", "query": "Biaya total itu sebenarnya bisa dipecah jadi komponen apa saja?"}
+{"query_id": "p2-343-mgmt", "query": "Biaya total itu sebenarnya bisa dipecah jadi komponen apa saja?"}
+{"query_id": "p2-344-isys", "query": "Kegiatan dan pekerjaan apa saja yang perlu diatur supaya sebuah restoran bisa berjalan dengan baik?"}
+{"query_id": "p2-344-mgmt", "query": "Kegiatan dan pekerjaan apa saja yang perlu diatur supaya sebuah restoran bisa berjalan dengan baik?"}
+{"query_id": "p2-345-isys", "query": "Apa manfaat yang bisa didapat perusahaan kalau menerapkan pendekatan perbaikan proses secara sistematis?"}
+{"query_id": "p2-345-mgmt", "query": "Apa manfaat yang bisa didapat perusahaan kalau menerapkan pendekatan perbaikan proses secara sistematis?"}
+{"query_id": "p2-346-isys", "query": "Gimana caranya sebuah sistem pencatatan bisa mendeteksi kesalahan yang terjadi waktu data transaksi dimasukkan atau dicatat?"}
+{"query_id": "p2-346-mgmt", "query": "Gimana caranya sebuah sistem pencatatan bisa mendeteksi kesalahan yang terjadi waktu data transaksi dimasukkan atau dicatat?"}
+{"query_id": "p2-347-isys", "query": "Apa yang terjadi kalau pesanan pelanggan tidak bisa langsung dipenuhi karena barangnya belum tersedia, dan apa artinya bagi perusahaan?"}
+{"query_id": "p2-347-mgmt", "query": "Apa yang terjadi kalau pesanan pelanggan tidak bisa langsung dipenuhi karena barangnya belum tersedia, dan apa artinya bagi perusahaan?"}
+{"query_id": "p2-348-isys", "query": "Bagaimana sebaiknya kontrol dalam organisasi diatur ketika banyak pekerjaan sudah dijalankan dengan komputer?"}
+{"query_id": "p2-348-mgmt", "query": "Bagaimana sebaiknya kontrol dalam organisasi diatur ketika banyak pekerjaan sudah dijalankan dengan komputer?"}
+{"query_id": "p2-349-isys", "query": "Lembaga pemerintah apa saja yang berperan menetapkan standar atau aturan yang harus diikuti organisasi?"}
+{"query_id": "p2-349-mgmt", "query": "Lembaga pemerintah apa saja yang berperan menetapkan standar atau aturan yang harus diikuti organisasi?"}
+{"query_id": "p2-350-isys", "query": "Kenapa umpan balik penting untuk mengetahui apakah suatu proses atau program kerja sudah berjalan sesuai harapan?"}
+{"query_id": "p2-350-mgmt", "query": "Kenapa umpan balik penting untuk mengetahui apakah suatu proses atau program kerja sudah berjalan sesuai harapan?"}
+{"query_id": "p2-351-isys", "query": "Bagaimana cara perusahaan memperbaiki proses kerja yang melibatkan pengambilan barang di gudang supaya kinerjanya jadi lebih baik?"}
+{"query_id": "p2-351-mgmt", "query": "Bagaimana cara perusahaan memperbaiki proses kerja yang melibatkan pengambilan barang di gudang supaya kinerjanya jadi lebih baik?"}
+{"query_id": "p2-352-isys", "query": "Bagaimana sebuah organisasi menyiapkan cadangan untuk menghadapi kondisi darurat atau kejadian yang tidak terduga?"}
+{"query_id": "p2-352-mgmt", "query": "Bagaimana sebuah organisasi menyiapkan cadangan untuk menghadapi kondisi darurat atau kejadian yang tidak terduga?"}
+{"query_id": "p2-353-isys", "query": "Kenapa bekerja sama dengan banyak orang yang berbeda-beda bisa menghasilkan hasil yang lebih baik dibanding bekerja sendiri, dan apa syaratnya?"}
+{"query_id": "p2-353-mgmt", "query": "Kenapa bekerja sama dengan banyak orang yang berbeda-beda bisa menghasilkan hasil yang lebih baik dibanding bekerja sendiri, dan apa syaratnya?"}
+{"query_id": "p2-354-isys", "query": "Apa saja jenis ancaman yang perlu diidentifikasi organisasi ketika merencanakan keamanan operasionalnya?"}
+{"query_id": "p2-354-mgmt", "query": "Apa saja jenis ancaman yang perlu diidentifikasi organisasi ketika merencanakan keamanan operasionalnya?"}
+{"query_id": "p2-355-isys", "query": "Faktor apa saja yang menentukan apakah sebuah perusahaan bisa bersaing dan mendapatkan nilai dari perdagangan berbasis internet?"}
+{"query_id": "p2-355-mgmt", "query": "Faktor apa saja yang menentukan apakah sebuah perusahaan bisa bersaing dan mendapatkan nilai dari perdagangan berbasis internet?"}
+{"query_id": "p2-356-isys", "query": "Kalau ada dua pilihan alternatif, gimana cara membandingkannya berdasarkan perkiraan biaya supaya bisa memilih yang paling menguntungkan?"}
+{"query_id": "p2-356-mgmt", "query": "Kalau ada dua pilihan alternatif, gimana cara membandingkannya berdasarkan perkiraan biaya supaya bisa memilih yang paling menguntungkan?"}
+{"query_id": "p2-357-isys", "query": "Bagaimana restoran bisa mempercepat proses pemesanan pelanggan sekaligus mengurangi kesalahan pesanan?"}
+{"query_id": "p2-357-mgmt", "query": "Bagaimana restoran bisa mempercepat proses pemesanan pelanggan sekaligus mengurangi kesalahan pesanan?"}
+{"query_id": "p2-358-isys", "query": "Kenapa perusahaan perlu aktif meminta masukan dari pelanggan untuk memperbaiki layanannya, dan apa dampaknya bagi bisnis?"}
+{"query_id": "p2-358-mgmt", "query": "Kenapa perusahaan perlu aktif meminta masukan dari pelanggan untuk memperbaiki layanannya, dan apa dampaknya bagi bisnis?"}
+{"query_id": "p2-359-isys", "query": "Kenapa pelaporan keuangan organisasi sekarang cenderung seragam atau terstandarisasi, dan apa yang mendorong keseragaman itu?"}
+{"query_id": "p2-359-mgmt", "query": "Kenapa pelaporan keuangan organisasi sekarang cenderung seragam atau terstandarisasi, dan apa yang mendorong keseragaman itu?"}
+{"query_id": "p2-360-isys", "query": "Gimana proses seseorang bisa dapat lisensi profesional resmi, apakah cukup lulus ujian atau ada syarat lain yang berbeda-beda tiap wilayah?"}
+{"query_id": "p2-360-mgmt", "query": "Gimana proses seseorang bisa dapat lisensi profesional resmi, apakah cukup lulus ujian atau ada syarat lain yang berbeda-beda tiap wilayah?"}
+{"query_id": "p2-361-isys", "query": "Bagaimana organisasi berusaha mencegah dan mengurangi cacat atau defect supaya hasil kerjanya benar-benar memenuhi kebutuhan pelanggan?"}
+{"query_id": "p2-361-mgmt", "query": "Bagaimana organisasi berusaha mencegah dan mengurangi cacat atau defect supaya hasil kerjanya benar-benar memenuhi kebutuhan pelanggan?"}
+{"query_id": "p2-362-isys", "query": "Bagaimana sebuah bencana besar bisa mengganggu kegiatan bisnis, baik perusahaan yang terkena langsung maupun bisnis lain di sekitarnya?"}
+{"query_id": "p2-362-mgmt", "query": "Bagaimana sebuah bencana besar bisa mengganggu kegiatan bisnis, baik perusahaan yang terkena langsung maupun bisnis lain di sekitarnya?"}
+{"query_id": "p2-363-isys", "query": "Apa hubungan teorema limit pusat dengan asumsi bahwa data atau hasil pengukuran berdistribusi normal?"}
+{"query_id": "p2-363-mgmt", "query": "Apa hubungan teorema limit pusat dengan asumsi bahwa data atau hasil pengukuran berdistribusi normal?"}
+{"query_id": "p2-364-isys", "query": "Kenapa budaya yang dimiliki bersama oleh orang-orang dalam organisasi berpengaruh besar terhadap perilaku dan cara mereka bertindak?"}
+{"query_id": "p2-364-mgmt", "query": "Kenapa budaya yang dimiliki bersama oleh orang-orang dalam organisasi berpengaruh besar terhadap perilaku dan cara mereka bertindak?"}
+{"query_id": "p2-365-acct", "query": "Model lima kekuatan dari Porter itu dipakai untuk menganalisis apa dalam persaingan suatu industri?"}
+{"query_id": "p2-365-isys", "query": "Model lima kekuatan dari Porter itu dipakai untuk menganalisis apa dalam persaingan suatu industri?"}
+{"query_id": "p2-366-acct", "query": "Bagaimana model lima kekuatan Porter membantu menilai tingkat profitabilitas sebuah industri?"}
+{"query_id": "p2-366-isys", "query": "Bagaimana model lima kekuatan Porter membantu menilai tingkat profitabilitas sebuah industri?"}
+{"query_id": "p2-367-acct", "query": "Peran apa saja yang bisa dijalankan seorang manajer saat berkomunikasi dan berinteraksi dengan orang lain di organisasi?"}
+{"query_id": "p2-367-mgmt", "query": "Peran apa saja yang bisa dijalankan seorang manajer saat berkomunikasi dan berinteraksi dengan orang lain di organisasi?"}
+{"query_id": "p2-368-acct", "query": "Keterampilan apa saja yang perlu dimiliki seorang manajer supaya sukses, dan apa maksud masing-masing?"}
+{"query_id": "p2-368-mgmt", "query": "Keterampilan apa saja yang perlu dimiliki seorang manajer supaya sukses, dan apa maksud masing-masing?"}
+{"query_id": "p2-369-acct", "query": "Apa yang dimaksud dengan inovasi, dan jenis perubahan apa saja yang bisa digolongkan sebagai inovasi?"}
+{"query_id": "p2-369-isys", "query": "Apa yang dimaksud dengan inovasi, dan jenis perubahan apa saja yang bisa digolongkan sebagai inovasi?"}
+{"query_id": "p2-370-acct", "query": "Menurut teori Herzberg, kenapa faktor higiene seperti gaji atau kondisi kerja yang baik belum tentu membuat karyawan puas?"}
+{"query_id": "p2-370-mgmt", "query": "Menurut teori Herzberg, kenapa faktor higiene seperti gaji atau kondisi kerja yang baik belum tentu membuat karyawan puas?"}
+{"query_id": "p2-371-acct", "query": "Venture capital itu sebenarnya apa, dan apa yang didapat investornya sebagai imbalan atas dana yang mereka berikan ke perusahaan?"}
+{"query_id": "p2-371-mgmt", "query": "Venture capital itu sebenarnya apa, dan apa yang didapat investornya sebagai imbalan atas dana yang mereka berikan ke perusahaan?"}
+{"query_id": "p2-372-acct", "query": "Apa saja tahapan dalam proses manajemen risiko yang dijalankan sebuah organisasi?"}
+{"query_id": "p2-372-isys", "query": "Apa saja tahapan dalam proses manajemen risiko yang dijalankan sebuah organisasi?"}
+{"query_id": "p2-373-acct", "query": "Apa saja jenis sumber kekuasaan yang bisa dimiliki seorang pemimpin untuk memengaruhi orang lain di organisasi?"}
+{"query_id": "p2-373-mgmt", "query": "Apa saja jenis sumber kekuasaan yang bisa dimiliki seorang pemimpin untuk memengaruhi orang lain di organisasi?"}
+{"query_id": "p2-374-acct", "query": "Apa yang dimaksud dengan corporate social responsibility bagi sebuah perusahaan?"}
+{"query_id": "p2-374-mgmt", "query": "Apa yang dimaksud dengan corporate social responsibility bagi sebuah perusahaan?"}
+{"query_id": "p2-375-acct", "query": "Apa itu Gantt chart dan bagaimana cara menyusunnya untuk menjadwalkan tugas-tugas dalam sebuah proyek?"}
+{"query_id": "p2-375-isys", "query": "Apa itu Gantt chart dan bagaimana cara menyusunnya untuk menjadwalkan tugas-tugas dalam sebuah proyek?"}
+{"query_id": "p2-376-acct", "query": "Apa yang dimaksud dengan venture capital dan perusahaan seperti apa yang biasanya mereka danai?"}
+{"query_id": "p2-376-mgmt", "query": "Apa yang dimaksud dengan venture capital dan perusahaan seperti apa yang biasanya mereka danai?"}
+{"query_id": "p2-377-acct", "query": "Apa itu analisis SWOT dan apa manfaatnya bagi perusahaan dalam menyusun strategi?"}
+{"query_id": "p2-377-mgmt", "query": "Apa itu analisis SWOT dan apa manfaatnya bagi perusahaan dalam menyusun strategi?"}
+{"query_id": "p2-378-acct", "query": "Bagaimana cara kerja 3D printing, dan kenapa teknologi ini berguna untuk membuat prototipe produk?"}
+{"query_id": "p2-378-isys", "query": "Bagaimana cara kerja 3D printing, dan kenapa teknologi ini berguna untuk membuat prototipe produk?"}
+{"query_id": "p2-379-acct", "query": "Apa itu sistem waralaba, dan apa saja yang didapatkan franchisee dari pihak franchisor?"}
+{"query_id": "p2-379-mgmt", "query": "Apa itu sistem waralaba, dan apa saja yang didapatkan franchisee dari pihak franchisor?"}
+{"query_id": "p2-380-acct", "query": "Apa itu strategi harga loss leader, dan kenapa toko mau menjual barang tertentu di bawah harga normal?"}
+{"query_id": "p2-380-mgmt", "query": "Apa itu strategi harga loss leader, dan kenapa toko mau menjual barang tertentu di bawah harga normal?"}
+{"query_id": "p2-381-acct", "query": "Bagaimana sebuah organisasi bisa dipandang sebagai sistem yang mengambil input dari lingkungannya lalu menghasilkan output?"}
+{"query_id": "p2-381-isys", "query": "Bagaimana sebuah organisasi bisa dipandang sebagai sistem yang mengambil input dari lingkungannya lalu menghasilkan output?"}
+{"query_id": "p2-382-acct", "query": "Undang-undang antimonopoli apa saja yang berlaku di Amerika Serikat, dan praktik bisnis apa yang dilarang oleh masing-masing undang-undang itu?"}
+{"query_id": "p2-382-mgmt", "query": "Undang-undang antimonopoli apa saja yang berlaku di Amerika Serikat, dan praktik bisnis apa yang dilarang oleh masing-masing undang-undang itu?"}
+{"query_id": "p2-383-acct", "query": "Menurut teori ekspektansi, apa yang menentukan seorang karyawan termotivasi untuk bekerja dengan baik?"}
+{"query_id": "p2-383-mgmt", "query": "Menurut teori ekspektansi, apa yang menentukan seorang karyawan termotivasi untuk bekerja dengan baik?"}
+{"query_id": "p2-384-acct", "query": "Apa isi dan fungsi ringkasan eksekutif dalam sebuah rencana bisnis?"}
+{"query_id": "p2-384-mgmt", "query": "Apa isi dan fungsi ringkasan eksekutif dalam sebuah rencana bisnis?"}
+{"query_id": "p2-385-acct", "query": "Apa yang dimaksud dengan hambatan masuk pasar bagi perusahaan baru yang ingin bersaing di suatu industri?"}
+{"query_id": "p2-385-mgmt", "query": "Apa yang dimaksud dengan hambatan masuk pasar bagi perusahaan baru yang ingin bersaing di suatu industri?"}
+{"query_id": "p2-386-acct", "query": "Paket software perkantoran apa saja yang biasanya dipakai perusahaan untuk mendukung pekerjaan sehari-hari?"}
+{"query_id": "p2-386-isys", "query": "Paket software perkantoran apa saja yang biasanya dipakai perusahaan untuk mendukung pekerjaan sehari-hari?"}
+{"query_id": "p2-387-acct", "query": "Menurut teori dua faktor Herzberg, kenapa hal seperti gaji dan kondisi kerja tidak bisa benar-benar memotivasi karyawan?"}
+{"query_id": "p2-387-mgmt", "query": "Menurut teori dua faktor Herzberg, kenapa hal seperti gaji dan kondisi kerja tidak bisa benar-benar memotivasi karyawan?"}
+{"query_id": "p2-388-acct", "query": "Kenapa kemampuan komunikasi penting dimiliki oleh orang yang bekerja atau membangun usaha di dunia bisnis?"}
+{"query_id": "p2-388-isys", "query": "Kenapa kemampuan komunikasi penting dimiliki oleh orang yang bekerja atau membangun usaha di dunia bisnis?"}
+{"query_id": "p2-389-acct", "query": "Di wilayah atau negara mana saja pertumbuhan pengguna internet paling pesat, dan apa kaitannya dengan globalisasi?"}
+{"query_id": "p2-389-isys", "query": "Di wilayah atau negara mana saja pertumbuhan pengguna internet paling pesat, dan apa kaitannya dengan globalisasi?"}
+{"query_id": "p2-390-acct", "query": "Apa peran World Trade Organization dalam perdagangan internasional antarnegara?"}
+{"query_id": "p2-390-mgmt", "query": "Apa peran World Trade Organization dalam perdagangan internasional antarnegara?"}
+{"query_id": "p2-391-acct", "query": "Apa itu paten, dan berapa lama perlindungan hukumnya berlaku bagi pemiliknya?"}
+{"query_id": "p2-391-mgmt", "query": "Apa itu paten, dan berapa lama perlindungan hukumnya berlaku bagi pemiliknya?"}
+{"query_id": "p2-392-acct", "query": "Kebutuhan teknis apa saja, misalnya hardware dan software, yang perlu ditentukan sebelum membangun sebuah produk atau sistem?"}
+{"query_id": "p2-392-isys", "query": "Kebutuhan teknis apa saja, misalnya hardware dan software, yang perlu ditentukan sebelum membangun sebuah produk atau sistem?"}
+{"query_id": "p2-393-acct", "query": "Bagaimana teori hierarki kebutuhan Maslow menjelaskan apa yang memotivasi karyawan dalam bekerja?"}
+{"query_id": "p2-393-mgmt", "query": "Bagaimana teori hierarki kebutuhan Maslow menjelaskan apa yang memotivasi karyawan dalam bekerja?"}
+{"query_id": "p2-394-acct", "query": "Seperti apa tujuan yang dirumuskan dengan baik, dan kenapa tujuan itu harus spesifik dan bisa diukur?"}
+{"query_id": "p2-394-isys", "query": "Seperti apa tujuan yang dirumuskan dengan baik, dan kenapa tujuan itu harus spesifik dan bisa diukur?"}
+{"query_id": "p2-395-acct", "query": "Apa manfaat dan tantangan punya tenaga kerja yang beragam, dan bagaimana manajer sebaiknya menyikapinya?"}
+{"query_id": "p2-395-mgmt", "query": "Apa manfaat dan tantangan punya tenaga kerja yang beragam, dan bagaimana manajer sebaiknya menyikapinya?"}
+{"query_id": "p2-396-acct", "query": "Kenapa negara mengenakan tarif pada barang impor, dan apa tujuan upaya internasional untuk menurunkan hambatan perdagangan?"}
+{"query_id": "p2-396-mgmt", "query": "Kenapa negara mengenakan tarif pada barang impor, dan apa tujuan upaya internasional untuk menurunkan hambatan perdagangan?"}
+{"query_id": "p2-397-acct", "query": "Apa peran komunikasi dalam proses memecahkan masalah?"}
+{"query_id": "p2-397-isys", "query": "Apa peran komunikasi dalam proses memecahkan masalah?"}
+{"query_id": "p2-398-acct", "query": "Apa saja yang perlu diperhatikan dalam mengelola orang dan sumber daya tim selama sebuah proyek berjalan?"}
+{"query_id": "p2-398-isys", "query": "Apa saja yang perlu diperhatikan dalam mengelola orang dan sumber daya tim selama sebuah proyek berjalan?"}
+{"query_id": "p2-399-acct", "query": "Sebenarnya seberapa banyak perusahaan di Amerika Serikat yang tergolong usaha kecil kalau dilihat dari jumlah karyawannya?"}
+{"query_id": "p2-399-mgmt", "query": "Sebenarnya seberapa banyak perusahaan di Amerika Serikat yang tergolong usaha kecil kalau dilihat dari jumlah karyawannya?"}
+{"query_id": "p2-400-acct", "query": "Apa itu teori equity dalam motivasi kerja, dan kenapa perbandingan dengan rekan kerja bisa memengaruhi motivasi karyawan?"}
+{"query_id": "p2-400-mgmt", "query": "Apa itu teori equity dalam motivasi kerja, dan kenapa perbandingan dengan rekan kerja bisa memengaruhi motivasi karyawan?"}
+{"query_id": "p2-401-acct", "query": "Apa sebenarnya peran promosi dalam pemasaran, dan bagaimana hubungannya dengan pasar sasaran?"}
+{"query_id": "p2-401-mgmt", "query": "Apa sebenarnya peran promosi dalam pemasaran, dan bagaimana hubungannya dengan pasar sasaran?"}
+{"query_id": "p2-402-acct", "query": "Apa yang dimaksud dengan likuiditas perusahaan, dan kenapa penting untuk kemampuan membayar utang jangka pendek?"}
+{"query_id": "p2-402-mgmt", "query": "Apa yang dimaksud dengan likuiditas perusahaan, dan kenapa penting untuk kemampuan membayar utang jangka pendek?"}
+{"query_id": "p2-403-acct", "query": "Bagaimana teori goal-setting menjelaskan pengaruh tujuan yang spesifik dan menantang terhadap motivasi dan kinerja seseorang?"}
+{"query_id": "p2-403-mgmt", "query": "Bagaimana teori goal-setting menjelaskan pengaruh tujuan yang spesifik dan menantang terhadap motivasi dan kinerja seseorang?"}
+{"query_id": "p2-404-acct", "query": "Apa tujuan perjanjian yang melarang karyawan bekerja untuk pesaing setelah keluar dari perusahaan, dan kenapa praktik ini mulai dipersoalkan?"}
+{"query_id": "p2-404-mgmt", "query": "Apa tujuan perjanjian yang melarang karyawan bekerja untuk pesaing setelah keluar dari perusahaan, dan kenapa praktik ini mulai dipersoalkan?"}
+{"query_id": "p2-405-acct", "query": "Liabilitas dalam akuntansi itu sebenarnya apa ya, dan apa contoh kewajiban yang biasanya dimiliki sebuah organisasi?"}
+{"query_id": "p2-405-mgmt", "query": "Liabilitas dalam akuntansi itu sebenarnya apa ya, dan apa contoh kewajiban yang biasanya dimiliki sebuah organisasi?"}
+{"query_id": "p2-406-acct", "query": "Seberapa cepat pertumbuhan jumlah bisnis yang dimiliki perempuan di Amerika Serikat dibanding rata-rata nasional?"}
+{"query_id": "p2-406-mgmt", "query": "Seberapa cepat pertumbuhan jumlah bisnis yang dimiliki perempuan di Amerika Serikat dibanding rata-rata nasional?"}
+{"query_id": "p2-407-acct", "query": "Bagaimana teori ekspektansi menjelaskan hubungan antara usaha, kinerja, dan hasil yang didapat dalam memotivasi seseorang?"}
+{"query_id": "p2-407-mgmt", "query": "Bagaimana teori ekspektansi menjelaskan hubungan antara usaha, kinerja, dan hasil yang didapat dalam memotivasi seseorang?"}
+{"query_id": "p2-408-acct", "query": "Siapa saja yang termasuk pemangku kepentingan sebuah perusahaan, dan kenapa perusahaan perlu memperhatikan semuanya, bukan cuma pemegang saham?"}
+{"query_id": "p2-408-mgmt", "query": "Siapa saja yang termasuk pemangku kepentingan sebuah perusahaan, dan kenapa perusahaan perlu memperhatikan semuanya, bukan cuma pemegang saham?"}
+{"query_id": "p2-409-acct", "query": "Apa saja kelebihan pengambilan keputusan secara berkelompok dibanding keputusan yang diambil sendirian?"}
+{"query_id": "p2-409-mgmt", "query": "Apa saja kelebihan pengambilan keputusan secara berkelompok dibanding keputusan yang diambil sendirian?"}
+{"query_id": "p2-410-acct", "query": "Apa itu joint venture dan apa keuntungan yang didapat perusahaan kalau memilih bentuk kerja sama ini?"}
+{"query_id": "p2-410-mgmt", "query": "Apa itu joint venture dan apa keuntungan yang didapat perusahaan kalau memilih bentuk kerja sama ini?"}
+{"query_id": "p2-411-acct", "query": "Bagaimana data pelanggan yang terkumpul saat mereka bertransaksi bisa dianalisis untuk membantu keputusan bisnis seperti pemasaran?"}
+{"query_id": "p2-411-isys", "query": "Bagaimana data pelanggan yang terkumpul saat mereka bertransaksi bisa dianalisis untuk membantu keputusan bisnis seperti pemasaran?"}
+{"query_id": "p2-412-acct", "query": "Apa yang dimaksud dengan aset tidak berwujud dan apa saja contohnya dalam sebuah perusahaan?"}
+{"query_id": "p2-412-mgmt", "query": "Apa yang dimaksud dengan aset tidak berwujud dan apa saja contohnya dalam sebuah perusahaan?"}
+{"query_id": "p2-413-acct", "query": "Apa saja tiga laporan keuangan utama yang biasanya disusun perusahaan?"}
+{"query_id": "p2-413-mgmt", "query": "Apa saja tiga laporan keuangan utama yang biasanya disusun perusahaan?"}
+{"query_id": "p2-414-acct", "query": "Apa yang dimaksud dengan konsep triple bottom line, dan tiga aspek apa saja yang diukur perusahaan lewat konsep itu?"}
+{"query_id": "p2-414-mgmt", "query": "Apa yang dimaksud dengan konsep triple bottom line, dan tiga aspek apa saja yang diukur perusahaan lewat konsep itu?"}
+{"query_id": "p2-415-acct", "query": "Apa isi undang-undang cuti keluarga dan medis di Amerika Serikat, berapa lama cutinya, dan perusahaan seperti apa yang wajib menerapkannya?"}
+{"query_id": "p2-415-mgmt", "query": "Apa isi undang-undang cuti keluarga dan medis di Amerika Serikat, berapa lama cutinya, dan perusahaan seperti apa yang wajib menerapkannya?"}
+{"query_id": "p2-416-acct", "query": "Apakah hukum di Amerika Serikat melindungi karyawan dari diskriminasi karena orientasi seksual, dan apa yang sebaiknya dilakukan perusahaan?"}
+{"query_id": "p2-416-mgmt", "query": "Apakah hukum di Amerika Serikat melindungi karyawan dari diskriminasi karena orientasi seksual, dan apa yang sebaiknya dilakukan perusahaan?"}
+{"query_id": "p2-417-acct", "query": "Kenapa survei atau kuesioner berguna untuk mengumpulkan informasi, dan dalam situasi apa cara ini cocok dipakai?"}
+{"query_id": "p2-417-isys", "query": "Kenapa survei atau kuesioner berguna untuk mengumpulkan informasi, dan dalam situasi apa cara ini cocok dipakai?"}
+{"query_id": "p2-418-acct", "query": "Selain teori kebutuhan, ada empat teori motivasi lain seperti teori ekspektasi dan teori keadilan, apa saja keempatnya?"}
+{"query_id": "p2-418-mgmt", "query": "Selain teori kebutuhan, ada empat teori motivasi lain seperti teori ekspektasi dan teori keadilan, apa saja keempatnya?"}
+{"query_id": "p2-419-acct", "query": "Seberapa banyak pekerja yang sekarang terlibat dalam gig economy, dan apakah tren ini sebenarnya menguntungkan pekerjanya?"}
+{"query_id": "p2-419-mgmt", "query": "Seberapa banyak pekerja yang sekarang terlibat dalam gig economy, dan apakah tren ini sebenarnya menguntungkan pekerjanya?"}
+{"query_id": "p2-420-acct", "query": "Apa itu penghargaan Malcolm Baldrige, dan apa tujuan penghargaan ini bagi perusahaan?"}
+{"query_id": "p2-420-mgmt", "query": "Apa itu penghargaan Malcolm Baldrige, dan apa tujuan penghargaan ini bagi perusahaan?"}
+{"query_id": "p2-421-acct", "query": "Bagaimana sebaiknya seorang tenaga penjual menanggapi keberatan atau pertanyaan dari calon pembeli selama presentasi penjualan?"}
+{"query_id": "p2-421-mgmt", "query": "Bagaimana sebaiknya seorang tenaga penjual menanggapi keberatan atau pertanyaan dari calon pembeli selama presentasi penjualan?"}
+{"query_id": "p2-422-acct", "query": "Seperti apa struktur organisasi yang datar, dan apa yang membuat organisasi cenderung memakai bentuk ini?"}
+{"query_id": "p2-422-isys", "query": "Seperti apa struktur organisasi yang datar, dan apa yang membuat organisasi cenderung memakai bentuk ini?"}
+{"query_id": "p2-423-acct", "query": "Apa saja ketentuan utama Sarbanes-Oxley Act soal tanggung jawab CEO dan CFO serta pengawasan audit di perusahaan publik?"}
+{"query_id": "p2-423-mgmt", "query": "Apa saja ketentuan utama Sarbanes-Oxley Act soal tanggung jawab CEO dan CFO serta pengawasan audit di perusahaan publik?"}
+{"query_id": "p2-424-acct", "query": "Apa itu limited liability partnership, dan sejauh mana tanggung jawab hukum setiap partner di dalamnya?"}
+{"query_id": "p2-424-mgmt", "query": "Apa itu limited liability partnership, dan sejauh mana tanggung jawab hukum setiap partner di dalamnya?"}
+{"query_id": "p2-425-acct", "query": "Apa yang dimaksud dengan pelecehan seksual di tempat kerja, dan undang-undang apa yang melarangnya?"}
+{"query_id": "p2-425-mgmt", "query": "Apa yang dimaksud dengan pelecehan seksual di tempat kerja, dan undang-undang apa yang melarangnya?"}
+{"query_id": "p2-426-acct", "query": "Bagaimana teori hierarki kebutuhan Maslow bisa dipakai manajer untuk meningkatkan motivasi karyawan?"}
+{"query_id": "p2-426-mgmt", "query": "Bagaimana teori hierarki kebutuhan Maslow bisa dipakai manajer untuk meningkatkan motivasi karyawan?"}
+{"query_id": "p2-427-acct", "query": "Bagaimana menuanya generasi baby boom memengaruhi komposisi usia tenaga kerja saat ini?"}
+{"query_id": "p2-427-mgmt", "query": "Bagaimana menuanya generasi baby boom memengaruhi komposisi usia tenaga kerja saat ini?"}
+{"query_id": "p2-428-acct", "query": "Tantangan apa saja yang biasanya muncul kalau anggota satu tim berasal dari budaya yang berbeda-beda?"}
+{"query_id": "p2-428-isys", "query": "Tantangan apa saja yang biasanya muncul kalau anggota satu tim berasal dari budaya yang berbeda-beda?"}
+{"query_id": "p2-429-acct", "query": "Dari mana saja seorang manajer mendapatkan informasi untuk mendukung pengambilan keputusannya?"}
+{"query_id": "p2-429-isys", "query": "Dari mana saja seorang manajer mendapatkan informasi untuk mendukung pengambilan keputusannya?"}
+{"query_id": "p2-430-acct", "query": "Apa saja yang perlu dipertimbangkan pendiri startup sebelum mencari dana dari angel investor?"}
+{"query_id": "p2-430-mgmt", "query": "Apa saja yang perlu dipertimbangkan pendiri startup sebelum mencari dana dari angel investor?"}
+{"query_id": "p2-431-acct", "query": "Kenapa bentuk usaha perseorangan banyak dipilih oleh orang yang baru memulai bisnis?"}
+{"query_id": "p2-431-mgmt", "query": "Kenapa bentuk usaha perseorangan banyak dipilih oleh orang yang baru memulai bisnis?"}
+{"query_id": "p2-432-acct", "query": "Apa yang dimaksud organisasi informal dan apa bedanya dengan struktur yang terlihat di bagan organisasi resmi?"}
+{"query_id": "p2-432-mgmt", "query": "Apa yang dimaksud organisasi informal dan apa bedanya dengan struktur yang terlihat di bagan organisasi resmi?"}
+{"query_id": "p2-433-acct", "query": "Dibanding persekutuan dan korporasi, bentuk badan usaha apa yang jumlahnya paling banyak?"}
+{"query_id": "p2-433-mgmt", "query": "Dibanding persekutuan dan korporasi, bentuk badan usaha apa yang jumlahnya paling banyak?"}
+{"query_id": "p2-434-acct", "query": "Apa kontribusi teori Herzberg terhadap riset dan praktik manajemen soal motivasi dan kepuasan kerja karyawan?"}
+{"query_id": "p2-434-mgmt", "query": "Apa kontribusi teori Herzberg terhadap riset dan praktik manajemen soal motivasi dan kepuasan kerja karyawan?"}
+{"query_id": "p2-435-acct", "query": "Bagaimana faktor sosial budaya dan demografis di lingkungan bisnis memengaruhi keputusan pemasaran perusahaan?"}
+{"query_id": "p2-435-mgmt", "query": "Bagaimana faktor sosial budaya dan demografis di lingkungan bisnis memengaruhi keputusan pemasaran perusahaan?"}
+{"query_id": "p2-436-acct", "query": "Apa saja ciri khas yang biasanya melekat pada seorang entrepreneur?"}
+{"query_id": "p2-436-mgmt", "query": "Apa saja ciri khas yang biasanya melekat pada seorang entrepreneur?"}
+{"query_id": "p2-437-acct", "query": "Faktor apa saja yang perlu dipertimbangkan waktu memilih lokasi usaha?"}
+{"query_id": "p2-437-mgmt", "query": "Faktor apa saja yang perlu dipertimbangkan waktu memilih lokasi usaha?"}
+{"query_id": "p2-438-acct", "query": "Apa itu kuota impor dan bagaimana pemerintah memakainya untuk membatasi perdagangan internasional?"}
+{"query_id": "p2-438-mgmt", "query": "Apa itu kuota impor dan bagaimana pemerintah memakainya untuk membatasi perdagangan internasional?"}
+{"query_id": "p2-439-acct", "query": "Kenapa perusahaan yang berbisnis secara jujur dan menghormati semua pihak cenderung lebih dipilih oleh pelanggan?"}
+{"query_id": "p2-439-mgmt", "query": "Kenapa perusahaan yang berbisnis secara jujur dan menghormati semua pihak cenderung lebih dipilih oleh pelanggan?"}
+{"query_id": "p2-440-acct", "query": "Apa yang dimaksud dengan tanggung jawab terbatas bagi pemilik usaha, dan kenapa LLC dianggap mirip dengan korporasi?"}
+{"query_id": "p2-440-mgmt", "query": "Apa yang dimaksud dengan tanggung jawab terbatas bagi pemilik usaha, dan kenapa LLC dianggap mirip dengan korporasi?"}
+{"query_id": "p2-441-acct", "query": "Setelah menentukan target pasar, bagaimana perusahaan menyusun bauran pemasaran untuk melayani pelanggannya?"}
+{"query_id": "p2-441-mgmt", "query": "Setelah menentukan target pasar, bagaimana perusahaan menyusun bauran pemasaran untuk melayani pelanggannya?"}
+{"query_id": "p2-442-acct", "query": "Kenapa sebuah rencana perlu ditinjau dan diperbarui secara berkala, bukan hanya dibuat sekali lalu disimpan?"}
+{"query_id": "p2-442-isys", "query": "Kenapa sebuah rencana perlu ditinjau dan diperbarui secara berkala, bukan hanya dibuat sekali lalu disimpan?"}
+{"query_id": "p2-443-acct", "query": "Pertanyaan apa saja yang sebaiknya diajukan calon pengusaha untuk menguji apakah ide bisnisnya layak dijalankan?"}
+{"query_id": "p2-443-mgmt", "query": "Pertanyaan apa saja yang sebaiknya diajukan calon pengusaha untuk menguji apakah ide bisnisnya layak dijalankan?"}
+{"query_id": "p2-444-acct", "query": "Apa itu bentuk usaha kemitraan, dan bagaimana para mitranya berbagi keuntungan serta risiko?"}
+{"query_id": "p2-444-mgmt", "query": "Apa itu bentuk usaha kemitraan, dan bagaimana para mitranya berbagi keuntungan serta risiko?"}
+{"query_id": "p2-445-acct", "query": "Bagaimana milestone dipakai untuk memantau kemajuan, dan apa yang perlu dilakukan kalau ternyata rencananya harus diubah?"}
+{"query_id": "p2-445-isys", "query": "Bagaimana milestone dipakai untuk memantau kemajuan, dan apa yang perlu dilakukan kalau ternyata rencananya harus diubah?"}
+{"query_id": "p2-446-acct", "query": "Bagaimana sebaiknya cara atau metode pemecahan masalah dipilih supaya solusi yang didapat efektif?"}
+{"query_id": "p2-446-isys", "query": "Bagaimana sebaiknya cara atau metode pemecahan masalah dipilih supaya solusi yang didapat efektif?"}
+{"query_id": "p2-447-acct", "query": "Kenapa perusahaan memilih memakai independent contractor ketimbang karyawan full-time, dan apa konsekuensinya bagi pekerja?"}
+{"query_id": "p2-447-mgmt", "query": "Kenapa perusahaan memilih memakai independent contractor ketimbang karyawan full-time, dan apa konsekuensinya bagi pekerja?"}
+{"query_id": "p2-448-acct", "query": "Gimana cara pengusaha mendanai bisnis rintisan, mulai dari pakai sumber daya sendiri sampai cari investor dari luar?"}
+{"query_id": "p2-448-mgmt", "query": "Gimana cara pengusaha mendanai bisnis rintisan, mulai dari pakai sumber daya sendiri sampai cari investor dari luar?"}
+{"query_id": "p2-449-acct", "query": "Apa yang dimaksud korporasi sebagai badan hukum dan siapa yang sebenarnya memiliki perusahaan berbentuk korporasi?"}
+{"query_id": "p2-449-mgmt", "query": "Apa yang dimaksud korporasi sebagai badan hukum dan siapa yang sebenarnya memiliki perusahaan berbentuk korporasi?"}
+{"query_id": "p2-450-acct", "query": "Apa saja dampak yang dialami Equifax setelah kasus kebocoran data pelanggannya di tahun 2017?"}
+{"query_id": "p2-450-mgmt", "query": "Apa saja dampak yang dialami Equifax setelah kasus kebocoran data pelanggannya di tahun 2017?"}
+{"query_id": "p2-451-acct", "query": "Apa yang dimaksud dengan personal selling dalam kegiatan pemasaran?"}
+{"query_id": "p2-451-mgmt", "query": "Apa yang dimaksud dengan personal selling dalam kegiatan pemasaran?"}
+{"query_id": "p2-452-acct", "query": "Bagaimana manajer sebaiknya menyikapi tujuan antarbagian dalam organisasi yang saling bertentangan?"}
+{"query_id": "p2-452-isys", "query": "Bagaimana manajer sebaiknya menyikapi tujuan antarbagian dalam organisasi yang saling bertentangan?"}
+{"query_id": "p2-453-acct", "query": "Apa itu kekayaan intelektual dan bentuk perlindungan hukumnya ada apa saja?"}
+{"query_id": "p2-453-mgmt", "query": "Apa itu kekayaan intelektual dan bentuk perlindungan hukumnya ada apa saja?"}
+{"query_id": "p2-454-acct", "query": "Bagaimana tingkat partisipasi angkatan kerja berubah seiring makin banyak perempuan yang masuk dunia kerja?"}
+{"query_id": "p2-454-mgmt", "query": "Bagaimana tingkat partisipasi angkatan kerja berubah seiring makin banyak perempuan yang masuk dunia kerja?"}
+{"query_id": "p2-455-acct", "query": "Apa yang dimaksud dengan brand dan unsur apa saja yang membentuk citra brand sebuah perusahaan?"}
+{"query_id": "p2-455-mgmt", "query": "Apa yang dimaksud dengan brand dan unsur apa saja yang membentuk citra brand sebuah perusahaan?"}
+{"query_id": "p2-456-acct", "query": "Apa fungsi laporan arus kas dan kenapa angka laba saja tidak cukup untuk menilai kondisi keuangan perusahaan?"}
+{"query_id": "p2-456-mgmt", "query": "Apa fungsi laporan arus kas dan kenapa angka laba saja tidak cukup untuk menilai kondisi keuangan perusahaan?"}
+{"query_id": "p2-457-acct", "query": "Apa keuntungan utama bentuk badan usaha korporasi terkait tanggung jawab pemilik atas utang dan kewajiban perusahaan?"}
+{"query_id": "p2-457-mgmt", "query": "Apa keuntungan utama bentuk badan usaha korporasi terkait tanggung jawab pemilik atas utang dan kewajiban perusahaan?"}
+{"query_id": "p2-458-acct", "query": "Seperti apa ancaman serangan siber yang meminta tebusan terhadap bisnis, dan seberapa luas dampaknya bisa terjadi?"}
+{"query_id": "p2-458-isys", "query": "Seperti apa ancaman serangan siber yang meminta tebusan terhadap bisnis, dan seberapa luas dampaknya bisa terjadi?"}
+{"query_id": "p2-459-acct", "query": "Apa perbedaan pengeluaran untuk aset jangka panjang dengan biaya operasional sehari-hari, dan apa saja contohnya?"}
+{"query_id": "p2-459-mgmt", "query": "Apa perbedaan pengeluaran untuk aset jangka panjang dengan biaya operasional sehari-hari, dan apa saja contohnya?"}
+{"query_id": "p2-460-acct", "query": "Setelah punya ide usaha dan rencana bisnis, langkah apa yang perlu dilakukan untuk mendapatkan modal memulai usaha?"}
+{"query_id": "p2-460-mgmt", "query": "Setelah punya ide usaha dan rencana bisnis, langkah apa yang perlu dilakukan untuk mendapatkan modal memulai usaha?"}
+{"query_id": "p2-461-acct", "query": "Apa yang dimaksud organisasi nirlaba dan apa saja contoh organisasi yang termasuk di dalamnya?"}
+{"query_id": "p2-461-mgmt", "query": "Apa yang dimaksud organisasi nirlaba dan apa saja contoh organisasi yang termasuk di dalamnya?"}
+{"query_id": "p2-462-acct", "query": "Bagaimana kondisi ekonomi seperti inflasi dan suku bunga memengaruhi jalannya sebuah bisnis?"}
+{"query_id": "p2-462-mgmt", "query": "Bagaimana kondisi ekonomi seperti inflasi dan suku bunga memengaruhi jalannya sebuah bisnis?"}
+{"query_id": "p2-463-acct", "query": "Bagaimana seorang manajer sebaiknya menilai kelebihan dan kekurangan dirinya untuk mengembangkan kemampuannya?"}
+{"query_id": "p2-463-mgmt", "query": "Bagaimana seorang manajer sebaiknya menilai kelebihan dan kekurangan dirinya untuk mengembangkan kemampuannya?"}
+{"query_id": "p2-464-acct", "query": "Apakah praktik manajemen sebenarnya sudah ada sejak zaman kuno, misalnya waktu membangun bangunan monumental yang sangat besar?"}
+{"query_id": "p2-464-isys", "query": "Apakah praktik manajemen sebenarnya sudah ada sejak zaman kuno, misalnya waktu membangun bangunan monumental yang sangat besar?"}
+{"query_id": "p2-465-acct", "query": "Apa saja yang perlu dipertimbangkan waktu memilih negara bagian untuk mendirikan sebuah perusahaan berbadan hukum?"}
+{"query_id": "p2-465-mgmt", "query": "Apa saja yang perlu dipertimbangkan waktu memilih negara bagian untuk mendirikan sebuah perusahaan berbadan hukum?"}
+{"query_id": "p2-466-acct", "query": "Siapa sebenarnya angel investor itu dan bagaimana mereka membantu pendanaan bisnis baru?"}
+{"query_id": "p2-466-mgmt", "query": "Siapa sebenarnya angel investor itu dan bagaimana mereka membantu pendanaan bisnis baru?"}
+{"query_id": "p2-467-acct", "query": "Seperti apa struktur organisasi matriks itu dan bagaimana anggotanya bekerja lintas fungsi dengan atasan lebih dari satu?"}
+{"query_id": "p2-467-mgmt", "query": "Seperti apa struktur organisasi matriks itu dan bagaimana anggotanya bekerja lintas fungsi dengan atasan lebih dari satu?"}
+{"query_id": "p2-468-acct", "query": "Apa bedanya utang jangka pendek dan utang jangka panjang dalam membiayai kebutuhan bisnis?"}
+{"query_id": "p2-468-mgmt", "query": "Apa bedanya utang jangka pendek dan utang jangka panjang dalam membiayai kebutuhan bisnis?"}
+{"query_id": "p2-469-acct", "query": "Mengapa perilaku etis itu penting bagi seorang pemimpin bisnis?"}
+{"query_id": "p2-469-mgmt", "query": "Mengapa perilaku etis itu penting bagi seorang pemimpin bisnis?"}
+{"query_id": "p2-470-acct", "query": "Apa itu UN Global Compact dan prinsip-prinsip apa saja yang dicakupnya untuk perusahaan?"}
+{"query_id": "p2-470-mgmt", "query": "Apa itu UN Global Compact dan prinsip-prinsip apa saja yang dicakupnya untuk perusahaan?"}
+{"query_id": "p2-471-acct", "query": "Apa saja alasan perusahaan memutuskan untuk melakukan merger atau akuisisi?"}
+{"query_id": "p2-471-mgmt", "query": "Apa saja alasan perusahaan memutuskan untuk melakukan merger atau akuisisi?"}
+{"query_id": "p2-472-acct", "query": "Kenapa memahami budaya lain jadi penting bagi manajer dan karyawan ketika perusahaan beroperasi di banyak negara?"}
+{"query_id": "p2-472-mgmt", "query": "Kenapa memahami budaya lain jadi penting bagi manajer dan karyawan ketika perusahaan beroperasi di banyak negara?"}
+{"query_id": "p2-473-acct", "query": "Bagaimana cara membebankan biaya tidak langsung ke produk atau unit tertentu dengan memakai dasar alokasi?"}
+{"query_id": "p2-473-mgmt", "query": "Bagaimana cara membebankan biaya tidak langsung ke produk atau unit tertentu dengan memakai dasar alokasi?"}
+{"query_id": "p2-474-acct", "query": "Kenapa sebuah bisnis perlu menyiapkan rencana kelangsungan usaha untuk menghadapi bencana alam seperti banjir atau gempa?"}
+{"query_id": "p2-474-isys", "query": "Kenapa sebuah bisnis perlu menyiapkan rencana kelangsungan usaha untuk menghadapi bencana alam seperti banjir atau gempa?"}
+{"query_id": "p2-475-acct", "query": "Bagaimana pandangan Max Weber tentang birokrasi dalam organisasi?"}
+{"query_id": "p2-475-mgmt", "query": "Bagaimana pandangan Max Weber tentang birokrasi dalam organisasi?"}
+{"query_id": "p2-476-acct", "query": "Apa maksud strategi menetapkan harga dengan angka ganjil, dan kenapa itu bisa menarik bagi konsumen?"}
+{"query_id": "p2-476-mgmt", "query": "Apa maksud strategi menetapkan harga dengan angka ganjil, dan kenapa itu bisa menarik bagi konsumen?"}
+{"query_id": "p2-477-acct", "query": "Apakah keberagaman gender dan etnis dalam perusahaan berpengaruh pada kinerja finansialnya?"}
+{"query_id": "p2-477-mgmt", "query": "Apakah keberagaman gender dan etnis dalam perusahaan berpengaruh pada kinerja finansialnya?"}
+{"query_id": "p2-478-acct", "query": "Apa manfaat yang bisa didapat perusahaan dari tenaga kerja yang beragam?"}
+{"query_id": "p2-478-mgmt", "query": "Apa manfaat yang bisa didapat perusahaan dari tenaga kerja yang beragam?"}
+{"query_id": "p2-479-acct", "query": "Kemampuan atau kualitas apa saja yang perlu dimiliki seorang pemimpin supaya efektif memimpin timnya?"}
+{"query_id": "p2-479-isys", "query": "Kemampuan atau kualitas apa saja yang perlu dimiliki seorang pemimpin supaya efektif memimpin timnya?"}
+{"query_id": "p2-480-acct", "query": "Apa peran perantara seperti agen atau distributor dalam menyalurkan produk sampai ke konsumen akhir?"}
+{"query_id": "p2-480-mgmt", "query": "Apa peran perantara seperti agen atau distributor dalam menyalurkan produk sampai ke konsumen akhir?"}

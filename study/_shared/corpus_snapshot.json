@@ -1,0 +1,224 @@
+{
+  "dibekukan_pada": "2026-08-09T02:55:08.093138+00:00",
+  "collection": "sentio_knowledge",
+  "n_chunks": 80738,
+  "n_documents": 40,
+  "sha256_chunk_ids": "f9da8e63b3e2d441ef85b32f31f2e301b15a16841fd0d593ed2645a4daa60dd1",
+  "kalibrasi_yang_berlaku": {
+    "absolute_min": 0.546,
+    "absolute_max": 0.7506,
+    "n_queries": 155,
+    "n_ood_queries": 64,
+    "gate_method": "gap-midpoint",
+    "calibration_set_version": "calib-v2",
+    "indomain_p5": 0.554,
+    "ood_p95": 0.538,
+    "corpus_chunk_count": 80738,
+    "model_version": "bge-m3",
+    "date": "2026-08-04",
+    "provisional": true,
+    "median": 0.6572
+  },
+  "per_dokumen": [
+    {
+      "document_id": "10ca6fa4-6d21-44b9-a35d-219ba4038bc1",
+      "judul": "Open Data Structures in C++",
+      "n_chunks": 928
+    },
+    {
+      "document_id": "15c07bf3-02b1-43ad-aff8-cd8635a86706",
+      "judul": "Introduction to probability and statistics: a computational framework of randomness",
+      "n_chunks": 430
+    },
+    {
+      "document_id": "17b59d08-2a44-4049-af9c-17690e4e9f14",
+      "judul": "Business_Operations_Analytics_Christensen_CCBY4",
+      "n_chunks": 300
+    },
+    {
+      "document_id": "1aeb8a73-ae9f-426b-825b-ddb0ed5f844e",
+      "judul": "Business Processes and Information Technology",
+      "n_chunks": 2298
+    },
+    {
+      "document_id": "22495ff7-d84b-4012-b15d-e6a656e22a1d",
+      "judul": "MATH_AppliedFiniteMath_Sekhon_CCBY4",
+      "n_chunks": 1724
+    },
+    {
+      "document_id": "28d61eee-4af1-42aa-b9c0-faab887f767e",
+      "judul": "Machine_Learning_The_Basics_Jung_CCBY4_arxiv",
+      "n_chunks": 999
+    },
+    {
+      "document_id": "29dd9f2f-55c2-4bb6-8837-362154007311",
+      "judul": "Introductory_Statistics_2e_CCBY_2023",
+      "n_chunks": 3591
+    },
+    {
+      "document_id": "3c9dffb7-e011-4da3-af3d-7c8de3141e46",
+      "judul": "Information_Systems_GlobalText_CCBY3",
+      "n_chunks": 1654
+    },
+    {
+      "document_id": "4d2cf70b-d0ed-4c1a-b397-08fbfe349e12",
+      "judul": "An Introduction to Modern Statistical Learning",
+      "n_chunks": 671
+    },
+    {
+      "document_id": "568257c4-4745-4b0f-ad2b-1699a54483ca",
+      "judul": "Information Security Handbook: A Guide for Managers",
+      "n_chunks": 1128
+    },
+    {
+      "document_id": "57fea601-6492-488f-b997-cf41f60dad93",
+      "judul": "MATH_Understanding_LinearAlgebra_Austin_CCBY4",
+      "n_chunks": 1300
+    },
+    {
+      "document_id": "61e22778-b803-4cf3-995d-65b75a7136f6",
+      "judul": "Principles_of_Marketing_CCBY_2023",
+      "n_chunks": 3874
+    },
+    {
+      "document_id": "6b96d8eb-f4af-413b-b6c8-034feda68dbf",
+      "judul": "MGMT_BusinessEthics_OpenStax_snapshot2023-02",
+      "n_chunks": 2117
+    },
+    {
+      "document_id": "706afe64-cdf4-4831-b2ea-5eadf5e5654f",
+      "judul": "NIST Special Publication 800-12 Revision 1",
+      "n_chunks": 540
+    },
+    {
+      "document_id": "76231754-45ae-447f-9894-0c1ea3fdd6d1",
+      "judul": "Introduction to Machine Learning",
+      "n_chunks": 2020
+    },
+    {
+      "document_id": "805d3d94-a304-4523-9dc2-93ffbeee8143",
+      "judul": "Accounting Principles: A Business Perspective",
+      "n_chunks": 5085
+    },
+    {
+      "document_id": "86626c3c-8de0-40b3-be84-78460bebed33",
+      "judul": "Algorithms-JeffE",
+      "n_chunks": 1997
+    },
+    {
+      "document_id": "8e1a45b9-266a-4bd3-bfb2-d4fad783c5b1",
+      "judul": "Introduction to Python Programming",
+      "n_chunks": 1425
+    },
+    {
+      "document_id": "94993497-38e4-4a3c-a61f-a55462d417e4",
+      "judul": "Introduction to Business",
+      "n_chunks": 4157
+    },
+    {
+      "document_id": "9dfaabdb-834d-4661-b12d-58a80a194cfb",
+      "judul": "COMP_xv6_OS_Book_MIT_license",
+      "n_chunks": 582
+    },
+    {
+      "document_id": "9f15ae0a-edd2-4ccb-a726-085a89b7c8b8",
+      "judul": "ISYS_ProjectManagement_Watt2e_snapshot2021-04",
+      "n_chunks": 916
+    },
+    {
+      "document_id": "9f858c7f-7db6-4e2e-b8d3-95594af1cce7",
+      "judul": "Information Systems for Business and Beyond",
+      "n_chunks": 717
+    },
+    {
+      "document_id": "a00bed77-7624-413a-92a3-c72fbc73a041",
+      "judul": "Entrepreneurship_OP2021_CCBY4",
+      "n_chunks": 3855
+    },
+    {
+      "document_id": "a01d11ae-83f8-4c9c-9e2b-78b7d1c27a77",
+      "judul": "High_Performance_Computing_CCBY3",
+      "n_chunks": 1166
+    },
+    {
+      "document_id": "ac0b6662-61c4-4bd1-97f9-423d399dbc17",
+      "judul": "High_Dimensional_Statistics_CCBY4_arxiv",
+      "n_chunks": 430
+    },
+    {
+      "document_id": "acf6be65-6b70-437d-afbf-0c3c71a90a44",
+      "judul": "Accounting Principles: A Business Perspective",
+      "n_chunks": 1478
+    },
+    {
+      "document_id": "b41c7d51-395e-4c72-9583-c6711f433de2",
+      "judul": "Java, Java, Java Object-Oriented Problem Solving Third Edition",
+      "n_chunks": 3720
+    },
+    {
+      "document_id": "b6c80bdd-42d6-4c81-addb-7b7428787ef1",
+      "judul": "PROBABILITY, MATHEMATICAL STATISTICS, AND STOCHASTIC PROCESSES",
+      "n_chunks": 6465
+    },
+    {
+      "document_id": "b6cde09a-36c8-4adb-8671-954a8198cd57",
+      "judul": "Database_Design_2e_TRIMMED_no_ch11_ch13_CCBY",
+      "n_chunks": 378
+    },
+    {
+      "document_id": "b86d51d0-14bb-4af0-91c4-fec37d33e2cf",
+      "judul": "FINANCIAL STRATEGY FOR PUBLIC MANAGERS",
+      "n_chunks": 1185
+    },
+    {
+      "document_id": "b88d2dff-bf14-4fe6-a768-686249bf0db0",
+      "judul": "DataMining_for_the_Masses_North_CCBY3",
+      "n_chunks": 770
+    },
+    {
+      "document_id": "c0f5eb8f-035e-4231-b9c6-0bf39e9e45e3",
+      "judul": "Calculus_Made_Easy_Thompson_PublicDomain",
+      "n_chunks": 471
+    },
+    {
+      "document_id": "cfe92ad1-437d-4d28-a8f0-b3cd423b7edc",
+      "judul": "Introductory Business Statistics",
+      "n_chunks": 2992
+    },
+    {
+      "document_id": "dfcb2615-b225-4fdb-8b3d-bd9f0daeb8ab",
+      "judul": "Introduction_to_Statistics_Lane_PublicDomain",
+      "n_chunks": 4765
+    },
+    {
+      "document_id": "e37f3ae1-4776-41af-885f-e946b4a856b3",
+      "judul": "Introducing_Marketing_Burnett_CCBY3",
+      "n_chunks": 1579
+    },
+    {
+      "document_id": "e4dc9c5a-ffe1-4148-92aa-b2d9381f6147",
+      "judul": "Introduction to Supply Chain and Operations Management",
+      "n_chunks": 1479
+    },
+    {
+      "document_id": "eb084e11-56b4-48d0-8236-f9244a7fa16e",
+      "judul": "STAT_IntroBusinessStats_MahbobiTiemann_CCBY4",
+      "n_chunks": 550
+    },
+    {
+      "document_id": "f538af2b-8977-4764-a339-21a22cb27d3c",
+      "judul": "Computer Networking: Principles, Protocols and Practice ",
+      "n_chunks": 1556
+    },
+    {
+      "document_id": "f8536752-ba9a-4fc2-a3d0-e378b3d5cc57",
+      "judul": "Principles_of_Economics_3e_CCBY_2022",
+      "n_chunks": 5712
+    },
+    {
+      "document_id": "ff183b6a-36fb-41ff-83a5-db64697cd109",
+      "judul": "MGMT_PrinciplesOfManagement_OpenStax_snapshot2023-08",
+      "n_chunks": 3734
+    }
+  ]
+}

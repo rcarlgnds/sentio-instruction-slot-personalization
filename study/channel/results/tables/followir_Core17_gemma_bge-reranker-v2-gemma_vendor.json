@@ -1,0 +1,70 @@
+{
+  "dibuat": "2026-10-13T17:45:41.855536+00:00",
+  "config_version_lock": "0a7b2e4de856",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "_apa_ini": "External positive control for bge-gemma, ctxl-6B, and FollowIR-7B, with the same protocol as followir.py (FollowIR, NAACL 2025).",
+  "dataset": "mteb/Core17InstructionRetrieval",
+  "model": "BAAI/bge-reranker-v2-gemma",
+  "keluarga": "gemma",
+  "dtype": "bfloat16",
+  "max_len": 1536,
+  "kandidat_per_kueri": 1000,
+  "batch_dipakai": 8,
+  "n_dokumen_terpotong": 0,
+  "cap_gpu": {
+    "mib": null,
+    "keputusan": "auto: free 15405 - reserve 400 - weights 4780 >= gap 500, loaded fully on the GPU",
+    "offload": null
+  },
+  "n_kueri": 40,
+  "n_topik_berubah": 20,
+  "p_MRR": -0.027055,
+  "p_MRR_per_topik": {
+    "310": -0.086056,
+    "336": -0.092716,
+    "341": 0.063049,
+    "344": -0.012886,
+    "355": -0.201095,
+    "356": -0.366221,
+    "367": 0.044252,
+    "379": 0.184021,
+    "400": -0.120058,
+    "404": 0.067242,
+    "414": -0.081889,
+    "416": 0.00495,
+    "419": 0.149096,
+    "433": -0.200937,
+    "435": 0.001952,
+    "445": -0.219386,
+    "614": 0.215175,
+    "620": 0.070109,
+    "677": -0.094671,
+    "690": 0.134974
+  },
+  "ndcg5_og": 0.39795,
+  "ndcg5_changed": 0.154368,
+  "implementasi_metrik": "imported unchanged from followir.py (adapted from MTEB, see NOTICE.md)",
+  "kontrak_inferensi": {
+    "sumber": "README of BAAI/bge-reranker-v2-gemma, get_inputs function adapted (see NOTICE.md)",
+    "format": "<bos>A: {query}\\nB: {passage}\\n{prompt}",
+    "skor": "raw logit of the token 'Yes' at the last position, no softmax",
+    "slot_instruksi": "the prompt argument; the dataset instruction goes into the vendor template that replaces the default prompt (penempatan_instruksi)",
+    "prompt_bawaan_verbatim": "Given a query A and a passage B, determine whether the passage contains an answer to the query by providing a prediction of either 'Yes' or 'No'.",
+    "padding_side": "left (forced; the README does not set it)",
+    "yes_token_id": 3553
+  },
+  "penempatan_instruksi": {
+    "mode": "vendor",
+    "template": "Relevance requirement: {instruction}\nGiven a query A and a passage B, determine whether the passage contains an answer to the query and meets the relevance requirement by providing a prediction of either 'Yes' or 'No'.",
+    "catatan": "the dataset instruction is written into a replacement prompt that ends with the Yes/No sentence of the README; queries without an instruction use the default prompt"
+  },
+  "versi_pustaka": {
+    "transformers": "4.55.0",
+    "torch": "2.11.0+cu128"
+  },
+  "durasi_s": 1268.9,
+  "durasi_muat_s": 2.2,
+  "vram_peak_mib": 5923.9,
+  "smoke": false,
+  "label_source": "deterministic (model scores)"
+}

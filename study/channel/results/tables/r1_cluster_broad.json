@@ -1,0 +1,1861 @@
+{
+ "created": "2026-10-13T19:24:22.903517+00:00",
+ "script": "result/paper_q2/scripts/q2_r1_analisis.py",
+ "section": "klaster_luas",
+ "preregistration": {
+  "path": "result/paper_q2/PRAREGISTRASI_R1_IJIES.md",
+  "sha256": "3bfe129e05b9ddebee6d9597834205253d6adceba65227f6440bf98b88e55119"
+ },
+ "analysis_status": "exploratory: built from data that existed before the pre-registration was committed (section 11.1 h)",
+ "seed": 20261012,
+ "inputs": {
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_default.jsonl": "3b40105fe23c2e06594c161e95e2d3b425e5631cd99e49457a94504e550414c5",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile.jsonl": "4d316b7ba37e2d739cdf704a6e61d13dc53ae3239ea0f18642b46fce474d138f",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_default.jsonl": "c6037be85eb82d9d01dae5eeba89a3bdf1d7bdd84224fee9dcaa99739a3d6cf3",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile.jsonl": "18e0a1dcd7447ee6a9d8c7e5a80a3bf133c68bb56567aead5a6b5b4bd9e3ce1d",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_default.jsonl": "5f748e95975e6530907579a918d098b62e47e5f88194c227ffe23bf1935c0a2b",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_profile.jsonl": "73bfcebcb107b734fb8a68a5bffe1a1027e558e3ee094f7b76e2f65b2e65bd54",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_none.jsonl": "b220c18d06ad1b4235a64d259170c5d094dcb01059193cf26b22312180af9658",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_slot.jsonl": "b16e516396bec5b93bf5600afdaf01ef3865f77bfd9f589d47dca70f5d03c99e",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_none.jsonl": "896c9d68040954f1cdf41d056fc4c0bb40e8c04ac56eec863f2c3146204a6453",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_slot.jsonl": "06ab4e51ac70faf5f5856fd247d2df05fba7e135215dbba29f1bb4c0eab183a1",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_none.jsonl": "4c3dcc63206d6108a361c4f5b3872a60a508d92387a4d849c74415169ee9c14e",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_slot.jsonl": "50f94ee1733be7193a0522146516658848a40e6817aa6e00c2ab160d5aca9318",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmeta.jsonl": "baae659693331a720127eb79c7a0dc1b235b267403334b063297f946c377ea78",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmeta.jsonl": "4a78249f9485139aeb0703e296688cbe983264c89013d82aca4c791a4dd5086f",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_profile_docmeta.jsonl": "925953ab603cde1529bf9707a47037bbe54c4de45d11a4037a01c4940d85bf2b",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_both.jsonl": "53dacedbf84b570b2a0c350bc24215cb5aba69a35c280954194ce14f676e0692",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_both.jsonl": "f764c1d7907bfa328ecac43ae6a5d276f00d4dc6d01e1d258c0317ae27b8f65a",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_both.jsonl": "b7df87b687d306c7b7257558a97246a943e8226bd41f691ce4f345ad245a2e78",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-0.6B_xpair_profile_docmetasalah.jsonl": "bfb13c6e4eaf6f79e3418243e1b67411e37f8f526ab6af900d989963026d61bc",
+  "result/paper_q2/results/raw/scores_qwen3rr_Qwen3-Reranker-4B_xpair_profile_docmetasalah.jsonl": "4395c4ad49682ec58d5d09525b84d3d733ae67395b7f196a537502072d823f22",
+  "result/paper_q2/results/raw/scores_zerank2official_zerank-2_xpair_profile_docmetasalah.jsonl": "d3065c6384e0b833dce613b866893b33e64555a5eb362fd8a90e8d9897547888",
+  "result/paper_q2/results/raw/scores_followir_FollowIR-7B_xpair_wrong.jsonl": "0c6449aa3e56c771e0df3c58d2d2cfca9945150d2776003bad283ab6b7acd2f3",
+  "result/paper_q2/results/raw/scores_ctxl_ctxl-rerank-v2-instruct-multilingual-6b_xpair_wrong.jsonl": "33bab05661b8263bc1d7ac1be673ed2f1732f6ccd56170025e2c0a186d3ba974",
+  "result/paper_q2/results/raw/scores_gemma_bge-reranker-v2-gemma_xpair_wrong.jsonl": "3958c4dd71cdd5c5ec9ba760afae3724994d7ae570826ca59aa63da9de53661b",
+  "result/paper_q2/results/raw/pools_paired_expanded.jsonl": "65ac6f2fcdc6e6628565d0cbe013d7d605bec01352ee784d2a0332fd4ebb5620"
+ },
+ "label_source": "deterministic (gold matching, no judge)",
+ "what": "original broad sample, 1,621 rows in 600 groups",
+ "contrasts": {
+  "slot_vs_none": {
+   "models": {
+    "Qwen3-0.6B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 5,
+     "resolved_A": 600,
+     "resolved_B": 597,
+     "B_only": 15,
+     "A_only": 18,
+     "d": -0.001851,
+     "p_mcnemar_exact": 0.728332,
+     "p_signflip_group": 0.375,
+     "signflip_method": "enumeration",
+     "signflip_draws": 32,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.008914,
+      0.005557
+     ],
+     "row_wald": [
+      -0.008796,
+      0.005095
+     ],
+     "row_exact": [
+      -0.008914,
+      0.005557
+     ],
+     "row_tango": [
+      -0.00926,
+      0.005379
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.004559,
+      0.000858
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.004899,
+      0.000619
+     ],
+     "group_cr1_interval": [
+      -0.004554,
+      0.000852
+     ],
+     "largest_gain_pp": 0.556,
+     "largest_loss_pp": 0.891,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.011199,
+       0.007739
+      ],
+      "row_wald": [
+       -0.011199,
+       0.007498
+      ],
+      "row_exact": [
+       -0.010879,
+       0.007739
+      ],
+      "row_tango": [
+       -0.01224,
+       0.00824
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.005501,
+       0.0018
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.006116,
+       0.001247
+      ],
+      "group_cr1_interval": [
+       -0.005489,
+       0.001788
+      ],
+      "largest_gain_pp": 0.774,
+      "largest_loss_pp": 1.12
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.003958,
+       0.000256
+      ],
+      "bootstrap_interval": [
+       -0.004295,
+       0.0
+      ],
+      "largest_gain_pp": 0.026
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    },
+    "Qwen3-4B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 8,
+     "resolved_A": 600,
+     "resolved_B": 598,
+     "B_only": 17,
+     "A_only": 19,
+     "d": -0.001234,
+     "p_mcnemar_exact": 0.867939,
+     "p_signflip_group": 0.726562,
+     "signflip_method": "enumeration",
+     "signflip_draws": 256,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.008703,
+      0.006447
+     ],
+     "row_wald": [
+      -0.008488,
+      0.006021
+     ],
+     "row_exact": [
+      -0.008703,
+      0.006447
+     ],
+     "row_tango": [
+      -0.008902,
+      0.006324
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.004662,
+      0.002194
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.004911,
+      0.001865
+     ],
+     "group_cr1_interval": [
+      -0.004655,
+      0.002187
+     ],
+     "largest_gain_pp": 0.645,
+     "largest_loss_pp": 0.87,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.010999,
+       0.008711
+      ],
+      "row_wald": [
+       -0.010999,
+       0.008531
+      ],
+      "row_exact": [
+       -0.010835,
+       0.008711
+      ],
+      "row_tango": [
+       -0.011946,
+       0.009295
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.005854,
+       0.003386
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.006159,
+       0.003112
+      ],
+      "group_cr1_interval": [
+       -0.005839,
+       0.003371
+      ],
+      "largest_gain_pp": 0.871,
+      "largest_loss_pp": 1.1
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.003667,
+       0.001199
+      ],
+      "bootstrap_interval": [
+       -0.003973,
+       0.00111
+      ],
+      "largest_gain_pp": 0.12
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    },
+    "zerank-2": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 15,
+     "resolved_A": 600,
+     "resolved_B": 597,
+     "B_only": 16,
+     "A_only": 19,
+     "d": -0.001851,
+     "p_mcnemar_exact": 0.735879,
+     "p_signflip_group": 0.607239,
+     "signflip_method": "enumeration",
+     "signflip_draws": 32768,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.009143,
+      0.005767
+     ],
+     "row_wald": [
+      -0.009003,
+      0.005302
+     ],
+     "row_exact": [
+      -0.009143,
+      0.005767
+     ],
+     "row_tango": [
+      -0.009451,
+      0.00558
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.006543,
+      0.002842
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.006728,
+      0.003064
+     ],
+     "group_cr1_interval": [
+      -0.006534,
+      0.002832
+     ],
+     "largest_gain_pp": 0.577,
+     "largest_loss_pp": 0.914,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.011479,
+       0.008024
+      ],
+      "row_wald": [
+       -0.011479,
+       0.007777
+      ],
+      "row_exact": [
+       -0.011195,
+       0.008024
+      ],
+      "row_tango": [
+       -0.012486,
+       0.008501
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.008175,
+       0.004474
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.00809,
+       0.004327
+      ],
+      "group_cr1_interval": [
+       -0.008154,
+       0.004453
+      ],
+      "largest_gain_pp": 0.802,
+      "largest_loss_pp": 1.148
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.006664,
+       0.002963
+      ],
+      "bootstrap_interval": [
+       -0.006336,
+       0.003133
+      ],
+      "largest_gain_pp": 0.313
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    },
+    "FollowIR-7B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 15,
+     "resolved_A": 600,
+     "resolved_B": 593,
+     "B_only": 51,
+     "A_only": 58,
+     "d": -0.004318,
+     "p_mcnemar_exact": 0.5657,
+     "p_signflip_group": 0.118469,
+     "signflip_method": "enumeration",
+     "signflip_draws": 32768,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.017258,
+      0.008862
+     ],
+     "row_wald": [
+      -0.01694,
+      0.008303
+     ],
+     "row_exact": [
+      -0.017258,
+      0.008862
+     ],
+     "row_tango": [
+      -0.017188,
+      0.008435
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.008999,
+      0.000363
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.009219,
+      0.0
+     ],
+     "group_cr1_interval": [
+      -0.00899,
+      0.000353
+     ],
+     "largest_gain_pp": 0.886,
+     "largest_loss_pp": 1.726,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.021358,
+       0.013126
+      ],
+      "row_wald": [
+       -0.021308,
+       0.012671
+      ],
+      "row_exact": [
+       -0.021358,
+       0.013126
+      ],
+      "row_tango": [
+       -0.021868,
+       0.013028
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.010628,
+       0.001991
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.010625,
+       0.001446
+      ],
+      "group_cr1_interval": [
+       -0.010607,
+       0.00197
+      ],
+      "largest_gain_pp": 1.313,
+      "largest_loss_pp": 2.136
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.008394,
+       -0.000243
+      ],
+      "bootstrap_interval": [
+       -0.008876,
+       -0.000614
+      ],
+      "largest_gain_pp": -0.024
+     },
+     "p_holm_signflip_group": 0.710814,
+     "p_holm_mcnemar_exact": 1.0
+    },
+    "ctxl-6B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 15,
+     "resolved_A": 600,
+     "resolved_B": 603,
+     "B_only": 15,
+     "A_only": 12,
+     "d": 0.001851,
+     "p_mcnemar_exact": 0.701108,
+     "p_signflip_group": 0.607239,
+     "signflip_method": "enumeration",
+     "signflip_draws": 32768,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.004888,
+      0.008168
+     ],
+     "row_wald": [
+      -0.004431,
+      0.008133
+     ],
+     "row_exact": [
+      -0.004888,
+      0.008168
+     ],
+     "row_tango": [
+      -0.004736,
+      0.008655
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.002842,
+      0.006543
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.00306,
+      0.006753
+     ],
+     "group_cr1_interval": [
+      -0.002832,
+      0.006534
+     ],
+     "largest_gain_pp": 0.817,
+     "largest_loss_pp": 0.489,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.006827,
+       0.010307
+      ],
+      "row_wald": [
+       -0.006605,
+       0.010307
+      ],
+      "row_exact": [
+       -0.006827,
+       0.009848
+      ],
+      "row_tango": [
+       -0.007409,
+       0.011467
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.004474,
+       0.008175
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.004362,
+       0.008585
+      ],
+      "group_cr1_interval": [
+       -0.004453,
+       0.008154
+      ],
+      "largest_gain_pp": 1.031,
+      "largest_loss_pp": 0.683
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.003038,
+       0.00674
+      ],
+      "bootstrap_interval": [
+       -0.003074,
+       0.006572
+      ],
+      "largest_gain_pp": 0.674
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    },
+    "bge-gemma": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 4,
+     "resolved_A": 600,
+     "resolved_B": 602,
+     "B_only": 8,
+     "A_only": 6,
+     "d": 0.001234,
+     "p_mcnemar_exact": 0.790527,
+     "p_signflip_group": 0.625,
+     "signflip_method": "enumeration",
+     "signflip_draws": 16,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.003651,
+      0.005757
+     ],
+     "row_wald": [
+      -0.00329,
+      0.005757
+     ],
+     "row_exact": [
+      -0.003651,
+      0.005586
+     ],
+     "row_tango": [
+      -0.003727,
+      0.006452
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.001189,
+      0.003657
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.001225,
+      0.00372
+     ],
+     "group_cr1_interval": [
+      -0.001184,
+      0.003652
+     ],
+     "largest_gain_pp": 0.576,
+     "largest_loss_pp": 0.365,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.004883,
+       0.007323
+      ],
+      "row_wald": [
+       -0.004855,
+       0.007323
+      ],
+      "row_exact": [
+       -0.004883,
+       0.006525
+      ],
+      "row_tango": [
+       -0.005979,
+       0.008842
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.002032,
+       0.004499
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.001857,
+       0.004922
+      ],
+      "group_cr1_interval": [
+       -0.002021,
+       0.004488
+      ],
+      "largest_gain_pp": 0.732,
+      "largest_loss_pp": 0.488
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.000386,
+       0.002854
+      ],
+      "bootstrap_interval": [
+       0.0,
+       0.003035
+      ],
+      "largest_gain_pp": 0.303
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    }
+   },
+   "summary": {
+    "decisive_test": "row-level exact McNemar, Holm over the six models (section 11.1 c)",
+    "largest_gain_pp_max_over_models": 0.886,
+    "family_wise_largest_gain_pp_max_over_models": 1.313,
+    "significant_after_holm_mcnemar": [],
+    "significant_after_holm_group_test": []
+   }
+  },
+  "both_vs_slot": {
+   "models": {
+    "Qwen3-0.6B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 83,
+     "resolved_A": 597,
+     "resolved_B": 697,
+     "B_only": 101,
+     "A_only": 1,
+     "d": 0.06169,
+     "p_mcnemar_exact": 4.06263e-29,
+     "p_signflip_group": 9.9999e-06,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      0.049854,
+      0.073527
+     ],
+     "row_wald": [
+      0.049854,
+      0.073527
+     ],
+     "row_exact": [
+      0.056202,
+      0.062893
+     ],
+     "row_tango": [
+      0.050822,
+      0.074574
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      0.049007,
+      0.074939
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      0.049007,
+      0.074939
+     ],
+     "group_cr1_interval": [
+      0.048679,
+      0.074702
+     ],
+     "largest_gain_pp": 7.494,
+     "largest_loss_pp": -4.868,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       0.045758,
+       0.077623
+      ],
+      "row_wald": [
+       0.045758,
+       0.077623
+      ],
+      "row_exact": [
+       0.053803,
+       0.062919
+      ],
+      "row_tango": [
+       0.04748,
+       0.079539
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       0.045145,
+       0.079745
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       0.045145,
+       0.079745
+      ],
+      "group_cr1_interval": [
+       0.044176,
+       0.079205
+      ],
+      "largest_gain_pp": 7.974,
+      "largest_loss_pp": -4.418
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       0.04413,
+       0.079251
+      ],
+      "bootstrap_interval": [
+       0.043116,
+       0.078502
+      ],
+      "largest_gain_pp": 7.925
+     },
+     "p_holm_signflip_group": 5.99994e-05,
+     "p_holm_mcnemar_exact": 1.21879e-28
+    },
+    "Qwen3-4B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 54,
+     "resolved_A": 598,
+     "resolved_B": 641,
+     "B_only": 55,
+     "A_only": 12,
+     "d": 0.026527,
+     "p_mcnemar_exact": 1.02732e-07,
+     "p_signflip_group": 9.9999e-06,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      0.016714,
+      0.036339
+     ],
+     "row_wald": [
+      0.016714,
+      0.036339
+     ],
+     "row_exact": [
+      0.017197,
+      0.033387
+     ],
+     "row_tango": [
+      0.017183,
+      0.037172
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      0.016812,
+      0.036465
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      0.016812,
+      0.036465
+     ],
+     "group_cr1_interval": [
+      0.016722,
+      0.036331
+     ],
+     "largest_gain_pp": 3.646,
+     "largest_loss_pp": -1.671,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       0.013319,
+       0.039735
+      ],
+      "row_wald": [
+       0.013319,
+       0.039735
+      ],
+      "row_exact": [
+       0.013888,
+       0.03508
+      ],
+      "row_tango": [
+       0.014006,
+       0.041323
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       0.014056,
+       0.040165
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       0.014056,
+       0.040165
+      ],
+      "group_cr1_interval": [
+       0.013329,
+       0.039724
+      ],
+      "largest_gain_pp": 4.016,
+      "largest_loss_pp": -1.332
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       0.01609,
+       0.036964
+      ],
+      "bootstrap_interval": [
+       0.015373,
+       0.036273
+      ],
+      "largest_gain_pp": 3.696
+     },
+     "p_holm_signflip_group": 5.99994e-05,
+     "p_holm_mcnemar_exact": 2.05464e-07
+    },
+    "zerank-2": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 172,
+     "resolved_A": 597,
+     "resolved_B": 819,
+     "B_only": 222,
+     "A_only": 0,
+     "d": 0.136952,
+     "p_mcnemar_exact": 2.96736e-67,
+     "p_signflip_group": 9.9999e-06,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      0.120216,
+      0.153689
+     ],
+     "row_wald": [
+      0.120216,
+      0.153689
+     ],
+     "row_exact": [
+      0.132439,
+      0.136952
+     ],
+     "row_tango": [
+      0.121072,
+      0.154549
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      0.118306,
+      0.155924
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      0.118306,
+      0.155924
+     ],
+     "group_cr1_interval": [
+      0.118127,
+      0.155778
+     ],
+     "largest_gain_pp": 15.592,
+     "largest_loss_pp": -11.813,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       0.114424,
+       0.159481
+      ],
+      "row_wald": [
+       0.114424,
+       0.159481
+      ],
+      "row_exact": [
+       0.130273,
+       0.136952
+      ],
+      "row_tango": [
+       0.115971,
+       0.161038
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       0.112029,
+       0.163236
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       0.112029,
+       0.163236
+      ],
+      "group_cr1_interval": [
+       0.111612,
+       0.162293
+      ],
+      "largest_gain_pp": 16.324,
+      "largest_loss_pp": -11.161
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       0.103776,
+       0.170129
+      ],
+      "bootstrap_interval": [
+       0.102025,
+       0.16759
+      ],
+      "largest_gain_pp": 17.013
+     },
+     "p_holm_signflip_group": 5.99994e-05,
+     "p_holm_mcnemar_exact": 1.48368e-66
+    },
+    "FollowIR-7B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 221,
+     "resolved_A": 593,
+     "resolved_B": 841,
+     "B_only": 263,
+     "A_only": 15,
+     "d": 0.152992,
+     "p_mcnemar_exact": 1.04039e-59,
+     "p_signflip_group": 9.9999e-06,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      0.134258,
+      0.171726
+     ],
+     "row_wald": [
+      0.134258,
+      0.171726
+     ],
+     "row_exact": [
+      0.14151,
+      0.161034
+     ],
+     "row_tango": [
+      0.13488,
+      0.172395
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      0.135384,
+      0.170552
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      0.135384,
+      0.170552
+     ],
+     "group_cr1_interval": [
+      0.135564,
+      0.17042
+     ],
+     "largest_gain_pp": 17.173,
+     "largest_loss_pp": -13.426,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       0.127775,
+       0.178209
+      ],
+      "row_wald": [
+       0.127775,
+       0.178209
+      ],
+      "row_exact": [
+       0.137156,
+       0.163057
+      ],
+      "row_tango": [
+       0.128877,
+       0.179429
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       0.130228,
+       0.176773
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       0.130228,
+       0.176773
+      ],
+      "group_cr1_interval": [
+       0.129532,
+       0.176452
+      ],
+      "largest_gain_pp": 17.821,
+      "largest_loss_pp": -12.778
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       0.129357,
+       0.176627
+      ],
+      "bootstrap_interval": [
+       0.127835,
+       0.176143
+      ],
+      "largest_gain_pp": 17.663
+     },
+     "p_holm_signflip_group": 5.99994e-05,
+     "p_holm_mcnemar_exact": 4.16156e-59
+    },
+    "ctxl-6B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 251,
+     "resolved_A": 603,
+     "resolved_B": 921,
+     "B_only": 318,
+     "A_only": 0,
+     "d": 0.196175,
+     "p_mcnemar_exact": 3.74534e-96,
+     "p_signflip_group": 9.9999e-06,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      0.176844,
+      0.215506
+     ],
+     "row_wald": [
+      0.176844,
+      0.215506
+     ],
+     "row_exact": [
+      0.19165,
+      0.196175
+     ],
+     "row_tango": [
+      0.177572,
+      0.216215
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      0.176214,
+      0.216167
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      0.176214,
+      0.216167
+     ],
+     "group_cr1_interval": [
+      0.176003,
+      0.216347
+     ],
+     "largest_gain_pp": 21.635,
+     "largest_loss_pp": -17.6,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       0.170154,
+       0.222196
+      ],
+      "row_wald": [
+       0.170154,
+       0.222196
+      ],
+      "row_exact": [
+       0.189471,
+       0.196175
+      ],
+      "row_tango": [
+       0.171476,
+       0.223472
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       0.169424,
+       0.224268
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       0.169424,
+       0.224268
+      ],
+      "group_cr1_interval": [
+       0.169022,
+       0.223328
+      ],
+      "largest_gain_pp": 22.427,
+      "largest_loss_pp": -16.902
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       0.165865,
+       0.226485
+      ],
+      "bootstrap_interval": [
+       0.163428,
+       0.223862
+      ],
+      "largest_gain_pp": 22.648
+     },
+     "p_holm_signflip_group": 5.99994e-05,
+     "p_holm_mcnemar_exact": 2.2472e-95
+    },
+    "bge-gemma": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 9,
+     "resolved_A": 602,
+     "resolved_B": 603,
+     "B_only": 8,
+     "A_only": 7,
+     "d": 0.000617,
+     "p_mcnemar_exact": 1.0,
+     "p_signflip_group": 1.0,
+     "signflip_method": "enumeration",
+     "signflip_draws": 512,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.004333,
+      0.005318
+     ],
+     "row_wald": [
+      -0.004066,
+      0.0053
+     ],
+     "row_exact": [
+      -0.004333,
+      0.005318
+     ],
+     "row_tango": [
+      -0.004557,
+      0.005912
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.00302,
+      0.004254
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.003079,
+      0.004324
+     ],
+     "group_cr1_interval": [
+      -0.003013,
+      0.004247
+     ],
+     "largest_gain_pp": 0.532,
+     "largest_loss_pp": 0.433,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.005686,
+       0.00692
+      ],
+      "row_wald": [
+       -0.005686,
+       0.00692
+      ],
+      "row_exact": [
+       -0.005562,
+       0.006407
+      ],
+      "row_tango": [
+       -0.006882,
+       0.008303
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.004286,
+       0.005519
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.00435,
+       0.005583
+      ],
+      "group_cr1_interval": [
+       -0.004269,
+       0.005503
+      ],
+      "largest_gain_pp": 0.692,
+      "largest_loss_pp": 0.569
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.003006,
+       0.004239
+      ],
+      "bootstrap_interval": [
+       -0.002899,
+       0.004414
+      ],
+      "largest_gain_pp": 0.441
+     },
+     "p_holm_signflip_group": 1.0,
+     "p_holm_mcnemar_exact": 1.0
+    }
+   },
+   "summary": {
+    "decisive_test": "row-level exact McNemar, Holm over the six models (section 11.1 c)",
+    "largest_gain_pp_max_over_models": 21.635,
+    "family_wise_largest_gain_pp_max_over_models": 22.427,
+    "significant_after_holm_mcnemar": [
+     "Qwen3-0.6B",
+     "Qwen3-4B",
+     "zerank-2",
+     "FollowIR-7B",
+     "ctxl-6B"
+    ],
+    "significant_after_holm_group_test": [
+     "Qwen3-0.6B",
+     "Qwen3-4B",
+     "zerank-2",
+     "FollowIR-7B",
+     "ctxl-6B"
+    ]
+   }
+  },
+  "wrong_vs_both": {
+   "models": {
+    "Qwen3-0.6B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 49,
+     "resolved_A": 697,
+     "resolved_B": 645,
+     "B_only": 0,
+     "A_only": 52,
+     "d": -0.032079,
+     "p_mcnemar_exact": 4.44089e-16,
+     "p_signflip_group": 9.9999e-06,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.040657,
+      -0.023501
+     ],
+     "row_wald": [
+      -0.040657,
+      -0.023501
+     ],
+     "row_exact": [
+      -0.032079,
+      -0.027685
+     ],
+     "row_tango": [
+      -0.041824,
+      -0.024546
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.041358,
+      -0.023647
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      -0.041358,
+      -0.023647
+     ],
+     "group_cr1_interval": [
+      -0.040884,
+      -0.023273
+     ],
+     "largest_gain_pp": -2.327,
+     "largest_loss_pp": 4.136,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.043626,
+       -0.020532
+      ],
+      "row_wald": [
+       -0.043626,
+       -0.020532
+      ],
+      "row_exact": [
+       -0.032079,
+       -0.025661
+      ],
+      "row_tango": [
+       -0.045774,
+       -0.022385
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.044718,
+       -0.020816
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       -0.044718,
+       -0.020816
+      ],
+      "group_cr1_interval": [
+       -0.043932,
+       -0.020226
+      ],
+      "largest_gain_pp": -2.023,
+      "largest_loss_pp": 4.472
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.042314,
+       -0.021844
+      ],
+      "bootstrap_interval": [
+       -0.041475,
+       -0.021171
+      ],
+      "largest_gain_pp": -2.117
+     },
+     "p_holm_signflip_group": 5.99994e-05,
+     "p_holm_mcnemar_exact": 1.77636e-15
+    },
+    "Qwen3-4B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 43,
+     "resolved_A": 641,
+     "resolved_B": 653,
+     "B_only": 32,
+     "A_only": 20,
+     "d": 0.007403,
+     "p_mcnemar_exact": 0.126347,
+     "p_signflip_group": 0.155898,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.001913,
+      0.016114
+     ],
+     "row_wald": [
+      -0.001309,
+      0.016114
+     ],
+     "row_exact": [
+      -0.001913,
+      0.015844
+     ],
+     "row_tango": [
+      -0.001364,
+      0.016629
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.001842,
+      0.017125
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      -0.001842,
+      0.017125
+     ],
+     "group_cr1_interval": [
+      -0.001949,
+      0.016755
+     ],
+     "largest_gain_pp": 1.713,
+     "largest_loss_pp": 0.195,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.004889,
+       0.019129
+      ],
+      "row_wald": [
+       -0.004324,
+       0.019129
+      ],
+      "row_exact": [
+       -0.004889,
+       0.018248
+      ],
+      "row_tango": [
+       -0.004618,
+       0.020208
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.004347,
+       0.020287
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       -0.004347,
+       0.020287
+      ],
+      "group_cr1_interval": [
+       -0.005186,
+       0.019992
+      ],
+      "largest_gain_pp": 2.029,
+      "largest_loss_pp": 0.519
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       0.000298,
+       0.014508
+      ],
+      "bootstrap_interval": [
+       0.00101,
+       0.015355
+      ],
+      "largest_gain_pp": 1.536
+     },
+     "p_holm_signflip_group": 0.311796,
+     "p_holm_mcnemar_exact": 0.252694
+    },
+    "zerank-2": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 98,
+     "resolved_A": 819,
+     "resolved_B": 705,
+     "B_only": 0,
+     "A_only": 114,
+     "d": -0.070327,
+     "p_mcnemar_exact": 9.62965e-35,
+     "p_signflip_group": 9.9999e-06,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.082774,
+      -0.057879
+     ],
+     "row_wald": [
+      -0.082774,
+      -0.057879
+     ],
+     "row_exact": [
+      -0.070327,
+      -0.065848
+     ],
+     "row_tango": [
+      -0.083817,
+      -0.058869
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.083956,
+      -0.057037
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      -0.083956,
+      -0.057037
+     ],
+     "group_cr1_interval": [
+      -0.083717,
+      -0.056937
+     ],
+     "largest_gain_pp": -5.694,
+     "largest_loss_pp": 8.396,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.087082,
+       -0.053572
+      ],
+      "row_wald": [
+       -0.087082,
+       -0.053572
+      ],
+      "row_exact": [
+       -0.070327,
+       -0.063725
+      ],
+      "row_tango": [
+       -0.088984,
+       -0.055344
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.088862,
+       -0.052395
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       -0.088862,
+       -0.052395
+      ],
+      "group_cr1_interval": [
+       -0.08835,
+       -0.052304
+      ],
+      "largest_gain_pp": -5.23,
+      "largest_loss_pp": 8.886
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.089888,
+       -0.050766
+      ],
+      "bootstrap_interval": [
+       -0.088575,
+       -0.050497
+      ],
+      "largest_gain_pp": -5.05
+     },
+     "p_holm_signflip_group": 5.99994e-05,
+     "p_holm_mcnemar_exact": 4.81482e-34
+    },
+    "FollowIR-7B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 70,
+     "resolved_A": 841,
+     "resolved_B": 812,
+     "B_only": 31,
+     "A_only": 60,
+     "d": -0.01789,
+     "p_mcnemar_exact": 0.00311269,
+     "p_signflip_group": 0.00188998,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.029391,
+      -0.005895
+     ],
+     "row_wald": [
+      -0.029391,
+      -0.006389
+     ],
+     "row_exact": [
+      -0.028685,
+      -0.005895
+     ],
+     "row_tango": [
+      -0.029892,
+      -0.006492
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.029121,
+      -0.007353
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      -0.029121,
+      -0.007353
+     ],
+     "group_cr1_interval": [
+      -0.028946,
+      -0.006834
+     ],
+     "largest_gain_pp": -0.59,
+     "largest_loss_pp": 2.939,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.033372,
+       -0.001883
+      ],
+      "row_wald": [
+       -0.033372,
+       -0.002409
+      ],
+      "row_exact": [
+       -0.031887,
+       -0.001883
+      ],
+      "row_tango": [
+       -0.034381,
+       -0.002455
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.03277,
+       -0.003711
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       -0.03277,
+       -0.003711
+      ],
+      "group_cr1_interval": [
+       -0.032772,
+       -0.003008
+      ],
+      "largest_gain_pp": -0.188,
+      "largest_loss_pp": 3.337
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.030106,
+       -0.005674
+      ],
+      "bootstrap_interval": [
+       -0.029724,
+       -0.005012
+      ],
+      "largest_gain_pp": -0.501
+     },
+     "p_holm_signflip_group": 0.00566994,
+     "p_holm_mcnemar_exact": 0.00933807
+    },
+    "ctxl-6B": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 185,
+     "resolved_A": 921,
+     "resolved_B": 705,
+     "B_only": 0,
+     "A_only": 216,
+     "d": -0.133251,
+     "p_mcnemar_exact": 1.89911e-65,
+     "p_signflip_group": 9.9999e-06,
+     "signflip_method": "monte_carlo",
+     "signflip_draws": 100000,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.149795,
+      -0.116707
+     ],
+     "row_wald": [
+      -0.149795,
+      -0.116707
+     ],
+     "row_exact": [
+      -0.133251,
+      -0.128738
+     ],
+     "row_tango": [
+      -0.150665,
+      -0.117571
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.150372,
+      -0.116698
+     ],
+     "group_interval_method": "cluster bootstrap percentile",
+     "group_bootstrap_interval": [
+      -0.150372,
+      -0.116698
+     ],
+     "group_cr1_interval": [
+      -0.150237,
+      -0.116265
+     ],
+     "largest_gain_pp": -11.627,
+     "largest_loss_pp": 15.037,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.15552,
+       -0.110982
+      ],
+      "row_wald": [
+       -0.15552,
+       -0.110982
+      ],
+      "row_exact": [
+       -0.133251,
+       -0.126574
+      ],
+      "row_tango": [
+       -0.157096,
+       -0.112542
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.156651,
+       -0.111728
+      ],
+      "group_interval_method": "cluster bootstrap percentile",
+      "group_bootstrap_interval": [
+       -0.156651,
+       -0.111728
+      ],
+      "group_cr1_interval": [
+       -0.156115,
+       -0.110387
+      ],
+      "largest_gain_pp": -11.039,
+      "largest_loss_pp": 15.665
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.154877,
+       -0.111625
+      ],
+      "bootstrap_interval": [
+       -0.152488,
+       -0.109632
+      ],
+      "largest_gain_pp": -10.963
+     },
+     "p_holm_signflip_group": 5.99994e-05,
+     "p_holm_mcnemar_exact": 1.13947e-64
+    },
+    "bge-gemma": {
+     "n_rows": 1621,
+     "n_groups": 600,
+     "groups_nonzero": 8,
+     "resolved_A": 603,
+     "resolved_B": 599,
+     "B_only": 4,
+     "A_only": 8,
+     "d": -0.002468,
+     "p_mcnemar_exact": 0.387695,
+     "p_signflip_group": 0.4375,
+     "signflip_method": "enumeration",
+     "signflip_draws": 256,
+     "signflip_note": "approximate test of a zero mean group difference",
+     "row_interval": [
+      -0.006654,
+      0.002238
+     ],
+     "row_wald": [
+      -0.006654,
+      0.001719
+     ],
+     "row_exact": [
+      -0.005933,
+      0.002238
+     ],
+     "row_tango": [
+      -0.007534,
+      0.002008
+     ],
+     "row_tango_in_bound": false,
+     "group_interval": [
+      -0.007001,
+      0.002066
+     ],
+     "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+     "group_bootstrap_interval": [
+      -0.006858,
+      0.001854
+     ],
+     "group_cr1_interval": [
+      -0.006992,
+      0.002057
+     ],
+     "largest_gain_pp": 0.224,
+     "largest_loss_pp": 0.7,
+     "alpha": 0.05,
+     "family_wise": {
+      "m": 6,
+      "alpha_each": 0.008333,
+      "row_interval": [
+       -0.008103,
+       0.003476
+      ],
+      "row_wald": [
+       -0.008103,
+       0.003168
+      ],
+      "row_exact": [
+       -0.006525,
+       0.003476
+      ],
+      "row_tango": [
+       -0.009923,
+       0.004098
+      ],
+      "row_tango_in_bound": false,
+      "group_interval": [
+       -0.008578,
+       0.003643
+      ],
+      "group_interval_method": "CR1 with t(599), fewer than 20 nonzero groups",
+      "group_bootstrap_interval": [
+       -0.008708,
+       0.003701
+      ],
+      "group_cr1_interval": [
+       -0.008558,
+       0.003622
+      ],
+      "largest_gain_pp": 0.364,
+      "largest_loss_pp": 0.858
+     },
+     "coarse_clusters": {
+      "n_clusters": 231,
+      "cr1_interval": [
+       -0.0066,
+       0.001665
+      ],
+      "bootstrap_interval": [
+       -0.006747,
+       0.001783
+      ],
+      "largest_gain_pp": 0.178
+     },
+     "p_holm_signflip_group": 0.4375,
+     "p_holm_mcnemar_exact": 0.387695
+    }
+   },
+   "summary": {
+    "decisive_test": "row-level exact McNemar, Holm over the six models (section 11.1 c)",
+    "largest_gain_pp_max_over_models": 1.713,
+    "family_wise_largest_gain_pp_max_over_models": 2.029,
+    "significant_after_holm_mcnemar": [
+     "Qwen3-0.6B",
+     "zerank-2",
+     "FollowIR-7B",
+     "ctxl-6B"
+    ],
+    "significant_after_holm_group_test": [
+     "Qwen3-0.6B",
+     "zerank-2",
+     "FollowIR-7B",
+     "ctxl-6B"
+    ]
+   }
+  }
+ }
+}

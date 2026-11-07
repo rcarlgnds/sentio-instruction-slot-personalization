@@ -1,0 +1,77 @@
+{
+  "run_id": "scores_followir_FollowIR-7B_paired_both_semester_20261002T201221Z",
+  "script": "result/paper_q2/scripts/q2_arch_score.py",
+  "praregistrasi": "result/paper_q2/PRAREGISTRASI_LINTAS_ARSITEKTUR.md",
+  "perintah_persis": "python q2_arch_score.py --family followir --model jhu-clsp/FollowIR-7B --cell both_semester --gap-mib 300 --peta-label id --out-dir <workstation>/result/paper_q2/results/raw_petaid",
+  "config_version": "0a7b2e4de856",
+  "status_arm": "POST-HOC, uji lintas arsitektur, di luar keluarga pra-registrasi delapan",
+  "model": "jhu-clsp/FollowIR-7B",
+  "keluarga": "followir",
+  "sel": "both_semester",
+  "definisi_sel": {
+    "inst": "profile",
+    "docmeta": true,
+    "salah": false,
+    "field": "semester"
+  },
+  "dtype": "bfloat16",
+  "max_len": 1536,
+  "pemotongan": "dokumen dipotong 4.000 karakter, lalu token dokumen dipotong agar kerangka template tidak terpotong",
+  "n_dokumen_terpotong": 0,
+  "batch_dipakai": 2,
+  "batas_sisa_vram_mib": 300,
+  "cap_gpu": {
+    "mib": null,
+    "keputusan": "auto: bebas 15409 - cadangan 400 - bobot 13813 >= gap 300, dimuat penuh di GPU",
+    "offload": null
+  },
+  "instruksi_default_verbatim": "Given a web search query, retrieve relevant passages that answer the query",
+  "instruksi_profil_kerangka": "Given a query from a <DEPT> student in semester <N>, retrieve passages from that student's own study program that answer the query at a level appropriate for semester <N>",
+  "instruksi_profil_id_kerangka": null,
+  "instruksi_vendor_kerangka": null,
+  "instruksi_vendor_penempatan": null,
+  "format_label_program_gaya": null,
+  "format_label_sumber": "[Source: degree program textbook, semester <N>]",
+  "kontrol_label_salah": null,
+  "n_kandidat_tak_terpetakan": 0,
+  "peta_label_sumber": {
+    "peta_label": "id",
+    "versi": "id-v1",
+    "sumber": {
+      "korpus": "src/ai/data/benchmark_release/corpus/corpus.jsonl",
+      "korpus_sha256": "2da6d4cf4397079b3b05da2e0dfb0e846fb71a5bcabd86319ba38e52e6d2a5df",
+      "alias_uuid": "src/ai/data/benchmark_release/uuid_to_canonical.json",
+      "alias_sha256": "7b594b5d3322be88d11aa2ff481553c05001565d603bf14190a7bd1a6ceb7284"
+    },
+    "aturan": "prodi dan semester diambil dari identitas kandidat; pencocokan teks tidak dipakai"
+  },
+  "kontrak_inferensi": {
+    "sumber": "README jhu-clsp/FollowIR-7B, template dan skor disalin verbatim",
+    "format": "<s> [INST] You are an expert Google searcher, whose job is to determine if the following document is relevant to the query (true/false). Answer using only one word, one of those two choices.\n\nQuery: {query}\nDocument: {text}\nRelevant (only output one word, either \"true\" or \"false\"): [/INST] ",
+    "skor": "softmax(logit false, logit true)[true] pada posisi akhir",
+    "true_token_id": 3307,
+    "false_token_id": 3952,
+    "slot_instruksi": "ditempel ke teks query ('Query: {query} {instruksi}'), konvensi FollowIR",
+    "bos": "ganda (template memuat <s> dan tokenizer menambah bos), persis README"
+  },
+  "versi_pustaka": {
+    "transformers": "4.55.0",
+    "torch": "2.11.0+cu128"
+  },
+  "n": 104,
+  "durasi_s": 566.1,
+  "durasi_muat_s": 2.5,
+  "latensi_mean_s": 5.4294,
+  "latensi_p95_s": 5.8952,
+  "vram_peak_mib": 14220.5,
+  "vram_bebas_sebelum_muat_mib": 15409,
+  "smoke": false,
+  "sumber": {
+    "pools": "ff0b146e3c75ed9f05a0080f52c28353c9ff353b0b1837413d1b87b602106483"
+  },
+  "output": {
+    "path": "results/raw/scores_followir_FollowIR-7B_paired_both_semester.jsonl",
+    "sha256": "06603c3aaa3f96ad8b47637d55467ad53cb50e64ba96d2f27c15b3bb8bb71201"
+  },
+  "label_source": "deterministic (skor model, suhu tidak berlaku)"
+}

@@ -1,0 +1,9 @@
+{
+ "run_id": "strata_gerbang_20261003T050049Z",
+ "script": "result/paper_q2/scripts/q2_strata_gerbang.py",
+ "output": {
+  "path": "results/tables/strata_gerbang.json",
+  "sha256": "92d728b5cb0b35f8ed5fb5cb94af897486ba580390cc0357a91ad78a18f2c514"
+ },
+ "label_source": "deterministic"
+}

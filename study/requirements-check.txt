@@ -1,0 +1,4 @@
+# Everything quick_check.py needs. The numbers are identical from numpy 1.26 and scipy 1.11 up to these pins,
+# which need Python 3.11 or newer. On Python 3.10, install numpy<2 and scipy<1.13 instead.
+numpy==2.4.4
+scipy==1.17.1

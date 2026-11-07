@@ -1,0 +1,13 @@
+{
+ "run_id": "asal_benchmark_20260924T144436Z",
+ "script": "result/paper_q2/scripts/q2_asal_benchmark.py",
+ "input": {
+  "path": "src/ai/data/rads_sample/queries.jsonl",
+  "sha256": "cabfd3c3272cdee4c0fdd25b5eebd5995f766ce15fb19c151850bdc743e09f82"
+ },
+ "output": {
+  "path": "results/tables/asal_benchmark.json",
+  "sha256": "7865a97fb9609d88398ba23744eed020fde390bc85e084e6cff9e8ce52db2f06"
+ },
+ "label_source": "deterministic"
+}

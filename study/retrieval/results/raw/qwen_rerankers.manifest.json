@@ -1,0 +1,17 @@
+{
+  "run_id": "t2_c3c4_20260809T093210Z",
+  "script": "result/novelty_1_dits/scripts/t2_qwen_score.py",
+  "config_version": "29985f321e32",
+  "models": {
+    "C3": "Qwen/Qwen3-Reranker-0.6B",
+    "C4": "Qwen/Qwen3-Reranker-4B",
+    "template": "README resmi model, verbatim",
+    "scorer_env": ".scorer-libs transformers 4.55.0 (terisolasi)"
+  },
+  "label_source": "deterministic",
+  "output": {
+    "path": "results/tables/qwen_rerankers_c3_c4.json",
+    "sha256": "46c3349784b1e1f51a8237ed53607b1e72e295d8c2707d96a9a9f28a44f77a5c",
+    "tingkat_reproduksi": "1_bit_identical"
+  }
+}
